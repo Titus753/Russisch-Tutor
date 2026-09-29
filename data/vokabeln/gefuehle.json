@@ -1,0 +1,164 @@
+[
+  {
+    "id": "gef-001",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "радость",
+    "deutsch": "die Freude",
+    "betonung": "ра́дость"
+  },
+  {
+    "id": "gef-002",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "грусть",
+    "deutsch": "die Traurigkeit"
+  },
+  {
+    "id": "gef-003",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "любовь",
+    "deutsch": "die Liebe",
+    "betonung": "любо́вь"
+  },
+  {
+    "id": "gef-004",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "страх",
+    "deutsch": "die Angst"
+  },
+  {
+    "id": "gef-005",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "счастливый",
+    "deutsch": "glücklich",
+    "betonung": "счастли́вый"
+  },
+  {
+    "id": "gef-006",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "грустный",
+    "deutsch": "traurig",
+    "betonung": "гру́стный"
+  },
+  {
+    "id": "gef-007",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "усталый",
+    "deutsch": "müde",
+    "betonung": "уста́лый"
+  },
+  {
+    "id": "gef-008",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "злой",
+    "deutsch": "wütend",
+    "hinweis": "auch: böse"
+  },
+  {
+    "id": "gef-009",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я рад.",
+    "deutsch": "Ich freue mich.",
+    "genusvarianten": {
+      "m": "Я рад.",
+      "w": "Я рада."
+    }
+  },
+  {
+    "id": "gef-010",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Мне нравится.",
+    "deutsch": "Das gefällt mir."
+  },
+  {
+    "id": "gef-011",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Мне всё равно.",
+    "deutsch": "Das ist mir egal."
+  },
+  {
+    "id": "gef-012",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я согласен.",
+    "deutsch": "Ich bin einverstanden.",
+    "genusvarianten": {
+      "m": "Я согласен.",
+      "w": "Я согласна."
+    }
+  },
+  {
+    "id": "gef-013",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я не согласен.",
+    "deutsch": "Da bin ich anderer Meinung.",
+    "genusvarianten": {
+      "m": "Я не согласен.",
+      "w": "Я не согласна."
+    }
+  },
+  {
+    "id": "gef-014",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "По-моему, это хорошая идея.",
+    "deutsch": "Meiner Meinung nach ist das eine gute Idee."
+  },
+  {
+    "id": "gef-015",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я так не думаю.",
+    "deutsch": "Das glaube ich nicht."
+  },
+  {
+    "id": "gef-016",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Как жаль!",
+    "deutsch": "Wie schade!"
+  },
+  {
+    "id": "gef-017",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Не волнуйтесь.",
+    "deutsch": "Machen Sie sich keine Sorgen."
+  },
+  {
+    "id": "gef-018",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я скучаю по тебе.",
+    "deutsch": "Ich vermisse dich."
+  },
+  {
+    "id": "gef-019",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я устал.",
+    "deutsch": "Ich bin müde.",
+    "genusvarianten": {
+      "m": "Я устал.",
+      "w": "Я устала."
+    }
+  },
+  {
+    "id": "gef-020",
+    "typ": "redewendung",
+    "thema": "gefuehle",
+    "russisch": "Нет худа без добра.",
+    "deutsch": "Kein Unglück ohne Glück."
+  }
+]

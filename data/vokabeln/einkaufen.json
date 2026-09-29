@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ein-001",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "магазин",
+    "deutsch": "das Geschäft",
+    "betonung": "магази́н"
+  },
+  {
+    "id": "ein-002",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "рынок",
+    "deutsch": "der Markt",
+    "betonung": "ры́нок"
+  },
+  {
+    "id": "ein-003",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "цена",
+    "deutsch": "der Preis",
+    "betonung": "цена́"
+  },
+  {
+    "id": "ein-004",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "дорого",
+    "deutsch": "teuer",
+    "betonung": "до́рого"
+  },
+  {
+    "id": "ein-005",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "дёшево",
+    "deutsch": "billig"
+  },
+  {
+    "id": "ein-006",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "пакет",
+    "deutsch": "die Tüte",
+    "betonung": "паке́т"
+  },
+  {
+    "id": "ein-007",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "касса",
+    "deutsch": "die Kasse",
+    "betonung": "ка́сса"
+  },
+  {
+    "id": "ein-008",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "скидка",
+    "deutsch": "der Rabatt",
+    "betonung": "ски́дка"
+  },
+  {
+    "id": "ein-009",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "хлеб",
+    "deutsch": "das Brot"
+  },
+  {
+    "id": "ein-010",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "молоко",
+    "deutsch": "die Milch",
+    "betonung": "молоко́"
+  },
+  {
+    "id": "ein-011",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "чек",
+    "deutsch": "der Kassenbon"
+  },
+  {
+    "id": "ein-012",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "открыто",
+    "deutsch": "geöffnet",
+    "betonung": "откры́то"
+  },
+  {
+    "id": "ein-013",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "закрыто",
+    "deutsch": "geschlossen",
+    "betonung": "закры́то"
+  },
+  {
+    "id": "ein-014",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Сколько это стоит?",
+    "deutsch": "Wie viel kostet das?"
+  },
+  {
+    "id": "ein-015",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Я просто смотрю.",
+    "deutsch": "Ich schaue nur."
+  },
+  {
+    "id": "ein-016",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Можно заплатить картой?",
+    "deutsch": "Kann ich mit Karte zahlen?"
+  },
+  {
+    "id": "ein-017",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Дайте, пожалуйста, килограмм яблок.",
+    "deutsch": "Geben Sie mir bitte ein Kilo Äpfel."
+  },
+  {
+    "id": "ein-018",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Где касса?",
+    "deutsch": "Wo ist die Kasse?"
+  },
+  {
+    "id": "ein-019",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Это слишком дорого.",
+    "deutsch": "Das ist zu teuer."
+  },
+  {
+    "id": "ein-020",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Я возьму это.",
+    "deutsch": "Ich nehme das."
+  }
+]

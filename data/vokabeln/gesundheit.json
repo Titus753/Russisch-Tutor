@@ -1,0 +1,159 @@
+[
+  {
+    "id": "ges-001",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "врач",
+    "deutsch": "der Arzt"
+  },
+  {
+    "id": "ges-002",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "больница",
+    "deutsch": "das Krankenhaus",
+    "betonung": "больни́ца"
+  },
+  {
+    "id": "ges-003",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "аптека",
+    "deutsch": "die Apotheke",
+    "betonung": "апте́ка"
+  },
+  {
+    "id": "ges-004",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "лекарство",
+    "deutsch": "das Medikament",
+    "betonung": "лека́рство"
+  },
+  {
+    "id": "ges-005",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "болезнь",
+    "deutsch": "die Krankheit",
+    "betonung": "боле́знь"
+  },
+  {
+    "id": "ges-006",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "температура",
+    "deutsch": "das Fieber",
+    "betonung": "температу́ра",
+    "hinweis": "auch: die Temperatur"
+  },
+  {
+    "id": "ges-007",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "помощь",
+    "deutsch": "die Hilfe",
+    "betonung": "по́мощь"
+  },
+  {
+    "id": "ges-008",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "пожар",
+    "deutsch": "der Brand",
+    "betonung": "пожа́р"
+  },
+  {
+    "id": "ges-009",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "полиция",
+    "deutsch": "die Polizei",
+    "betonung": "поли́ция"
+  },
+  {
+    "id": "ges-010",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "рецепт",
+    "deutsch": "das Rezept",
+    "betonung": "реце́пт",
+    "hinweis": "vom Arzt und in der Küche"
+  },
+  {
+    "id": "ges-011",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Помогите!",
+    "deutsch": "Hilfe!"
+  },
+  {
+    "id": "ges-012",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Вызовите скорую!",
+    "deutsch": "Rufen Sie einen Krankenwagen!"
+  },
+  {
+    "id": "ges-013",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У меня болит голова.",
+    "deutsch": "Ich habe Kopfschmerzen."
+  },
+  {
+    "id": "ges-014",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Мне плохо.",
+    "deutsch": "Mir geht es schlecht."
+  },
+  {
+    "id": "ges-015",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Где ближайшая аптека?",
+    "deutsch": "Wo ist die nächste Apotheke?"
+  },
+  {
+    "id": "ges-016",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У меня аллергия на орехи.",
+    "deutsch": "Ich bin allergisch gegen Nüsse."
+  },
+  {
+    "id": "ges-017",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Мне нужен врач.",
+    "deutsch": "Ich brauche einen Arzt."
+  },
+  {
+    "id": "ges-018",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Я заболел.",
+    "deutsch": "Ich bin krank geworden.",
+    "genusvarianten": {
+      "m": "Я заболел.",
+      "w": "Я заболела."
+    }
+  },
+  {
+    "id": "ges-019",
+    "typ": "redewendung",
+    "thema": "gesundheit",
+    "russisch": "Выздоравливайте!",
+    "deutsch": "Gute Besserung!",
+    "hinweis": "formell"
+  },
+  {
+    "id": "ges-020",
+    "typ": "redewendung",
+    "thema": "gesundheit",
+    "russisch": "Будьте здоровы!",
+    "deutsch": "Gesundheit!",
+    "hinweis": "beim Niesen, formell"
+  }
+]

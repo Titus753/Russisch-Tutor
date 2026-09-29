@@ -1,10 +1,12 @@
-// Platzhalter für Phase 1: zeigt das Grund-Design. Die Lernmodi folgen in Phase 4.
+// Platzhalter: zeigt das Grund-Design und die geprüften Vokabeldaten. Die Lernmodi folgen in Phase 4.
+import vokabeln from 'virtual:vokabeln';
+
 export function App() {
   return (
     <div class="app">
       <header class="kopf">
         <h1 class="kopf__titel">Слово за слово</h1>
-        <span class="marke">Im Aufbau</span>
+        <span class="marke">{vokabeln.length} Einträge</span>
       </header>
       <main class="inhalt">
         <article class="karte" aria-label="Beispielkarte">

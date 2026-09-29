@@ -1,0 +1,153 @@
+[
+  {
+    "id": "tie-001",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "собака",
+    "deutsch": "der Hund",
+    "betonung": "соба́ка"
+  },
+  {
+    "id": "tie-002",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "кошка",
+    "deutsch": "die Katze",
+    "betonung": "ко́шка"
+  },
+  {
+    "id": "tie-003",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "лошадь",
+    "deutsch": "das Pferd",
+    "betonung": "ло́шадь"
+  },
+  {
+    "id": "tie-004",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "корова",
+    "deutsch": "die Kuh",
+    "betonung": "коро́ва"
+  },
+  {
+    "id": "tie-005",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "птица",
+    "deutsch": "der Vogel",
+    "betonung": "пти́ца"
+  },
+  {
+    "id": "tie-006",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "медведь",
+    "deutsch": "der Bär",
+    "betonung": "медве́дь"
+  },
+  {
+    "id": "tie-007",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "волк",
+    "deutsch": "der Wolf"
+  },
+  {
+    "id": "tie-008",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "лиса",
+    "deutsch": "der Fuchs",
+    "betonung": "лиса́"
+  },
+  {
+    "id": "tie-009",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "заяц",
+    "deutsch": "der Hase",
+    "betonung": "за́яц"
+  },
+  {
+    "id": "tie-010",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "мышь",
+    "deutsch": "die Maus"
+  },
+  {
+    "id": "tie-011",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "свинья",
+    "deutsch": "das Schwein",
+    "betonung": "свинья́"
+  },
+  {
+    "id": "tie-012",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "курица",
+    "deutsch": "das Huhn",
+    "betonung": "ку́рица"
+  },
+  {
+    "id": "tie-013",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "У тебя есть домашние животные?",
+    "deutsch": "Hast du Haustiere?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "tie-014",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "У меня есть собака.",
+    "deutsch": "Ich habe einen Hund."
+  },
+  {
+    "id": "tie-015",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Можно погладить?",
+    "deutsch": "Darf ich ihn streicheln?"
+  },
+  {
+    "id": "tie-016",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Осторожно, злая собака!",
+    "deutsch": "Vorsicht, bissiger Hund!"
+  },
+  {
+    "id": "tie-017",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Кошка спит на диване.",
+    "deutsch": "Die Katze schläft auf dem Sofa."
+  },
+  {
+    "id": "tie-018",
+    "typ": "redewendung",
+    "thema": "tiere",
+    "russisch": "Волков бояться — в лес не ходить.",
+    "deutsch": "Wer wagt, gewinnt."
+  },
+  {
+    "id": "tie-019",
+    "typ": "redewendung",
+    "thema": "tiere",
+    "russisch": "Голоден как волк.",
+    "deutsch": "Hungrig wie ein Wolf."
+  },
+  {
+    "id": "tie-020",
+    "typ": "redewendung",
+    "thema": "tiere",
+    "russisch": "Когда рак на горе свистнет.",
+    "deutsch": "Wenn Schweine fliegen können."
+  }
+]

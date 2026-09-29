@@ -1,0 +1,153 @@
+[
+  {
+    "id": "fre-001",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "музей",
+    "deutsch": "das Museum",
+    "betonung": "музе́й"
+  },
+  {
+    "id": "fre-002",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "кино",
+    "deutsch": "das Kino",
+    "betonung": "кино́"
+  },
+  {
+    "id": "fre-003",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "театр",
+    "deutsch": "das Theater",
+    "betonung": "теа́тр"
+  },
+  {
+    "id": "fre-004",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "книга",
+    "deutsch": "das Buch",
+    "betonung": "кни́га"
+  },
+  {
+    "id": "fre-005",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "музыка",
+    "deutsch": "die Musik",
+    "betonung": "му́зыка"
+  },
+  {
+    "id": "fre-006",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "праздник",
+    "deutsch": "das Fest",
+    "betonung": "пра́здник",
+    "hinweis": "auch: der Feiertag"
+  },
+  {
+    "id": "fre-007",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "отпуск",
+    "deutsch": "der Urlaub",
+    "betonung": "о́тпуск"
+  },
+  {
+    "id": "fre-008",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "выходные",
+    "deutsch": "das Wochenende",
+    "betonung": "выходны́е"
+  },
+  {
+    "id": "fre-009",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Что ты делаешь в выходные?",
+    "deutsch": "Was machst du am Wochenende?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "fre-010",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Чем вы увлекаетесь?",
+    "deutsch": "Was sind Ihre Hobbys?",
+    "hinweis": "formell"
+  },
+  {
+    "id": "fre-011",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Я люблю читать.",
+    "deutsch": "Ich lese gern."
+  },
+  {
+    "id": "fre-012",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Пойдём в кино?",
+    "deutsch": "Gehen wir ins Kino?"
+  },
+  {
+    "id": "fre-013",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Откуда вы?",
+    "deutsch": "Woher kommen Sie?"
+  },
+  {
+    "id": "fre-014",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Я из Германии.",
+    "deutsch": "Ich komme aus Deutschland."
+  },
+  {
+    "id": "fre-015",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Вы говорите по-немецки?",
+    "deutsch": "Sprechen Sie Deutsch?"
+  },
+  {
+    "id": "fre-016",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Я немного говорю по-русски.",
+    "deutsch": "Ich spreche ein bisschen Russisch."
+  },
+  {
+    "id": "fre-017",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Повторите, пожалуйста.",
+    "deutsch": "Wiederholen Sie das bitte."
+  },
+  {
+    "id": "fre-018",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Говорите медленнее, пожалуйста.",
+    "deutsch": "Sprechen Sie bitte langsamer."
+  },
+  {
+    "id": "fre-019",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Я не понимаю.",
+    "deutsch": "Ich verstehe nicht."
+  },
+  {
+    "id": "fre-020",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Как это по-русски?",
+    "deutsch": "Wie heißt das auf Russisch?"
+  }
+]

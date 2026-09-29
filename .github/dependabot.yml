@@ -9,7 +9,3 @@ updates:
       entwicklung:
         dependency-type: development
         update-types: [minor, patch]
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: weekly

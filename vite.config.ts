@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { defineConfig, type Plugin } from 'vite';
 import preact from '@preact/preset-vite';
 import { cspFuerMeta, parseHeaders } from './config/headers.ts';
+import { vokabelPlugin } from './config/vokabel-plugin.ts';
 
 const sicherheitsHeader = parseHeaders(readFileSync('public/_headers', 'utf8'));
 const cspHeader = sicherheitsHeader['Content-Security-Policy'];
@@ -29,7 +30,7 @@ function cspMetaTag(): Plugin {
 }
 
 export default defineConfig({
-  plugins: [preact(), cspMetaTag()],
+  plugins: [preact(), vokabelPlugin(), cspMetaTag()],
   build: {
     target: 'es2022',
     sourcemap: false,

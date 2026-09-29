@@ -1,0 +1,150 @@
+[
+  {
+    "id": "woh-001",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "гостиница",
+    "deutsch": "das Hotel",
+    "betonung": "гости́ница"
+  },
+  {
+    "id": "woh-002",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "номер",
+    "deutsch": "das Hotelzimmer",
+    "betonung": "но́мер"
+  },
+  {
+    "id": "woh-003",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "ключ",
+    "deutsch": "der Schlüssel"
+  },
+  {
+    "id": "woh-004",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "квартира",
+    "deutsch": "die Wohnung",
+    "betonung": "кварти́ра"
+  },
+  {
+    "id": "woh-005",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "дом",
+    "deutsch": "das Haus"
+  },
+  {
+    "id": "woh-006",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "кухня",
+    "deutsch": "die Küche",
+    "betonung": "ку́хня"
+  },
+  {
+    "id": "woh-007",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "ванная",
+    "deutsch": "das Badezimmer",
+    "betonung": "ва́нная"
+  },
+  {
+    "id": "woh-008",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "кровать",
+    "deutsch": "das Bett",
+    "betonung": "крова́ть"
+  },
+  {
+    "id": "woh-009",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "окно",
+    "deutsch": "das Fenster",
+    "betonung": "окно́"
+  },
+  {
+    "id": "woh-010",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "дверь",
+    "deutsch": "die Tür"
+  },
+  {
+    "id": "woh-011",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "этаж",
+    "deutsch": "das Stockwerk",
+    "betonung": "эта́ж"
+  },
+  {
+    "id": "woh-012",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "лифт",
+    "deutsch": "der Aufzug"
+  },
+  {
+    "id": "woh-013",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "У меня забронирован номер.",
+    "deutsch": "Ich habe ein Zimmer reserviert."
+  },
+  {
+    "id": "woh-014",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Во сколько завтрак?",
+    "deutsch": "Wann gibt es Frühstück?"
+  },
+  {
+    "id": "woh-015",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "В номере не работает душ.",
+    "deutsch": "Die Dusche im Zimmer funktioniert nicht."
+  },
+  {
+    "id": "woh-016",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Можно поздний выезд?",
+    "deutsch": "Ist ein später Check-out möglich?"
+  },
+  {
+    "id": "woh-017",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Где лифт?",
+    "deutsch": "Wo ist der Aufzug?"
+  },
+  {
+    "id": "woh-018",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Я хочу снять квартиру.",
+    "deutsch": "Ich möchte eine Wohnung mieten."
+  },
+  {
+    "id": "woh-019",
+    "typ": "redewendung",
+    "thema": "wohnen-hotel",
+    "russisch": "Мой дом — моя крепость.",
+    "deutsch": "Mein Haus ist meine Burg."
+  },
+  {
+    "id": "woh-020",
+    "typ": "redewendung",
+    "thema": "wohnen-hotel",
+    "russisch": "В гостях хорошо, а дома лучше.",
+    "deutsch": "Daheim ist es doch am schönsten."
+  }
+]

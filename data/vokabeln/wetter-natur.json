@@ -1,0 +1,156 @@
+[
+  {
+    "id": "wet-001",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "погода",
+    "deutsch": "das Wetter",
+    "betonung": "пого́да"
+  },
+  {
+    "id": "wet-002",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "солнце",
+    "deutsch": "die Sonne",
+    "betonung": "со́лнце"
+  },
+  {
+    "id": "wet-003",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "дождь",
+    "deutsch": "der Regen"
+  },
+  {
+    "id": "wet-004",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "снег",
+    "deutsch": "der Schnee"
+  },
+  {
+    "id": "wet-005",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "ветер",
+    "deutsch": "der Wind",
+    "betonung": "ве́тер"
+  },
+  {
+    "id": "wet-006",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "холодно",
+    "deutsch": "kalt",
+    "betonung": "хо́лодно",
+    "hinweis": "es ist kalt"
+  },
+  {
+    "id": "wet-007",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "тепло",
+    "deutsch": "warm",
+    "betonung": "тепло́",
+    "hinweis": "es ist warm"
+  },
+  {
+    "id": "wet-008",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "жарко",
+    "deutsch": "heiß",
+    "betonung": "жа́рко",
+    "hinweis": "es ist heiß"
+  },
+  {
+    "id": "wet-009",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "облако",
+    "deutsch": "die Wolke",
+    "betonung": "о́блако"
+  },
+  {
+    "id": "wet-010",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "небо",
+    "deutsch": "der Himmel",
+    "betonung": "не́бо"
+  },
+  {
+    "id": "wet-011",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "море",
+    "deutsch": "das Meer",
+    "betonung": "мо́ре"
+  },
+  {
+    "id": "wet-012",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "река",
+    "deutsch": "der Fluss",
+    "betonung": "река́"
+  },
+  {
+    "id": "wet-013",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "лес",
+    "deutsch": "der Wald"
+  },
+  {
+    "id": "wet-014",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "гора",
+    "deutsch": "der Berg",
+    "betonung": "гора́"
+  },
+  {
+    "id": "wet-015",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Какая сегодня погода?",
+    "deutsch": "Wie ist das Wetter heute?"
+  },
+  {
+    "id": "wet-016",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Идёт дождь.",
+    "deutsch": "Es regnet."
+  },
+  {
+    "id": "wet-017",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Сегодня холодно.",
+    "deutsch": "Heute ist es kalt."
+  },
+  {
+    "id": "wet-018",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Завтра будет солнечно.",
+    "deutsch": "Morgen wird es sonnig."
+  },
+  {
+    "id": "wet-019",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Мне жарко.",
+    "deutsch": "Mir ist heiß."
+  },
+  {
+    "id": "wet-020",
+    "typ": "redewendung",
+    "thema": "wetter-natur",
+    "russisch": "После дождичка в четверг.",
+    "deutsch": "Am Sankt-Nimmerleinstag."
+  }
+]

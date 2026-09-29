@@ -1,0 +1,159 @@
+[
+  {
+    "id": "beh-001",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "паспорт",
+    "deutsch": "der Reisepass",
+    "betonung": "па́спорт"
+  },
+  {
+    "id": "beh-002",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "виза",
+    "deutsch": "das Visum",
+    "betonung": "ви́за"
+  },
+  {
+    "id": "beh-003",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "почта",
+    "deutsch": "die Post",
+    "betonung": "по́чта"
+  },
+  {
+    "id": "beh-004",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "письмо",
+    "deutsch": "der Brief",
+    "betonung": "письмо́"
+  },
+  {
+    "id": "beh-005",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "посылка",
+    "deutsch": "das Paket",
+    "betonung": "посы́лка"
+  },
+  {
+    "id": "beh-006",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "марка",
+    "deutsch": "die Briefmarke",
+    "betonung": "ма́рка"
+  },
+  {
+    "id": "beh-007",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "адрес",
+    "deutsch": "die Adresse",
+    "betonung": "а́дрес"
+  },
+  {
+    "id": "beh-008",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "документ",
+    "deutsch": "das Dokument",
+    "betonung": "докуме́нт"
+  },
+  {
+    "id": "beh-009",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "анкета",
+    "deutsch": "das Formular",
+    "betonung": "анке́та"
+  },
+  {
+    "id": "beh-010",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "подпись",
+    "deutsch": "die Unterschrift",
+    "betonung": "по́дпись"
+  },
+  {
+    "id": "beh-011",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "очередь",
+    "deutsch": "die Warteschlange",
+    "betonung": "о́чередь"
+  },
+  {
+    "id": "beh-012",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "посольство",
+    "deutsch": "die Botschaft",
+    "betonung": "посо́льство"
+  },
+  {
+    "id": "beh-013",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Где здесь почта?",
+    "deutsch": "Wo ist hier die Post?"
+  },
+  {
+    "id": "beh-014",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Я хочу отправить посылку в Германию.",
+    "deutsch": "Ich möchte ein Paket nach Deutschland schicken."
+  },
+  {
+    "id": "beh-015",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Заполните анкету, пожалуйста.",
+    "deutsch": "Füllen Sie bitte das Formular aus."
+  },
+  {
+    "id": "beh-016",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Где нужно расписаться?",
+    "deutsch": "Wo muss ich unterschreiben?"
+  },
+  {
+    "id": "beh-017",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Кто последний?",
+    "deutsch": "Wer ist der Letzte in der Schlange?",
+    "hinweis": "typische Frage beim Anstellen"
+  },
+  {
+    "id": "beh-018",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Мне нужна справка.",
+    "deutsch": "Ich brauche eine Bescheinigung."
+  },
+  {
+    "id": "beh-019",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Я потерял паспорт.",
+    "deutsch": "Ich habe meinen Pass verloren.",
+    "genusvarianten": {
+      "m": "Я потерял паспорт.",
+      "w": "Я потеряла паспорт."
+    }
+  },
+  {
+    "id": "beh-020",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Сколько стоит марка в Германию?",
+    "deutsch": "Was kostet eine Briefmarke nach Deutschland?"
+  }
+]

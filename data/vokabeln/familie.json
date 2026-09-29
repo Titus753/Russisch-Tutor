@@ -1,0 +1,151 @@
+[
+  {
+    "id": "fam-001",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "мама",
+    "deutsch": "die Mama",
+    "betonung": "ма́ма"
+  },
+  {
+    "id": "fam-002",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "папа",
+    "deutsch": "der Papa",
+    "betonung": "па́па"
+  },
+  {
+    "id": "fam-003",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "мать",
+    "deutsch": "die Mutter"
+  },
+  {
+    "id": "fam-004",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "отец",
+    "deutsch": "der Vater",
+    "betonung": "оте́ц"
+  },
+  {
+    "id": "fam-005",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "брат",
+    "deutsch": "der Bruder"
+  },
+  {
+    "id": "fam-006",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "сестра",
+    "deutsch": "die Schwester",
+    "betonung": "сестра́"
+  },
+  {
+    "id": "fam-007",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "сын",
+    "deutsch": "der Sohn"
+  },
+  {
+    "id": "fam-008",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "дочь",
+    "deutsch": "die Tochter"
+  },
+  {
+    "id": "fam-009",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "бабушка",
+    "deutsch": "die Oma",
+    "betonung": "ба́бушка"
+  },
+  {
+    "id": "fam-010",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "дедушка",
+    "deutsch": "der Opa",
+    "betonung": "де́душка"
+  },
+  {
+    "id": "fam-011",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "муж",
+    "deutsch": "der Ehemann"
+  },
+  {
+    "id": "fam-012",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "жена",
+    "deutsch": "die Ehefrau",
+    "betonung": "жена́"
+  },
+  {
+    "id": "fam-013",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "ребёнок",
+    "deutsch": "das Kind"
+  },
+  {
+    "id": "fam-014",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "друг",
+    "deutsch": "der Freund"
+  },
+  {
+    "id": "fam-015",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "подруга",
+    "deutsch": "die Freundin",
+    "betonung": "подру́га"
+  },
+  {
+    "id": "fam-016",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Это моя жена.",
+    "deutsch": "Das ist meine Frau."
+  },
+  {
+    "id": "fam-017",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "У меня двое детей.",
+    "deutsch": "Ich habe zwei Kinder."
+  },
+  {
+    "id": "fam-018",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Вы женаты?",
+    "deutsch": "Sind Sie verheiratet?",
+    "hinweis": "an einen Mann"
+  },
+  {
+    "id": "fam-019",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Сколько вам лет?",
+    "deutsch": "Wie alt sind Sie?"
+  },
+  {
+    "id": "fam-020",
+    "typ": "redewendung",
+    "thema": "familie",
+    "russisch": "Яблоко от яблони недалеко падает.",
+    "deutsch": "Der Apfel fällt nicht weit vom Stamm."
+  }
+]

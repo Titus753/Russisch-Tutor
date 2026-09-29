@@ -18,6 +18,18 @@ npx playwright install chromium webkit   # einmalig für E2E-Tests
 npm run test:e2e       # E2E-Tests (iPhone SE, iPhone 15, Pixel 7)
 ```
 
+## Vokabeln
+
+Die Vokabeln liegen als JSON in `data/vokabeln/<thema>.json` (Themen: `src/daten/themen.ts`).
+Jeder Eintrag hat eine stabile `id` (z. B. `ein-001`), die nie geändert oder wiederverwendet wird,
+weil der Lernfortschritt daran hängt. Pflichtfelder: `id`, `typ` (`wort`/`satz`/`redewendung`),
+`thema`, `russisch`, `deutsch`; optional `betonung` (mit Akzentzeichen U+0301), `genusvarianten`
+(`{ "m": …, "w": … }`), `hinweis`, `audio`.
+
+Beim Build und in den Tests wird alles mit zod geprüft (Zeichen, Längen, Betonung passt zum Text,
+Themen, ID-Format, Duplikate auch bei е/ё). Bei Fehlern bricht der Build ab.
+Einträge zur manuellen Kontrolle: [data/pruefen.md](data/pruefen.md).
+
 ## Sicherheit
 
 - Strikte Content-Security-Policy ohne `unsafe-inline`/`unsafe-eval`, mit Trusted Types

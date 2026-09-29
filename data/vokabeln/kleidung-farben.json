@@ -1,0 +1,156 @@
+[
+  {
+    "id": "kle-001",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "одежда",
+    "deutsch": "die Kleidung",
+    "betonung": "оде́жда"
+  },
+  {
+    "id": "kle-002",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "рубашка",
+    "deutsch": "das Hemd",
+    "betonung": "руба́шка"
+  },
+  {
+    "id": "kle-003",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "платье",
+    "deutsch": "das Kleid",
+    "betonung": "пла́тье"
+  },
+  {
+    "id": "kle-004",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "брюки",
+    "deutsch": "die Hose",
+    "betonung": "брю́ки"
+  },
+  {
+    "id": "kle-005",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "куртка",
+    "deutsch": "die Jacke",
+    "betonung": "ку́ртка"
+  },
+  {
+    "id": "kle-006",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "обувь",
+    "deutsch": "die Schuhe",
+    "betonung": "о́бувь",
+    "hinweis": "Sammelbegriff"
+  },
+  {
+    "id": "kle-007",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "шапка",
+    "deutsch": "die Mütze",
+    "betonung": "ша́пка"
+  },
+  {
+    "id": "kle-008",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "красный",
+    "deutsch": "rot",
+    "betonung": "кра́сный"
+  },
+  {
+    "id": "kle-009",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "синий",
+    "deutsch": "blau",
+    "betonung": "си́ний",
+    "hinweis": "dunkelblau"
+  },
+  {
+    "id": "kle-010",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "голубой",
+    "deutsch": "hellblau",
+    "betonung": "голубо́й"
+  },
+  {
+    "id": "kle-011",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "зелёный",
+    "deutsch": "grün"
+  },
+  {
+    "id": "kle-012",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "жёлтый",
+    "deutsch": "gelb"
+  },
+  {
+    "id": "kle-013",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "белый",
+    "deutsch": "weiß",
+    "betonung": "бе́лый"
+  },
+  {
+    "id": "kle-014",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "чёрный",
+    "deutsch": "schwarz"
+  },
+  {
+    "id": "kle-015",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "размер",
+    "deutsch": "die Größe",
+    "betonung": "разме́р"
+  },
+  {
+    "id": "kle-016",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Можно примерить?",
+    "deutsch": "Kann ich das anprobieren?"
+  },
+  {
+    "id": "kle-017",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Где примерочная?",
+    "deutsch": "Wo ist die Umkleidekabine?"
+  },
+  {
+    "id": "kle-018",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Есть размер побольше?",
+    "deutsch": "Gibt es das eine Nummer größer?"
+  },
+  {
+    "id": "kle-019",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Это мне мало.",
+    "deutsch": "Das ist mir zu klein."
+  },
+  {
+    "id": "kle-020",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Этот цвет мне нравится.",
+    "deutsch": "Diese Farbe gefällt mir."
+  }
+]

@@ -29,18 +29,44 @@ test('Build enthält CSP zusätzlich als Meta-Tag', async ({ page }) => {
   await expect(meta).toHaveAttribute('content', /default-src 'self'/);
 });
 
-test('Inline-Skripte werden von der CSP blockiert', async ({ page }) => {
+test('eingeschleuste Skripte werden blockiert (Trusted Types oder CSP)', async ({ page }) => {
   await page.goto('/');
-  const verstoss = await page.evaluate(async () => {
-    const verstoss = new Promise<boolean>((fertig) => {
-      document.addEventListener('securitypolicyviolation', () => fertig(true), { once: true });
-      setTimeout(() => fertig(false), 1000);
+  const ergebnis = await page.evaluate(async () => {
+    const verstoss = new Promise<string>((fertig) => {
+      document.addEventListener(
+        'securitypolicyviolation',
+        (e) => fertig(`CSP: ${e.violatedDirective}`),
+        { once: true },
+      );
+      setTimeout(() => fertig('kein Verstoß gemeldet'), 1000);
     });
-    const s = document.createElement('script');
-    s.textContent = 'window.__injiziert = true';
-    document.body.append(s);
+    try {
+      const s = document.createElement('script');
+      s.textContent = 'window.__injiziert = true';
+      document.body.append(s);
+    } catch (e) {
+      // Trusted Types verweigert bereits die Zuweisung des Skripttexts
+      return `Trusted Types: ${(e as Error).name}`;
+    }
     return verstoss;
   });
-  expect(verstoss).toBe(true);
+  expect(ergebnis).toMatch(/^(Trusted Types|CSP)/);
+  expect(await page.evaluate(() => '__injiziert' in window)).toBe(false);
+});
+
+test('HTML mit Event-Handler wird nicht ausgeführt', async ({ page }) => {
+  await page.goto('/');
+  await page.evaluate(() => {
+    const div = document.createElement('div');
+    try {
+      // Genau das verbietet ESLint im App-Code; hier prüfen wir die Browser-Schutzschicht
+      // eslint-disable-next-line no-restricted-syntax -- absichtlicher Angriffsversuch im Test
+      div.innerHTML = '<img src="x" onerror="window.__injiziert = true">';
+      document.body.append(div);
+    } catch {
+      // Trusted Types blockiert die Zuweisung – ebenfalls erwünscht
+    }
+  });
+  await page.waitForTimeout(500);
   expect(await page.evaluate(() => '__injiziert' in window)).toBe(false);
 });

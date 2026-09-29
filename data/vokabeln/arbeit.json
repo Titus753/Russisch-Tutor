@@ -1,0 +1,154 @@
+[
+  {
+    "id": "arb-001",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "работа",
+    "deutsch": "die Arbeit",
+    "betonung": "рабо́та"
+  },
+  {
+    "id": "arb-002",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "офис",
+    "deutsch": "das Büro",
+    "betonung": "о́фис"
+  },
+  {
+    "id": "arb-003",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "коллега",
+    "deutsch": "der Kollege / die Kollegin",
+    "betonung": "колле́га"
+  },
+  {
+    "id": "arb-004",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "начальник",
+    "deutsch": "der Chef",
+    "betonung": "нача́льник"
+  },
+  {
+    "id": "arb-005",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "университет",
+    "deutsch": "die Universität",
+    "betonung": "университе́т"
+  },
+  {
+    "id": "arb-006",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "студент",
+    "deutsch": "der Student",
+    "betonung": "студе́нт"
+  },
+  {
+    "id": "arb-007",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "учитель",
+    "deutsch": "der Lehrer",
+    "betonung": "учи́тель"
+  },
+  {
+    "id": "arb-008",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "экзамен",
+    "deutsch": "die Prüfung",
+    "betonung": "экза́мен"
+  },
+  {
+    "id": "arb-009",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "встреча",
+    "deutsch": "das Treffen",
+    "betonung": "встре́ча"
+  },
+  {
+    "id": "arb-010",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "зарплата",
+    "deutsch": "das Gehalt",
+    "betonung": "зарпла́та"
+  },
+  {
+    "id": "arb-011",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "перерыв",
+    "deutsch": "die Pause",
+    "betonung": "переры́в"
+  },
+  {
+    "id": "arb-012",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "задание",
+    "deutsch": "die Aufgabe",
+    "betonung": "зада́ние"
+  },
+  {
+    "id": "arb-013",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Кем вы работаете?",
+    "deutsch": "Was sind Sie von Beruf?"
+  },
+  {
+    "id": "arb-014",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я работаю программистом.",
+    "deutsch": "Ich arbeite als Programmierer."
+  },
+  {
+    "id": "arb-015",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я учусь в университете.",
+    "deutsch": "Ich studiere an der Universität."
+  },
+  {
+    "id": "arb-016",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "У меня сегодня выходной.",
+    "deutsch": "Ich habe heute frei."
+  },
+  {
+    "id": "arb-017",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Встреча начинается в десять.",
+    "deutsch": "Das Treffen beginnt um zehn."
+  },
+  {
+    "id": "arb-018",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я опаздываю.",
+    "deutsch": "Ich komme zu spät."
+  },
+  {
+    "id": "arb-019",
+    "typ": "redewendung",
+    "thema": "arbeit",
+    "russisch": "Без труда не выловишь и рыбку из пруда.",
+    "deutsch": "Ohne Fleiß kein Preis."
+  },
+  {
+    "id": "arb-020",
+    "typ": "redewendung",
+    "thema": "arbeit",
+    "russisch": "Делу время, потехе час.",
+    "deutsch": "Erst die Arbeit, dann das Vergnügen."
+  }
+]

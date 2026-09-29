@@ -1,0 +1,151 @@
+[
+  {
+    "id": "ban-001",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "деньги",
+    "deutsch": "das Geld",
+    "betonung": "де́ньги"
+  },
+  {
+    "id": "ban-002",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "банк",
+    "deutsch": "die Bank"
+  },
+  {
+    "id": "ban-003",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "банкомат",
+    "deutsch": "der Geldautomat",
+    "betonung": "банкома́т"
+  },
+  {
+    "id": "ban-004",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "карта",
+    "deutsch": "die Karte",
+    "betonung": "ка́рта",
+    "hinweis": "Bankkarte"
+  },
+  {
+    "id": "ban-005",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "наличные",
+    "deutsch": "das Bargeld",
+    "betonung": "нали́чные"
+  },
+  {
+    "id": "ban-006",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "рубль",
+    "deutsch": "der Rubel"
+  },
+  {
+    "id": "ban-007",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "евро",
+    "deutsch": "der Euro",
+    "betonung": "е́вро"
+  },
+  {
+    "id": "ban-008",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "сдача",
+    "deutsch": "das Wechselgeld",
+    "betonung": "сда́ча"
+  },
+  {
+    "id": "ban-009",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "обмен валюты",
+    "deutsch": "der Geldwechsel",
+    "betonung": "обме́н валю́ты"
+  },
+  {
+    "id": "ban-010",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "курс",
+    "deutsch": "der Wechselkurs"
+  },
+  {
+    "id": "ban-011",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "перевод",
+    "deutsch": "die Überweisung",
+    "betonung": "перево́д"
+  },
+  {
+    "id": "ban-012",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "кошелёк",
+    "deutsch": "die Geldbörse"
+  },
+  {
+    "id": "ban-013",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Где ближайший банкомат?",
+    "deutsch": "Wo ist der nächste Geldautomat?"
+  },
+  {
+    "id": "ban-014",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Можно поменять евро на рубли?",
+    "deutsch": "Kann ich Euro in Rubel wechseln?"
+  },
+  {
+    "id": "ban-015",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Банкомат не возвращает карту.",
+    "deutsch": "Der Geldautomat gibt die Karte nicht zurück."
+  },
+  {
+    "id": "ban-016",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Можно заплатить наличными?",
+    "deutsch": "Kann ich bar zahlen?"
+  },
+  {
+    "id": "ban-017",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "У вас будет сдача?",
+    "deutsch": "Können Sie herausgeben?"
+  },
+  {
+    "id": "ban-018",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Какой сегодня курс?",
+    "deutsch": "Wie ist der Kurs heute?"
+  },
+  {
+    "id": "ban-019",
+    "typ": "redewendung",
+    "thema": "bank",
+    "russisch": "Деньги не пахнут.",
+    "deutsch": "Geld stinkt nicht."
+  },
+  {
+    "id": "ban-020",
+    "typ": "redewendung",
+    "thema": "bank",
+    "russisch": "Время — деньги.",
+    "deutsch": "Zeit ist Geld."
+  }
+]

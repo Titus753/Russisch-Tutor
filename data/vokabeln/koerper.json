@@ -1,0 +1,160 @@
+[
+  {
+    "id": "koe-001",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "голова",
+    "deutsch": "der Kopf",
+    "betonung": "голова́"
+  },
+  {
+    "id": "koe-002",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "глаз",
+    "deutsch": "das Auge"
+  },
+  {
+    "id": "koe-003",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "ухо",
+    "deutsch": "das Ohr",
+    "betonung": "у́хо"
+  },
+  {
+    "id": "koe-004",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "нос",
+    "deutsch": "die Nase"
+  },
+  {
+    "id": "koe-005",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "рот",
+    "deutsch": "der Mund"
+  },
+  {
+    "id": "koe-006",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "зуб",
+    "deutsch": "der Zahn"
+  },
+  {
+    "id": "koe-007",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "рука",
+    "deutsch": "die Hand",
+    "betonung": "рука́",
+    "hinweis": "auch: der Arm"
+  },
+  {
+    "id": "koe-008",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "нога",
+    "deutsch": "das Bein",
+    "betonung": "нога́",
+    "hinweis": "auch: der Fuß"
+  },
+  {
+    "id": "koe-009",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "спина",
+    "deutsch": "der Rücken",
+    "betonung": "спина́"
+  },
+  {
+    "id": "koe-010",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "живот",
+    "deutsch": "der Bauch",
+    "betonung": "живо́т"
+  },
+  {
+    "id": "koe-011",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "сердце",
+    "deutsch": "das Herz",
+    "betonung": "се́рдце"
+  },
+  {
+    "id": "koe-012",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "палец",
+    "deutsch": "der Finger",
+    "betonung": "па́лец"
+  },
+  {
+    "id": "koe-013",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "волосы",
+    "deutsch": "die Haare",
+    "betonung": "во́лосы"
+  },
+  {
+    "id": "koe-014",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "лицо",
+    "deutsch": "das Gesicht",
+    "betonung": "лицо́"
+  },
+  {
+    "id": "koe-015",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "горло",
+    "deutsch": "der Hals",
+    "betonung": "го́рло",
+    "hinweis": "innen: der Rachen"
+  },
+  {
+    "id": "koe-016",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "У меня болит зуб.",
+    "deutsch": "Ich habe Zahnschmerzen."
+  },
+  {
+    "id": "koe-017",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "У меня болит спина.",
+    "deutsch": "Mir tut der Rücken weh."
+  },
+  {
+    "id": "koe-018",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "Я сломал руку.",
+    "deutsch": "Ich habe mir den Arm gebrochen.",
+    "genusvarianten": {
+      "m": "Я сломал руку.",
+      "w": "Я сломала руку."
+    }
+  },
+  {
+    "id": "koe-019",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "У него голубые глаза.",
+    "deutsch": "Er hat blaue Augen."
+  },
+  {
+    "id": "koe-020",
+    "typ": "redewendung",
+    "thema": "koerper",
+    "russisch": "Язык до Киева доведёт.",
+    "deutsch": "Fragen kostet nichts."
+  }
+]

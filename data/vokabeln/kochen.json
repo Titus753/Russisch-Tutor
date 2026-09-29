@@ -1,0 +1,155 @@
+[
+  {
+    "id": "koc-001",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "кастрюля",
+    "deutsch": "der Kochtopf",
+    "betonung": "кастрю́ля"
+  },
+  {
+    "id": "koc-002",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "сковорода",
+    "deutsch": "die Pfanne",
+    "betonung": "сковорода́"
+  },
+  {
+    "id": "koc-003",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "нож",
+    "deutsch": "das Messer"
+  },
+  {
+    "id": "koc-004",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "ложка",
+    "deutsch": "der Löffel",
+    "betonung": "ло́жка"
+  },
+  {
+    "id": "koc-005",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "вилка",
+    "deutsch": "die Gabel",
+    "betonung": "ви́лка"
+  },
+  {
+    "id": "koc-006",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "тарелка",
+    "deutsch": "der Teller",
+    "betonung": "таре́лка"
+  },
+  {
+    "id": "koc-007",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "соль",
+    "deutsch": "das Salz"
+  },
+  {
+    "id": "koc-008",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "сахар",
+    "deutsch": "der Zucker",
+    "betonung": "са́хар"
+  },
+  {
+    "id": "koc-009",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "масло",
+    "deutsch": "die Butter",
+    "betonung": "ма́сло",
+    "hinweis": "auch: das Öl"
+  },
+  {
+    "id": "koc-010",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "яйцо",
+    "deutsch": "das Ei",
+    "betonung": "яйцо́"
+  },
+  {
+    "id": "koc-011",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "мясо",
+    "deutsch": "das Fleisch",
+    "betonung": "мя́со"
+  },
+  {
+    "id": "koc-012",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "рыба",
+    "deutsch": "der Fisch",
+    "betonung": "ры́ба"
+  },
+  {
+    "id": "koc-013",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "овощи",
+    "deutsch": "das Gemüse",
+    "betonung": "о́вощи"
+  },
+  {
+    "id": "koc-014",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "картошка",
+    "deutsch": "die Kartoffeln",
+    "betonung": "карто́шка"
+  },
+  {
+    "id": "koc-015",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "суп",
+    "deutsch": "die Suppe"
+  },
+  {
+    "id": "koc-016",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Порежьте лук.",
+    "deutsch": "Schneiden Sie die Zwiebel."
+  },
+  {
+    "id": "koc-017",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Вода кипит.",
+    "deutsch": "Das Wasser kocht."
+  },
+  {
+    "id": "koc-018",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Добавьте немного соли.",
+    "deutsch": "Geben Sie etwas Salz dazu."
+  },
+  {
+    "id": "koc-019",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Что будем готовить?",
+    "deutsch": "Was kochen wir?"
+  },
+  {
+    "id": "koc-020",
+    "typ": "redewendung",
+    "thema": "kochen",
+    "russisch": "Аппетит приходит во время еды.",
+    "deutsch": "Der Appetit kommt beim Essen."
+  }
+]

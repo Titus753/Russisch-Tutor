@@ -1,0 +1,166 @@
+[
+  {
+    "id": "beg-001",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Здравствуйте",
+    "deutsch": "Guten Tag / Hallo",
+    "betonung": "Здра́вствуйте",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-002",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Привет",
+    "deutsch": "Hallo",
+    "betonung": "Приве́т",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-003",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Спасибо",
+    "deutsch": "Danke",
+    "betonung": "Спаси́бо"
+  },
+  {
+    "id": "beg-004",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Пожалуйста",
+    "deutsch": "Bitte",
+    "betonung": "Пожа́луйста",
+    "hinweis": "auch: gern geschehen"
+  },
+  {
+    "id": "beg-005",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Извините",
+    "deutsch": "Entschuldigen Sie",
+    "betonung": "Извини́те",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-006",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Пока",
+    "deutsch": "Tschüss",
+    "betonung": "Пока́",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-007",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "До свидания",
+    "deutsch": "Auf Wiedersehen",
+    "betonung": "До свида́ния"
+  },
+  {
+    "id": "beg-008",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Доброе утро",
+    "deutsch": "Guten Morgen",
+    "betonung": "До́брое у́тро"
+  },
+  {
+    "id": "beg-009",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Добрый день",
+    "deutsch": "Guten Tag",
+    "betonung": "До́брый день"
+  },
+  {
+    "id": "beg-010",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Добрый вечер",
+    "deutsch": "Guten Abend",
+    "betonung": "До́брый ве́чер"
+  },
+  {
+    "id": "beg-011",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Спокойной ночи",
+    "deutsch": "Gute Nacht",
+    "betonung": "Споко́йной но́чи"
+  },
+  {
+    "id": "beg-012",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Как дела?",
+    "deutsch": "Wie geht’s?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-013",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Как у вас дела?",
+    "deutsch": "Wie geht es Ihnen?",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-014",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Меня зовут Анна.",
+    "deutsch": "Ich heiße Anna."
+  },
+  {
+    "id": "beg-015",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Как вас зовут?",
+    "deutsch": "Wie heißen Sie?",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-016",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Очень приятно.",
+    "deutsch": "Freut mich.",
+    "hinweis": "beim Kennenlernen"
+  },
+  {
+    "id": "beg-017",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Рад вас видеть.",
+    "deutsch": "Schön, Sie zu sehen.",
+    "genusvarianten": {
+      "m": "Рад вас видеть.",
+      "w": "Рада вас видеть."
+    }
+  },
+  {
+    "id": "beg-018",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Не за что.",
+    "deutsch": "Keine Ursache."
+  },
+  {
+    "id": "beg-019",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Всего доброго!",
+    "deutsch": "Alles Gute!"
+  },
+  {
+    "id": "beg-020",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Добро пожаловать!",
+    "deutsch": "Willkommen!"
+  }
+]

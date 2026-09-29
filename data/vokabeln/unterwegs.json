@@ -1,0 +1,158 @@
+[
+  {
+    "id": "unt-001",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "поезд",
+    "deutsch": "der Zug",
+    "betonung": "по́езд"
+  },
+  {
+    "id": "unt-002",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "вокзал",
+    "deutsch": "der Bahnhof",
+    "betonung": "вокза́л"
+  },
+  {
+    "id": "unt-003",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "билет",
+    "deutsch": "die Fahrkarte",
+    "betonung": "биле́т"
+  },
+  {
+    "id": "unt-004",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "автобус",
+    "deutsch": "der Bus",
+    "betonung": "авто́бус"
+  },
+  {
+    "id": "unt-005",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "остановка",
+    "deutsch": "die Haltestelle",
+    "betonung": "остано́вка"
+  },
+  {
+    "id": "unt-006",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "метро",
+    "deutsch": "die U-Bahn",
+    "betonung": "метро́"
+  },
+  {
+    "id": "unt-007",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "такси",
+    "deutsch": "das Taxi",
+    "betonung": "такси́"
+  },
+  {
+    "id": "unt-008",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "самолёт",
+    "deutsch": "das Flugzeug"
+  },
+  {
+    "id": "unt-009",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "аэропорт",
+    "deutsch": "der Flughafen",
+    "betonung": "аэропо́рт"
+  },
+  {
+    "id": "unt-010",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "улица",
+    "deutsch": "die Straße",
+    "betonung": "у́лица"
+  },
+  {
+    "id": "unt-011",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "налево",
+    "deutsch": "nach links",
+    "betonung": "нале́во"
+  },
+  {
+    "id": "unt-012",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "направо",
+    "deutsch": "nach rechts",
+    "betonung": "напра́во"
+  },
+  {
+    "id": "unt-013",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "прямо",
+    "deutsch": "geradeaus",
+    "betonung": "пря́мо"
+  },
+  {
+    "id": "unt-014",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Где находится вокзал?",
+    "deutsch": "Wo ist der Bahnhof?"
+  },
+  {
+    "id": "unt-015",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Как пройти к метро?",
+    "deutsch": "Wie komme ich zur U-Bahn?"
+  },
+  {
+    "id": "unt-016",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Один билет до Москвы, пожалуйста.",
+    "deutsch": "Eine Fahrkarte nach Moskau, bitte."
+  },
+  {
+    "id": "unt-017",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Когда отправляется поезд?",
+    "deutsch": "Wann fährt der Zug ab?"
+  },
+  {
+    "id": "unt-018",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Это далеко?",
+    "deutsch": "Ist das weit?"
+  },
+  {
+    "id": "unt-019",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Остановите здесь, пожалуйста.",
+    "deutsch": "Halten Sie bitte hier an."
+  },
+  {
+    "id": "unt-020",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Я заблудился.",
+    "deutsch": "Ich habe mich verlaufen.",
+    "genusvarianten": {
+      "m": "Я заблудился.",
+      "w": "Я заблудилась."
+    }
+  }
+]

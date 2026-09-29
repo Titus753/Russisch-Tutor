@@ -1,0 +1,155 @@
+[
+  {
+    "id": "tel-001",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "телефон",
+    "deutsch": "das Telefon",
+    "betonung": "телефо́н"
+  },
+  {
+    "id": "tel-002",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "номер телефона",
+    "deutsch": "die Telefonnummer",
+    "betonung": "но́мер телефо́на"
+  },
+  {
+    "id": "tel-003",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "сообщение",
+    "deutsch": "die Nachricht",
+    "betonung": "сообще́ние"
+  },
+  {
+    "id": "tel-004",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "пароль",
+    "deutsch": "das Passwort",
+    "betonung": "паро́ль"
+  },
+  {
+    "id": "tel-005",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "зарядка",
+    "deutsch": "das Ladegerät",
+    "betonung": "заря́дка",
+    "hinweis": "umgangssprachlich"
+  },
+  {
+    "id": "tel-006",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "интернет",
+    "deutsch": "das Internet",
+    "betonung": "интерне́т"
+  },
+  {
+    "id": "tel-007",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "сайт",
+    "deutsch": "die Website"
+  },
+  {
+    "id": "tel-008",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "электронная почта",
+    "deutsch": "die E-Mail",
+    "betonung": "электро́нная по́чта"
+  },
+  {
+    "id": "tel-009",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "приложение",
+    "deutsch": "die App",
+    "betonung": "приложе́ние"
+  },
+  {
+    "id": "tel-010",
+    "typ": "redewendung",
+    "thema": "telefon",
+    "russisch": "Алло!",
+    "deutsch": "Hallo?",
+    "betonung": "Алло́!",
+    "hinweis": "am Telefon"
+  },
+  {
+    "id": "tel-011",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Можно позвонить?",
+    "deutsch": "Darf ich kurz telefonieren?"
+  },
+  {
+    "id": "tel-012",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Перезвоните мне, пожалуйста.",
+    "deutsch": "Rufen Sie mich bitte zurück."
+  },
+  {
+    "id": "tel-013",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Какой пароль от вай-фая?",
+    "deutsch": "Wie lautet das WLAN-Passwort?",
+    "hinweis": "umgangssprachlich"
+  },
+  {
+    "id": "tel-014",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "У меня сел телефон.",
+    "deutsch": "Mein Handy-Akku ist leer."
+  },
+  {
+    "id": "tel-015",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Напишите мне.",
+    "deutsch": "Schreiben Sie mir."
+  },
+  {
+    "id": "tel-016",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Я вам позвоню.",
+    "deutsch": "Ich rufe Sie an."
+  },
+  {
+    "id": "tel-017",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Плохая связь.",
+    "deutsch": "Die Verbindung ist schlecht."
+  },
+  {
+    "id": "tel-018",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Вас не слышно.",
+    "deutsch": "Ich kann Sie nicht hören."
+  },
+  {
+    "id": "tel-019",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Кто говорит?",
+    "deutsch": "Wer spricht da?",
+    "hinweis": "am Telefon"
+  },
+  {
+    "id": "tel-020",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Вы ошиблись номером.",
+    "deutsch": "Sie haben sich verwählt."
+  }
+]

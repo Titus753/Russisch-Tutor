@@ -1,0 +1,143 @@
+[
+  {
+    "id": "red-001",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Первый блин комом.",
+    "deutsch": "Aller Anfang ist schwer."
+  },
+  {
+    "id": "red-002",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Тише едешь — дальше будешь.",
+    "deutsch": "Eile mit Weile."
+  },
+  {
+    "id": "red-003",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Не всё то золото, что блестит.",
+    "deutsch": "Es ist nicht alles Gold, was glänzt."
+  },
+  {
+    "id": "red-004",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Лучше поздно, чем никогда.",
+    "deutsch": "Besser spät als nie."
+  },
+  {
+    "id": "red-005",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Век живи — век учись.",
+    "deutsch": "Man lernt nie aus."
+  },
+  {
+    "id": "red-006",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Поживём — увидим.",
+    "deutsch": "Abwarten und Tee trinken."
+  },
+  {
+    "id": "red-007",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Утро вечера мудренее.",
+    "deutsch": "Guter Rat kommt über Nacht."
+  },
+  {
+    "id": "red-008",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Старый друг лучше новых двух.",
+    "deutsch": "Ein alter Freund ist besser als zwei neue."
+  },
+  {
+    "id": "red-009",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Ни пуха ни пера!",
+    "deutsch": "Hals- und Beinbruch!",
+    "hinweis": "Antwort: К чёрту!"
+  },
+  {
+    "id": "red-010",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Всё хорошо, что хорошо кончается.",
+    "deutsch": "Ende gut, alles gut."
+  },
+  {
+    "id": "red-011",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Москва не сразу строилась.",
+    "deutsch": "Rom wurde auch nicht an einem Tag erbaut."
+  },
+  {
+    "id": "red-012",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Не имей сто рублей, а имей сто друзей.",
+    "deutsch": "Freunde sind mehr wert als Geld."
+  },
+  {
+    "id": "red-013",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Где тонко, там и рвётся.",
+    "deutsch": "Die Kette reißt am schwächsten Glied."
+  },
+  {
+    "id": "red-014",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Слово не воробей, вылетит — не поймаешь.",
+    "deutsch": "Ein ausgesprochenes Wort holt man nicht zurück."
+  },
+  {
+    "id": "red-015",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Глаза боятся, а руки делают.",
+    "deutsch": "Einfach anfangen, dann geht es schon."
+  },
+  {
+    "id": "red-016",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Семь раз отмерь, один раз отрежь.",
+    "deutsch": "Erst überlegen, dann handeln."
+  },
+  {
+    "id": "red-017",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "В тихом омуте черти водятся.",
+    "deutsch": "Stille Wasser sind tief."
+  },
+  {
+    "id": "red-018",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Дарёному коню в зубы не смотрят.",
+    "deutsch": "Einem geschenkten Gaul schaut man nicht ins Maul."
+  },
+  {
+    "id": "red-019",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Как по маслу.",
+    "deutsch": "Wie geschmiert."
+  },
+  {
+    "id": "red-020",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Вешать лапшу на уши.",
+    "deutsch": "Jemandem einen Bären aufbinden."
+  }
+]
