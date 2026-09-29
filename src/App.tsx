@@ -6,6 +6,7 @@ import { Mehr } from './ansichten/Mehr.tsx';
 import { Tippen } from './ansichten/Tippen.tsx';
 import { Kontext, type AppKontext } from './app/kontext.ts';
 import { wendeDarstellungAn } from './app/darstellung.ts';
+import { starteOffline } from './app/offline.ts';
 import { beobachteSichtbereich } from './app/sichtbereich.ts';
 import { IconHoeren, IconKarten, IconMehr, IconQuiz, IconTippen } from './bausteine/Icons.tsx';
 import { Tutorial } from './bausteine/Tutorial.tsx';
@@ -42,6 +43,7 @@ export function App() {
   const [tippt, setTippt] = useState(false);
   const [hinweis, setHinweis] = useState<{ text: string; nr: number } | null>(null);
   const [tutorialOffen, setTutorialOffen] = useState(false);
+  const [update, setUpdate] = useState<(() => void) | null>(null);
   const speicherer = useRef<ReturnType<typeof erstelleSpeicherer> | null>(null);
   const ablageRef = useRef<Ablage | null>(null);
   const standRef = useRef<Stand | null>(null);
@@ -61,6 +63,11 @@ export function App() {
       setTutorialOffen(!ergebnis.stand.tutorialGesehen);
     });
     void dauerhaftAnfragen();
+    starteOffline({
+      bereit: () =>
+        setHinweis({ text: 'Die App funktioniert jetzt auch offline.', nr: Date.now() }),
+      update: (aktualisieren) => setUpdate(() => aktualisieren),
+    });
     return beobachteSichtbereich();
   }, []);
 
@@ -117,6 +124,14 @@ export function App() {
             <p role="status" class="meldung meldung--falsch">
               {LADE_HINWEIS[ladeHinweis]}
             </p>
+          )}
+          {update && (
+            <div class="update" role="status">
+              <p>Eine neue Version ist bereit.</p>
+              <button type="button" class="knopf knopf--haupt knopf--klein" onClick={update}>
+                Aktualisieren
+              </button>
+            </div>
           )}
           {tab === 'karten' && <Karten />}
           {tab === 'quiz' && <Auswahl key="quiz" modus="quiz" />}

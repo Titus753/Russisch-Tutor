@@ -15,8 +15,15 @@ npm ci                 # Abhängigkeiten exakt nach Lockfile (ohne Installations
 npm run dev            # Entwicklungsserver
 npm run check          # Lint, Typecheck, Unit-Tests, Build
 npx playwright install chromium webkit   # einmalig für E2E-Tests
-npm run test:e2e       # E2E-Tests (iPhone SE, iPhone 15, Pixel 7)
+npm run test:e2e       # E2E-Tests (iPhone SE, iPhone 15, Pixel 7) inkl. Offline, WCAG 2.2 AA, Schriftgrößen
 ```
+
+## Offline und Installation
+
+Nach dem ersten Aufruf funktioniert die App komplett offline, inklusive aller Aufnahmen
+(eigener Service Worker ohne Abhängigkeiten: `config/sw-vorlage.js`, erzeugt beim Build).
+Auf dem Handy über „Zum Home-Bildschirm“ installieren. Liegt eine neue Version bereit,
+zeigt die App „Aktualisieren“. App-Icons neu erzeugen: `node tools/icons/erzeuge_icons.mjs`.
 
 ## Vokabeln
 

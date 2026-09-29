@@ -24,6 +24,10 @@ describe('Sicherheits-Header', () => {
     ['form-action', "'none'"],
     ['frame-ancestors', "'none'"],
     ['require-trusted-types-for', "'script'"],
+    // Einzige erlaubte Policy: Registrierung von /sw.js (src/app/offline.ts)
+    ['trusted-types', 'sw-registrierung'],
+    ['worker-src', "'self'"],
+    ['manifest-src', "'self'"],
   ])('CSP %s = %s', (name, wert) => {
     expect(direktiven.get(name)).toBe(wert);
   });

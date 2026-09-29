@@ -4,6 +4,7 @@ import { defineConfig, type Plugin } from 'vite';
 import preact from '@preact/preset-vite';
 import { cspFuerMeta, parseHeaders } from './config/headers.ts';
 import { verantwortlicherFuerBuild } from './config/rechtliches.ts';
+import { serviceWorkerPlugin } from './config/sw-plugin.ts';
 import { vokabelPlugin } from './config/vokabel-plugin.ts';
 
 const sicherheitsHeader = parseHeaders(readFileSync('public/_headers', 'utf8'));
@@ -33,7 +34,7 @@ function cspMetaTag(): Plugin {
 export default defineConfig({
   // Angaben für die Datenschutzerklärung aus Umgebungsvariablen (nie im Repository)
   define: { __VERANTWORTLICHER__: JSON.stringify(verantwortlicherFuerBuild(process.env)) },
-  plugins: [preact(), vokabelPlugin(), cspMetaTag()],
+  plugins: [preact(), vokabelPlugin(), cspMetaTag(), serviceWorkerPlugin()],
   build: {
     target: 'es2022',
     sourcemap: false,

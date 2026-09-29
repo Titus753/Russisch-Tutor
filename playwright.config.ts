@@ -10,6 +10,8 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:4174',
     trace: 'retain-on-failure',
+    // Standard ohne Service Worker; offline.spec.ts schaltet ihn gezielt ein
+    serviceWorkers: 'block',
   },
   projects: [
     { name: 'iPhone SE', use: { ...devices['iPhone SE'] } },

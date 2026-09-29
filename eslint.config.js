@@ -39,6 +39,10 @@ export default tseslint.config(
     },
   },
   {
+    files: ['config/sw-vorlage.js'],
+    languageOptions: { globals: { ...globals.serviceworker, __DATEIEN__: 'readonly' } },
+  },
+  {
     // In Tests sind Nicht-null-Zusicherungen erlaubt; im App-Code bleiben sie verboten
     files: ['tests/**'],
     rules: { '@typescript-eslint/no-non-null-assertion': 'off' },

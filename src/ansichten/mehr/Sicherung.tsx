@@ -145,6 +145,9 @@ export function Sicherung({ onZurueck }: { onZurueck: () => void }) {
           ref={dateiRef}
           id="sicherung-datei"
           class="nur-sr"
+          // Bedient wird über den sichtbaren Knopf; Beschriftung für Screenreader trotzdem nötig
+          aria-label="Sicherungsdatei wählen"
+          tabIndex={-1}
           type="file"
           accept="application/json,.json"
           onChange={(e) => void dateiGewaehlt(e)}
