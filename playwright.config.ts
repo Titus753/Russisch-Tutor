@@ -8,7 +8,7 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? [['list'], ['html', { open: 'never' }]] : 'list',
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: 'http://localhost:4174',
     trace: 'retain-on-failure',
   },
   projects: [
@@ -18,9 +18,10 @@ export default defineConfig({
     { name: 'Pixel 7', use: { ...devices['Pixel 7'], channel: 'chromium' } },
   ],
   webServer: {
-    command: 'npm run build && npm run preview',
-    url: 'http://localhost:4173',
-    reuseExistingServer: !process.env.CI,
+    // Immer frisch bauen, eigener Port: nie versehentlich gegen einen veralteten Server testen
+    command: 'npm run build && npx vite preview --port 4174 --strictPort',
+    url: 'http://localhost:4174',
+    reuseExistingServer: false,
     timeout: 120_000,
   },
 });

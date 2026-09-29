@@ -79,7 +79,9 @@ test('kaputter Speicher: App startet trotzdem und stellt den vorherigen Stand he
     einstellungen: { neueProTag: 10 },
   });
   await page.reload();
-  await expect(page.getByRole('status')).toContainText('vorherige wurde wiederhergestellt');
+  await expect(
+    page.getByRole('status').filter({ hasText: 'vorherige wurde wiederhergestellt' }),
+  ).toBeVisible();
   await expect(page.getByTestId('marke-offen')).toHaveText('11 heute offen');
   expect(await lese(page, 'stand-kaputt')).toBe('<img src=x onerror=alert(1)>');
 });
@@ -91,7 +93,7 @@ test('völlig unbrauchbarer Speicher: Zurücksetzen mit Hinweis statt Absturz', 
   await expect(page.getByTestId('marke-offen')).toBeVisible();
   await schreibe(page, 'stand', { version: 1, karten: 'kaputt' });
   await page.reload();
-  await expect(page.getByRole('status')).toContainText('zurückgesetzt');
+  await expect(page.getByRole('status').filter({ hasText: 'zurückgesetzt' })).toBeVisible();
   await expect(page.getByTestId('marke-offen')).toHaveText('20 heute offen');
   expect(fehler).toEqual([]);
 });

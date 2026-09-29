@@ -5,7 +5,7 @@ test('lädt ohne Fremd-Requests, CSP-Verstöße oder Konsolenfehler', async ({ p
   const fehler: string[] = [];
   page.on('request', (anfrage) => {
     const url = new URL(anfrage.url());
-    if (url.origin !== 'http://localhost:4173' && url.protocol !== 'data:') {
+    if (url.origin !== 'http://localhost:4174' && url.protocol !== 'data:') {
       fremdeAnfragen.push(anfrage.url());
     }
   });

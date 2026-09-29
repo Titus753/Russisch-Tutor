@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vorschau",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "npm run build && npm run preview"],
+      "port": 4173
+    }
+  ]
+}
