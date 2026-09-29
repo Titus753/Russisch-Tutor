@@ -1,0 +1,417 @@
+[
+  {
+    "id": "alf-001",
+    "gross": "А",
+    "klein": "а",
+    "sprechtext": "а",
+    "aussprache": "„a“ wie in „Vater“",
+    "beispiel": {
+      "id": "alb-001",
+      "russisch": "мама",
+      "betonung": "ма́ма",
+      "deutsch": "die Mama"
+    }
+  },
+  {
+    "id": "alf-002",
+    "gross": "Б",
+    "klein": "б",
+    "sprechtext": "бэ",
+    "aussprache": "„b“ wie in „Ball“",
+    "beispiel": {
+      "id": "alb-002",
+      "russisch": "бабушка",
+      "betonung": "ба́бушка",
+      "deutsch": "die Oma"
+    }
+  },
+  {
+    "id": "alf-003",
+    "gross": "В",
+    "klein": "в",
+    "sprechtext": "вэ",
+    "aussprache": "„w“ wie in „Wasser“",
+    "beispiel": {
+      "id": "alb-003",
+      "russisch": "вода",
+      "betonung": "вода́",
+      "deutsch": "das Wasser"
+    }
+  },
+  {
+    "id": "alf-004",
+    "gross": "Г",
+    "klein": "г",
+    "sprechtext": "гэ",
+    "aussprache": "„g“ wie in „gut“",
+    "beispiel": {
+      "id": "alb-004",
+      "russisch": "гора",
+      "betonung": "гора́",
+      "deutsch": "der Berg"
+    }
+  },
+  {
+    "id": "alf-005",
+    "gross": "Д",
+    "klein": "д",
+    "sprechtext": "дэ",
+    "aussprache": "„d“ wie in „Dach“",
+    "beispiel": {
+      "id": "alb-005",
+      "russisch": "дом",
+      "deutsch": "das Haus"
+    }
+  },
+  {
+    "id": "alf-006",
+    "gross": "Е",
+    "klein": "е",
+    "sprechtext": "е",
+    "aussprache": "„je“ wie in „jetzt“; nach Konsonanten ein „e“, das ihn weich macht",
+    "beispiel": {
+      "id": "alb-006",
+      "russisch": "еда",
+      "betonung": "еда́",
+      "deutsch": "das Essen"
+    }
+  },
+  {
+    "id": "alf-007",
+    "gross": "Ё",
+    "klein": "ё",
+    "sprechtext": "ё",
+    "aussprache": "„jo“ wie in „Joghurt“; immer betont",
+    "beispiel": {
+      "id": "alb-007",
+      "russisch": "ёлка",
+      "deutsch": "der Tannenbaum"
+    }
+  },
+  {
+    "id": "alf-008",
+    "gross": "Ж",
+    "klein": "ж",
+    "sprechtext": "жэ",
+    "aussprache": "stimmhaftes „sch“ wie in „Journal“",
+    "beispiel": {
+      "id": "alb-008",
+      "russisch": "жена",
+      "betonung": "жена́",
+      "deutsch": "die Ehefrau"
+    }
+  },
+  {
+    "id": "alf-009",
+    "gross": "З",
+    "klein": "з",
+    "sprechtext": "зэ",
+    "aussprache": "stimmhaftes „s“ wie in „Sonne“",
+    "beispiel": {
+      "id": "alb-009",
+      "russisch": "зима",
+      "betonung": "зима́",
+      "deutsch": "der Winter"
+    }
+  },
+  {
+    "id": "alf-010",
+    "gross": "И",
+    "klein": "и",
+    "sprechtext": "и",
+    "aussprache": "„i“ wie in „Igel“",
+    "beispiel": {
+      "id": "alb-010",
+      "russisch": "игра",
+      "betonung": "игра́",
+      "deutsch": "das Spiel"
+    }
+  },
+  {
+    "id": "alf-011",
+    "gross": "Й",
+    "klein": "й",
+    "sprechtext": "и краткое",
+    "aussprache": "kurzes „j“ wie in „Boje“",
+    "beispiel": {
+      "id": "alb-011",
+      "russisch": "май",
+      "deutsch": "der Mai"
+    }
+  },
+  {
+    "id": "alf-012",
+    "gross": "К",
+    "klein": "к",
+    "sprechtext": "ка",
+    "aussprache": "„k“, ohne Hauchlaut",
+    "beispiel": {
+      "id": "alb-012",
+      "russisch": "кот",
+      "deutsch": "der Kater"
+    }
+  },
+  {
+    "id": "alf-013",
+    "gross": "Л",
+    "klein": "л",
+    "sprechtext": "эль",
+    "aussprache": "„l“, dunkler als im Deutschen",
+    "beispiel": {
+      "id": "alb-013",
+      "russisch": "лампа",
+      "betonung": "ла́мпа",
+      "deutsch": "die Lampe"
+    }
+  },
+  {
+    "id": "alf-014",
+    "gross": "М",
+    "klein": "м",
+    "sprechtext": "эм",
+    "aussprache": "„m“ wie in „Mund“",
+    "beispiel": {
+      "id": "alb-014",
+      "russisch": "море",
+      "betonung": "мо́ре",
+      "deutsch": "das Meer"
+    }
+  },
+  {
+    "id": "alf-015",
+    "gross": "Н",
+    "klein": "н",
+    "sprechtext": "эн",
+    "aussprache": "„n“ wie in „Nase“",
+    "beispiel": {
+      "id": "alb-015",
+      "russisch": "нос",
+      "deutsch": "die Nase"
+    }
+  },
+  {
+    "id": "alf-016",
+    "gross": "О",
+    "klein": "о",
+    "sprechtext": "о",
+    "aussprache": "betont „o“ wie in „Sonne“, unbetont fast wie „a“",
+    "beispiel": {
+      "id": "alb-016",
+      "russisch": "окно",
+      "betonung": "окно́",
+      "deutsch": "das Fenster"
+    }
+  },
+  {
+    "id": "alf-017",
+    "gross": "П",
+    "klein": "п",
+    "sprechtext": "пэ",
+    "aussprache": "„p“, ohne Hauchlaut",
+    "beispiel": {
+      "id": "alb-017",
+      "russisch": "папа",
+      "betonung": "па́па",
+      "deutsch": "der Papa"
+    }
+  },
+  {
+    "id": "alf-018",
+    "gross": "Р",
+    "klein": "р",
+    "sprechtext": "эр",
+    "aussprache": "gerolltes „r“ mit der Zungenspitze",
+    "beispiel": {
+      "id": "alb-018",
+      "russisch": "рыба",
+      "betonung": "ры́ба",
+      "deutsch": "der Fisch"
+    }
+  },
+  {
+    "id": "alf-019",
+    "gross": "С",
+    "klein": "с",
+    "sprechtext": "эс",
+    "aussprache": "stimmloses „s“ wie in „Bus“",
+    "beispiel": {
+      "id": "alb-019",
+      "russisch": "сок",
+      "deutsch": "der Saft"
+    }
+  },
+  {
+    "id": "alf-020",
+    "gross": "Т",
+    "klein": "т",
+    "sprechtext": "тэ",
+    "aussprache": "„t“, ohne Hauchlaut",
+    "beispiel": {
+      "id": "alb-020",
+      "russisch": "торт",
+      "deutsch": "die Torte"
+    }
+  },
+  {
+    "id": "alf-021",
+    "gross": "У",
+    "klein": "у",
+    "sprechtext": "у",
+    "aussprache": "„u“ wie in „gut“",
+    "beispiel": {
+      "id": "alb-021",
+      "russisch": "утро",
+      "betonung": "у́тро",
+      "deutsch": "der Morgen"
+    }
+  },
+  {
+    "id": "alf-022",
+    "gross": "Ф",
+    "klein": "ф",
+    "sprechtext": "эф",
+    "aussprache": "„f“ wie in „Fisch“",
+    "beispiel": {
+      "id": "alb-022",
+      "russisch": "фильм",
+      "deutsch": "der Film"
+    }
+  },
+  {
+    "id": "alf-023",
+    "gross": "Х",
+    "klein": "х",
+    "sprechtext": "ха",
+    "aussprache": "„ch“ wie in „Bach“",
+    "beispiel": {
+      "id": "alb-023",
+      "russisch": "хлеб",
+      "deutsch": "das Brot"
+    }
+  },
+  {
+    "id": "alf-024",
+    "gross": "Ц",
+    "klein": "ц",
+    "sprechtext": "цэ",
+    "aussprache": "„z“ wie in „Zeit“",
+    "beispiel": {
+      "id": "alb-024",
+      "russisch": "цветок",
+      "betonung": "цвето́к",
+      "deutsch": "die Blume"
+    }
+  },
+  {
+    "id": "alf-025",
+    "gross": "Ч",
+    "klein": "ч",
+    "sprechtext": "чэ",
+    "aussprache": "„tsch“ wie in „Tschüss“",
+    "beispiel": {
+      "id": "alb-025",
+      "russisch": "чай",
+      "deutsch": "der Tee"
+    }
+  },
+  {
+    "id": "alf-026",
+    "gross": "Ш",
+    "klein": "ш",
+    "sprechtext": "ша",
+    "aussprache": "hartes „sch“ wie in „Schule“",
+    "beispiel": {
+      "id": "alb-026",
+      "russisch": "школа",
+      "betonung": "шко́ла",
+      "deutsch": "die Schule"
+    }
+  },
+  {
+    "id": "alf-027",
+    "gross": "Щ",
+    "klein": "щ",
+    "sprechtext": "ща",
+    "aussprache": "langes, weiches „schsch“",
+    "beispiel": {
+      "id": "alb-027",
+      "russisch": "щи",
+      "deutsch": "die Kohlsuppe"
+    }
+  },
+  {
+    "id": "alf-028",
+    "gross": "Ъ",
+    "klein": "ъ",
+    "sprechtext": "твёрдый знак",
+    "aussprache": "Härtezeichen: kein eigener Laut, trennt Silben",
+    "beispiel": {
+      "id": "alb-028",
+      "russisch": "подъезд",
+      "betonung": "подъе́зд",
+      "deutsch": "der Hauseingang"
+    }
+  },
+  {
+    "id": "alf-029",
+    "gross": "Ы",
+    "klein": "ы",
+    "sprechtext": "ы",
+    "aussprache": "dumpfes „i“, Zunge weit hinten",
+    "beispiel": {
+      "id": "alb-029",
+      "russisch": "сыр",
+      "deutsch": "der Käse"
+    }
+  },
+  {
+    "id": "alf-030",
+    "gross": "Ь",
+    "klein": "ь",
+    "sprechtext": "мягкий знак",
+    "aussprache": "Weichheitszeichen: kein eigener Laut, macht den Konsonanten davor weich",
+    "beispiel": {
+      "id": "alb-030",
+      "russisch": "соль",
+      "deutsch": "das Salz"
+    }
+  },
+  {
+    "id": "alf-031",
+    "gross": "Э",
+    "klein": "э",
+    "sprechtext": "э",
+    "aussprache": "„e“ wie in „Echo“",
+    "beispiel": {
+      "id": "alb-031",
+      "russisch": "это",
+      "betonung": "э́то",
+      "deutsch": "das (ist)"
+    }
+  },
+  {
+    "id": "alf-032",
+    "gross": "Ю",
+    "klein": "ю",
+    "sprechtext": "ю",
+    "aussprache": "„ju“ wie in „Jubel“",
+    "beispiel": {
+      "id": "alb-032",
+      "russisch": "юг",
+      "deutsch": "der Süden"
+    }
+  },
+  {
+    "id": "alf-033",
+    "gross": "Я",
+    "klein": "я",
+    "sprechtext": "я",
+    "aussprache": "„ja“ wie in „Jahr“",
+    "beispiel": {
+      "id": "alb-033",
+      "russisch": "яблоко",
+      "betonung": "я́блоко",
+      "deutsch": "der Apfel"
+    }
+  }
+]

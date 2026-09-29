@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test';
+import type { Page } from '@playwright/test';
+import { expect, test } from './basis.ts';
 import { eintragZu, falscheSprachausgabe, gesprochen, vokabeln } from './hilfen.ts';
 
 const tab = (page: Page, name: string) =>

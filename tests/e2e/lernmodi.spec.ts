@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test';
+import type { Page } from '@playwright/test';
+import { expect, test } from './basis.ts';
 import {
   eintragZu,
   falscheSprachausgabe,
@@ -169,6 +170,7 @@ test.describe('Tippen mit Systemtastatur', () => {
   test('Feld und Prüfen bleiben über der (simulierten) Tastatur sichtbar', async ({ page }) => {
     await page.goto('/');
     await tab(page, 'Mehr').click();
+    await page.getByRole('button', { name: /^Einstellungen/ }).click();
     await page.getByRole('radio', { name: 'Systemtastatur' }).click();
     await tab(page, 'Tippen').click();
     const feld = page.getByRole('textbox', { name: 'Deine Antwort auf Russisch' });

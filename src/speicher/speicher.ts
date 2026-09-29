@@ -14,6 +14,8 @@ export const SCHLUESSEL = {
   vorher: 'stand-vorher',
   kaputt: 'stand-kaputt',
   vorMigration: (version: number) => `sicherung-vor-migration-v${version}`,
+  vorImport: 'sicherung-vor-import',
+  vorLoeschen: 'sicherung-vor-loeschen',
 } as const;
 
 export function indexedDbAblage(): Ablage {
@@ -55,25 +57,37 @@ export interface LadeErgebnis {
   verworfen: number;
 }
 
-/** Bringt Rohdaten auf die aktuelle Version. Vorher wird der alte Stand gesichert. */
-async function migriere(
-  ablage: Ablage,
+/** Bringt Rohdaten auf die aktuelle Version (ohne Nebenwirkungen). `null`: Migration unmöglich. */
+export function migriereDaten(
   roh: unknown,
-  migrationen: Readonly<Record<number, Migration>>,
-): Promise<unknown> {
+  migrationen: Readonly<Record<number, Migration>> = MIGRATIONEN,
+): unknown {
   if (typeof roh !== 'object' || roh === null) return roh;
   let daten = roh as Record<string, unknown>;
   const version = daten.version;
   if (typeof version !== 'number' || !Number.isInteger(version) || version >= AKTUELLE_VERSION) {
     return daten;
   }
-  await ablage.setMany([[SCHLUESSEL.vorMigration(version), roh]]);
+  if (version < 0) return null;
   for (let v = version; v < AKTUELLE_VERSION; v++) {
     const schritt = migrationen[v];
     if (!schritt) return null;
     daten = { ...schritt(daten), version: v + 1 };
   }
   return daten;
+}
+
+/** Wie migriereDaten, sichert aber vorher den alten Stand in der Ablage. */
+async function migriere(
+  ablage: Ablage,
+  roh: unknown,
+  migrationen: Readonly<Record<number, Migration>>,
+): Promise<unknown> {
+  const version = (roh as { version?: unknown } | null)?.version;
+  if (typeof version === 'number' && Number.isInteger(version) && version < AKTUELLE_VERSION) {
+    await ablage.setMany([[SCHLUESSEL.vorMigration(version), roh]]);
+  }
+  return migriereDaten(roh, migrationen);
 }
 
 async function versuche(

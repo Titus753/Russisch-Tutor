@@ -5,8 +5,10 @@ import { Karten, rundeFuer } from './ansichten/Karten.tsx';
 import { Mehr } from './ansichten/Mehr.tsx';
 import { Tippen } from './ansichten/Tippen.tsx';
 import { Kontext, type AppKontext } from './app/kontext.ts';
+import { wendeDarstellungAn } from './app/darstellung.ts';
 import { beobachteSichtbereich } from './app/sichtbereich.ts';
 import { IconHoeren, IconKarten, IconMehr, IconQuiz, IconTippen } from './bausteine/Icons.tsx';
+import { Tutorial } from './bausteine/Tutorial.tsx';
 import type { Stand } from './speicher/schema.ts';
 import {
   dauerhaftAnfragen,
@@ -14,6 +16,7 @@ import {
   indexedDbAblage,
   laden,
   speicherAblage,
+  type Ablage,
   type LadeHinweis,
 } from './speicher/speicher.ts';
 
@@ -38,12 +41,15 @@ export function App() {
   const [tab, setTab] = useState<Tab>('karten');
   const [tippt, setTippt] = useState(false);
   const [hinweis, setHinweis] = useState<{ text: string; nr: number } | null>(null);
+  const [tutorialOffen, setTutorialOffen] = useState(false);
   const speicherer = useRef<ReturnType<typeof erstelleSpeicherer> | null>(null);
+  const ablageRef = useRef<Ablage | null>(null);
   const standRef = useRef<Stand | null>(null);
 
   useEffect(() => {
     // Ohne IndexedDB (z. B. manche privaten Modi) läuft die App mit flüchtigem Speicher weiter
     const ablage = typeof indexedDB === 'undefined' ? speicherAblage() : indexedDbAblage();
+    ablageRef.current = ablage;
     void laden(ablage).then((ergebnis) => {
       speicherer.current = erstelleSpeicherer(
         ablage,
@@ -52,6 +58,7 @@ export function App() {
       standRef.current = ergebnis.stand;
       setStand(ergebnis.stand);
       setLadeHinweis(ergebnis.hinweis);
+      setTutorialOffen(!ergebnis.stand.tutorialGesehen);
     });
     void dauerhaftAnfragen();
     return beobachteSichtbereich();
@@ -62,6 +69,12 @@ export function App() {
     const t = setTimeout(() => setHinweis(null), 3500);
     return () => clearTimeout(t);
   }, [hinweis]);
+
+  // Schriftgröße, Farbmodus und Kontrast auf das Wurzelelement übertragen
+  const e = stand?.einstellungen;
+  useEffect(() => {
+    if (e) wendeDarstellungAn(e);
+  }, [e?.schrift, e?.farbmodus, e?.kontrast]);
 
   if (!stand) return <div class="app app--laedt" aria-busy="true" />;
 
@@ -77,6 +90,13 @@ export function App() {
     },
     zeigeHinweis: (text) => setHinweis({ text, nr: Date.now() }),
     setTippt,
+    starteTutorial: () => setTutorialOffen(true),
+    ablage: ablageRef.current ?? speicherAblage(),
+  };
+
+  const tutorialBeenden = () => {
+    setTutorialOffen(false);
+    if (!stand.tutorialGesehen) kontext.aendere((s) => ({ ...s, tutorialGesehen: true }));
   };
 
   const offen = rundeFuer(stand).length;
@@ -107,6 +127,7 @@ export function App() {
         <div class="toast" role="status" aria-live="polite">
           {hinweis && <p key={hinweis.nr}>{hinweis.text}</p>}
         </div>
+        {tutorialOffen && <Tutorial onEnde={tutorialBeenden} />}
         {!tippt && (
           <nav class="tabs" aria-label="Bereiche">
             {TABS.map(({ id, label, icon: Icon }) => (

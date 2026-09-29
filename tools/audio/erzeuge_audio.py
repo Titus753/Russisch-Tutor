@@ -66,6 +66,7 @@ def lade_aufgaben() -> list[Aufgabe]:
     if alphabet.exists():
         for e in json.loads(alphabet.read_text("utf-8")):
             aufgaben.append(Aufgabe(e["id"], e["sprechtext"]))
+            aufgaben.append(Aufgabe(e["beispiel"]["id"], sprechtext(e["beispiel"])))
     for a in aufgaben:
         if not ID_MUSTER.match(a.id):
             raise ValueError(f"Unzulässige ID: {a.id!r}")

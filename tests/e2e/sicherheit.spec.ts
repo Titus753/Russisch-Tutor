@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './basis.ts';
 
 test('lädt ohne Fremd-Requests, CSP-Verstöße oder Konsolenfehler', async ({ page }) => {
   const fremdeAnfragen: string[] = [];

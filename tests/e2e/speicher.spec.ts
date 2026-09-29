@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test';
+import type { Page } from '@playwright/test';
+import { expect, test } from './basis.ts';
 
 /** Schreibt einen Wert direkt in die IndexedDB der App (wie ein Angreifer oder kaputter Speicher). */
 async function schreibe(page: Page, schluessel: string, wert: unknown) {
@@ -77,6 +78,7 @@ test('kaputter Speicher: App startet trotzdem und stellt den vorherigen Stand he
     version: 1,
     karten: { 'beg-001:de-ru': karte },
     einstellungen: { neueProTag: 10 },
+    tutorialGesehen: true,
   });
   await page.reload();
   await expect(
@@ -93,6 +95,8 @@ test('völlig unbrauchbarer Speicher: Zurücksetzen mit Hinweis statt Absturz', 
   await expect(page.getByTestId('marke-offen')).toBeVisible();
   await schreibe(page, 'stand', { version: 1, karten: 'kaputt' });
   await page.reload();
+  // Zurückgesetzter Stand = wie ein Neustart: die Einführung erscheint und wird übersprungen
+  await page.getByRole('button', { name: 'Überspringen' }).click();
   await expect(page.getByRole('status').filter({ hasText: 'zurückgesetzt' })).toBeVisible();
   await expect(page.getByTestId('marke-offen')).toHaveText('20 heute offen');
   expect(fehler).toEqual([]);

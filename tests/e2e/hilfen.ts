@@ -33,8 +33,17 @@ export function heuteImBrowser(page: Page): Promise<string> {
   });
 }
 
-/** Schreibt einen Lernstand direkt in die IndexedDB der App. */
-export async function setzeStand(page: Page, stand: unknown) {
+/** Schreibt einen Lernstand direkt in die IndexedDB der App (Standard: Einführung gesehen). */
+export async function setzeStand(page: Page, teil: Record<string, unknown>) {
+  const stand = {
+    version: 1,
+    karten: {},
+    einstellungen: {},
+    lerntage: [],
+    neuHeute: null,
+    tutorialGesehen: true,
+    ...teil,
+  };
   await page.evaluate(
     (w) =>
       new Promise<void>((fertig, fehler) => {
@@ -109,5 +118,23 @@ export function gespeicherteKarten(page: Page): Promise<number> {
           };
         };
       }),
+  );
+}
+
+/** Liest ein Feld des gespeicherten Lernstands direkt aus der IndexedDB. */
+export function gespeichertesFeld(page: Page, feld: string): Promise<unknown> {
+  return page.evaluate(
+    (f) =>
+      new Promise((fertig) => {
+        const anfrage = indexedDB.open('slovo-za-slovo');
+        anfrage.onsuccess = () => {
+          const get = anfrage.result.transaction('daten').objectStore('daten').get('stand');
+          get.onsuccess = () => {
+            anfrage.result.close();
+            fertig((get.result as Record<string, unknown> | undefined)?.[f]);
+          };
+        };
+      }),
+    feld,
   );
 }

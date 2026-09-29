@@ -1,6 +1,7 @@
 import { createContext } from 'preact';
 import { useContext } from 'preact/hooks';
 import type { Stand } from '../speicher/schema.ts';
+import type { Ablage } from '../speicher/speicher.ts';
 
 export interface AppKontext {
   stand: Stand;
@@ -9,6 +10,9 @@ export interface AppKontext {
   zeigeHinweis: (text: string) => void;
   /** Blendet die Tab-Leiste aus, solange getippt wird. */
   setTippt: (tippt: boolean) => void;
+  starteTutorial: () => void;
+  /** Für interne Sicherungen (vor Import/Löschen). */
+  ablage: Ablage;
 }
 
 export const Kontext = createContext<AppKontext | null>(null);

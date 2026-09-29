@@ -4,6 +4,270 @@
   "modell_sha256": "f073356ebc4bd0f80c5af58df2953a5988bd5bdab1eb38635ce960b071fbefcb",
   "verfahren": 1,
   "dateien": {
+    "alb-001": {
+      "hash": "d4ecfc9361f8a730",
+      "text": "ма́ма"
+    },
+    "alb-002": {
+      "hash": "c43768d15aa0429b",
+      "text": "ба́бушка"
+    },
+    "alb-003": {
+      "hash": "b9cb0fad7dab490c",
+      "text": "вода́"
+    },
+    "alb-004": {
+      "hash": "69616e475a5bfc41",
+      "text": "гора́"
+    },
+    "alb-005": {
+      "hash": "19e2408c162f2872",
+      "text": "дом"
+    },
+    "alb-006": {
+      "hash": "86912eba62f9e9c4",
+      "text": "еда́"
+    },
+    "alb-007": {
+      "hash": "04c0f74c29c3a2d5",
+      "text": "ёлка"
+    },
+    "alb-008": {
+      "hash": "2efaf71f8543ec8b",
+      "text": "жена́"
+    },
+    "alb-009": {
+      "hash": "db58136a18003a6a",
+      "text": "зима́"
+    },
+    "alb-010": {
+      "hash": "4c35e32b9419b7ae",
+      "text": "игра́"
+    },
+    "alb-011": {
+      "hash": "cb907c2ef933abd5",
+      "text": "май"
+    },
+    "alb-012": {
+      "hash": "8c0e59a568a4790d",
+      "text": "кот"
+    },
+    "alb-013": {
+      "hash": "a93853dc53641f29",
+      "text": "ла́мпа"
+    },
+    "alb-014": {
+      "hash": "2bd91ede6bf44f65",
+      "text": "мо́ре"
+    },
+    "alb-015": {
+      "hash": "45a51a8636277759",
+      "text": "нос"
+    },
+    "alb-016": {
+      "hash": "ad8ab2edec43ad4a",
+      "text": "окно́"
+    },
+    "alb-017": {
+      "hash": "5a5ec18247b6dcdf",
+      "text": "па́па"
+    },
+    "alb-018": {
+      "hash": "38d13b091627d6a2",
+      "text": "ры́ба"
+    },
+    "alb-019": {
+      "hash": "f50d977d3cb9418f",
+      "text": "сок"
+    },
+    "alb-020": {
+      "hash": "0d18d2e4c9866c53",
+      "text": "торт"
+    },
+    "alb-021": {
+      "hash": "248582cf460143ab",
+      "text": "у́тро"
+    },
+    "alb-022": {
+      "hash": "216c6bfab1dd73a2",
+      "text": "фильм"
+    },
+    "alb-023": {
+      "hash": "80cfbdfebb3dd6e1",
+      "text": "хлеб"
+    },
+    "alb-024": {
+      "hash": "f6e45e601ca93baf",
+      "text": "цвето́к"
+    },
+    "alb-025": {
+      "hash": "90da7d317fa265b0",
+      "text": "чай"
+    },
+    "alb-026": {
+      "hash": "b0ac82c3f3a126a3",
+      "text": "шко́ла"
+    },
+    "alb-027": {
+      "hash": "dddb0028698eb8c7",
+      "text": "щи"
+    },
+    "alb-028": {
+      "hash": "7bb2d30b3cad4129",
+      "text": "подъе́зд"
+    },
+    "alb-029": {
+      "hash": "4a6255b2e79e80f3",
+      "text": "сыр"
+    },
+    "alb-030": {
+      "hash": "09621817fa13291f",
+      "text": "соль"
+    },
+    "alb-031": {
+      "hash": "92f588ae3b4e6e23",
+      "text": "э́то"
+    },
+    "alb-032": {
+      "hash": "1baf7fdb0645e892",
+      "text": "юг"
+    },
+    "alb-033": {
+      "hash": "1b29d8d40010e981",
+      "text": "я́блоко"
+    },
+    "alf-001": {
+      "hash": "361f77c159976cc4",
+      "text": "а"
+    },
+    "alf-002": {
+      "hash": "65528ec37917de20",
+      "text": "бэ"
+    },
+    "alf-003": {
+      "hash": "84a69e072ed211ac",
+      "text": "вэ"
+    },
+    "alf-004": {
+      "hash": "c9801b874c370635",
+      "text": "гэ"
+    },
+    "alf-005": {
+      "hash": "a84954603ef0b558",
+      "text": "дэ"
+    },
+    "alf-006": {
+      "hash": "ed9a44304a2ef739",
+      "text": "е"
+    },
+    "alf-007": {
+      "hash": "137f6de8dbf28ec2",
+      "text": "ё"
+    },
+    "alf-008": {
+      "hash": "ebdd154c371cf75a",
+      "text": "жэ"
+    },
+    "alf-009": {
+      "hash": "32ccc9a69cd6d660",
+      "text": "зэ"
+    },
+    "alf-010": {
+      "hash": "4b127faf8f8b9182",
+      "text": "и"
+    },
+    "alf-011": {
+      "hash": "0fb863fa514d249b",
+      "text": "и краткое"
+    },
+    "alf-012": {
+      "hash": "970ed32e20371477",
+      "text": "ка"
+    },
+    "alf-013": {
+      "hash": "8e1fa934b6d6a127",
+      "text": "эль"
+    },
+    "alf-014": {
+      "hash": "5302b1a0a9e38233",
+      "text": "эм"
+    },
+    "alf-015": {
+      "hash": "443a7a99f49e3905",
+      "text": "эн"
+    },
+    "alf-016": {
+      "hash": "d99360335191501f",
+      "text": "о"
+    },
+    "alf-017": {
+      "hash": "a17c432204805f03",
+      "text": "пэ"
+    },
+    "alf-018": {
+      "hash": "13d2a7ba0d5c6832",
+      "text": "эр"
+    },
+    "alf-019": {
+      "hash": "a97fed9fd548f5b6",
+      "text": "эс"
+    },
+    "alf-020": {
+      "hash": "dbaf1bf1912845cb",
+      "text": "тэ"
+    },
+    "alf-021": {
+      "hash": "aa27abb65a4cbb6a",
+      "text": "у"
+    },
+    "alf-022": {
+      "hash": "49a7fa5c0b517ca9",
+      "text": "эф"
+    },
+    "alf-023": {
+      "hash": "d1f42e83b4745d34",
+      "text": "ха"
+    },
+    "alf-024": {
+      "hash": "29ce9019cb8d8f0b",
+      "text": "цэ"
+    },
+    "alf-025": {
+      "hash": "89b55798a3392d11",
+      "text": "чэ"
+    },
+    "alf-026": {
+      "hash": "122a9a7cd93215df",
+      "text": "ша"
+    },
+    "alf-027": {
+      "hash": "ffcbdef988542a35",
+      "text": "ща"
+    },
+    "alf-028": {
+      "hash": "72ff6d0a560dc682",
+      "text": "твёрдый знак"
+    },
+    "alf-029": {
+      "hash": "5de78d8ad5b26a1f",
+      "text": "ы"
+    },
+    "alf-030": {
+      "hash": "ca5f81c94f0c1a65",
+      "text": "мягкий знак"
+    },
+    "alf-031": {
+      "hash": "eade0e40e0aaddc6",
+      "text": "э"
+    },
+    "alf-032": {
+      "hash": "8e21184420436bc2",
+      "text": "ю"
+    },
+    "alf-033": {
+      "hash": "103ea279c3d3e19a",
+      "text": "я"
+    },
     "arb-001": {
       "hash": "5386e09361f8fb52",
       "text": "рабо́та"

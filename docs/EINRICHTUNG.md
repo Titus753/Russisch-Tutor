@@ -28,10 +28,20 @@ Pushen keine zusätzliche `workflow`-Berechtigung.
 3. Build-Einstellungen werden aus `netlify.toml` gelesen. Kontrolle:
    - Build command: `npm run ci` (Lint, Typecheck, Tests, Audit, Build)
    - Publish directory: `dist`
-4. **Deploy** klicken.
-5. **Project configuration → Build & deploy → Deploy Previews**: „Any pull request against
+4. **Vor dem ersten Deploy:** Unter **Project configuration → Environment variables** die
+   Angaben für die Datenschutzerklärung eintragen (Scope: „Builds“, alle Deploy-Kontexte):
+   - `VERANTWORTLICHER_NAME` – dein Vor- und Nachname
+   - `VERANTWORTLICHER_KONTAKT` – eine E-Mail-Adresse, unter der du erreichbar bist
+   - `VERANTWORTLICHER_ANSCHRIFT` – optional, Postanschrift
+
+   Diese Angaben stehen bewusst nicht im öffentlichen Repository. Fehlen sie oder sind sie
+   ungültig, bricht jeder Netlify-Build mit einer Meldung ab – so geht nie eine unvollständige
+   Datenschutzerklärung online.
+
+5. **Deploy** klicken.
+6. **Project configuration → Build & deploy → Deploy Previews**: „Any pull request against
    your production branch" aktivieren.
-6. Optional **Domain management**: eigene Domain eintragen; HTTPS ist automatisch aktiv.
+7. Optional **Domain management**: eigene Domain eintragen; HTTPS ist automatisch aktiv.
 
 ### Nach dem ersten Deploy prüfen
 
