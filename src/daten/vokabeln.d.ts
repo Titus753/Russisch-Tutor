@@ -15,3 +15,9 @@ declare const __VERANTWORTLICHER__: {
   kontakt: string;
   anschrift: string | null;
 } | null;
+
+declare module 'virtual:lob' {
+  import type { Lob } from './lob-schema.ts';
+  const lob: readonly Lob[];
+  export default lob;
+}

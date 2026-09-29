@@ -30,11 +30,16 @@ AUSGABE = WURZEL / "public" / "audio"
 MANIFEST = WURZEL / "data" / "audio-manifest.json"
 
 # Bei Änderungen an Klang oder Verfahren erhöhen – dann wird alles neu erzeugt.
-VERFAHREN = 1
+VERFAHREN = 2
 BITRATE_KBPS = 40
+# Lerntempo: etwas langsamer (length_scale > 1) und gleichmäßiger/deutlicher artikuliert
+# (weniger Rauschen in Klang und Lautdauer als Pipers Standard 0,667 / 0,8)
+TEMPO = 1.4  # wirkt schwächer als nominell: 1,4 ≈ 25 % langsamer (gemessen)
+KLANG_RAUSCHEN = 0.55
+DAUER_RAUSCHEN = 0.6
 STILLE_VORNE_S = 0.12
 STILLE_HINTEN_S = 0.2
-STILLE_ZWISCHEN_S = 0.35
+STILLE_ZWISCHEN_S = 0.45
 
 # Strenge Allowlists: IDs werden zu Dateinamen, also nie Pfadzeichen zulassen.
 ID_MUSTER = re.compile(r"^[a-z]{3}-\d{3,4}$")
@@ -67,6 +72,10 @@ def lade_aufgaben() -> list[Aufgabe]:
         for e in json.loads(alphabet.read_text("utf-8")):
             aufgaben.append(Aufgabe(e["id"], e["sprechtext"]))
             aufgaben.append(Aufgabe(e["beispiel"]["id"], sprechtext(e["beispiel"])))
+    lob = WURZEL / "data" / "lob.json"
+    if lob.exists():
+        for e in json.loads(lob.read_text("utf-8")):
+            aufgaben.append(Aufgabe(e["id"], sprechtext(e)))
     for a in aufgaben:
         if not ID_MUSTER.match(a.id):
             raise ValueError(f"Unzulässige ID: {a.id!r}")
@@ -91,7 +100,13 @@ def lade_stimme(stimme: str) -> tuple[PiperVoice, str]:
 
 def synthese(voice: PiperVoice, text: str) -> bytes:
     """Text → MP3 (mono). Sätze werden mit kurzer Pause aneinandergehängt."""
-    stuecke = list(voice.synthesize(text, SynthesisConfig(normalize_audio=True)))
+    konfig = SynthesisConfig(
+        length_scale=TEMPO,
+        noise_scale=KLANG_RAUSCHEN,
+        noise_w_scale=DAUER_RAUSCHEN,
+        normalize_audio=True,
+    )
+    stuecke = list(voice.synthesize(text, konfig))
     if not stuecke:
         raise RuntimeError(f"Keine Audiodaten für {text!r}")
     rate = stuecke[0].sample_rate
@@ -123,7 +138,7 @@ def schreibe_atomar(ziel: Path, daten: bytes) -> None:
 def aufgaben_hash(stimme: str, modell_sha: str, text: str) -> str:
     schluessel = json.dumps(
         {"verfahren": VERFAHREN, "stimme": stimme, "modell": modell_sha, "text": text,
-         "kbps": BITRATE_KBPS},
+         "kbps": BITRATE_KBPS, "tempo": TEMPO, "rauschen": [KLANG_RAUSCHEN, DAUER_RAUSCHEN]},
         ensure_ascii=False, sort_keys=True,
     )
     return hashlib.sha256(schluessel.encode("utf-8")).hexdigest()[:16]
@@ -184,10 +199,10 @@ def proben() -> int:
         if not (MODELLE / stimme).exists():
             continue
         voice, _ = lade_stimme(stimme)
-        schreibe_atomar(PROBEN / f"probe-{stimme}.mp3", synthese(voice, PROBETEXT))
+        schreibe_atomar(PROBEN / f"probe-{stimme}-neu.mp3", synthese(voice, PROBETEXT))
         # Betonungstest: gleiche Schreibung, unterschiedliche Betonung
         print(stimme, "Phoneme за́мок:", voice.phonemize("за́мок"), "замо́к:", voice.phonemize("замо́к"))
-        print(f"Probe: {PROBEN / f'probe-{stimme}.mp3'}")
+        print(f"Probe: {PROBEN / f'probe-{stimme}-neu.mp3'}")
     return 0
 
 

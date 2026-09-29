@@ -508,8 +508,22 @@ label {
 
 .leer__ru {
   font-family: var(--schrift-serif);
-  font-size: 3rem;
+  font-size: clamp(2.25rem, 1.5rem + 4vw, 3rem);
+  line-height: 1.15;
   color: var(--kobalt);
+}
+
+.lob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  animation: einblenden 0.4s ease-out;
+}
+
+.lob__de {
+  font-size: 1.25rem;
+  color: var(--gedaempft);
 }
 
 /* ---------- Tippen ---------- */

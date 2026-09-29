@@ -7,7 +7,7 @@
 export type Abspielergebnis = 'ok' | 'keine-stimme';
 
 /** Tempo für „Langsam" (Tonhöhe bleibt erhalten). */
-export const LANGSAM = 0.7;
+export const LANGSAM = 0.75;
 
 export interface Sprechbar {
   russisch: string;

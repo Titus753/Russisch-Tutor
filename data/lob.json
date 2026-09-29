@@ -1,0 +1,123 @@
+[
+  {
+    "id": "lob-001",
+    "russisch": "Молодец!",
+    "betonung": "Молоде́ц!",
+    "deutsch": "Gut gemacht!"
+  },
+  {
+    "id": "lob-002",
+    "russisch": "Так держать!",
+    "betonung": "Так держа́ть!",
+    "deutsch": "Weiter so!"
+  },
+  {
+    "id": "lob-003",
+    "russisch": "Ты молодец!",
+    "betonung": "Ты молоде́ц!",
+    "deutsch": "Du bist toll!"
+  },
+  {
+    "id": "lob-004",
+    "russisch": "Прекрасно!",
+    "betonung": "Прекра́сно!",
+    "deutsch": "Hervorragend!"
+  },
+  {
+    "id": "lob-005",
+    "russisch": "Великолепно!",
+    "betonung": "Великоле́пно!",
+    "deutsch": "Großartig!"
+  },
+  {
+    "id": "lob-006",
+    "russisch": "Замечательно!",
+    "betonung": "Замеча́тельно!",
+    "deutsch": "Wunderbar!"
+  },
+  {
+    "id": "lob-007",
+    "russisch": "Отличная работа!",
+    "betonung": "Отли́чная рабо́та!",
+    "deutsch": "Ausgezeichnete Arbeit!"
+  },
+  {
+    "id": "lob-008",
+    "russisch": "Здорово!",
+    "betonung": "Здо́рово!",
+    "deutsch": "Toll!"
+  },
+  {
+    "id": "lob-009",
+    "russisch": "Браво!",
+    "betonung": "Бра́во!",
+    "deutsch": "Bravo!"
+  },
+  {
+    "id": "lob-010",
+    "russisch": "Умница!",
+    "betonung": "Умни́ца!",
+    "deutsch": "Du Schlaukopf!",
+    "hinweis": "liebevolles Lob"
+  },
+  {
+    "id": "lob-011",
+    "russisch": "Я горжусь тобой!",
+    "betonung": "Я горжу́сь тобо́й!",
+    "deutsch": "Ich bin stolz auf dich!"
+  },
+  {
+    "id": "lob-012",
+    "russisch": "Ты на правильном пути!",
+    "betonung": "Ты на пра́вильном пути́!",
+    "deutsch": "Du bist auf dem richtigen Weg!"
+  },
+  {
+    "id": "lob-013",
+    "russisch": "С каждым днём всё лучше!",
+    "betonung": "С ка́ждым днём всё лу́чше!",
+    "deutsch": "Jeden Tag ein bisschen besser!"
+  },
+  {
+    "id": "lob-014",
+    "russisch": "Так и надо!",
+    "betonung": "Так и на́до!",
+    "deutsch": "Genau so!"
+  },
+  {
+    "id": "lob-015",
+    "russisch": "Ты делаешь успехи!",
+    "betonung": "Ты де́лаешь успе́хи!",
+    "deutsch": "Du machst Fortschritte!"
+  },
+  {
+    "id": "lob-016",
+    "russisch": "Всё получилось!",
+    "betonung": "Всё получи́лось!",
+    "deutsch": "Alles hat geklappt!"
+  },
+  {
+    "id": "lob-017",
+    "russisch": "Ты знаешь всё больше!",
+    "betonung": "Ты зна́ешь всё бо́льше!",
+    "deutsch": "Du weißt immer mehr!"
+  },
+  {
+    "id": "lob-018",
+    "russisch": "Потрясающе!",
+    "betonung": "Потряса́юще!",
+    "deutsch": "Umwerfend!"
+  },
+  {
+    "id": "lob-019",
+    "russisch": "Супер!",
+    "betonung": "Су́пер!",
+    "deutsch": "Super!"
+  },
+  {
+    "id": "lob-020",
+    "russisch": "Отличный результат!",
+    "betonung": "Отли́чный результа́т!",
+    "deutsch": "Ein ausgezeichnetes Ergebnis!"
+  }
+]

@@ -47,7 +47,7 @@ test.describe('Karteikarten', () => {
     await expect(page.getByText('Noch 19 Karten in dieser Runde')).toBeVisible();
   });
 
-  test('leerer Zustand „Молодец!" und 10 neue Karten dazunehmen', async ({ page }) => {
+  test('leerer Zustand mit Lob und 10 neue Karten dazunehmen', async ({ page }) => {
     await page.goto('/');
     const tag = await heuteImBrowser(page);
     await setzeStand(page, {
@@ -62,8 +62,8 @@ test.describe('Karteikarten', () => {
       },
     });
     await page.reload();
-    await expect(page.getByText('Молодец!')).toBeVisible();
-    await expect(page.getByText('Gut gemacht. Für heute ist alles wiederholt.')).toBeVisible();
+    await expect(page.getByTestId('lob')).toBeVisible();
+    await expect(page.getByText('Für heute ist alles wiederholt.', { exact: false })).toBeVisible();
     await expect(page.getByTestId('marke-offen')).toHaveText('Heute erledigt');
     await page.getByRole('button', { name: '10 neue Karten dazunehmen' }).click();
     await expect(page.getByText('Noch 10 Karten in dieser Runde')).toBeVisible();

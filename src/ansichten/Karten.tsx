@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'preact/hooks';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import lobPool from 'virtual:lob';
 import vokabeln from 'virtual:vokabeln';
 import { russischAnzeige } from '../app/anzeige.ts';
 import { useApp } from '../app/kontext.ts';
@@ -25,6 +26,16 @@ export function rundeFuer(stand: Stand): Karte[] {
     neueHeute: neueHeute(stand, tag),
     zufall: Math.random,
   });
+}
+
+/** Zuletzt gezeigtes Lob, damit nicht zweimal hintereinander derselbe Spruch kommt. */
+let letztesLob: string | undefined;
+
+function waehleLob() {
+  const auswahl = lobPool.filter((l) => l.id !== letztesLob);
+  const lob = auswahl[Math.floor(Math.random() * auswahl.length)] ?? lobPool[0];
+  letztesLob = lob?.id;
+  return lob;
 }
 
 const BEWERTUNGEN: { wert: Bewertung; label: string }[] = [
@@ -92,28 +103,16 @@ export function Karten() {
 
   if (!karte) {
     return (
-      <section class="ansicht leer" aria-labelledby="titel-karten">
-        <h2 id="titel-karten" class="nur-sr">
-          Karten
-        </h2>
-        <p class="leer__ru" lang="ru">
-          Молодец!
-        </p>
-        <p>Gut gemacht. Für heute ist alles wiederholt.</p>
-        <button
-          type="button"
-          class="knopf knopf--haupt"
-          onClick={() => {
-            const neu = neueDazunehmen(stand, heute());
-            aendere(() => neu);
-            const neueRunde = rundeFuer(neu);
-            zustand.current = { runde: neueRunde, aufgedeckt: false };
-            setRunde(neueRunde);
-          }}
-        >
-          10 neue Karten dazunehmen
-        </button>
-      </section>
+      <Geschafft
+        vorlesen={stand.einstellungen.vorlesen}
+        onDazunehmen={() => {
+          const neu = neueDazunehmen(stand, heute());
+          aendere(() => neu);
+          const neueRunde = rundeFuer(neu);
+          zustand.current = { runde: neueRunde, aufgedeckt: false };
+          setRunde(neueRunde);
+        }}
+      />
     );
   }
 
@@ -178,6 +177,35 @@ export function Karten() {
           </button>
         )}
       </div>
+    </section>
+  );
+}
+
+/** Runde geschafft: zufälliges russisches Lob mit Übersetzung; der Fortschritt ist gespeichert. */
+function Geschafft({ vorlesen, onDazunehmen }: { vorlesen: boolean; onDazunehmen: () => void }) {
+  // Pro Anzeige einmal ziehen (neue Runde geschafft → neues Lob)
+  const lob = useMemo(waehleLob, []);
+  useEffect(() => {
+    if (lob) vorlesenWennAktiv(vorlesen, lob);
+  }, []);
+  return (
+    <section class="ansicht leer" aria-labelledby="titel-karten">
+      <h2 id="titel-karten" class="nur-sr">
+        Karten – Runde geschafft
+      </h2>
+      {lob && (
+        <div class="lob" data-testid="lob">
+          <p class="leer__ru" lang="ru">
+            {lob.betonung ?? lob.russisch}
+          </p>
+          <p class="lob__de">{lob.deutsch}</p>
+          <Anhoeren ziel={lob} />
+        </div>
+      )}
+      <p>Für heute ist alles wiederholt. Dein Fortschritt ist gespeichert.</p>
+      <button type="button" class="knopf knopf--haupt" onClick={onDazunehmen}>
+        10 neue Karten dazunehmen
+      </button>
     </section>
   );
 }

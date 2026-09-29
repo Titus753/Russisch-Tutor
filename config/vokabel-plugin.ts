@@ -2,11 +2,13 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Plugin } from 'vite';
 import { AlphabetSchema } from '../src/daten/alphabet-schema.ts';
+import { LobListeSchema } from '../src/daten/lob-schema.ts';
 import { pruefeVokabular } from '../src/daten/pruefen.ts';
 
 const ORDNER = 'data/vokabeln';
 const MODUL = 'virtual:vokabeln';
 const ALPHABET = 'virtual:alphabet';
+const LOB = 'virtual:lob';
 const hatAudio = (id: string) => existsSync(join('public/audio', `${id}.mp3`));
 
 /** Liest alle Vokabeldateien als Rohdaten (Dateiname → JSON). */
@@ -32,8 +34,23 @@ export function leseVokabelDateien(ordner = ORDNER): Record<string, unknown> {
 export function vokabelPlugin(): Plugin {
   return {
     name: 'vokabeln',
-    resolveId: (id) => (id === MODUL || id === ALPHABET ? `\0${id}` : null),
+    resolveId: (id) => ([MODUL, ALPHABET, LOB].includes(id) ? `\0${id}` : null),
     load(id) {
+      if (id === `\0${LOB}`) {
+        this.addWatchFile('data/lob.json');
+        const ergebnis = LobListeSchema.safeParse(
+          JSON.parse(readFileSync('data/lob.json', 'utf8')),
+        );
+        if (!ergebnis.success) {
+          this.error(
+            `data/lob.json ungültig: ${ergebnis.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`).join('; ')}`,
+          );
+        }
+        const mitAudio = ergebnis.data.map((l) =>
+          hatAudio(l.id) ? { ...l, audio: `${l.id}.mp3` } : l,
+        );
+        return `export default ${JSON.stringify(mitAudio)};`;
+      }
       if (id === `\0${ALPHABET}`) {
         this.addWatchFile('data/alphabet.json');
         const ergebnis = AlphabetSchema.safeParse(

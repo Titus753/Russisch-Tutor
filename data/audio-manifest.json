@@ -2,4354 +2,4434 @@
   "hinweis": "Automatisch erzeugt von tools/audio/erzeuge_audio.py – nicht von Hand ändern.",
   "stimme": "dmitri",
   "modell_sha256": "f073356ebc4bd0f80c5af58df2953a5988bd5bdab1eb38635ce960b071fbefcb",
-  "verfahren": 1,
+  "verfahren": 2,
   "dateien": {
     "alb-001": {
-      "hash": "d4ecfc9361f8a730",
+      "hash": "61880ec643322dec",
       "text": "ма́ма"
     },
     "alb-002": {
-      "hash": "c43768d15aa0429b",
+      "hash": "ef0a9efc61ea1e82",
       "text": "ба́бушка"
     },
     "alb-003": {
-      "hash": "b9cb0fad7dab490c",
+      "hash": "9c35ff6f547e0d8e",
       "text": "вода́"
     },
     "alb-004": {
-      "hash": "69616e475a5bfc41",
+      "hash": "e332b10c182c6ceb",
       "text": "гора́"
     },
     "alb-005": {
-      "hash": "19e2408c162f2872",
+      "hash": "d0962cdb2f5be139",
       "text": "дом"
     },
     "alb-006": {
-      "hash": "86912eba62f9e9c4",
+      "hash": "3aad9caeaf5c5583",
       "text": "еда́"
     },
     "alb-007": {
-      "hash": "04c0f74c29c3a2d5",
+      "hash": "3309e973b6f5d86b",
       "text": "ёлка"
     },
     "alb-008": {
-      "hash": "2efaf71f8543ec8b",
+      "hash": "110646c9b016f578",
       "text": "жена́"
     },
     "alb-009": {
-      "hash": "db58136a18003a6a",
+      "hash": "a4d52d5b1ef0321f",
       "text": "зима́"
     },
     "alb-010": {
-      "hash": "4c35e32b9419b7ae",
+      "hash": "83751182610bf62f",
       "text": "игра́"
     },
     "alb-011": {
-      "hash": "cb907c2ef933abd5",
+      "hash": "0ccfd9de21aa5195",
       "text": "май"
     },
     "alb-012": {
-      "hash": "8c0e59a568a4790d",
+      "hash": "82c787350a11ac75",
       "text": "кот"
     },
     "alb-013": {
-      "hash": "a93853dc53641f29",
+      "hash": "42b29bc49df0083b",
       "text": "ла́мпа"
     },
     "alb-014": {
-      "hash": "2bd91ede6bf44f65",
+      "hash": "e0f960e59c65dacf",
       "text": "мо́ре"
     },
     "alb-015": {
-      "hash": "45a51a8636277759",
+      "hash": "4d8ae8145c4c2bb7",
       "text": "нос"
     },
     "alb-016": {
-      "hash": "ad8ab2edec43ad4a",
+      "hash": "344f4d1272798a0a",
       "text": "окно́"
     },
     "alb-017": {
-      "hash": "5a5ec18247b6dcdf",
+      "hash": "f41ac7a3f7c48104",
       "text": "па́па"
     },
     "alb-018": {
-      "hash": "38d13b091627d6a2",
+      "hash": "cf469afc0f50570d",
       "text": "ры́ба"
     },
     "alb-019": {
-      "hash": "f50d977d3cb9418f",
+      "hash": "3c7ffb18f1871b29",
       "text": "сок"
     },
     "alb-020": {
-      "hash": "0d18d2e4c9866c53",
+      "hash": "9f99c11b777a1fd3",
       "text": "торт"
     },
     "alb-021": {
-      "hash": "248582cf460143ab",
+      "hash": "0d0abe75d7718e90",
       "text": "у́тро"
     },
     "alb-022": {
-      "hash": "216c6bfab1dd73a2",
+      "hash": "2c1c825b7c01d12c",
       "text": "фильм"
     },
     "alb-023": {
-      "hash": "80cfbdfebb3dd6e1",
+      "hash": "f6bd480ce1fe9d9a",
       "text": "хлеб"
     },
     "alb-024": {
-      "hash": "f6e45e601ca93baf",
+      "hash": "673f7da55ef9db5d",
       "text": "цвето́к"
     },
     "alb-025": {
-      "hash": "90da7d317fa265b0",
+      "hash": "ef70e318274f5ddb",
       "text": "чай"
     },
     "alb-026": {
-      "hash": "b0ac82c3f3a126a3",
+      "hash": "da40aeb96031dc4d",
       "text": "шко́ла"
     },
     "alb-027": {
-      "hash": "dddb0028698eb8c7",
+      "hash": "68aaa148dc5671c7",
       "text": "щи"
     },
     "alb-028": {
-      "hash": "7bb2d30b3cad4129",
+      "hash": "cfff09b0d9576e71",
       "text": "подъе́зд"
     },
     "alb-029": {
-      "hash": "4a6255b2e79e80f3",
+      "hash": "f49d097e34d4983b",
       "text": "сыр"
     },
     "alb-030": {
-      "hash": "09621817fa13291f",
+      "hash": "765b8412aa989b7d",
       "text": "соль"
     },
     "alb-031": {
-      "hash": "92f588ae3b4e6e23",
+      "hash": "9671cf5f7aaa6ed3",
       "text": "э́то"
     },
     "alb-032": {
-      "hash": "1baf7fdb0645e892",
+      "hash": "64662930e51facd0",
       "text": "юг"
     },
     "alb-033": {
-      "hash": "1b29d8d40010e981",
+      "hash": "95019f9fab780d18",
       "text": "я́блоко"
     },
     "alf-001": {
-      "hash": "361f77c159976cc4",
+      "hash": "29da26df0d6c7777",
       "text": "а"
     },
     "alf-002": {
-      "hash": "65528ec37917de20",
+      "hash": "bc3303a7cb1466d1",
       "text": "бэ"
     },
     "alf-003": {
-      "hash": "84a69e072ed211ac",
+      "hash": "a66ef16f03064c7c",
       "text": "вэ"
     },
     "alf-004": {
-      "hash": "c9801b874c370635",
+      "hash": "7ab578957b984b77",
       "text": "гэ"
     },
     "alf-005": {
-      "hash": "a84954603ef0b558",
+      "hash": "e4ee827ea766a029",
       "text": "дэ"
     },
     "alf-006": {
-      "hash": "ed9a44304a2ef739",
+      "hash": "8c691bc0165fd090",
       "text": "е"
     },
     "alf-007": {
-      "hash": "137f6de8dbf28ec2",
+      "hash": "6a971272543128d6",
       "text": "ё"
     },
     "alf-008": {
-      "hash": "ebdd154c371cf75a",
+      "hash": "b3c3f89d2c185659",
       "text": "жэ"
     },
     "alf-009": {
-      "hash": "32ccc9a69cd6d660",
+      "hash": "d68347c01efa1843",
       "text": "зэ"
     },
     "alf-010": {
-      "hash": "4b127faf8f8b9182",
+      "hash": "0bad5d88723cd35c",
       "text": "и"
     },
     "alf-011": {
-      "hash": "0fb863fa514d249b",
+      "hash": "27c2bfd2cf74c24f",
       "text": "и краткое"
     },
     "alf-012": {
-      "hash": "970ed32e20371477",
+      "hash": "bcebffbef2cdd4a8",
       "text": "ка"
     },
     "alf-013": {
-      "hash": "8e1fa934b6d6a127",
+      "hash": "1b1e663b5a396ea1",
       "text": "эль"
     },
     "alf-014": {
-      "hash": "5302b1a0a9e38233",
+      "hash": "a4bd6a4704b4dc4c",
       "text": "эм"
     },
     "alf-015": {
-      "hash": "443a7a99f49e3905",
+      "hash": "15eb146bea9b8501",
       "text": "эн"
     },
     "alf-016": {
-      "hash": "d99360335191501f",
+      "hash": "1aec5464085f8ef6",
       "text": "о"
     },
     "alf-017": {
-      "hash": "a17c432204805f03",
+      "hash": "9d465296ad6f3efc",
       "text": "пэ"
     },
     "alf-018": {
-      "hash": "13d2a7ba0d5c6832",
+      "hash": "856b69f0a7187e06",
       "text": "эр"
     },
     "alf-019": {
-      "hash": "a97fed9fd548f5b6",
+      "hash": "21f1482e1010c11e",
       "text": "эс"
     },
     "alf-020": {
-      "hash": "dbaf1bf1912845cb",
+      "hash": "1c8a8de7020a0067",
       "text": "тэ"
     },
     "alf-021": {
-      "hash": "aa27abb65a4cbb6a",
+      "hash": "b1e54cb04e12cfcb",
       "text": "у"
     },
     "alf-022": {
-      "hash": "49a7fa5c0b517ca9",
+      "hash": "4c68fcc07d07f31e",
       "text": "эф"
     },
     "alf-023": {
-      "hash": "d1f42e83b4745d34",
+      "hash": "1a7a51001f8fb1ce",
       "text": "ха"
     },
     "alf-024": {
-      "hash": "29ce9019cb8d8f0b",
+      "hash": "8d10426b2ac72362",
       "text": "цэ"
     },
     "alf-025": {
-      "hash": "89b55798a3392d11",
+      "hash": "1e22a3c675d4bb91",
       "text": "чэ"
     },
     "alf-026": {
-      "hash": "122a9a7cd93215df",
+      "hash": "4ff0571c79c03227",
       "text": "ша"
     },
     "alf-027": {
-      "hash": "ffcbdef988542a35",
+      "hash": "a1371c54c5209176",
       "text": "ща"
     },
     "alf-028": {
-      "hash": "72ff6d0a560dc682",
+      "hash": "fb5b95d7d81389d0",
       "text": "твёрдый знак"
     },
     "alf-029": {
-      "hash": "5de78d8ad5b26a1f",
+      "hash": "bf30fc42501af7bc",
       "text": "ы"
     },
     "alf-030": {
-      "hash": "ca5f81c94f0c1a65",
+      "hash": "a19bbf3e037cf874",
       "text": "мягкий знак"
     },
     "alf-031": {
-      "hash": "eade0e40e0aaddc6",
+      "hash": "004a4cfd102ca58c",
       "text": "э"
     },
     "alf-032": {
-      "hash": "8e21184420436bc2",
+      "hash": "a15d2e03d4eedfea",
       "text": "ю"
     },
     "alf-033": {
-      "hash": "103ea279c3d3e19a",
+      "hash": "a6133fd8a1a74660",
       "text": "я"
     },
     "arb-001": {
-      "hash": "5386e09361f8fb52",
+      "hash": "759096836949ec22",
       "text": "рабо́та"
     },
     "arb-002": {
-      "hash": "23156cea59e6377a",
+      "hash": "87e51a5c71e0428c",
       "text": "о́фис"
     },
     "arb-003": {
-      "hash": "de81665319ce3d30",
+      "hash": "96039698a7b4ba6e",
       "text": "колле́га"
     },
     "arb-004": {
-      "hash": "7f8dcdeb29ba5f78",
+      "hash": "931bb159e1e6ac01",
       "text": "нача́льник"
     },
     "arb-005": {
-      "hash": "e6dcfdd4e761b69b",
+      "hash": "e082afffbed19a5e",
       "text": "университе́т"
     },
     "arb-006": {
-      "hash": "41cf555b2989069f",
+      "hash": "ea947be41b973f83",
       "text": "студе́нт"
     },
     "arb-007": {
-      "hash": "dfe99b44725decb2",
+      "hash": "bb836871a1220b08",
       "text": "учи́тель"
     },
     "arb-008": {
-      "hash": "45c81bd1921241f0",
+      "hash": "d859c1f6cd1cc5a4",
       "text": "экза́мен"
     },
     "arb-009": {
-      "hash": "2ff604051ee6cb0d",
+      "hash": "7a70eb63178db020",
       "text": "встре́ча"
     },
     "arb-010": {
-      "hash": "029e333665505737",
+      "hash": "ca39eb5e7cf22af4",
       "text": "зарпла́та"
     },
     "arb-011": {
-      "hash": "94f22c3cf4ef2fe5",
+      "hash": "a00bc84ed98c27e1",
       "text": "переры́в"
     },
     "arb-012": {
-      "hash": "654b61d0c7ced960",
+      "hash": "1d300db26738e4f6",
       "text": "зада́ние"
     },
     "arb-013": {
-      "hash": "856c59e6006d9a80",
+      "hash": "8868c48f779d3c19",
       "text": "Кем вы работаете?"
     },
     "arb-014": {
-      "hash": "e6e87ac1b7b9cc2b",
+      "hash": "3dcbecec45eb36ce",
       "text": "Я работаю программистом."
     },
     "arb-015": {
-      "hash": "2a8cc848cff48836",
+      "hash": "e83231a840b258b0",
       "text": "Я учусь в университете."
     },
     "arb-016": {
-      "hash": "a97ed623dfe6e4c9",
+      "hash": "692270d3c30b596f",
       "text": "У меня сегодня выходной."
     },
     "arb-017": {
-      "hash": "b7d92c50887263ad",
+      "hash": "7c717eee1c9a0517",
       "text": "Встреча начинается в десять."
     },
     "arb-018": {
-      "hash": "697e089a7c78e6e4",
+      "hash": "3443c08aaeb54b7b",
       "text": "Я опаздываю."
     },
     "arb-019": {
-      "hash": "486d479ba98e1f0a",
+      "hash": "f65ea91927163dbd",
       "text": "Без труда не выловишь и рыбку из пруда."
     },
     "arb-020": {
-      "hash": "150c46ddb56f60ba",
+      "hash": "5c94ba1f351106f1",
       "text": "Делу время, потехе час."
     },
     "arb-021": {
-      "hash": "88acace7a66c7c70",
+      "hash": "a231e8e82273314e",
       "text": "фи́рма"
     },
     "arb-022": {
-      "hash": "9509c6a975efea39",
+      "hash": "a33a8dbb2bf78463",
       "text": "профе́ссия"
     },
     "arb-023": {
-      "hash": "bb1430b63ba63b38",
+      "hash": "9745c66a7e86bce8",
       "text": "инжене́р"
     },
     "arb-024": {
-      "hash": "20b92507e7d9be82",
+      "hash": "f0dc10e38ff25b16",
       "text": "програ́ммист"
     },
     "arb-025": {
-      "hash": "e9bb5af9a06bc2f3",
+      "hash": "ebc3cae05b4b6dd1",
       "text": "бухга́лтер"
     },
     "arb-026": {
-      "hash": "51d1c6ee5ccf08be",
+      "hash": "e8194753f2450f62",
       "text": "компью́тер"
     },
     "arb-027": {
-      "hash": "5c981048b3532aa1",
+      "hash": "bd663291bbc54355",
       "text": "догово́р"
     },
     "arb-028": {
-      "hash": "ad6b70c434ef5cc1",
+      "hash": "569c132c7a60b785",
       "text": "прое́кт"
     },
     "arb-029": {
-      "hash": "631cad1e74b3751b",
+      "hash": "22ceba4b758d795a",
       "text": "собесе́дование"
     },
     "arb-030": {
-      "hash": "f3a2b35b77e36201",
+      "hash": "c6fba72945002757",
       "text": "уро́к"
     },
     "arb-031": {
-      "hash": "a0b03699c83c47b8",
+      "hash": "f78952eed3bc84d7",
       "text": "ле́кция"
     },
     "arb-032": {
-      "hash": "b0ac82c3f3a126a3",
+      "hash": "da40aeb96031dc4d",
       "text": "шко́ла"
     },
     "arb-033": {
-      "hash": "80e80ffbfc766f61",
+      "hash": "5e86d658fa03b9f3",
       "text": "учени́к"
     },
     "arb-034": {
-      "hash": "0aab02781a4805b8",
+      "hash": "6dca7c65e8d17f2c",
       "text": "тетра́дь"
     },
     "arb-035": {
-      "hash": "04196ba6f0c553bc",
+      "hash": "c01162d7e3b9be27",
       "text": "ру́чка"
     },
     "arb-036": {
-      "hash": "040d59025ef262ac",
+      "hash": "ca683176b63ffdce",
       "text": "каранда́ш"
     },
     "arb-037": {
-      "hash": "67f6f1774029a765",
+      "hash": "14cc72b561076ec9",
       "text": "оши́бка"
     },
     "arb-038": {
-      "hash": "72ce843d29e37ac8",
+      "hash": "80386fa15878a291",
       "text": "вопро́с"
     },
     "arb-039": {
-      "hash": "07745699391eb0e9",
+      "hash": "864f6983da8c5f82",
       "text": "отве́т"
     },
     "arb-040": {
-      "hash": "fc5165c6dfb6ad67",
+      "hash": "861700049f441b2e",
       "text": "дома́шнее зада́ние"
     },
     "arb-041": {
-      "hash": "4f7e6abf7b91cfdc",
+      "hash": "7c382599789cb595",
       "text": "ме́неджер"
     },
     "arb-042": {
-      "hash": "323909e5eae2b4ac",
+      "hash": "d24b5b661522cb2d",
       "text": "совеща́ние"
     },
     "arb-043": {
-      "hash": "1c691646cf8e5491",
+      "hash": "957ec526cdfbabe5",
       "text": "Я работаю в офисе."
     },
     "arb-044": {
-      "hash": "cbb9c7088f5ac9c1",
+      "hash": "fded235b930310d9",
       "text": "У меня много работы."
     },
     "arb-045": {
-      "hash": "562a57af5d74589a",
+      "hash": "1aace05ab654ae2c",
       "text": "Когда у тебя отпуск?"
     },
     "arb-046": {
-      "hash": "12b45c070b973974",
+      "hash": "15712859ccaa72cf",
       "text": "Я учу русский язык."
     },
     "arb-047": {
-      "hash": "9c1101608395dd71",
+      "hash": "bcab0c7c9f74f340",
       "text": "Можно задать вопрос?"
     },
     "arb-048": {
-      "hash": "a68f4a9e58906b6f",
+      "hash": "a0c2bbe5071ee2ca",
       "text": "Я не знаю ответа."
     },
     "arb-049": {
-      "hash": "82a8ada52e155abb",
+      "hash": "68d38b2dd9fd6106",
       "text": "Пришлите мне это по электронной почте."
     },
     "arb-050": {
-      "hash": "d2d447784ee7de44",
+      "hash": "253de42f6043c239",
       "text": "Совещание перенесли на завтра."
     },
     "arb-051": {
-      "hash": "521ff9dbe5d89743",
+      "hash": "04d57d4db0a86ccd",
       "text": "Я ищу работу."
     },
     "ban-001": {
-      "hash": "49553480b2a6afab",
+      "hash": "dc04f0b93660726e",
       "text": "де́ньги"
     },
     "ban-002": {
-      "hash": "2e75258ffefbc33f",
+      "hash": "32587145f08a530d",
       "text": "банк"
     },
     "ban-003": {
-      "hash": "0ce3277a5f37b05c",
+      "hash": "71f1056836234ed4",
       "text": "банкома́т"
     },
     "ban-004": {
-      "hash": "8a14411915adb7dc",
+      "hash": "4962a20fed2cc8ea",
       "text": "ка́рта"
     },
     "ban-005": {
-      "hash": "9aa455e115c462a5",
+      "hash": "36e698b0c2e82276",
       "text": "нали́чные"
     },
     "ban-006": {
-      "hash": "72c1878bc3ba8e4f",
+      "hash": "b93cc0146c2b7206",
       "text": "рубль"
     },
     "ban-007": {
-      "hash": "8851d95ed4afe9d7",
+      "hash": "d7a8538e2b7b6c26",
       "text": "е́вро"
     },
     "ban-008": {
-      "hash": "d309daea8307a855",
+      "hash": "ea672d6dbc42c990",
       "text": "сда́ча"
     },
     "ban-009": {
-      "hash": "f21f24a7b60d681f",
+      "hash": "9ff58295d4b6f7e4",
       "text": "обме́н валю́ты"
     },
     "ban-010": {
-      "hash": "14cfda337342722a",
+      "hash": "05539eee31778061",
       "text": "курс"
     },
     "ban-011": {
-      "hash": "96b02cee98bf402f",
+      "hash": "a9a4d0ef6138f613",
       "text": "перево́д"
     },
     "ban-012": {
-      "hash": "607b560f6a8eef43",
+      "hash": "5694675c28a3b248",
       "text": "кошелёк"
     },
     "ban-013": {
-      "hash": "206af4eeb2984c5c",
+      "hash": "39da770ca5a23585",
       "text": "Где ближайший банкомат?"
     },
     "ban-014": {
-      "hash": "7725e629440fdff0",
+      "hash": "fd66459f7f69201d",
       "text": "Можно поменять евро на рубли?"
     },
     "ban-015": {
-      "hash": "ec260733e16652be",
+      "hash": "80e4365c27ccd347",
       "text": "Банкомат не возвращает карту."
     },
     "ban-016": {
-      "hash": "95af90a64821b130",
+      "hash": "b582de8bab9a1902",
       "text": "Можно заплатить наличными?"
     },
     "ban-017": {
-      "hash": "1f736a2ae2b0e035",
+      "hash": "43f9393c9bbf4597",
       "text": "У вас будет сдача?"
     },
     "ban-018": {
-      "hash": "0b78747cd437d846",
+      "hash": "33e0b19513b3707f",
       "text": "Какой сегодня курс?"
     },
     "ban-019": {
-      "hash": "33d0f0de5d1a8a2f",
+      "hash": "ab58a83a8bdc3d76",
       "text": "Деньги не пахнут."
     },
     "ban-020": {
-      "hash": "eefabb6aab7c5397",
+      "hash": "ebb31caecf0544be",
       "text": "Время — деньги."
     },
     "ban-021": {
-      "hash": "0241d7571883aec6",
+      "hash": "562d93efa19d3b15",
       "text": "ба́нковский счёт"
     },
     "ban-022": {
-      "hash": "4ab7503b3542e827",
+      "hash": "bffecc81f8e3abee",
       "text": "копе́йка"
     },
     "ban-023": {
-      "hash": "7cb9a97158b81cdf",
+      "hash": "dd8f534e44100bfc",
       "text": "до́ллар"
     },
     "ban-024": {
-      "hash": "d4f6b9a5772d4139",
+      "hash": "8ef2801b045d88c3",
       "text": "моне́та"
     },
     "ban-025": {
-      "hash": "d4786d1e94a38413",
+      "hash": "c4b1c6bad6ebf6b1",
       "text": "купю́ра"
     },
     "ban-026": {
-      "hash": "c8f755d6e9b162e7",
+      "hash": "56ae5e33794c5e0a",
       "text": "креди́т"
     },
     "ban-027": {
-      "hash": "60155425c9ce8b97",
+      "hash": "8cb32e792994522c",
       "text": "проце́нт"
     },
     "ban-028": {
-      "hash": "6b05bf8db13f142f",
+      "hash": "e95de5a069c8ee2a",
       "text": "коми́ссия"
     },
     "ban-029": {
-      "hash": "0e58615a693e08c3",
+      "hash": "1804153f0f583f59",
       "text": "ПИН-код"
     },
     "ban-030": {
-      "hash": "635e2a300b34289b",
+      "hash": "03d387c14c970492",
       "text": "долг"
     },
     "ban-031": {
-      "hash": "8f310d0d783f01f6",
+      "hash": "7cbcf31112a73c1d",
       "text": "опла́та"
     },
     "ban-032": {
-      "hash": "a26871437176669b",
+      "hash": "22f14eecb9d9fe23",
       "text": "квита́нция"
     },
     "ban-033": {
-      "hash": "6862cf3e83c10bc1",
+      "hash": "dba27f7f405da321",
       "text": "расхо́ды"
     },
     "ban-034": {
-      "hash": "88b20e6a60da96fd",
+      "hash": "69227fb6c8c6f7fb",
       "text": "сбереже́ния"
     },
     "ban-035": {
-      "hash": "9f2f318a31463e21",
+      "hash": "98152377e1cdf889",
       "text": "нало́ги"
     },
     "ban-036": {
-      "hash": "6f3236469be96ac6",
+      "hash": "652521ab88cdb72b",
       "text": "бюдже́т"
     },
     "ban-037": {
-      "hash": "fad670b0a9cd648b",
+      "hash": "8eff17372223a4c9",
       "text": "обме́нник"
     },
     "ban-038": {
-      "hash": "6928373eff3fe389",
+      "hash": "09cc4cf0357d21c8",
       "text": "беспла́тно"
     },
     "ban-039": {
-      "hash": "7e217fb4e4838c1c",
+      "hash": "f0df56d7fa12edef",
       "text": "бога́тый"
     },
     "ban-040": {
-      "hash": "f255344426ce1a37",
+      "hash": "39191126bdea32ea",
       "text": "Я хочу открыть счёт."
     },
     "ban-041": {
-      "hash": "d8450e2bc10dae5f",
+      "hash": "3b6aaf7db5aa98b3",
       "text": "Я хочу снять деньги."
     },
     "ban-042": {
-      "hash": "59afc50f8e669fb2",
+      "hash": "8784d823a09a6482",
       "text": "Можно разменять тысячу?"
     },
     "ban-043": {
-      "hash": "a6b729b3d85db3b6",
+      "hash": "12cda99ff872a4b9",
       "text": "Сколько стоит перевод?"
     },
     "ban-044": {
-      "hash": "a0273212edac9a9b",
+      "hash": "dbb1daa04c27830e",
       "text": "Моя карта не работает."
     },
     "ban-045": {
-      "hash": "e01c3773798b8d4e",
+      "hash": "4ce832ac57bfccab",
       "text": "Я забыл ПИН-код. Я забыла ПИН-код."
     },
     "ban-046": {
-      "hash": "e33740507d59cb59",
+      "hash": "73f83b684e104175",
       "text": "Где здесь обменный пункт?"
     },
     "ban-047": {
-      "hash": "147ecdc04987564e",
+      "hash": "993649d2578cfc18",
       "text": "Нужно платить наличными."
     },
     "ban-048": {
-      "hash": "0383b670863f953b",
+      "hash": "0d5a00c7cb3402f2",
       "text": "Это бесплатно?"
     },
     "ban-049": {
-      "hash": "aa4a2bde3720d49d",
+      "hash": "d5e3dc7cffbeff82",
       "text": "Я коплю на отпуск."
     },
     "ban-050": {
-      "hash": "d4e126e3da14e314",
+      "hash": "9a94fca9a30f8441",
       "text": "Одолжи мне немного денег."
     },
     "ban-051": {
-      "hash": "b933535144457d46",
+      "hash": "18f379725cdc7620",
       "text": "Не в деньга́х сча́стье."
     },
     "beg-001": {
-      "hash": "9358f9ca6aa1f30c",
+      "hash": "44f575bcda31da59",
       "text": "Здра́вствуйте"
     },
     "beg-002": {
-      "hash": "642da43785836ef0",
+      "hash": "3ad8fb88539ecbad",
       "text": "Приве́т"
     },
     "beg-003": {
-      "hash": "466498683ba9a53f",
+      "hash": "73e1faf9438cc6f3",
       "text": "Спаси́бо"
     },
     "beg-004": {
-      "hash": "3f6a8f77cbaa1d1c",
+      "hash": "4f9fef9720af09b0",
       "text": "Пожа́луйста"
     },
     "beg-005": {
-      "hash": "98d2539c4df99464",
+      "hash": "982454be855d77fc",
       "text": "Извини́те"
     },
     "beg-006": {
-      "hash": "52a229f48204b8c9",
+      "hash": "d4cacc906bf573cd",
       "text": "Пока́"
     },
     "beg-007": {
-      "hash": "68a9e2d74cbf4ec3",
+      "hash": "50834a1e1cf0e74a",
       "text": "До свида́ния"
     },
     "beg-008": {
-      "hash": "0a1e6ec73ddc600a",
+      "hash": "e923c410c8ab6b22",
       "text": "До́брое у́тро"
     },
     "beg-009": {
-      "hash": "3b84baa2a31d594c",
+      "hash": "9f277875d57353fb",
       "text": "До́брый день"
     },
     "beg-010": {
-      "hash": "d4ef3fb4377ec459",
+      "hash": "9017035e76353d85",
       "text": "До́брый ве́чер"
     },
     "beg-011": {
-      "hash": "3a1e5db1d4bbe1f6",
+      "hash": "0729c4743948bfc0",
       "text": "Споко́йной но́чи"
     },
     "beg-012": {
-      "hash": "31b8acf8f97dc228",
+      "hash": "d387223ff93c7243",
       "text": "Как дела?"
     },
     "beg-013": {
-      "hash": "88795e015a1941b9",
+      "hash": "14e18ac8f7279eb6",
       "text": "Как у вас дела?"
     },
     "beg-014": {
-      "hash": "41002508b8ce8141",
+      "hash": "44fb2efaf7e6de3a",
       "text": "Меня зовут Анна."
     },
     "beg-015": {
-      "hash": "1af856bc92ec920d",
+      "hash": "c7ffc32feacde9d9",
       "text": "Как вас зовут?"
     },
     "beg-016": {
-      "hash": "c972abca52944e6a",
+      "hash": "6e77285581fcbfa6",
       "text": "Очень приятно."
     },
     "beg-017": {
-      "hash": "f89b6505b7d57883",
+      "hash": "b649ef80dad1ad23",
       "text": "Рад вас видеть. Рада вас видеть."
     },
     "beg-018": {
-      "hash": "94785aa4a43cefed",
+      "hash": "1bb89f254b8ac9f4",
       "text": "Не за что."
     },
     "beg-019": {
-      "hash": "be4ba07d3f13bae5",
+      "hash": "4165cd44fdec84e9",
       "text": "Всего доброго!"
     },
     "beg-020": {
-      "hash": "130a0feb3627b9ee",
+      "hash": "f5d0a627b3f0e383",
       "text": "Добро пожаловать!"
     },
     "beg-021": {
-      "hash": "96b02e33677c85ed",
+      "hash": "d47b6a237ddcf540",
       "text": "Прости́те"
     },
     "beg-022": {
-      "hash": "3b0a1b68a4a05bd2",
+      "hash": "3d87d592d4fc26d3",
       "text": "Извини́"
     },
     "beg-023": {
-      "hash": "8b698b44634cd447",
+      "hash": "6e52b72815004d6c",
       "text": "Большо́е спаси́бо!"
     },
     "beg-024": {
-      "hash": "5ab6fbb4f8161208",
+      "hash": "f1c3684059910494",
       "text": "До ско́рой встре́чи!"
     },
     "beg-025": {
-      "hash": "e0a7bd252b11fbdd",
+      "hash": "313803fcdc33e172",
       "text": "До за́втра!"
     },
     "beg-026": {
-      "hash": "f4f87a0254396362",
+      "hash": "20885e605cbf849e",
       "text": "Уда́чи!"
     },
     "beg-027": {
-      "hash": "7891877afbaa55c5",
+      "hash": "85562566b406f9f3",
       "text": "С днём рожде́ния!"
     },
     "beg-028": {
-      "hash": "a56947995bb5a3ce",
+      "hash": "9b1167d4626c6df5",
       "text": "С Но́вым го́дом!"
     },
     "beg-029": {
-      "hash": "e0b338c92d3ac08e",
+      "hash": "a1e80455c1251187",
       "text": "С пра́здником!"
     },
     "beg-030": {
-      "hash": "36cec101e0d0546d",
+      "hash": "f77b059c995454ec",
       "text": "Как пожива́ете?"
     },
     "beg-031": {
-      "hash": "2d58de6e1dd626d0",
+      "hash": "4b6b9d7385cb2bf3",
       "text": "Всё хорошо, спасибо."
     },
     "beg-032": {
-      "hash": "b8e99f7fb7b96104",
+      "hash": "e952008708e0267e",
       "text": "А у тебя?"
     },
     "beg-033": {
-      "hash": "060fb96d2c598114",
+      "hash": "821a62a14dbb5330",
       "text": "Отли́чно"
     },
     "beg-034": {
-      "hash": "c77e59957e5b0a5f",
+      "hash": "d7e7fbfa719d8f90",
       "text": "Норма́льно"
     },
     "beg-035": {
-      "hash": "f9606068632cf7bb",
+      "hash": "a6bc196fe6ca9c18",
       "text": "Как тебя зовут?"
     },
     "beg-036": {
-      "hash": "be4bafc443922b9b",
+      "hash": "55e89746a4eed7ce",
       "text": "Откуда ты?"
     },
     "beg-037": {
-      "hash": "df377717d1b24af4",
+      "hash": "9a8ca76daa85649f",
       "text": "Я из Австрии."
     },
     "beg-038": {
-      "hash": "00242fb8dbc73f2f",
+      "hash": "6840ee555e7f411e",
       "text": "Я из Швейцарии."
     },
     "beg-039": {
-      "hash": "604a7897bd049b06",
+      "hash": "90790279318ecb0e",
       "text": "Можно на ты?"
     },
     "beg-040": {
-      "hash": "1b6461614b70c3e8",
+      "hash": "ee1c641dcfeab27b",
       "text": "Давай на ты."
     },
     "beg-041": {
-      "hash": "48c732f03d0986a0",
+      "hash": "091b941b82cb0156",
       "text": "Прия́тно познако́миться."
     },
     "beg-042": {
-      "hash": "b2dd145b62228681",
+      "hash": "2a33c754c8de9681",
       "text": "Позвольте представиться."
     },
     "beg-043": {
-      "hash": "b3b85fb1e40ecc82",
+      "hash": "94b584cfa89a5446",
       "text": "Это мой друг Иван."
     },
     "beg-044": {
-      "hash": "61958336edbd7359",
+      "hash": "e98b26eefecfc160",
       "text": "Передавайте привет семье!"
     },
     "beg-045": {
-      "hash": "31ece95c35c05f07",
+      "hash": "425dbd62fcb25c64",
       "text": "Будь здоро́в!"
     },
     "beg-046": {
-      "hash": "ccbb458be3302b79",
+      "hash": "b99703ebe0c41caa",
       "text": "Счастли́вого пути́!"
     },
     "beg-047": {
-      "hash": "df728c011cb1c41f",
+      "hash": "89a33054e13736ec",
       "text": "Всего́ хоро́шего!"
     },
     "beg-048": {
-      "hash": "b3173beab6fe5c4d",
+      "hash": "c07fd4e1750bc24e",
       "text": "Извините за опоздание."
     },
     "beg-049": {
-      "hash": "467212efe74dadab",
+      "hash": "acdc3138bcd4c4a1",
       "text": "Ничего́ стра́шного."
     },
     "beg-050": {
-      "hash": "66724ed0fcdb87b0",
+      "hash": "440e31a6a9074787",
       "text": "Спасибо за помощь."
     },
     "beg-051": {
-      "hash": "e4f1064e7e636f42",
+      "hash": "e0c14c0b4eea1774",
       "text": "Спасибо, вы очень любезны."
     },
     "beg-052": {
-      "hash": "adf14013a4872518",
+      "hash": "3a124f616992b03a",
       "text": "Ми́лости про́сим!"
     },
     "beh-001": {
-      "hash": "f68085bb08455fbe",
+      "hash": "0a8351599c980136",
       "text": "па́спорт"
     },
     "beh-002": {
-      "hash": "4b958108f842a9c1",
+      "hash": "6fc45a9d46dfaf2f",
       "text": "ви́за"
     },
     "beh-003": {
-      "hash": "e58fb7634a77cf0c",
+      "hash": "2b32fbeea54a330d",
       "text": "по́чта"
     },
     "beh-004": {
-      "hash": "f525d327147cae6b",
+      "hash": "e84eb06f18474011",
       "text": "письмо́"
     },
     "beh-005": {
-      "hash": "8d2a7dbd98e3ec4e",
+      "hash": "1ff5bc1b58845535",
       "text": "посы́лка"
     },
     "beh-006": {
-      "hash": "a59d934b3cedfc77",
+      "hash": "312e522d11181a1a",
       "text": "ма́рка"
     },
     "beh-007": {
-      "hash": "535baca0ed6eb634",
+      "hash": "57a4a4b89a932243",
       "text": "а́дрес"
     },
     "beh-008": {
-      "hash": "8df914c655f68b44",
+      "hash": "46055966cea60771",
       "text": "докуме́нт"
     },
     "beh-009": {
-      "hash": "5cbf053ef98c96ed",
+      "hash": "29d73ed6d4a2a73f",
       "text": "анке́та"
     },
     "beh-010": {
-      "hash": "a005f62cc211f65c",
+      "hash": "8b3201c088f73ac1",
       "text": "по́дпись"
     },
     "beh-011": {
-      "hash": "f3dd3e08410eaf95",
+      "hash": "b4e58ec04685fc5d",
       "text": "о́чередь"
     },
     "beh-012": {
-      "hash": "2394e674eea1e733",
+      "hash": "89532febc380611a",
       "text": "посо́льство"
     },
     "beh-013": {
-      "hash": "5e8672e95b81f29a",
+      "hash": "213917a97dd748a1",
       "text": "Где здесь почта?"
     },
     "beh-014": {
-      "hash": "35136b26945cbd89",
+      "hash": "7e6e65dcceecd969",
       "text": "Я хочу отправить посылку в Германию."
     },
     "beh-015": {
-      "hash": "bafe7a01ec8ea26f",
+      "hash": "63aa30dcb0109a1a",
       "text": "Заполните анкету, пожалуйста."
     },
     "beh-016": {
-      "hash": "6abcc96a7a51f07c",
+      "hash": "05f24549551df452",
       "text": "Где нужно расписаться?"
     },
     "beh-017": {
-      "hash": "5c00cdb1031374a8",
+      "hash": "93131e8732143e3c",
       "text": "Кто последний?"
     },
     "beh-018": {
-      "hash": "55b740856999d3cb",
+      "hash": "9a4ffa7937958e54",
       "text": "Мне нужна справка."
     },
     "beh-019": {
-      "hash": "87b0e5ddfad8c4e1",
+      "hash": "4dce2fe4c3b5f346",
       "text": "Я потерял паспорт. Я потеряла паспорт."
     },
     "beh-020": {
-      "hash": "44b06f8015b043e2",
+      "hash": "886bd3bdfa86fd99",
       "text": "Сколько стоит марка в Германию?"
     },
     "beh-021": {
-      "hash": "52fcde2e11a9d4ad",
+      "hash": "d169b2715e6b6fa5",
       "text": "ко́нсульство"
     },
     "beh-022": {
-      "hash": "bea16ca17821d1a9",
+      "hash": "7c668fed8d5f30dd",
       "text": "удостовере́ние ли́чности"
     },
     "beh-023": {
-      "hash": "6c66333881da364c",
+      "hash": "3cd69f716d1e99e7",
       "text": "фами́лия"
     },
     "beh-024": {
-      "hash": "b2f53f810b9ab2c0",
+      "hash": "cbfc580c96b5290e",
       "text": "и́мя"
     },
     "beh-025": {
-      "hash": "1d1c6d88646d6247",
+      "hash": "e700da777990f3d3",
       "text": "да́та рожде́ния"
     },
     "beh-026": {
-      "hash": "51ce6c89a0c170ff",
+      "hash": "ceb24cedbd468d67",
       "text": "гражда́нство"
     },
     "beh-027": {
-      "hash": "28206e14783a16ec",
+      "hash": "40cd85a68af3604b",
       "text": "регистра́ция"
     },
     "beh-028": {
-      "hash": "eeb430d511158894",
+      "hash": "78ffa87701867681",
       "text": "разреше́ние"
     },
     "beh-029": {
-      "hash": "6d8f852df179cdca",
+      "hash": "82f612cc172274ff",
       "text": "заявле́ние"
     },
     "beh-030": {
-      "hash": "089fbee124eb4474",
+      "hash": "c5b2f338c8be87a3",
       "text": "печа́ть"
     },
     "beh-031": {
-      "hash": "c600e2e7adfe416d",
+      "hash": "91458f9c20b330a4",
       "text": "почто́вый я́щик"
     },
     "beh-032": {
-      "hash": "b297123c54637d0e",
+      "hash": "14179e453a2c2c7b",
       "text": "конве́рт"
     },
     "beh-033": {
-      "hash": "4616a4650a241f89",
+      "hash": "9dde5fc4ed4c6417",
       "text": "откры́тка"
     },
     "beh-034": {
-      "hash": "8efbda442886b7e0",
+      "hash": "e42c8e921670e003",
       "text": "и́ндекс"
     },
     "beh-035": {
-      "hash": "af7eb6f95a1fc5dc",
+      "hash": "ff4f0e1175c918cf",
       "text": "отправи́тель"
     },
     "beh-036": {
-      "hash": "657d3cc493c8ac52",
+      "hash": "8ebafb8dd1fe0afe",
       "text": "получа́тель"
     },
     "beh-037": {
-      "hash": "0e64159c34fa274a",
+      "hash": "94e04e1892f0055f",
       "text": "тамо́жня"
     },
     "beh-038": {
-      "hash": "19b351a92e6d1293",
+      "hash": "6d0eef3b2420d338",
       "text": "штраф"
     },
     "beh-039": {
-      "hash": "d9f7e9c32cb6cd23",
+      "hash": "6202343d9c2188aa",
       "text": "спра́вка"
     },
     "beh-040": {
-      "hash": "4d9804bab983ac7b",
+      "hash": "e5130774ac621ce1",
       "text": "перево́дчик"
     },
     "beh-041": {
-      "hash": "dfa9a29d7dd122ed",
+      "hash": "729cc59d45029df5",
       "text": "Где нужно подать заявление?"
     },
     "beh-042": {
-      "hash": "89974c71069d877c",
+      "hash": "55afe5a63ba4c94b",
       "text": "Какие документы нужны?"
     },
     "beh-043": {
-      "hash": "169b5b673be35a9c",
+      "hash": "f1939e4f4771d310",
       "text": "Заполните, пожалуйста, этот бланк."
     },
     "beh-044": {
-      "hash": "90cc22afd68a5ce7",
+      "hash": "86505b14bd422313",
       "text": "Когда будет готов мой паспорт?"
     },
     "beh-045": {
-      "hash": "8f8ba69b13483fad",
+      "hash": "b784ca9c60b5f216",
       "text": "Я хочу отправить письмо заказным."
     },
     "beh-046": {
-      "hash": "5259d90915f1726c",
+      "hash": "46643f5e935bf91b",
       "text": "Распишитесь здесь, пожалуйста."
     },
     "beh-047": {
-      "hash": "58ea87b6d1202b53",
+      "hash": "a475c7df0c122944",
       "text": "Сколько идёт письмо в Германию?"
     },
     "beh-048": {
-      "hash": "4d8a0174d139d899",
+      "hash": "1275b4d3533ac35a",
       "text": "Где получить посылку?"
     },
     "beh-049": {
-      "hash": "f06a6aeaaec1c58e",
+      "hash": "a3cb566b71aa4709",
       "text": "Мне нужен переводчик."
     },
     "beh-050": {
-      "hash": "944da1116f96ad67",
+      "hash": "8edf4223e9661c13",
       "text": "Какой у вас адрес?"
     },
     "beh-051": {
-      "hash": "bab3aea3d1402eb7",
+      "hash": "5a67b846b7ebc03f",
       "text": "Приём по записи."
     },
     "ein-001": {
-      "hash": "b854fa1c39e85a32",
+      "hash": "2ab264b5f96263fc",
       "text": "магази́н"
     },
     "ein-002": {
-      "hash": "9a8de707f6efc368",
+      "hash": "18b2d157e4d9e201",
       "text": "ры́нок"
     },
     "ein-003": {
-      "hash": "b5fb7d26d4f17bde",
+      "hash": "4cfd1793ecc5760e",
       "text": "цена́"
     },
     "ein-004": {
-      "hash": "56b20545045c0233",
+      "hash": "751490e6d2b5c683",
       "text": "до́рого"
     },
     "ein-005": {
-      "hash": "71cca34a4ea79f89",
+      "hash": "0ce1ad23eb3e3371",
       "text": "дёшево"
     },
     "ein-006": {
-      "hash": "9cea4db5e115aa89",
+      "hash": "40cdda719ae6740d",
       "text": "паке́т"
     },
     "ein-007": {
-      "hash": "3a00ecc85b9262e5",
+      "hash": "bc025cf3f8092f4a",
       "text": "ка́сса"
     },
     "ein-008": {
-      "hash": "47dc980421ff754f",
+      "hash": "225bc12caf3c9b0f",
       "text": "ски́дка"
     },
     "ein-009": {
-      "hash": "80cfbdfebb3dd6e1",
+      "hash": "f6bd480ce1fe9d9a",
       "text": "хлеб"
     },
     "ein-010": {
-      "hash": "b61230cf31d8b338",
+      "hash": "a986fd33f9d02c5a",
       "text": "молоко́"
     },
     "ein-011": {
-      "hash": "1e87770d1df0820c",
+      "hash": "89d8f9ae7112c145",
       "text": "чек"
     },
     "ein-012": {
-      "hash": "334b8b17341bbe32",
+      "hash": "8e436fa0e5f839cf",
       "text": "откры́то"
     },
     "ein-013": {
-      "hash": "f77702862dfc2a13",
+      "hash": "ad71cf252a5960a4",
       "text": "закры́то"
     },
     "ein-014": {
-      "hash": "cf4e776a532f5364",
+      "hash": "490dc242c9a220df",
       "text": "Сколько это стоит?"
     },
     "ein-015": {
-      "hash": "7096cd86ea6a35b5",
+      "hash": "533152b9ce3ff6b7",
       "text": "Я просто смотрю."
     },
     "ein-016": {
-      "hash": "b443615c37f702ca",
+      "hash": "f3380748417ba79c",
       "text": "Можно заплатить картой?"
     },
     "ein-017": {
-      "hash": "de0dc5052c134716",
+      "hash": "e73a5dab3b29de71",
       "text": "Дайте, пожалуйста, килограмм яблок."
     },
     "ein-018": {
-      "hash": "08d6f6a9d98c7cd3",
+      "hash": "151a887b8999da22",
       "text": "Где касса?"
     },
     "ein-019": {
-      "hash": "6740c35e71a3e308",
+      "hash": "4271c20acd67afc3",
       "text": "Это слишком дорого."
     },
     "ein-020": {
-      "hash": "535cfa00cd63c8bb",
+      "hash": "254939be06b7bfe9",
       "text": "Я возьму это."
     },
     "ein-021": {
-      "hash": "57344f1ec246a560",
+      "hash": "e7e5c47bfdf62a2b",
       "text": "супермарке́т"
     },
     "ein-022": {
-      "hash": "b560a5ee3c9051d9",
+      "hash": "55042ccb1bdca541",
       "text": "проду́кты"
     },
     "ein-023": {
-      "hash": "d327527bdee58cbf",
+      "hash": "2fff5686ac619b73",
       "text": "су́мка"
     },
     "ein-024": {
-      "hash": "d99864986c907bf5",
+      "hash": "14ce70d433ddc0dd",
       "text": "корзи́на"
     },
     "ein-025": {
-      "hash": "194426f71045216d",
+      "hash": "6bebacebbf8a9ff0",
       "text": "теле́жка"
     },
     "ein-026": {
-      "hash": "0e235f2f40858dba",
+      "hash": "ddd915e58910a124",
       "text": "продаве́ц"
     },
     "ein-027": {
-      "hash": "bd25e55792eb2c50",
+      "hash": "89f0a7b118bb9408",
       "text": "покупа́тель"
     },
     "ein-028": {
-      "hash": "f50aa486068e9f5a",
+      "hash": "d7c39e321d2050ab",
       "text": "поку́пка"
     },
     "ein-029": {
-      "hash": "ee690e9b53b41dec",
+      "hash": "dff8fe833c71e416",
       "text": "пода́рок"
     },
     "ein-030": {
-      "hash": "2482ef88982ce9aa",
+      "hash": "cf46c81657aaed17",
       "text": "распрода́жа"
     },
     "ein-031": {
-      "hash": "4a6255b2e79e80f3",
+      "hash": "f49d097e34d4983b",
       "text": "сыр"
     },
     "ein-032": {
-      "hash": "e8c0fd827e98f565",
+      "hash": "66fa3c01acc51507",
       "text": "колбаса́"
     },
     "ein-033": {
-      "hash": "2cb2b571044f6068",
+      "hash": "e68d34d8242f5b90",
       "text": "фру́кты"
     },
     "ein-034": {
-      "hash": "56621b5ba894add9",
+      "hash": "823465e357912a5e",
       "text": "бана́н"
     },
     "ein-035": {
-      "hash": "03b440bac7109b1a",
+      "hash": "129034c0d35208d7",
       "text": "помидо́р"
     },
     "ein-036": {
-      "hash": "82a41c828356f2d1",
+      "hash": "427225a337676ac5",
       "text": "огуре́ц"
     },
     "ein-037": {
-      "hash": "36b44ecd18879921",
+      "hash": "bfdccb3eb747f37b",
       "text": "шокола́д"
     },
     "ein-038": {
-      "hash": "f50d977d3cb9418f",
+      "hash": "3c7ffb18f1871b29",
       "text": "сок"
     },
     "ein-039": {
-      "hash": "42af584321f5dc60",
+      "hash": "e629cb81ef993bd3",
       "text": "пече́нье"
     },
     "ein-040": {
-      "hash": "dc9cf4c2ab9455f1",
+      "hash": "406a3cc91047c7e3",
       "text": "буты́лка"
     },
     "ein-041": {
-      "hash": "1b29d8d40010e981",
+      "hash": "95019f9fab780d18",
       "text": "я́блоко"
     },
     "ein-042": {
-      "hash": "78485f5335a9fc8e",
+      "hash": "557446a88596e46e",
       "text": "апельси́н"
     },
     "ein-043": {
-      "hash": "84fd06c7870f96b3",
+      "hash": "5679e2637fef2da5",
       "text": "Где можно купить хлеб?"
     },
     "ein-044": {
-      "hash": "e3c40a8ad2859b8b",
+      "hash": "894e301109f93134",
       "text": "У вас есть свежий хлеб?"
     },
     "ein-045": {
-      "hash": "1bf4276f47c22421",
+      "hash": "8002e68739071482",
       "text": "Мне нужно купить продукты."
     },
     "ein-046": {
-      "hash": "6b67d071afa8c29f",
+      "hash": "ba7875daeacc8d94",
       "text": "Дайте, пожалуйста, бутылку воды."
     },
     "ein-047": {
-      "hash": "e4d4ea9ed73c9316",
+      "hash": "18daba815d3e2aff",
       "text": "Это всё, спасибо."
     },
     "ein-048": {
-      "hash": "ea61b6e5e91a7c80",
+      "hash": "a428b97d1098a66f",
       "text": "Можно без пакета."
     },
     "ein-049": {
-      "hash": "f220e9b64911c19b",
+      "hash": "4e650cac63a948d5",
       "text": "Во сколько закрывается магазин?"
     },
     "ein-050": {
-      "hash": "9f4c62ea4e9d3d41",
+      "hash": "f576244fa6947e22",
       "text": "Когда открывается рынок?"
     },
     "ein-051": {
-      "hash": "244569557d4d52de",
+      "hash": "7bad33ed7246a0fd",
       "text": "Сда́чи не на́до."
     },
     "fam-001": {
-      "hash": "d4ecfc9361f8a730",
+      "hash": "61880ec643322dec",
       "text": "ма́ма"
     },
     "fam-002": {
-      "hash": "5a5ec18247b6dcdf",
+      "hash": "f41ac7a3f7c48104",
       "text": "па́па"
     },
     "fam-003": {
-      "hash": "eae28b74d9fae6aa",
+      "hash": "55cf83d61bf41ee6",
       "text": "мать"
     },
     "fam-004": {
-      "hash": "fe6f7605655192a6",
+      "hash": "42360791bbd47f08",
       "text": "оте́ц"
     },
     "fam-005": {
-      "hash": "0bc175cebd38a683",
+      "hash": "807356090dbadc90",
       "text": "брат"
     },
     "fam-006": {
-      "hash": "e411e87ba0233cbe",
+      "hash": "79a83d6b7c3a1640",
       "text": "сестра́"
     },
     "fam-007": {
-      "hash": "7e6e76dc996ce94c",
+      "hash": "1ff28810a0885aff",
       "text": "сын"
     },
     "fam-008": {
-      "hash": "2aa6eb99b0d2233f",
+      "hash": "ebbc5bc0aac4d4ef",
       "text": "дочь"
     },
     "fam-009": {
-      "hash": "c43768d15aa0429b",
+      "hash": "ef0a9efc61ea1e82",
       "text": "ба́бушка"
     },
     "fam-010": {
-      "hash": "4dd1d16d8c94eb72",
+      "hash": "65a3b172aca675a1",
       "text": "де́душка"
     },
     "fam-011": {
-      "hash": "6e334f34fd69db55",
+      "hash": "28b5b810b30fb24e",
       "text": "муж"
     },
     "fam-012": {
-      "hash": "2efaf71f8543ec8b",
+      "hash": "110646c9b016f578",
       "text": "жена́"
     },
     "fam-013": {
-      "hash": "bc29353e0f615da7",
+      "hash": "ab18c3e9c27aedd5",
       "text": "ребёнок"
     },
     "fam-014": {
-      "hash": "d8b2eaaa4cbf6266",
+      "hash": "b3a5ef4265d50ffb",
       "text": "друг"
     },
     "fam-015": {
-      "hash": "ce8788edc10ac810",
+      "hash": "2a6f4fd1d4ffb1b3",
       "text": "подру́га"
     },
     "fam-016": {
-      "hash": "5a3de0a5aa1be928",
+      "hash": "5a6735b43b7dcd0c",
       "text": "Это моя жена."
     },
     "fam-017": {
-      "hash": "33dc6209be8c1116",
+      "hash": "5f1732dc27a9577b",
       "text": "У меня двое детей."
     },
     "fam-018": {
-      "hash": "ef5396add24b5e75",
+      "hash": "79d898f69b1d4ebb",
       "text": "Вы женаты?"
     },
     "fam-019": {
-      "hash": "08928c09949da494",
+      "hash": "70b70cffa4056ea2",
       "text": "Сколько вам лет?"
     },
     "fam-020": {
-      "hash": "193a9fbd0ad781f6",
+      "hash": "7957d78414114b94",
       "text": "Яблоко от яблони недалеко падает."
     },
     "fam-021": {
-      "hash": "7ab544e7ffaf29df",
+      "hash": "41c74124478cdd7e",
       "text": "роди́тели"
     },
     "fam-022": {
-      "hash": "bece30ed3dac5142",
+      "hash": "435d026864acb52c",
       "text": "де́ти"
     },
     "fam-023": {
-      "hash": "1f817dfad732508a",
+      "hash": "05b959fdc4a66d96",
       "text": "семья́"
     },
     "fam-024": {
-      "hash": "4b75d79048eec1bf",
+      "hash": "18ca07b1d121ea6e",
       "text": "внук"
     },
     "fam-025": {
-      "hash": "9ff158993c3d16d5",
+      "hash": "1677edbfce57a7f1",
       "text": "вну́чка"
     },
     "fam-026": {
-      "hash": "99c7de7f035da184",
+      "hash": "e00e702bd670e3ad",
       "text": "дя́дя"
     },
     "fam-027": {
-      "hash": "1d68b18fe24640d8",
+      "hash": "37b31222d65e5730",
       "text": "тётя"
     },
     "fam-028": {
-      "hash": "a702b290fe453bad",
+      "hash": "d04f527c420f5165",
       "text": "племя́нник"
     },
     "fam-029": {
-      "hash": "69316fd790fb286c",
+      "hash": "a689bd3f21e0046f",
       "text": "двою́родный брат"
     },
     "fam-030": {
-      "hash": "37ba0a011c764214",
+      "hash": "59c445b924ee9615",
       "text": "же́нщина"
     },
     "fam-031": {
-      "hash": "2471bd0e84fd1779",
+      "hash": "9139ab432e15e394",
       "text": "мужчи́на"
     },
     "fam-032": {
-      "hash": "d4371211f1294cda",
+      "hash": "885a5a3a039b39d8",
       "text": "ма́льчик"
     },
     "fam-033": {
-      "hash": "c7b484d22d6577bb",
+      "hash": "2980051da20ec38e",
       "text": "де́вочка"
     },
     "fam-034": {
-      "hash": "e13ef16b291d1ab8",
+      "hash": "8b2090d9b86e516f",
       "text": "сосе́дка"
     },
     "fam-035": {
-      "hash": "304fdb8edd78b60d",
+      "hash": "b1159159394f6657",
       "text": "сва́дьба"
     },
     "fam-036": {
-      "hash": "b553b3fb95a914d7",
+      "hash": "42a4d9c454134ab3",
       "text": "близнецы́"
     },
     "fam-037": {
-      "hash": "3e19b7c798b8f66d",
+      "hash": "2f8430a82be282c0",
       "text": "ста́рший"
     },
     "fam-038": {
-      "hash": "c6badc34f3cd11c6",
+      "hash": "9ce17f4e2fbcfcdc",
       "text": "мла́дший"
     },
     "fam-039": {
-      "hash": "4939cd733a8cbd8b",
+      "hash": "fc0fcf59824973d3",
       "text": "челове́к"
     },
     "fam-040": {
-      "hash": "0cb59aad7b145909",
+      "hash": "9072b7e4abb375d6",
       "text": "лю́ди"
     },
     "fam-041": {
-      "hash": "f266822412b2b4b2",
+      "hash": "10bbfa7220cef86a",
       "text": "подро́сток"
     },
     "fam-042": {
-      "hash": "98164a380bdfe30a",
+      "hash": "521ed12d51480a87",
       "text": "У меня большая семья."
     },
     "fam-043": {
-      "hash": "51e5e9d89b91733c",
+      "hash": "bf7a72a302b8baec",
       "text": "У тебя есть братья или сёстры?"
     },
     "fam-044": {
-      "hash": "48550ef369add529",
+      "hash": "71f00dd7db0d3390",
       "text": "Мой брат старше меня."
     },
     "fam-045": {
-      "hash": "1ace78662f1ed25f",
+      "hash": "047432208d90f652",
       "text": "Моя сестра живёт в Москве."
     },
     "fam-046": {
-      "hash": "51132b35be058388",
+      "hash": "4595dc17961f6802",
       "text": "Я женат. Я замужем."
     },
     "fam-047": {
-      "hash": "38e426c83eab5f74",
+      "hash": "9fd15e4199df5867",
       "text": "Как зовут твою маму?"
     },
     "fam-048": {
-      "hash": "28476e0003301987",
+      "hash": "21d85a6c154c41d8",
       "text": "Это мои родители."
     },
     "fam-049": {
-      "hash": "01271495ed8f1be9",
+      "hash": "72cd293e31d023f5",
       "text": "Моему сыну пять лет."
     },
     "fam-050": {
-      "hash": "9a5337190e403b02",
+      "hash": "581450864f9a5798",
       "text": "Вы замужем?"
     },
     "fam-051": {
-      "hash": "be51f9ffbb126009",
+      "hash": "04ec60bbca9e3037",
       "text": "Передай привет родителям!"
     },
     "fre-001": {
-      "hash": "f3b44755d244d7a0",
+      "hash": "17596d8d0abed25a",
       "text": "музе́й"
     },
     "fre-002": {
-      "hash": "7bd55b9e651a1f24",
+      "hash": "9ab738961a6fb238",
       "text": "кино́"
     },
     "fre-003": {
-      "hash": "be91baf4bb4e43bd",
+      "hash": "44638cdab82e7703",
       "text": "теа́тр"
     },
     "fre-004": {
-      "hash": "c32bfeaa6925ee68",
+      "hash": "34361d85c2572a1a",
       "text": "кни́га"
     },
     "fre-005": {
-      "hash": "993e437346c3c06c",
+      "hash": "9fa63e2f6b1b98cf",
       "text": "му́зыка"
     },
     "fre-006": {
-      "hash": "a1d26836af282f43",
+      "hash": "575dc7ed1cc91575",
       "text": "пра́здник"
     },
     "fre-007": {
-      "hash": "1e53de78b80758c3",
+      "hash": "10bd252b925f8633",
       "text": "о́тпуск"
     },
     "fre-008": {
-      "hash": "b4ff0d7fbdb91b91",
+      "hash": "42ccbc929405bf6e",
       "text": "выходны́е"
     },
     "fre-009": {
-      "hash": "dbc9d230bf5abf62",
+      "hash": "f55f4e0c8789d1fc",
       "text": "Что ты делаешь в выходные?"
     },
     "fre-010": {
-      "hash": "76c395919a610ee7",
+      "hash": "1228247361478832",
       "text": "Чем вы увлекаетесь?"
     },
     "fre-011": {
-      "hash": "00d3f2c65aca7388",
+      "hash": "7811e5ab582497ae",
       "text": "Я люблю читать."
     },
     "fre-012": {
-      "hash": "f5319708db510d63",
+      "hash": "0d77dd4464c00bb8",
       "text": "Пойдём в кино?"
     },
     "fre-013": {
-      "hash": "f49906afbcbc3132",
+      "hash": "0d4f784549388788",
       "text": "Откуда вы?"
     },
     "fre-014": {
-      "hash": "c46c2116463f4e6a",
+      "hash": "86eee491319d441e",
       "text": "Я из Германии."
     },
     "fre-015": {
-      "hash": "529c1af2846acce7",
+      "hash": "b4a21ca9c68dda48",
       "text": "Вы говорите по-немецки?"
     },
     "fre-016": {
-      "hash": "7db298eb4fabc0db",
+      "hash": "9cecfcc278146334",
       "text": "Я немного говорю по-русски."
     },
     "fre-017": {
-      "hash": "530874d8cbdfa9d8",
+      "hash": "06f62d82ef45ca91",
       "text": "Повторите, пожалуйста."
     },
     "fre-018": {
-      "hash": "e39ea1501c4cc575",
+      "hash": "e651bf031dc7e406",
       "text": "Говорите медленнее, пожалуйста."
     },
     "fre-019": {
-      "hash": "815561760518bec2",
+      "hash": "7a744e9f14523cc2",
       "text": "Я не понимаю."
     },
     "fre-020": {
-      "hash": "e9e748e41946696d",
+      "hash": "e7dc84f40cc08917",
       "text": "Как это по-русски?"
     },
     "fre-021": {
-      "hash": "706cc57ba8a9d7b7",
+      "hash": "1c0f5fc4bfebad0c",
       "text": "спорт"
     },
     "fre-022": {
-      "hash": "869f1932b8eccd87",
+      "hash": "72684990b73cabc9",
       "text": "футбо́л"
     },
     "fre-023": {
-      "hash": "0eed97707f274bd4",
+      "hash": "b9c5619f5c7ec825",
       "text": "хо́бби"
     },
     "fre-024": {
-      "hash": "e7789bcadefaa123",
+      "hash": "285649f7a1707dbf",
       "text": "конце́рт"
     },
     "fre-025": {
-      "hash": "216c6bfab1dd73a2",
+      "hash": "2c1c825b7c01d12c",
       "text": "фильм"
     },
     "fre-026": {
-      "hash": "4c35e32b9419b7ae",
+      "hash": "83751182610bf62f",
       "text": "игра́"
     },
     "fre-027": {
-      "hash": "47601720db4ba6bd",
+      "hash": "d24af50a8b98e57c",
       "text": "прогу́лка"
     },
     "fre-028": {
-      "hash": "643c42f4d0d7baa4",
+      "hash": "7b63b7498872ebc9",
       "text": "путеше́ствие"
     },
     "fre-029": {
-      "hash": "80abbf49c5604254",
+      "hash": "27d3e403c139b8a0",
       "text": "фотогра́фия"
     },
     "fre-030": {
-      "hash": "c826b8fe6b816699",
+      "hash": "e9d00a8364ff16c8",
       "text": "бассе́йн"
     },
     "fre-031": {
-      "hash": "0d1e6be2b58936ce",
+      "hash": "d423d55fe46e7cf7",
       "text": "парк"
     },
     "fre-032": {
-      "hash": "f4c04c9ea92e55d4",
+      "hash": "e0efb582e725d5b9",
       "text": "пе́сня"
     },
     "fre-033": {
-      "hash": "dc5036312fede361",
+      "hash": "3dd2acb5dccaa617",
       "text": "та́нец"
     },
     "fre-034": {
-      "hash": "ff6f5ba4889348e5",
+      "hash": "d232df220433dff6",
       "text": "вечери́нка"
     },
     "fre-035": {
-      "hash": "469d516bcc0cd501",
+      "hash": "3f4c75a7cb71f921",
       "text": "го́сти"
     },
     "fre-036": {
-      "hash": "bbf35d11706012a7",
+      "hash": "2f67fbc10902fee6",
       "text": "ша́хматы"
     },
     "fre-037": {
-      "hash": "112b49bbaf12fade",
+      "hash": "9fb494f641cddad8",
       "text": "ры́балка"
     },
     "fre-038": {
-      "hash": "16ac098a4d692a8e",
+      "hash": "191bac3e77e1a5f3",
       "text": "ка́рты"
     },
     "fre-039": {
-      "hash": "1e5d08b1960b20e8",
+      "hash": "b6752db9b904bbf9",
       "text": "рисова́ть"
     },
     "fre-040": {
-      "hash": "6205b723f6af1f33",
+      "hash": "7e3c2518b93fae71",
       "text": "чита́ть"
     },
     "fre-041": {
-      "hash": "203325147507ca60",
+      "hash": "14675d64db069f6b",
       "text": "Чем ты занимаешься в свободное время?"
     },
     "fre-042": {
-      "hash": "83a4c98fdb2a23ac",
+      "hash": "df55caba66108e53",
       "text": "Я люблю путешествовать."
     },
     "fre-043": {
-      "hash": "1687f094e0b38afd",
+      "hash": "43d222135f6d92e0",
       "text": "Я играю в футбол."
     },
     "fre-044": {
-      "hash": "00da655370662941",
+      "hash": "9a0c5eea3a13eaa0",
       "text": "Пойдём погуляем?"
     },
     "fre-045": {
-      "hash": "dd19e02ad6c8f759",
+      "hash": "cf2909d04ee71ff6",
       "text": "Приходи к нам в гости!"
     },
     "fre-046": {
-      "hash": "d263a39b33feb3f9",
+      "hash": "2441fe14ecd04ff0",
       "text": "Где ты был в отпуске? Где ты была в отпуске?"
     },
     "fre-047": {
-      "hash": "308c249902afc8d9",
+      "hash": "d4250a67cf6080f4",
       "text": "Какую музыку ты слушаешь?"
     },
     "fre-048": {
-      "hash": "9a7f328696ff2bac",
+      "hash": "37ff1b1c241fee46",
       "text": "Мне очень понравился фильм."
     },
     "fre-049": {
-      "hash": "954af386877a112c",
+      "hash": "68a7ec4de747594f",
       "text": "Вы давно здесь живёте?"
     },
     "fre-050": {
-      "hash": "4a489ed1d3b3139e",
+      "hash": "9714ee9183a4baab",
       "text": "Как вам Москва?"
     },
     "fre-051": {
-      "hash": "de6004e1786822cf",
+      "hash": "882dbdabdbc690a0",
       "text": "Хорошая погода сегодня, правда?"
     },
     "gef-001": {
-      "hash": "6872317543b55ddb",
+      "hash": "7aca121644b44874",
       "text": "ра́дость"
     },
     "gef-002": {
-      "hash": "cb3a3eed99575a17",
+      "hash": "3286cd70fc02676a",
       "text": "грусть"
     },
     "gef-003": {
-      "hash": "ee7a5613f633b4c5",
+      "hash": "36f7ed6eeeea5884",
       "text": "любо́вь"
     },
     "gef-004": {
-      "hash": "31ed81f3ad0c87ba",
+      "hash": "ae5a29532a1acd1f",
       "text": "страх"
     },
     "gef-005": {
-      "hash": "9d9a56cfa8f65fd8",
+      "hash": "ab0fe1fc819adb71",
       "text": "счастли́вый"
     },
     "gef-006": {
-      "hash": "02b35b6bff4c7bfd",
+      "hash": "9bdcfbbf931fb24b",
       "text": "гру́стный"
     },
     "gef-007": {
-      "hash": "2f84b485aa8a41fa",
+      "hash": "7e60bc16160297a9",
       "text": "уста́лый"
     },
     "gef-008": {
-      "hash": "e35ac4f20b7af53e",
+      "hash": "353cbc196252c7ca",
       "text": "злой"
     },
     "gef-009": {
-      "hash": "40495d641a5eb06e",
+      "hash": "661349faa5cc9241",
       "text": "Я рад. Я рада."
     },
     "gef-010": {
-      "hash": "235c0c8ee7ac63e0",
+      "hash": "1c4318613f6a31ad",
       "text": "Мне нравится."
     },
     "gef-011": {
-      "hash": "aed1b434e54f2b68",
+      "hash": "bd1f07410283290a",
       "text": "Мне всё равно."
     },
     "gef-012": {
-      "hash": "9fe5950051e3844d",
+      "hash": "9b10d431ceef75cc",
       "text": "Я согласен. Я согласна."
     },
     "gef-013": {
-      "hash": "c00c7ada24c9f7e2",
+      "hash": "f927ad5edc959041",
       "text": "Я не согласен. Я не согласна."
     },
     "gef-014": {
-      "hash": "7be37f6491979272",
+      "hash": "988d53e95784b82b",
       "text": "По-моему, это хорошая идея."
     },
     "gef-015": {
-      "hash": "df5cb628cd5313a8",
+      "hash": "1adc65d7768e0203",
       "text": "Я так не думаю."
     },
     "gef-016": {
-      "hash": "e5f3a78d595751d0",
+      "hash": "11f91123fca8737b",
       "text": "Как жаль!"
     },
     "gef-017": {
-      "hash": "52ac839017ff444c",
+      "hash": "27bde3be90f3381e",
       "text": "Не волнуйтесь."
     },
     "gef-018": {
-      "hash": "e83bb4e4bbea0f19",
+      "hash": "ad6b8bd0f6e1fd89",
       "text": "Я скучаю по тебе."
     },
     "gef-019": {
-      "hash": "0a9957ffdc5e1709",
+      "hash": "55fbdacaf303c784",
       "text": "Я устал. Я устала."
     },
     "gef-020": {
-      "hash": "f8f492d750cc4d4b",
+      "hash": "1096a1a2d2d456bc",
       "text": "Нет худа без добра."
     },
     "gef-021": {
-      "hash": "314b15d9072305eb",
+      "hash": "6e5bc673db1d2aef",
       "text": "не́рвный"
     },
     "gef-022": {
-      "hash": "d1afd699bf6aba2b",
+      "hash": "fff6ef89ef99b53b",
       "text": "дово́льный"
     },
     "gef-023": {
-      "hash": "5cd2f09b98efecbb",
+      "hash": "4eb1d5baccb1ac6d",
       "text": "удивлённый"
     },
     "gef-024": {
-      "hash": "d2a3ae3ba5d98aed",
+      "hash": "ef0f1d38817c753b",
       "text": "споко́йный"
     },
     "gef-025": {
-      "hash": "9d649978573448ab",
+      "hash": "1a2c5980334d8e77",
       "text": "серди́тый"
     },
     "gef-026": {
-      "hash": "6a5e87031f9ddf6d",
+      "hash": "102659c77e15c540",
       "text": "ску́чно"
     },
     "gef-027": {
-      "hash": "d9f4a4a90b33101d",
+      "hash": "bb57485b4052ebad",
       "text": "интере́сно"
     },
     "gef-028": {
-      "hash": "a32e7dfc0021b923",
+      "hash": "b5da8b067a603a95",
       "text": "одино́кий"
     },
     "gef-029": {
-      "hash": "b599d867af2eaa39",
+      "hash": "2022a54b5761e1c8",
       "text": "ревни́вый"
     },
     "gef-030": {
-      "hash": "97fdb520664d4896",
+      "hash": "d41c768e024b4b4b",
       "text": "го́рдый"
     },
     "gef-031": {
-      "hash": "0caf08fc4a1d4513",
+      "hash": "941da34fb002f698",
       "text": "стыд"
     },
     "gef-032": {
-      "hash": "8043b4e2f6225cc2",
+      "hash": "f188c85311682786",
       "text": "наде́жда"
     },
     "gef-033": {
-      "hash": "4f41892c509d8bcc",
+      "hash": "3f8301dc9e5fd444",
       "text": "мечта́"
     },
     "gef-034": {
-      "hash": "955186fa33dd3b89",
+      "hash": "134eaeae849a50c3",
       "text": "сча́стье"
     },
     "gef-035": {
-      "hash": "ffbd90fd356ee6e2",
+      "hash": "bd9e8d75a458e30b",
       "text": "сомне́ние"
     },
     "gef-036": {
-      "hash": "afa8702396401484",
+      "hash": "c6ab1f9fd1920db2",
       "text": "мне́ние"
     },
     "gef-037": {
-      "hash": "3cc89756d4397ca5",
+      "hash": "229b0d70c76aaab0",
       "text": "Мне скучно."
     },
     "gef-038": {
-      "hash": "ccc59027eefe490a",
+      "hash": "e042d0f6cb2e2275",
       "text": "Мне страшно."
     },
     "gef-039": {
-      "hash": "5295cbd60011b905",
+      "hash": "0afeb752ab9eb0ac",
       "text": "Я очень рад тебя видеть. Я очень рада тебя видеть."
     },
     "gef-040": {
-      "hash": "803e81addb5f00e3",
+      "hash": "def429f76b90ee73",
       "text": "Не переживай!"
     },
     "gef-041": {
-      "hash": "1a66b00a763a8398",
+      "hash": "2741e18f5c286464",
       "text": "Я волнуюсь."
     },
     "gef-042": {
-      "hash": "4796f22c3693e9eb",
+      "hash": "c7fc484a7d193d26",
       "text": "Это здорово!"
     },
     "gef-043": {
-      "hash": "844d58909fa539d6",
+      "hash": "0b6e49b1c7d3de99",
       "text": "Какой ужас!"
     },
     "gef-044": {
-      "hash": "65fa31b2fec968eb",
+      "hash": "239e134d5daabeeb",
       "text": "Я в хорошем настроении."
     },
     "gef-045": {
-      "hash": "d72d264bd79099f6",
+      "hash": "445a509cfb1e9256",
       "text": "Мне это не нравится."
     },
     "gef-046": {
-      "hash": "2c0aaff99ba2ced5",
+      "hash": "dd18bfd8ef091add",
       "text": "Ты прав. Ты права."
     },
     "gef-047": {
-      "hash": "b72a2e66d6933b62",
+      "hash": "18ded41d09932b5d",
       "text": "Честно говоря, я не уверен. Честно говоря, я не уверена."
     },
     "gef-048": {
-      "hash": "c62d7235862fc142",
+      "hash": "fc0a3e2790afeec3",
       "text": "Я тебя люблю."
     },
     "gef-049": {
-      "hash": "5ff09b0e1d904ce4",
+      "hash": "480be7c2f467ac7e",
       "text": "Не сердись!"
     },
     "gef-050": {
-      "hash": "a70a785d9a2502a6",
+      "hash": "5d509807005d338e",
       "text": "Я тобой горжусь."
     },
     "gef-051": {
-      "hash": "09e8b011f72e2e57",
+      "hash": "cd65c6cf2bbb6827",
       "text": "Не было бы счастья, да несчастье помогло."
     },
     "ges-001": {
-      "hash": "29f7cb73f389e89d",
+      "hash": "48e843de0be132d0",
       "text": "врач"
     },
     "ges-002": {
-      "hash": "07ebfba9f81e57ab",
+      "hash": "d76a8ec4c7490c6f",
       "text": "больни́ца"
     },
     "ges-003": {
-      "hash": "4df70b6cd1b21a59",
+      "hash": "b3f9d47b976debf2",
       "text": "апте́ка"
     },
     "ges-004": {
-      "hash": "add34e0330436085",
+      "hash": "96b57be8f4090cf0",
       "text": "лека́рство"
     },
     "ges-005": {
-      "hash": "614f5105a2e3bff8",
+      "hash": "f5af1db3b5f88f8e",
       "text": "боле́знь"
     },
     "ges-006": {
-      "hash": "dcb32885df4b1d92",
+      "hash": "548b611881b47c77",
       "text": "температу́ра"
     },
     "ges-007": {
-      "hash": "c3090d211595d74d",
+      "hash": "3de9b0486f84694b",
       "text": "по́мощь"
     },
     "ges-008": {
-      "hash": "7f6991aec73ede07",
+      "hash": "b8a0b48a7c0e9b39",
       "text": "пожа́р"
     },
     "ges-009": {
-      "hash": "f62823665f4db70a",
+      "hash": "9bdada1eb073ca82",
       "text": "поли́ция"
     },
     "ges-010": {
-      "hash": "6afaa8b06a73aff7",
+      "hash": "e92db6a0802d97ed",
       "text": "реце́пт"
     },
     "ges-011": {
-      "hash": "5de47ba0f1fa41bd",
+      "hash": "c84696abc805f74b",
       "text": "Помогите!"
     },
     "ges-012": {
-      "hash": "1aabd0d5887e8eca",
+      "hash": "4a6e1396564022b3",
       "text": "Вызовите скорую!"
     },
     "ges-013": {
-      "hash": "08f51b54889bda52",
+      "hash": "1c14767551c5acb1",
       "text": "У меня болит голова."
     },
     "ges-014": {
-      "hash": "87bbf95d90cf6742",
+      "hash": "2ae91113799210ca",
       "text": "Мне плохо."
     },
     "ges-015": {
-      "hash": "0d45ee9c6f220d60",
+      "hash": "2746b8beed2ef291",
       "text": "Где ближайшая аптека?"
     },
     "ges-016": {
-      "hash": "faac046303734e10",
+      "hash": "30b5fbf46e6ba88c",
       "text": "У меня аллергия на орехи."
     },
     "ges-017": {
-      "hash": "263bbeabce58814d",
+      "hash": "dae06da774ec9c54",
       "text": "Мне нужен врач."
     },
     "ges-018": {
-      "hash": "ee350dcf47887fe9",
+      "hash": "8307aecb6d6f63a2",
       "text": "Я заболел. Я заболела."
     },
     "ges-019": {
-      "hash": "5c6fa1944cee8b33",
+      "hash": "e87690bf9a4b8c94",
       "text": "Выздоравливайте!"
     },
     "ges-020": {
-      "hash": "7aa00ab0ef3d164c",
+      "hash": "c3cf828233b0e589",
       "text": "Будьте здоровы!"
     },
     "ges-021": {
-      "hash": "58fcc251ffe2d947",
+      "hash": "71a8d70a5083ec80",
       "text": "боль"
     },
     "ges-022": {
-      "hash": "fc460e2fb8a6026b",
+      "hash": "ccc27ba6b37af765",
       "text": "просту́да"
     },
     "ges-023": {
-      "hash": "11be98fd91119bdd",
+      "hash": "980ba862b52f0fea",
       "text": "ка́шель"
     },
     "ges-024": {
-      "hash": "f14343d6e4e52f43",
+      "hash": "1d77a9279950ed7c",
       "text": "на́сморк"
     },
     "ges-025": {
-      "hash": "a603502adcd9a09e",
+      "hash": "5829d797673bc7f8",
       "text": "грипп"
     },
     "ges-026": {
-      "hash": "8c823caca894f406",
+      "hash": "59aa11621a8d33b2",
       "text": "табле́тка"
     },
     "ges-027": {
-      "hash": "38e24160e1a891ec",
+      "hash": "a01f93d09e5b6374",
       "text": "пла́стырь"
     },
     "ges-028": {
-      "hash": "b43101be7644d9ad",
+      "hash": "df191d1eb11f7f99",
       "text": "ско́рая по́мощь"
     },
     "ges-029": {
-      "hash": "00d4cf601235de6f",
+      "hash": "fc6675a82f44aae4",
       "text": "ра́на"
     },
     "ges-030": {
-      "hash": "b8e125b69df9b41d",
+      "hash": "e52495bf391bc18c",
       "text": "кровь"
     },
     "ges-031": {
-      "hash": "2818e83a56e53d6f",
+      "hash": "90e37715b5a18ab4",
       "text": "давле́ние"
     },
     "ges-032": {
-      "hash": "31d99d10eab9da25",
+      "hash": "5254962c7f91616b",
       "text": "зубно́й врач"
     },
     "ges-033": {
-      "hash": "cfb7a812ad619bbf",
+      "hash": "9ed89489b46c001c",
       "text": "страхо́вка"
     },
     "ges-034": {
-      "hash": "f436c81e92fde194",
+      "hash": "290f0b63ac6d9da2",
       "text": "здоро́вье"
     },
     "ges-035": {
-      "hash": "a011e542f2a6bb3a",
+      "hash": "b535170660d2234e",
       "text": "ава́рия"
     },
     "ges-036": {
-      "hash": "36e972503cddf481",
+      "hash": "21b50d334a2222e5",
       "text": "пацие́нт"
     },
     "ges-037": {
-      "hash": "7eff8a01be31181e",
+      "hash": "5caadf4fa2ffcba9",
       "text": "медсестра́"
     },
     "ges-038": {
-      "hash": "1e76756153b5dd98",
+      "hash": "1699ecd2b081fc9a",
       "text": "Мне нужна скорая помощь."
     },
     "ges-039": {
-      "hash": "6296c1bf662bba40",
+      "hash": "5f15404d92a65763",
       "text": "Где болит?"
     },
     "ges-040": {
-      "hash": "48bf81ac1aa2302b",
+      "hash": "438b092abeb4f14c",
       "text": "У меня высокая температура."
     },
     "ges-041": {
-      "hash": "2e45b264e9bf6267",
+      "hash": "4091d135ff7d470a",
       "text": "У меня болит живот."
     },
     "ges-042": {
-      "hash": "fbe158f33431fb92",
+      "hash": "41e58a97517899fa",
       "text": "Меня тошнит."
     },
     "ges-043": {
-      "hash": "ebe5380c489e70c1",
+      "hash": "ebfdaece27e4d85c",
       "text": "У меня кружится голова."
     },
     "ges-044": {
-      "hash": "30015d6a905fa8e9",
+      "hash": "a4f765c20b9046f9",
       "text": "Принимайте по одной таблетке три раза в день."
     },
     "ges-045": {
-      "hash": "2ecf85eb5b762011",
+      "hash": "b80b7125e55e19ab",
       "text": "У вас есть что-нибудь от кашля?"
     },
     "ges-046": {
-      "hash": "07dd9090dd65a617",
+      "hash": "fa9c94722320d821",
       "text": "Я плохо себя чувствую."
     },
     "ges-047": {
-      "hash": "abb6fa78084c0080",
+      "hash": "ce8c7552dfe42def",
       "text": "Позвоните в полицию!"
     },
     "ges-048": {
-      "hash": "1a25401e7643657d",
+      "hash": "0f8ef320ebb6ca79",
       "text": "Произошла авария."
     },
     "ges-049": {
-      "hash": "65af5b46d1a4825a",
+      "hash": "6caa0a845b624aaa",
       "text": "У меня есть медицинская страховка."
     },
     "ges-050": {
-      "hash": "4b56b888ea87ab83",
+      "hash": "f5df9280eef77d54",
       "text": "Мне нужно к зубному врачу."
     },
     "ges-051": {
-      "hash": "2453ea94ef053a3b",
+      "hash": "d8ba395e97329ae9",
       "text": "Здоро́вье доро́же де́нег."
     },
     "kle-001": {
-      "hash": "ff8a9c3d9c4559e3",
+      "hash": "baffed868be7d8df",
       "text": "оде́жда"
     },
     "kle-002": {
-      "hash": "3f9346000c29b316",
+      "hash": "ddf8a706a07868d8",
       "text": "руба́шка"
     },
     "kle-003": {
-      "hash": "ebcef2f2e985071a",
+      "hash": "0c801a1c33d8a49b",
       "text": "пла́тье"
     },
     "kle-004": {
-      "hash": "ed5656c7f3638dff",
+      "hash": "77f5f833838b7f9a",
       "text": "брю́ки"
     },
     "kle-005": {
-      "hash": "619737ea93c1a348",
+      "hash": "84f5d787ebed4060",
       "text": "ку́ртка"
     },
     "kle-006": {
-      "hash": "1e9fee8620a28734",
+      "hash": "a885fe6fa054eae5",
       "text": "о́бувь"
     },
     "kle-007": {
-      "hash": "eaa7b3a630cdbe92",
+      "hash": "4e7a4f0973233676",
       "text": "ша́пка"
     },
     "kle-008": {
-      "hash": "72acbc7df8d6ecc3",
+      "hash": "233291e44d869782",
       "text": "кра́сный"
     },
     "kle-009": {
-      "hash": "74e33287d4cb9a12",
+      "hash": "4214a4fb512dcfd5",
       "text": "си́ний"
     },
     "kle-010": {
-      "hash": "19aa62c7c3c05142",
+      "hash": "8f71ac801a8108d6",
       "text": "голубо́й"
     },
     "kle-011": {
-      "hash": "1d361e1d8fc89217",
+      "hash": "17ca4345c573b574",
       "text": "зелёный"
     },
     "kle-012": {
-      "hash": "5f8e99c3731c039b",
+      "hash": "a09859c1ae72bb31",
       "text": "жёлтый"
     },
     "kle-013": {
-      "hash": "10d5d1f22f8d8c91",
+      "hash": "cd31aaa9f0e7b69e",
       "text": "бе́лый"
     },
     "kle-014": {
-      "hash": "d222c671bdd11610",
+      "hash": "31f3b186164ddbfe",
       "text": "чёрный"
     },
     "kle-015": {
-      "hash": "8eda8452f4c09fee",
+      "hash": "545fec878bcb7775",
       "text": "разме́р"
     },
     "kle-016": {
-      "hash": "53fc5c669205ea33",
+      "hash": "6a9a63a103f38842",
       "text": "Можно примерить?"
     },
     "kle-017": {
-      "hash": "6b915d557399a0ff",
+      "hash": "b1c14fafe850e9f4",
       "text": "Где примерочная?"
     },
     "kle-018": {
-      "hash": "0985794685c35bb2",
+      "hash": "2c1007c4c4d723b3",
       "text": "Есть размер побольше?"
     },
     "kle-019": {
-      "hash": "03172f4b546f4574",
+      "hash": "713527c992e4f24e",
       "text": "Это мне мало."
     },
     "kle-020": {
-      "hash": "0f90687f4d50b1ee",
+      "hash": "126d3cc78fcf1b5c",
       "text": "Этот цвет мне нравится."
     },
     "kle-021": {
-      "hash": "099a0e4d081dc250",
+      "hash": "124bfb514550d12e",
       "text": "ю́бка"
     },
     "kle-022": {
-      "hash": "d9d9be073fe64d4a",
+      "hash": "f55bc6522043c4f4",
       "text": "сви́тер"
     },
     "kle-023": {
-      "hash": "d82dbf7029524511",
+      "hash": "0855d9cc4ce4806c",
       "text": "пальто́"
     },
     "kle-024": {
-      "hash": "2a768b3526ded2b1",
+      "hash": "588a108659246092",
       "text": "костю́м"
     },
     "kle-025": {
-      "hash": "e099e9a5a4e33a57",
+      "hash": "5a216c07fb0eff2c",
       "text": "футбо́лка"
     },
     "kle-026": {
-      "hash": "6ceeffa1b7c48b49",
+      "hash": "36e7700db54e4b0d",
       "text": "джи́нсы"
     },
     "kle-027": {
-      "hash": "28ccc349d1da5dd5",
+      "hash": "4ea65e6d35cd7015",
       "text": "носки́"
     },
     "kle-028": {
-      "hash": "279244687913b9cf",
+      "hash": "8185bec5bc27d993",
       "text": "ту́фли"
     },
     "kle-029": {
-      "hash": "08944d26d9b8b5f2",
+      "hash": "e72e1ebcb84e0234",
       "text": "сапоги́"
     },
     "kle-030": {
-      "hash": "b7fbbcfe92a85b55",
+      "hash": "1f09bff083fa112d",
       "text": "кроссо́вки"
     },
     "kle-031": {
-      "hash": "2aef4c58f91fdde6",
+      "hash": "31901c385b7c845c",
       "text": "шарф"
     },
     "kle-032": {
-      "hash": "15adacc81ff1b05b",
+      "hash": "cdf0fa2124285940",
       "text": "перча́тки"
     },
     "kle-033": {
-      "hash": "dafa514375f002ac",
+      "hash": "f33eb66d8c14da4d",
       "text": "га́лстук"
     },
     "kle-034": {
-      "hash": "8bb232632dfa4c84",
+      "hash": "895020f87be6d6ce",
       "text": "очки́"
     },
     "kle-035": {
-      "hash": "fa79966fbc11cab8",
+      "hash": "d47cfb103da4e75a",
       "text": "зо́нтик"
     },
     "kle-036": {
-      "hash": "81a636d34fdc1273",
+      "hash": "369adce3af2bb21e",
       "text": "шо́рты"
     },
     "kle-037": {
-      "hash": "e32767856631ce7d",
+      "hash": "4ed4e4edb6cf148f",
       "text": "се́рый"
     },
     "kle-038": {
-      "hash": "76774e84308ce2fe",
+      "hash": "1ec61e57e72da9a7",
       "text": "кори́чневый"
     },
     "kle-039": {
-      "hash": "f887f028ea4e8e9d",
+      "hash": "918b03f256641584",
       "text": "ора́нжевый"
     },
     "kle-040": {
-      "hash": "30a27cd71c4c4392",
+      "hash": "c1b639c712e9d313",
       "text": "ро́зовый"
     },
     "kle-041": {
-      "hash": "6484c2b7f8c65e0c",
+      "hash": "95979d434c227141",
       "text": "фиоле́товый"
     },
     "kle-042": {
-      "hash": "d13cd7a3a89095d9",
+      "hash": "646fd29a16bda864",
       "text": "све́тлый"
     },
     "kle-043": {
-      "hash": "74229b9e0fb67ad3",
+      "hash": "464130972f097073",
       "text": "тёмный"
     },
     "kle-044": {
-      "hash": "415a0bd71e7cd924",
+      "hash": "68f0c2cfe2060ba9",
       "text": "цвет"
     },
     "kle-045": {
-      "hash": "47f2f7ded1c43e7a",
+      "hash": "901ac95b5e8573de",
       "text": "Какой у вас размер?"
     },
     "kle-046": {
-      "hash": "06640b0b57c9844e",
+      "hash": "92816f47cfe3d5de",
       "text": "Мне нужен размер поменьше."
     },
     "kle-047": {
-      "hash": "79efd4a7c1b8042f",
+      "hash": "4c93a869dceb4da2",
       "text": "Сколько стоит эта куртка?"
     },
     "kle-048": {
-      "hash": "3fc427539aa3dbdb",
+      "hash": "72bb43217463435d",
       "text": "Эта рубашка мне велика."
     },
     "kle-049": {
-      "hash": "f4bb852e8d5dd993",
+      "hash": "9312b82ed3dd47ac",
       "text": "Можно поменять?"
     },
     "kle-050": {
-      "hash": "9354b8973674c713",
+      "hash": "af1066c655cb42c6",
       "text": "Вам идёт этот цвет."
     },
     "kle-051": {
-      "hash": "3ddcab26e0a6ba4f",
+      "hash": "5dc6dda3371d8e25",
       "text": "Я ищу зимнюю куртку."
     },
     "koc-001": {
-      "hash": "3cc98d9c20358a4e",
+      "hash": "c14c3ef4386ce62a",
       "text": "кастрю́ля"
     },
     "koc-002": {
-      "hash": "776beed630ce5e49",
+      "hash": "2163164901cb5980",
       "text": "сковорода́"
     },
     "koc-003": {
-      "hash": "82d2a7dc278b8859",
+      "hash": "4ac401143e405712",
       "text": "нож"
     },
     "koc-004": {
-      "hash": "74283b83bbbb801e",
+      "hash": "fb7e8489f55af7ac",
       "text": "ло́жка"
     },
     "koc-005": {
-      "hash": "a4fdd86186d9aca4",
+      "hash": "4475b3a9c55ad1f8",
       "text": "ви́лка"
     },
     "koc-006": {
-      "hash": "00206a6b98593bc9",
+      "hash": "e9d6d16bd1ccdcc9",
       "text": "таре́лка"
     },
     "koc-007": {
-      "hash": "09621817fa13291f",
+      "hash": "765b8412aa989b7d",
       "text": "соль"
     },
     "koc-008": {
-      "hash": "51ef40bb16cbb329",
+      "hash": "3adf6bc85d88c2b5",
       "text": "са́хар"
     },
     "koc-009": {
-      "hash": "c891f9eaa39e3ddd",
+      "hash": "8ac1dc5a4c7f3a58",
       "text": "ма́сло"
     },
     "koc-010": {
-      "hash": "5251742636eba710",
+      "hash": "41a88947b5285d56",
       "text": "яйцо́"
     },
     "koc-011": {
-      "hash": "66f0d7c6577749e7",
+      "hash": "f2e99bbb814e401b",
       "text": "мя́со"
     },
     "koc-012": {
-      "hash": "38d13b091627d6a2",
+      "hash": "cf469afc0f50570d",
       "text": "ры́ба"
     },
     "koc-013": {
-      "hash": "1c7526d5ab6d1b66",
+      "hash": "8ac4092f0f8423fd",
       "text": "о́вощи"
     },
     "koc-014": {
-      "hash": "86f80b7184e3932a",
+      "hash": "863a1c9a1b82a1f3",
       "text": "карто́шка"
     },
     "koc-015": {
-      "hash": "3d7ca73de70c213a",
+      "hash": "e1aa9ec065344f0a",
       "text": "суп"
     },
     "koc-016": {
-      "hash": "0b027e8673f37eb6",
+      "hash": "550bd4bf06210ef4",
       "text": "Порежьте лук."
     },
     "koc-017": {
-      "hash": "e5a0a5f105c04d30",
+      "hash": "bd1ef0aaa1b0056e",
       "text": "Вода кипит."
     },
     "koc-018": {
-      "hash": "49bc18e398812302",
+      "hash": "d034b6871fb3e1bb",
       "text": "Добавьте немного соли."
     },
     "koc-019": {
-      "hash": "40768d1f56faa954",
+      "hash": "e77155e11b14576d",
       "text": "Что будем готовить?"
     },
     "koc-020": {
-      "hash": "6a9b498eddb11b14",
+      "hash": "1878db79242dacee",
       "text": "Аппетит приходит во время еды."
     },
     "koc-021": {
-      "hash": "63da0505c7debb27",
+      "hash": "f021914a74639d4d",
       "text": "мука́"
     },
     "koc-022": {
-      "hash": "4020093874771785",
+      "hash": "166303a7e5b40f10",
       "text": "рис"
     },
     "koc-023": {
-      "hash": "78f4f5b1d03056f8",
+      "hash": "7a23819c7415b42f",
       "text": "макаро́ны"
     },
     "koc-024": {
-      "hash": "39a7aa642bec3094",
+      "hash": "656416f9c6503397",
       "text": "лук"
     },
     "koc-025": {
-      "hash": "286f423b7ea5f472",
+      "hash": "b77e8b1cf7671893",
       "text": "чесно́к"
     },
     "koc-026": {
-      "hash": "883e94d72b7cc9d9",
+      "hash": "6f7efee7ae4bbac9",
       "text": "морко́вь"
     },
     "koc-027": {
-      "hash": "a7fee961619a1315",
+      "hash": "66b5401f0c404e76",
       "text": "капу́ста"
     },
     "koc-028": {
-      "hash": "ed8e996d2b4e9f31",
+      "hash": "a064e39e289e294a",
       "text": "пе́рец"
     },
     "koc-029": {
-      "hash": "242d587895ffbf18",
+      "hash": "2a2f497b2dfdff8b",
       "text": "грибы́"
     },
     "koc-030": {
-      "hash": "c28ae5e8e09d526d",
+      "hash": "9352d79d7dae578d",
       "text": "говя́дина"
     },
     "koc-031": {
-      "hash": "8e9a33138c2a1927",
+      "hash": "3b3305bd0b9413b4",
       "text": "свини́на"
     },
     "koc-032": {
-      "hash": "d4667584af89357b",
+      "hash": "26d4dfd54b2bf97d",
       "text": "смета́на"
     },
     "koc-033": {
-      "hash": "6c6ae4d75a0dc608",
+      "hash": "3ae7da6f0d7078d2",
       "text": "творо́г"
     },
     "koc-034": {
-      "hash": "f14fcced52eae17a",
+      "hash": "4887fe101a798792",
       "text": "ка́ша"
     },
     "koc-035": {
-      "hash": "1093a46b09307f3f",
+      "hash": "74dbca0f8d046a53",
       "text": "плита́"
     },
     "koc-036": {
-      "hash": "a992e663f45320f8",
+      "hash": "39f09603c8793fdb",
       "text": "духо́вка"
     },
     "koc-037": {
-      "hash": "6a67dcbc74c6ce3c",
+      "hash": "9ccb4201bd8441e2",
       "text": "холоди́льник"
     },
     "koc-038": {
-      "hash": "cb0d1e496a774990",
+      "hash": "fd8b73c566ed64f6",
       "text": "ми́ска"
     },
     "koc-039": {
-      "hash": "dcfa520ae58e6d84",
+      "hash": "a3b7131540e395c5",
       "text": "вари́ть"
     },
     "koc-040": {
-      "hash": "881d792fc7a20b11",
+      "hash": "6a2bdb41ce29deae",
       "text": "жа́рить"
     },
     "koc-041": {
-      "hash": "6e804efc05811b6d",
+      "hash": "b2eb6a74dd34440b",
       "text": "ре́зать"
     },
     "koc-042": {
-      "hash": "3108cb43d7fc1960",
+      "hash": "d84ed8b1d2c5ffbf",
       "text": "Нарежьте морковь кубиками."
     },
     "koc-043": {
-      "hash": "cfd5a8a8bed21345",
+      "hash": "05fe3cc0e1e517e1",
       "text": "Жарьте мясо десять минут."
     },
     "koc-044": {
-      "hash": "1e5964a6d4f872b3",
+      "hash": "9438bc93563a7776",
       "text": "Сварите рис."
     },
     "koc-045": {
-      "hash": "d9602e8e96242a34",
+      "hash": "3ccd33a25b7b8f3d",
       "text": "Посолите и поперчите."
     },
     "koc-046": {
-      "hash": "e6f45961337312ae",
+      "hash": "09588c674ede12f0",
       "text": "Разогрейте духовку."
     },
     "koc-047": {
-      "hash": "33f6a263af5f4577",
+      "hash": "6f0cf40db8bdbca3",
       "text": "Мне нужен рецепт этого салата."
     },
     "koc-048": {
-      "hash": "f3fbf88e2969c1e1",
+      "hash": "99d2385d24b988bd",
       "text": "Что на ужин?"
     },
     "koc-049": {
-      "hash": "8e3bc8352e3a1bfd",
+      "hash": "e79e8bfb78b0873e",
       "text": "Суп уже готов."
     },
     "koc-050": {
-      "hash": "f96cd4c5a9090b9e",
+      "hash": "c2fe3470a316d249",
       "text": "Помой овощи."
     },
     "koc-051": {
-      "hash": "2e5217a0113c9f18",
+      "hash": "501a8fe158866014",
       "text": "Кашу маслом не испортишь."
     },
     "koe-001": {
-      "hash": "b06bee0db3cf1e7b",
+      "hash": "58449c4f0ad2253e",
       "text": "голова́"
     },
     "koe-002": {
-      "hash": "9dfb0ac50754a827",
+      "hash": "ae692654de68eae7",
       "text": "глаз"
     },
     "koe-003": {
-      "hash": "aa8744db132fe80b",
+      "hash": "0178735c6dd54b23",
       "text": "у́хо"
     },
     "koe-004": {
-      "hash": "45a51a8636277759",
+      "hash": "4d8ae8145c4c2bb7",
       "text": "нос"
     },
     "koe-005": {
-      "hash": "aa2b896cf7c3b716",
+      "hash": "fa9a8461d07af308",
       "text": "рот"
     },
     "koe-006": {
-      "hash": "7b03cd8f0bf77723",
+      "hash": "7d8a975a11d00b44",
       "text": "зуб"
     },
     "koe-007": {
-      "hash": "c4c98e39632690c9",
+      "hash": "75eae1d6be5a0d95",
       "text": "рука́"
     },
     "koe-008": {
-      "hash": "9fc1554a8a22191c",
+      "hash": "c6bbf018757dd1b0",
       "text": "нога́"
     },
     "koe-009": {
-      "hash": "ea1a8d3e7fe5b242",
+      "hash": "fbf5aec29d9d1c01",
       "text": "спина́"
     },
     "koe-010": {
-      "hash": "337583505cfd8c44",
+      "hash": "4607290f458db97a",
       "text": "живо́т"
     },
     "koe-011": {
-      "hash": "035178f425bf3327",
+      "hash": "1b9238ea83ab4290",
       "text": "се́рдце"
     },
     "koe-012": {
-      "hash": "f9b46f6939c00ed1",
+      "hash": "1a58531aa0cc7691",
       "text": "па́лец"
     },
     "koe-013": {
-      "hash": "86e12cf6bbe7cbf8",
+      "hash": "354b89d290b2a25d",
       "text": "во́лосы"
     },
     "koe-014": {
-      "hash": "464a0f4016233f17",
+      "hash": "a6ab0ef58637346b",
       "text": "лицо́"
     },
     "koe-015": {
-      "hash": "4ddb44d3cce4a5ff",
+      "hash": "a02fdf0225857e77",
       "text": "го́рло"
     },
     "koe-016": {
-      "hash": "13bb5e252e77cb31",
+      "hash": "d11f03b5f7ba91f2",
       "text": "У меня болит зуб."
     },
     "koe-017": {
-      "hash": "1c1b185cca850fa5",
+      "hash": "4b6a651efe1922bd",
       "text": "У меня болит спина."
     },
     "koe-018": {
-      "hash": "47dc77d1fc446413",
+      "hash": "0802d4c59b209b7c",
       "text": "Я сломал руку. Я сломала руку."
     },
     "koe-019": {
-      "hash": "fa5362ac1af1d4e8",
+      "hash": "daed05fe3fd93bbd",
       "text": "У него голубые глаза."
     },
     "koe-020": {
-      "hash": "98040409994c358b",
+      "hash": "7e18f8258451f6cc",
       "text": "Язык до Киева доведёт."
     },
     "koe-021": {
-      "hash": "d7b69c378dc05d52",
+      "hash": "ad1d3f1a275ba1e1",
       "text": "ше́я"
     },
     "koe-022": {
-      "hash": "fe0346590f1f9a83",
+      "hash": "7627cf0b08939ec1",
       "text": "плечо́"
     },
     "koe-023": {
-      "hash": "0696f13c2d004199",
+      "hash": "2000f3db89018af5",
       "text": "грудь"
     },
     "koe-024": {
-      "hash": "c97fb7f761ac56fc",
+      "hash": "1e0bfc18197266d5",
       "text": "ло́коть"
     },
     "koe-025": {
-      "hash": "5fd13d708366e9a2",
+      "hash": "056b6be593b7db09",
       "text": "коле́но"
     },
     "koe-026": {
-      "hash": "ed3e363302e73eca",
+      "hash": "4af67f3fdbb06310",
       "text": "щека́"
     },
     "koe-027": {
-      "hash": "b6a45e37ae10ea49",
+      "hash": "d3c754e25fd9bf85",
       "text": "лоб"
     },
     "koe-028": {
-      "hash": "8b517f4fc9b16385",
+      "hash": "41e83f37d7efedaa",
       "text": "губа́"
     },
     "koe-029": {
-      "hash": "3672e82df78a833d",
+      "hash": "d76555a6096ee50e",
       "text": "язы́к"
     },
     "koe-030": {
-      "hash": "af7e4bf29ed2def9",
+      "hash": "a5de59d0def35467",
       "text": "бровь"
     },
     "koe-031": {
-      "hash": "59f160c901b1322b",
+      "hash": "7d3b14004f4fd1af",
       "text": "ко́жа"
     },
     "koe-032": {
-      "hash": "ecb3e6758907627a",
+      "hash": "2beed01d3730a496",
       "text": "кость"
     },
     "koe-033": {
-      "hash": "38778e47a12ce773",
+      "hash": "1249453f8ce35251",
       "text": "мы́шца"
     },
     "koe-034": {
-      "hash": "3da742c4780428a0",
+      "hash": "9aee2484c4b7d6ba",
       "text": "желу́док"
     },
     "koe-035": {
-      "hash": "2285c1d51bf2e7b1",
+      "hash": "6b199b95b18268d0",
       "text": "лёгкие"
     },
     "koe-036": {
-      "hash": "dd017c29b9e1c61c",
+      "hash": "fa353c0f55620a80",
       "text": "по́чка"
     },
     "koe-037": {
-      "hash": "7b235e5fe933c7f9",
+      "hash": "1dde54a1e0b5294d",
       "text": "ладо́нь"
     },
     "koe-038": {
-      "hash": "47d5c41cf535e041",
+      "hash": "60319c9d70c4d0c6",
       "text": "но́готь"
     },
     "koe-039": {
-      "hash": "af846cf33ee59599",
+      "hash": "8781ab81f55450ea",
       "text": "бедро́"
     },
     "koe-040": {
-      "hash": "4bcd499b96cee594",
+      "hash": "eabbb1bc50443617",
       "text": "пя́тка"
     },
     "koe-041": {
-      "hash": "36961565972359ee",
+      "hash": "1c6d2254ad928916",
       "text": "подборо́док"
     },
     "koe-042": {
-      "hash": "a7f3d0dfacee3c26",
+      "hash": "339bf71053e31bc3",
       "text": "те́ло"
     },
     "koe-043": {
-      "hash": "f9e060c7ff14652a",
+      "hash": "00566626777bfd1d",
       "text": "рост"
     },
     "koe-044": {
-      "hash": "76b9d7b3e5a4a960",
+      "hash": "b8d2efe08343c6c9",
       "text": "вес"
     },
     "koe-045": {
-      "hash": "36cc2b4d5f01fffa",
+      "hash": "2f937ef5ea1cd934",
       "text": "У меня болит горло."
     },
     "koe-046": {
-      "hash": "080163593ea8c8c3",
+      "hash": "187a53c3eee1964c",
       "text": "Я порезал палец. Я порезала палец."
     },
     "koe-047": {
-      "hash": "afaf89250cacf0e6",
+      "hash": "c2f16b8601491610",
       "text": "У неё длинные волосы."
     },
     "koe-048": {
-      "hash": "a2871d40e21b66c2",
+      "hash": "5abcc2f9baafdf1b",
       "text": "Он высокий и худой."
     },
     "koe-049": {
-      "hash": "a08c20642192b888",
+      "hash": "bff3f525f27cd3ce",
       "text": "Мне нужно помыть руки."
     },
     "koe-050": {
-      "hash": "3bef25e9efedc2c8",
+      "hash": "79a1d1758dee4d17",
       "text": "У меня болит колено."
     },
     "koe-051": {
-      "hash": "a9fefd38850ce74c",
+      "hash": "08a9f5b0a6a15e48",
       "text": "Какой у вас рост?"
     },
+    "lob-001": {
+      "hash": "d6a9abdc83ac35ee",
+      "text": "Молоде́ц!"
+    },
+    "lob-002": {
+      "hash": "e328180e990608bc",
+      "text": "Так держа́ть!"
+    },
+    "lob-003": {
+      "hash": "77d9cc144ebc6f8d",
+      "text": "Ты молоде́ц!"
+    },
+    "lob-004": {
+      "hash": "a02232aa4041ed41",
+      "text": "Прекра́сно!"
+    },
+    "lob-005": {
+      "hash": "01d8a9406afcfe15",
+      "text": "Великоле́пно!"
+    },
+    "lob-006": {
+      "hash": "b26af9df01162eee",
+      "text": "Замеча́тельно!"
+    },
+    "lob-007": {
+      "hash": "535edb48491d41e2",
+      "text": "Отли́чная рабо́та!"
+    },
+    "lob-008": {
+      "hash": "f0206d2ee299be0f",
+      "text": "Здо́рово!"
+    },
+    "lob-009": {
+      "hash": "34e9386d5091df4c",
+      "text": "Бра́во!"
+    },
+    "lob-010": {
+      "hash": "8222ec8551fc8f9e",
+      "text": "Умни́ца!"
+    },
+    "lob-011": {
+      "hash": "6221ae2c4a0b4286",
+      "text": "Я горжу́сь тобо́й!"
+    },
+    "lob-012": {
+      "hash": "2aea0435d55399f8",
+      "text": "Ты на пра́вильном пути́!"
+    },
+    "lob-013": {
+      "hash": "978ae7f9aaa5185f",
+      "text": "С ка́ждым днём всё лу́чше!"
+    },
+    "lob-014": {
+      "hash": "068183942834b965",
+      "text": "Так и на́до!"
+    },
+    "lob-015": {
+      "hash": "d6aeddf70f11db05",
+      "text": "Ты де́лаешь успе́хи!"
+    },
+    "lob-016": {
+      "hash": "16f422324a45abe4",
+      "text": "Всё получи́лось!"
+    },
+    "lob-017": {
+      "hash": "1e74bec0a0967278",
+      "text": "Ты зна́ешь всё бо́льше!"
+    },
+    "lob-018": {
+      "hash": "3d12ffcb81e2c118",
+      "text": "Потряса́юще!"
+    },
+    "lob-019": {
+      "hash": "36168848633cb0eb",
+      "text": "Су́пер!"
+    },
+    "lob-020": {
+      "hash": "b1cf6fa9222b114e",
+      "text": "Отли́чный результа́т!"
+    },
     "red-001": {
-      "hash": "7cffd3b9e809b03e",
+      "hash": "4e90a06e3191edac",
       "text": "Первый блин комом."
     },
     "red-002": {
-      "hash": "70d7aaba3488055e",
+      "hash": "e063441c7e19bc5f",
       "text": "Тише едешь — дальше будешь."
     },
     "red-003": {
-      "hash": "abb5e9a6ae1fd867",
+      "hash": "68a7067c5c8f5e1c",
       "text": "Не всё то золото, что блестит."
     },
     "red-004": {
-      "hash": "4c9d6bf4409f2bed",
+      "hash": "21e6c6a5953e5a30",
       "text": "Лучше поздно, чем никогда."
     },
     "red-005": {
-      "hash": "8e099d80d3177a19",
+      "hash": "54225cf7c85ec9d4",
       "text": "Век живи — век учись."
     },
     "red-006": {
-      "hash": "f18029ca684749d4",
+      "hash": "d2dc7fb20efb293a",
       "text": "Поживём — увидим."
     },
     "red-007": {
-      "hash": "d9e47389ff21d04e",
+      "hash": "21d338afaefd7ce2",
       "text": "Утро вечера мудренее."
     },
     "red-008": {
-      "hash": "5e13609652e54336",
+      "hash": "fc5cdd81d186ff35",
       "text": "Старый друг лучше новых двух."
     },
     "red-009": {
-      "hash": "28f96b1fee97ed6b",
+      "hash": "6e6483e21aa9d203",
       "text": "Ни пуха ни пера!"
     },
     "red-010": {
-      "hash": "1502a3e6b4c9f48b",
+      "hash": "bd0f5372357341f0",
       "text": "Всё хорошо, что хорошо кончается."
     },
     "red-011": {
-      "hash": "2d318c5a69db7627",
+      "hash": "a9930e53d8888d8d",
       "text": "Москва не сразу строилась."
     },
     "red-012": {
-      "hash": "8bcf88d228a1fbd8",
+      "hash": "4e7346e9b34bfa68",
       "text": "Не имей сто рублей, а имей сто друзей."
     },
     "red-013": {
-      "hash": "7200d0bf0c9d2d61",
+      "hash": "a006471dfa176229",
       "text": "Где тонко, там и рвётся."
     },
     "red-014": {
-      "hash": "3d9deedadc64b1af",
+      "hash": "02646fa1e5d81ce1",
       "text": "Слово не воробей, вылетит — не поймаешь."
     },
     "red-015": {
-      "hash": "6a6737a5e2e3e6a9",
+      "hash": "877750a38e438747",
       "text": "Глаза боятся, а руки делают."
     },
     "red-016": {
-      "hash": "c1bdaccd53d6aea2",
+      "hash": "693c41c5f3af3aeb",
       "text": "Семь раз отмерь, один раз отрежь."
     },
     "red-017": {
-      "hash": "21675d586cf023b7",
+      "hash": "2cd044c6ddcfc77b",
       "text": "В тихом омуте черти водятся."
     },
     "red-018": {
-      "hash": "c91d1e57e4f63121",
+      "hash": "2b0fbf92ea151561",
       "text": "Дарёному коню в зубы не смотрят."
     },
     "red-019": {
-      "hash": "154e403144fd5351",
+      "hash": "074f419592361f11",
       "text": "Как по маслу."
     },
     "red-020": {
-      "hash": "324d476c9d55811a",
+      "hash": "ee6637fc341eed08",
       "text": "Вешать лапшу на уши."
     },
     "red-021": {
-      "hash": "a165c0805ee3e48b",
+      "hash": "5f730e0982df502a",
       "text": "Кто рано встаёт, тому Бог подаёт."
     },
     "red-022": {
-      "hash": "a131ee286b2017c5",
+      "hash": "fdd0fceaa1bfd879",
       "text": "Друзья познаются в беде."
     },
     "red-023": {
-      "hash": "cee09d8fe79bdd4b",
+      "hash": "91f9168d4fa8ac10",
       "text": "Не откладывай на завтра то, что можно сделать сегодня."
     },
     "red-024": {
-      "hash": "c32995897d85d14d",
+      "hash": "9fcd80d6342fd006",
       "text": "Одна голова хорошо, а две лучше."
     },
     "red-025": {
-      "hash": "7f7448287e7079a7",
+      "hash": "0444ca9688cdecd6",
       "text": "Лучше синица в руках, чем журавль в небе."
     },
     "red-026": {
-      "hash": "253ab3aa7ab6d891",
+      "hash": "31c6c191322af4cc",
       "text": "Нет дыма без огня."
     },
     "red-027": {
-      "hash": "b89ff36851f7847d",
+      "hash": "cee64dc36bd18b3f",
       "text": "Между нами говоря."
     },
     "red-028": {
-      "hash": "ad00f4aac0d79683",
+      "hash": "eb714a28247f881e",
       "text": "Куй железо, пока горячо."
     },
     "red-029": {
-      "hash": "9046d8678df2e737",
+      "hash": "e10baec6df761f26",
       "text": "Всему своё время."
     },
     "red-030": {
-      "hash": "a10664bb7491f20d",
+      "hash": "3cdd3195443e5f57",
       "text": "Сказано — сделано."
     },
     "red-031": {
-      "hash": "900bbc35802c8f59",
+      "hash": "d11c6a967b4bfe9e",
       "text": "По одёжке встречают, по уму провожают."
     },
     "red-032": {
-      "hash": "16dc2547c4b889a1",
+      "hash": "ed83ccdf0196dd10",
       "text": "У страха глаза велики."
     },
     "red-033": {
-      "hash": "119dc6b89b8a8eb7",
+      "hash": "5e0a65072dcc86d3",
       "text": "Не в свои сани не садись."
     },
     "red-034": {
-      "hash": "ac4b21940bc1f0b7",
+      "hash": "55d2d1514a9f5737",
       "text": "Чем богаты, тем и рады."
     },
     "red-035": {
-      "hash": "a64bc800036f363e",
+      "hash": "72aa1d4608f96a8b",
       "text": "Голод не тётка."
     },
     "red-036": {
-      "hash": "6846a88aa4e87cc4",
+      "hash": "791f0e10ade248bd",
       "text": "Час от часу не легче."
     },
     "red-037": {
-      "hash": "500786bd22f635a5",
+      "hash": "dc0e0f9b072a25ff",
       "text": "Взять себя в руки."
     },
     "red-038": {
-      "hash": "718e6ba99805dd3e",
+      "hash": "20d06cf3b7074a74",
       "text": "Бить баклуши."
     },
     "red-039": {
-      "hash": "898c532786c62d30",
+      "hash": "c42dfce2a34a6405",
       "text": "Водой не разольёшь."
     },
     "red-040": {
-      "hash": "4837f13e53500774",
+      "hash": "abe760b6c3d25d33",
       "text": "Как снег на голову."
     },
     "red-041": {
-      "hash": "0901e4343c5f4658",
+      "hash": "d97087c89859f125",
       "text": "Держать язык за зубами."
     },
     "red-042": {
-      "hash": "55f29d0d12193b0a",
+      "hash": "43361415a94eef10",
       "text": "Золотые руки."
     },
     "red-043": {
-      "hash": "5bbd38d249a24db8",
+      "hash": "adda6b2e4756f66e",
       "text": "Ни рыба ни мясо."
     },
     "red-044": {
-      "hash": "6faa810355e9b6c2",
+      "hash": "331f504637245bf6",
       "text": "Два сапога пара."
     },
     "red-045": {
-      "hash": "843421167da300d3",
+      "hash": "6cdb490d02acca42",
       "text": "Не всё коту масленица."
     },
     "red-046": {
-      "hash": "86cc36f9a2bc914c",
+      "hash": "d55875c01377c5d6",
       "text": "Легче сказать, чем сделать."
     },
     "red-047": {
-      "hash": "228edf1780d19b12",
+      "hash": "11cb733e7d6f61b4",
       "text": "С глаз долой — из сердца вон."
     },
     "red-048": {
-      "hash": "e9f4b6b35e2f9784",
+      "hash": "f3a6779f7cf2ea59",
       "text": "Руки не доходят."
     },
     "red-049": {
-      "hash": "88c6074bad2431d7",
+      "hash": "3bf75efd6adb2ff1",
       "text": "Ясно как день."
     },
     "red-050": {
-      "hash": "a78f566fe94d221f",
+      "hash": "3aabadd30d1da3f1",
       "text": "Кот наплакал."
     },
     "red-051": {
-      "hash": "16da37b1241f93a6",
+      "hash": "938693c84099c6a9",
       "text": "Медленно, но верно."
     },
     "res-001": {
-      "hash": "040a4178247fd216",
+      "hash": "e90f8e1a3ad0dce6",
       "text": "меню́"
     },
     "res-002": {
-      "hash": "8d5b7b9ea4db41ab",
+      "hash": "babd8b220cf9fd52",
       "text": "счёт"
     },
     "res-003": {
-      "hash": "503c5eb5216b99b9",
+      "hash": "59df6d8b6b6e43ac",
       "text": "официа́нт"
     },
     "res-004": {
-      "hash": "90da7d317fa265b0",
+      "hash": "ef70e318274f5ddb",
       "text": "чай"
     },
     "res-005": {
-      "hash": "0a76aed13edd1fba",
+      "hash": "4356b557e8eedd82",
       "text": "ко́фе"
     },
     "res-006": {
-      "hash": "b9cb0fad7dab490c",
+      "hash": "9c35ff6f547e0d8e",
       "text": "вода́"
     },
     "res-007": {
-      "hash": "c550f6aee915c30f",
+      "hash": "920180b6f9f91d0b",
       "text": "вино́"
     },
     "res-008": {
-      "hash": "35200d3c805e4871",
+      "hash": "afea92b68839faeb",
       "text": "пи́во"
     },
     "res-009": {
-      "hash": "ef82a92f23636133",
+      "hash": "3b176b9973f0b946",
       "text": "за́втрак"
     },
     "res-010": {
-      "hash": "5c6cb5daaabf14a0",
+      "hash": "24b6ea9c2908d684",
       "text": "обе́д"
     },
     "res-011": {
-      "hash": "574fd3c558710fa3",
+      "hash": "9344bf743e62ed5e",
       "text": "у́жин"
     },
     "res-012": {
-      "hash": "0dd4ab8da730d5f4",
+      "hash": "1282071778ab5f5b",
       "text": "Столик на двоих, пожалуйста."
     },
     "res-013": {
-      "hash": "192a9c1ec352a07f",
+      "hash": "eb301c90bf76108c",
       "text": "Счёт, пожалуйста."
     },
     "res-014": {
-      "hash": "1e2d111f42583a77",
+      "hash": "1d5a3ebeb59560ba",
       "text": "Что вы посоветуете?"
     },
     "res-015": {
-      "hash": "eca1d1fad47c43ac",
+      "hash": "72c8a1c1785a15bf",
       "text": "Я не ем мясо."
     },
     "res-016": {
-      "hash": "8e1b007094cc135f",
+      "hash": "cbc04abec80b2266",
       "text": "Можно меню?"
     },
     "res-017": {
-      "hash": "d10a3ee6f2a25ba2",
+      "hash": "c76fc28528d1d044",
       "text": "Было очень вкусно!"
     },
     "res-018": {
-      "hash": "8b9a631c6bec9aea",
+      "hash": "4546444ba2ead9c3",
       "text": "Кофе с молоком, пожалуйста."
     },
     "res-019": {
-      "hash": "67a372d5cc4815bd",
+      "hash": "1988f23ef16f02c7",
       "text": "Приятного аппетита!"
     },
     "res-020": {
-      "hash": "6cdcee42f08dd423",
+      "hash": "28b21234225a49b7",
       "text": "На здоровье!"
     },
     "res-021": {
-      "hash": "07964c43b279faf3",
+      "hash": "bcd215139b4b4f93",
       "text": "рестора́н"
     },
     "res-022": {
-      "hash": "b6fe75e6e05922d9",
+      "hash": "b26a9eb14619db2e",
       "text": "кафе́"
     },
     "res-023": {
-      "hash": "7070fe2fce60d28f",
+      "hash": "3655bc77a44c620a",
       "text": "сто́лик"
     },
     "res-024": {
-      "hash": "c8c2df195d741faf",
+      "hash": "21a0a923105658f7",
       "text": "ча́шка"
     },
     "res-025": {
-      "hash": "386cc7ece1c3008f",
+      "hash": "699dd7d274f3e662",
       "text": "стака́н"
     },
     "res-026": {
-      "hash": "8c012e277746a1da",
+      "hash": "46bdb5277b885b55",
       "text": "десе́рт"
     },
     "res-027": {
-      "hash": "62e0cb70b2bbeaac",
+      "hash": "307e70dfbef4e6d1",
       "text": "сала́т"
     },
     "res-028": {
-      "hash": "67788098aab02490",
+      "hash": "e6e3762d356b61eb",
       "text": "пи́цца"
     },
     "res-029": {
-      "hash": "8405e3381593c8af",
+      "hash": "df69f95693bcec39",
       "text": "блины́"
     },
     "res-030": {
-      "hash": "a7a80578ec30fecc",
+      "hash": "75df00eb30663e2d",
       "text": "пельме́ни"
     },
     "res-031": {
-      "hash": "4e70b041128bded9",
+      "hash": "e233bb7c44b5f4ee",
       "text": "борщ"
     },
     "res-032": {
-      "hash": "6b9232557e161485",
+      "hash": "23130213a2022389",
       "text": "чаевы́е"
     },
     "res-033": {
-      "hash": "6e8b52bf37f126fc",
+      "hash": "8f84ff9851400b5e",
       "text": "зака́з"
     },
     "res-034": {
-      "hash": "d9a7ecf45d536f32",
+      "hash": "99faff35d0557912",
       "text": "пиро́г"
     },
     "res-035": {
-      "hash": "dc52f6599b49dfd3",
+      "hash": "f6acbbcb9216b49e",
       "text": "моро́женое"
     },
     "res-036": {
-      "hash": "9b97a7ddae98aaed",
+      "hash": "8ae0f032565522cc",
       "text": "компо́т"
     },
     "res-037": {
-      "hash": "f09816cb82ede2c3",
+      "hash": "14fb0764b72d24e2",
       "text": "лимо́н"
     },
     "res-038": {
-      "hash": "2d4aad84ef8336f4",
+      "hash": "dfcd1f95f3de128a",
       "text": "со́ус"
     },
     "res-039": {
-      "hash": "c0849d3b6a2b813b",
+      "hash": "7e6e900e6663c573",
       "text": "гарни́р"
     },
     "res-040": {
-      "hash": "69b3e0d493e759c8",
+      "hash": "f76fe33ad1683ae6",
       "text": "Можно заказать?"
     },
     "res-041": {
-      "hash": "f08b47d38c6e55e2",
+      "hash": "6f698a9a531958c0",
       "text": "Я буду суп и салат."
     },
     "res-042": {
-      "hash": "de121845a84a910e",
+      "hash": "58e942a1e5b56780",
       "text": "Принесите, пожалуйста, воду без газа."
     },
     "res-043": {
-      "hash": "c7571c2ebe2bb94d",
+      "hash": "10ac7eb0b71f90a8",
       "text": "У вас есть вегетарианские блюда?"
     },
     "res-044": {
-      "hash": "0cb0dfbeb4c78d6f",
+      "hash": "4f760d5e36d93c3a",
       "text": "Это очень острое?"
     },
     "res-045": {
-      "hash": "d772b68936c78252",
+      "hash": "3534584562d37e8b",
       "text": "Мы хотели бы заплатить."
     },
     "res-046": {
-      "hash": "c26afa92a72f6698",
+      "hash": "91f7c7a55f36cc2b",
       "text": "Можно заплатить отдельно?"
     },
     "res-047": {
-      "hash": "9e32ad3ab917f5bf",
+      "hash": "da8ec6d644f1e4c8",
       "text": "Здесь свободно?"
     },
     "res-048": {
-      "hash": "e1a3bd68b7659386",
+      "hash": "7092103e67f114f4",
       "text": "Я хотел бы забронировать столик. Я хотела бы забронировать столик."
     },
     "res-049": {
-      "hash": "7d172b6cf999279d",
+      "hash": "97032e33a4a30356",
       "text": "Официант, можно вас?"
     },
     "res-050": {
-      "hash": "0c4f5ae21d2f241d",
+      "hash": "969184bfe354ec0f",
       "text": "Чай с лимоном, пожалуйста."
     },
     "res-051": {
-      "hash": "e7f5f9d68c9e0fa1",
+      "hash": "ea5b097639f80f90",
       "text": "Что у вас есть на десерт?"
     },
     "tel-001": {
-      "hash": "03ac596ec69a18da",
+      "hash": "bc0ef15b8e5d345b",
       "text": "телефо́н"
     },
     "tel-002": {
-      "hash": "75f0ade34e1ccf73",
+      "hash": "107697b12e687a13",
       "text": "но́мер телефо́на"
     },
     "tel-003": {
-      "hash": "43a9b5b8aa851271",
+      "hash": "0a08c445ec35a478",
       "text": "сообще́ние"
     },
     "tel-004": {
-      "hash": "2fa63ef9e52ec63a",
+      "hash": "78114dff88babd6f",
       "text": "паро́ль"
     },
     "tel-005": {
-      "hash": "1070517193da6206",
+      "hash": "c5a6251d995acb7c",
       "text": "заря́дка"
     },
     "tel-006": {
-      "hash": "5be379e19ea5ac9b",
+      "hash": "b9044a62b0c5981b",
       "text": "интерне́т"
     },
     "tel-007": {
-      "hash": "fd4722d2d29ede14",
+      "hash": "393b6f035c14a90a",
       "text": "сайт"
     },
     "tel-008": {
-      "hash": "c085c8007ce48999",
+      "hash": "b4555f9d24b2d706",
       "text": "электро́нная по́чта"
     },
     "tel-009": {
-      "hash": "defca2d94f45ca5a",
+      "hash": "e7108a71da703990",
       "text": "приложе́ние"
     },
     "tel-010": {
-      "hash": "cd3a077702d35004",
+      "hash": "d41103f54b20a44b",
       "text": "Алло́!"
     },
     "tel-011": {
-      "hash": "1837c8266b12f917",
+      "hash": "19fe8c4dfc7bede1",
       "text": "Можно позвонить?"
     },
     "tel-012": {
-      "hash": "b1fee0afda686336",
+      "hash": "6adc93a8abd94b57",
       "text": "Перезвоните мне, пожалуйста."
     },
     "tel-013": {
-      "hash": "62658b34da57b638",
+      "hash": "7322a054c5dc2563",
       "text": "Какой пароль от вай-фая?"
     },
     "tel-014": {
-      "hash": "92e5a1c829ed5eeb",
+      "hash": "af778f6c9142ae4c",
       "text": "У меня сел телефон."
     },
     "tel-015": {
-      "hash": "35c91c6fc253832e",
+      "hash": "cb90761dbd9ecde6",
       "text": "Напишите мне."
     },
     "tel-016": {
-      "hash": "95e8ff670012bed9",
+      "hash": "a16709a3f1ccf068",
       "text": "Я вам позвоню."
     },
     "tel-017": {
-      "hash": "021f9deac2408be3",
+      "hash": "6693617694f0cecb",
       "text": "Плохая связь."
     },
     "tel-018": {
-      "hash": "8c72677634957ed2",
+      "hash": "8e5b0d1c2c697f73",
       "text": "Вас не слышно."
     },
     "tel-019": {
-      "hash": "07f14c618cec2b74",
+      "hash": "7e2eeb791884bfec",
       "text": "Кто говорит?"
     },
     "tel-020": {
-      "hash": "4b19727fcaf536d4",
+      "hash": "1b7657dc9fee68d6",
       "text": "Вы ошиблись номером."
     },
     "tel-021": {
-      "hash": "293da723e275b76f",
+      "hash": "603ab8d4f9deb7ff",
       "text": "моби́льный телефо́н"
     },
     "tel-022": {
-      "hash": "a4f0ab7e6acc31dd",
+      "hash": "df4ac01442c7fc2f",
       "text": "смартфо́н"
     },
     "tel-023": {
-      "hash": "3c4d68a8715b3e15",
+      "hash": "de3b9fc427a2c9c5",
       "text": "звоно́к"
     },
     "tel-024": {
-      "hash": "271749a675e9985f",
+      "hash": "eb0b19140f09e4c6",
       "text": "сеть"
     },
     "tel-025": {
-      "hash": "bc03b81c8a9e8342",
+      "hash": "0cc2e8706ad6a78e",
       "text": "ноутбу́к"
     },
     "tel-026": {
-      "hash": "179c0431d63a3ab6",
+      "hash": "af8d9e164b0f258c",
       "text": "фо́то"
     },
     "tel-027": {
-      "hash": "c4e0ea5555a5eb6e",
+      "hash": "24655acab182061f",
       "text": "ссы́лка"
     },
     "tel-028": {
-      "hash": "c65fe3ef3202be15",
+      "hash": "59d2c377af4b5865",
       "text": "аккау́нт"
     },
     "tel-029": {
-      "hash": "a836638a0b5fdb3b",
+      "hash": "750948fabf052d16",
       "text": "ло́гин"
     },
     "tel-030": {
-      "hash": "6be6206eedd4bb4b",
+      "hash": "447c79530ad363af",
       "text": "при́нтер"
     },
     "tel-031": {
-      "hash": "352f7b1180894361",
+      "hash": "a04bda847cbb4898",
       "text": "клавиату́ра"
     },
     "tel-032": {
-      "hash": "748e0c0519465518",
+      "hash": "17a3c453af81995b",
       "text": "экра́н"
     },
     "tel-033": {
-      "hash": "fb974e2264984a08",
+      "hash": "03587d073d6fc0c3",
       "text": "ка́мера"
     },
     "tel-034": {
-      "hash": "0ba5452c6ab71532",
+      "hash": "c18f5f68e570508a",
       "text": "батаре́я"
     },
     "tel-035": {
-      "hash": "526d1436ce820f6c",
+      "hash": "02fa06937e0bf5a2",
       "text": "ро́утер"
     },
     "tel-036": {
-      "hash": "e0d22c383a52b2d8",
+      "hash": "e7156e87d0486741",
       "text": "соцсе́ти"
     },
     "tel-037": {
-      "hash": "411e24ffb13c1009",
+      "hash": "9845fda36d48017e",
       "text": "видеозвоно́к"
     },
     "tel-038": {
-      "hash": "9dca3fdef39204d2",
+      "hash": "52f1dac3dc1e6615",
       "text": "автоотве́тчик"
     },
     "tel-039": {
-      "hash": "5844693ce926de08",
+      "hash": "e57c25e3a69c380e",
       "text": "сим-ка́рта"
     },
     "tel-040": {
-      "hash": "a63b1ccac06cc8c4",
+      "hash": "ce0adb2105394631",
       "text": "пла́ншет"
     },
     "tel-041": {
-      "hash": "7265bf5e26eae8d4",
+      "hash": "c03fca129929b491",
       "text": "скача́ть"
     },
     "tel-042": {
-      "hash": "f6cabee1149a0d43",
+      "hash": "5695487f8c90ba76",
       "text": "Можно ваш номер телефона?"
     },
     "tel-043": {
-      "hash": "0cc3dcbdfe61bf3e",
+      "hash": "01e163a12e9e467c",
       "text": "Я перезвоню позже."
     },
     "tel-044": {
-      "hash": "d63e212cf1329fa9",
+      "hash": "3093e7b1e1ac0e4a",
       "text": "Здесь нет связи."
     },
     "tel-045": {
-      "hash": "04881b3fc91957a2",
+      "hash": "68d9e6d3bd5f98ef",
       "text": "Интернет не работает."
     },
     "tel-046": {
-      "hash": "a4f569c842afa730",
+      "hash": "493df58ea921b2b8",
       "text": "Где можно зарядить телефон?"
     },
     "tel-047": {
-      "hash": "e80d27ef9f78dfc6",
+      "hash": "b7dbec8e4a008f6e",
       "text": "Отправь мне фото."
     },
     "tel-048": {
-      "hash": "be36337d4f00608b",
+      "hash": "bab41e26b0ce4908",
       "text": "Напиши мне сообщение."
     },
     "tel-049": {
-      "hash": "b4de008626dc7081",
+      "hash": "82a17c1d2febdc21",
       "text": "Говорите громче, пожалуйста."
     },
     "tel-050": {
-      "hash": "4301cec472ea657a",
+      "hash": "2451e09fd81453f8",
       "text": "Я не могу дозвониться."
     },
     "tel-051": {
-      "hash": "05178fd851586777",
+      "hash": "389da355697c3da5",
       "text": "Здесь есть вай-фай?"
     },
     "tie-001": {
-      "hash": "6b7a718838d974f1",
+      "hash": "7fdb7de3549714cc",
       "text": "соба́ка"
     },
     "tie-002": {
-      "hash": "51d904195613619d",
+      "hash": "d8f073202190bfd3",
       "text": "ко́шка"
     },
     "tie-003": {
-      "hash": "57becedc25cbb5a5",
+      "hash": "54b23c9d79ef50ea",
       "text": "ло́шадь"
     },
     "tie-004": {
-      "hash": "7b36c41cdb97c50e",
+      "hash": "3cc7487abe2ddd0c",
       "text": "коро́ва"
     },
     "tie-005": {
-      "hash": "229043086f2ee339",
+      "hash": "c69e90532b4817e2",
       "text": "пти́ца"
     },
     "tie-006": {
-      "hash": "ffb367cdddfc2cf7",
+      "hash": "cbd08f5dd652b97f",
       "text": "медве́дь"
     },
     "tie-007": {
-      "hash": "73509f9096fea6df",
+      "hash": "4a96a648013307a4",
       "text": "волк"
     },
     "tie-008": {
-      "hash": "b074f14a5956cf6a",
+      "hash": "7a71daba5d09bc50",
       "text": "лиса́"
     },
     "tie-009": {
-      "hash": "1ba6bac97dcec2ef",
+      "hash": "5932641124b141b4",
       "text": "за́яц"
     },
     "tie-010": {
-      "hash": "b4413dbddd352dfa",
+      "hash": "4496a9a85002bc43",
       "text": "мышь"
     },
     "tie-011": {
-      "hash": "898b3cdc8f5ee08f",
+      "hash": "225a1a9d989dce74",
       "text": "свинья́"
     },
     "tie-012": {
-      "hash": "4aa6973bb4b6cd72",
+      "hash": "0a1c9fced95d057d",
       "text": "ку́рица"
     },
     "tie-013": {
-      "hash": "8f095341d99849d6",
+      "hash": "1387e9f20dd4458f",
       "text": "У тебя есть домашние животные?"
     },
     "tie-014": {
-      "hash": "373e6a62e63e2e8c",
+      "hash": "4442421ef38077fa",
       "text": "У меня есть собака."
     },
     "tie-015": {
-      "hash": "d5fbdaa863cd5e67",
+      "hash": "dbb9fec945811a38",
       "text": "Можно погладить?"
     },
     "tie-016": {
-      "hash": "8263ce5488f3ec0a",
+      "hash": "d924153c75812fa6",
       "text": "Осторожно, злая собака!"
     },
     "tie-017": {
-      "hash": "bc9d513698d556c6",
+      "hash": "2bf7b55383641038",
       "text": "Кошка спит на диване."
     },
     "tie-018": {
-      "hash": "43a1715f708ef31e",
+      "hash": "f8a95db17fa44a27",
       "text": "Волков бояться — в лес не ходить."
     },
     "tie-019": {
-      "hash": "24f6f11f6dfb8dfe",
+      "hash": "3985f521a08c8855",
       "text": "Голоден как волк."
     },
     "tie-020": {
-      "hash": "a95c6c276818cbf9",
+      "hash": "62d62795f68fdc3c",
       "text": "Когда рак на горе свистнет."
     },
     "tie-021": {
-      "hash": "8c0e59a568a4790d",
+      "hash": "82c787350a11ac75",
       "text": "кот"
     },
     "tie-022": {
-      "hash": "7116b251cd7397dd",
+      "hash": "32e1420b5c97ae12",
       "text": "щено́к"
     },
     "tie-023": {
-      "hash": "2235543070b2bd69",
+      "hash": "3cc04471649cd13b",
       "text": "котёнок"
     },
     "tie-024": {
-      "hash": "c78bfd0d9be84238",
+      "hash": "ffb270a40ed0d798",
       "text": "овца́"
     },
     "tie-025": {
-      "hash": "780463e5a9d85ea9",
+      "hash": "90c8f35057292735",
       "text": "коза́"
     },
     "tie-026": {
-      "hash": "4e7721f8151b26d2",
+      "hash": "c851ebc593558496",
       "text": "у́тка"
     },
     "tie-027": {
-      "hash": "a60bbccf81cdf0cb",
+      "hash": "78affe1d92a75289",
       "text": "гусь"
     },
     "tie-028": {
-      "hash": "368b93172f6d4b9c",
+      "hash": "e29149418efbd727",
       "text": "пету́х"
     },
     "tie-029": {
-      "hash": "fd55a2f1b049f881",
+      "hash": "052c43ddab4a6184",
       "text": "кро́лик"
     },
     "tie-030": {
-      "hash": "fa82ba469c8c0f44",
+      "hash": "f6122846a8055bcd",
       "text": "бе́лка"
     },
     "tie-031": {
-      "hash": "f096df4e1438d8fa",
+      "hash": "40866e1b9497c8cd",
       "text": "ёж"
     },
     "tie-032": {
-      "hash": "f2a88cc27cc9bde1",
+      "hash": "bfd97a48579c2b37",
       "text": "змея́"
     },
     "tie-033": {
-      "hash": "9f9c64f1d3073fee",
+      "hash": "8331fd38a2ac47a2",
       "text": "лягу́шка"
     },
     "tie-034": {
-      "hash": "f5f7970f40446f12",
+      "hash": "facad1ff5576df0b",
       "text": "пчела́"
     },
     "tie-035": {
-      "hash": "374222762aa8c2e3",
+      "hash": "a9375ecbb1eefa9c",
       "text": "ба́бочка"
     },
     "tie-036": {
-      "hash": "da47aed58f1ebe08",
+      "hash": "a53a972cda8ad7eb",
       "text": "кома́р"
     },
     "tie-037": {
-      "hash": "3c0e67d5d5b247ba",
+      "hash": "c9e99cdc416658b8",
       "text": "му́ха"
     },
     "tie-038": {
-      "hash": "880b4656f35cde7a",
+      "hash": "59ed3efccfd3f45c",
       "text": "пау́к"
     },
     "tie-039": {
-      "hash": "5aae49912a673195",
+      "hash": "faed1e665531b5c3",
       "text": "слон"
     },
     "tie-040": {
-      "hash": "c99e3378ad466bb6",
+      "hash": "252e0363faf2ff1d",
       "text": "тигр"
     },
     "tie-041": {
-      "hash": "b7841ef06a058cc9",
+      "hash": "a7002ee9d9835ed5",
       "text": "лев"
     },
     "tie-042": {
-      "hash": "c712b7871c566297",
+      "hash": "cf9a541a10bee7bf",
       "text": "обезья́на"
     },
     "tie-043": {
-      "hash": "1fa7e06dc26ede55",
+      "hash": "e8836bdf2d2f1543",
       "text": "жира́ф"
     },
     "tie-044": {
-      "hash": "5eb221264488291b",
+      "hash": "dcb54fedb9421c96",
       "text": "дельфи́н"
     },
     "tie-045": {
-      "hash": "f4c60157e4daa8b5",
+      "hash": "ba9105d93464f913",
       "text": "оле́нь"
     },
     "tie-046": {
-      "hash": "10903856bae48949",
+      "hash": "581eadfcb5a124e9",
       "text": "У нас дома живёт кошка."
     },
     "tie-047": {
-      "hash": "30007db3535e666c",
+      "hash": "e1e2eee9e4b33f82",
       "text": "Собака лает."
     },
     "tie-048": {
-      "hash": "c9095a52ad99e5e2",
+      "hash": "d0faea611527cc25",
       "text": "Не трогай собаку!"
     },
     "tie-049": {
-      "hash": "c07d2c349f1eb0ce",
+      "hash": "45f35c597ca24aaf",
       "text": "Сколько лет вашей собаке?"
     },
     "tie-050": {
-      "hash": "59ceba9aaad8181d",
+      "hash": "82505caeeaad692c",
       "text": "Кошки любят рыбу."
     },
     "tie-051": {
-      "hash": "9d1173e135b3a3d7",
+      "hash": "8b49e08564c35c3f",
       "text": "Как ко́шка с соба́кой."
     },
     "unt-001": {
-      "hash": "f5657106ffe23f24",
+      "hash": "0ef52783983bd524",
       "text": "по́езд"
     },
     "unt-002": {
-      "hash": "588577ee500b02d5",
+      "hash": "ce823186dc41a973",
       "text": "вокза́л"
     },
     "unt-003": {
-      "hash": "443df2ff3ce9c1c5",
+      "hash": "45161df97365aac2",
       "text": "биле́т"
     },
     "unt-004": {
-      "hash": "3bbe02d8ed797a5c",
+      "hash": "511186b7d573b365",
       "text": "авто́бус"
     },
     "unt-005": {
-      "hash": "105ac9b462a74e2e",
+      "hash": "b74f7d0dd2106442",
       "text": "остано́вка"
     },
     "unt-006": {
-      "hash": "028be02a6ab5ba26",
+      "hash": "9178055112fa388c",
       "text": "метро́"
     },
     "unt-007": {
-      "hash": "1b31c032b6ca310d",
+      "hash": "48c6cdfa9f1216a1",
       "text": "такси́"
     },
     "unt-008": {
-      "hash": "4bd71b10c073d040",
+      "hash": "3c0e8c2f03e3c70e",
       "text": "самолёт"
     },
     "unt-009": {
-      "hash": "c0af66a0cfa218cd",
+      "hash": "c532790c14a4b4ef",
       "text": "аэропо́рт"
     },
     "unt-010": {
-      "hash": "6d3f9f73e0e588c8",
+      "hash": "fc183c21f349db24",
       "text": "у́лица"
     },
     "unt-011": {
-      "hash": "67c684bf361ed40c",
+      "hash": "6e57f6d8204b5c5f",
       "text": "нале́во"
     },
     "unt-012": {
-      "hash": "2f11a5481eb07e10",
+      "hash": "a3adba2e74b1154a",
       "text": "напра́во"
     },
     "unt-013": {
-      "hash": "8e79b1c4f56c1168",
+      "hash": "7c136ce1986d07c7",
       "text": "пря́мо"
     },
     "unt-014": {
-      "hash": "e904a77ff55139d5",
+      "hash": "9b680484cf116319",
       "text": "Где находится вокзал?"
     },
     "unt-015": {
-      "hash": "ce654609cd72da43",
+      "hash": "569fda0b64b1a5c4",
       "text": "Как пройти к метро?"
     },
     "unt-016": {
-      "hash": "e67fabd496a53c5f",
+      "hash": "6edcc4a41fc16854",
       "text": "Один билет до Москвы, пожалуйста."
     },
     "unt-017": {
-      "hash": "13cbec2bcd226a9c",
+      "hash": "caf4d914ad905dbb",
       "text": "Когда отправляется поезд?"
     },
     "unt-018": {
-      "hash": "3aae85495700ed8a",
+      "hash": "e0c5f74ffc94cb53",
       "text": "Это далеко?"
     },
     "unt-019": {
-      "hash": "1b01929ecc2c5013",
+      "hash": "5ed324aa8b63d088",
       "text": "Остановите здесь, пожалуйста."
     },
     "unt-020": {
-      "hash": "f9d4743952766cc4",
+      "hash": "bd6bc9a1a18c2a1d",
       "text": "Я заблудился. Я заблудилась."
     },
     "unt-021": {
-      "hash": "90948f27bac28ae9",
+      "hash": "f45bc8b889d1b1e7",
       "text": "маши́на"
     },
     "unt-022": {
-      "hash": "c30dcaf77db786a0",
+      "hash": "12b0b38f10ac5934",
       "text": "трамва́й"
     },
     "unt-023": {
-      "hash": "b1767a3e08c0f714",
+      "hash": "c7331aef04adccdf",
       "text": "велосипе́д"
     },
     "unt-024": {
-      "hash": "63ec96283080deb8",
+      "hash": "e94e74fa43ee6769",
       "text": "доро́га"
     },
     "unt-025": {
-      "hash": "8a1c78c462260fda",
+      "hash": "5df8a2541f5b7b9e",
       "text": "мост"
     },
     "unt-026": {
-      "hash": "483f5577531b055f",
+      "hash": "a9e225f97cea4288",
       "text": "пло́щадь"
     },
     "unt-027": {
-      "hash": "3a4e9e8706cc77d1",
+      "hash": "1f5b0f46cf3e9cc0",
       "text": "перекрёсток"
     },
     "unt-028": {
-      "hash": "af8a260f34b992e2",
+      "hash": "72e1195c58bb82ca",
       "text": "светофо́р"
     },
     "unt-029": {
-      "hash": "cbed14d02bdcd616",
+      "hash": "16cc1bc5130f93b0",
       "text": "платфо́рма"
     },
     "unt-030": {
-      "hash": "1c8e14fa5b5d048b",
+      "hash": "c6071cf450e0775e",
       "text": "ваго́н"
     },
     "unt-031": {
-      "hash": "62a0f223e6482962",
+      "hash": "882166c66b48ee01",
       "text": "ме́сто"
     },
     "unt-032": {
-      "hash": "a2cf1b6fad3d39fb",
+      "hash": "06e2826e85af793e",
       "text": "бага́ж"
     },
     "unt-033": {
-      "hash": "ec5d54281b65f6fa",
+      "hash": "e6440a177f003900",
       "text": "чемода́н"
     },
     "unt-034": {
-      "hash": "33a2d3ffd844ba88",
+      "hash": "cd18ce34aaf82881",
       "text": "вы́ход"
     },
     "unt-035": {
-      "hash": "89762dff21d13042",
+      "hash": "03cfc9dce9abf5db",
       "text": "вход"
     },
     "unt-036": {
-      "hash": "ede0800a9a1eeea5",
+      "hash": "ebc447f293a3677b",
       "text": "переса́дка"
     },
     "unt-037": {
-      "hash": "79a1a1e81a97f272",
+      "hash": "01afd25eaf919002",
       "text": "расписа́ние"
     },
     "unt-038": {
-      "hash": "652cf2890a7d7d84",
+      "hash": "49e7d5f561603a33",
       "text": "тури́ст"
     },
     "unt-039": {
-      "hash": "a21a4429359ac964",
+      "hash": "9eadf557c49c823f",
       "text": "центр"
     },
     "unt-040": {
-      "hash": "14064f05ae75e5cd",
+      "hash": "0e71652db2739ccd",
       "text": "у́гол"
     },
     "unt-041": {
-      "hash": "f6a9bbf104cbed14",
+      "hash": "0e941fcff0bd8705",
       "text": "Где ближайшая станция метро?"
     },
     "unt-042": {
-      "hash": "d4f184c7942d578c",
+      "hash": "d27358c00ba25f44",
       "text": "Сколько стоит билет?"
     },
     "unt-043": {
-      "hash": "003ce3fce1ebb9ff",
+      "hash": "2fec71a72c68d8ce",
       "text": "Этот автобус идёт в центр?"
     },
     "unt-044": {
-      "hash": "b342b17cf5479732",
+      "hash": "108a097ef70c78d2",
       "text": "На какой остановке мне выходить?"
     },
     "unt-045": {
-      "hash": "0adc3cc5a855d239",
+      "hash": "a96aea465bca40b7",
       "text": "Вы сейчас выходите?"
     },
     "unt-046": {
-      "hash": "f74c9fe5e6864d8e",
+      "hash": "60881dcae51a8586",
       "text": "Отвезите меня в аэропорт, пожалуйста."
     },
     "unt-047": {
-      "hash": "7a5392b5c508e2be",
+      "hash": "49f92cb4ca2ad5e2",
       "text": "Поезд опаздывает на двадцать минут."
     },
     "unt-048": {
-      "hash": "38b323416f8430e4",
+      "hash": "ae03eefc788e54bb",
       "text": "Как долго ехать?"
     },
     "unt-049": {
-      "hash": "1fe340ef97594f57",
+      "hash": "7e2791f5511b91a0",
       "text": "Покажите, пожалуйста, на карте."
     },
     "unt-050": {
-      "hash": "e4050307d9b6c936",
+      "hash": "fffc3a5343571004",
       "text": "Мне нужно пересесть?"
     },
     "unt-051": {
-      "hash": "a31cdec3311b54b0",
+      "hash": "f8c8d361d1b314c9",
       "text": "Где можно взять такси?"
     },
     "wet-001": {
-      "hash": "83c0dfbfcb2e1977",
+      "hash": "e920f77baede83d0",
       "text": "пого́да"
     },
     "wet-002": {
-      "hash": "3c771fe88f9e37f5",
+      "hash": "236fcd6bbb75e931",
       "text": "со́лнце"
     },
     "wet-003": {
-      "hash": "acc4a81e7dd0e781",
+      "hash": "0e8bb2c1b2aa55e4",
       "text": "дождь"
     },
     "wet-004": {
-      "hash": "a16e35f2971351f1",
+      "hash": "158873e84bdc49b0",
       "text": "снег"
     },
     "wet-005": {
-      "hash": "edc78175e0b8d64b",
+      "hash": "dab645b4f9a29a82",
       "text": "ве́тер"
     },
     "wet-006": {
-      "hash": "61d03c66d4dae479",
+      "hash": "2973229f21839706",
       "text": "хо́лодно"
     },
     "wet-007": {
-      "hash": "ad93443212a8167b",
+      "hash": "9a7d24bbe1cfbb6b",
       "text": "тепло́"
     },
     "wet-008": {
-      "hash": "f04c14bfb42accb4",
+      "hash": "50d762405bcb5559",
       "text": "жа́рко"
     },
     "wet-009": {
-      "hash": "c205d25caa0d07c0",
+      "hash": "d2f7851588b323f6",
       "text": "о́блако"
     },
     "wet-010": {
-      "hash": "134fe25aded04a96",
+      "hash": "9063441bb1f57c3b",
       "text": "не́бо"
     },
     "wet-011": {
-      "hash": "2bd91ede6bf44f65",
+      "hash": "e0f960e59c65dacf",
       "text": "мо́ре"
     },
     "wet-012": {
-      "hash": "47e85765844b7798",
+      "hash": "ef41bc03bdbf3f07",
       "text": "река́"
     },
     "wet-013": {
-      "hash": "46feef2fdc896453",
+      "hash": "0a90d3e3fef7a100",
       "text": "лес"
     },
     "wet-014": {
-      "hash": "69616e475a5bfc41",
+      "hash": "e332b10c182c6ceb",
       "text": "гора́"
     },
     "wet-015": {
-      "hash": "5eecc7233cdcc073",
+      "hash": "f87637d06dee25e8",
       "text": "Какая сегодня погода?"
     },
     "wet-016": {
-      "hash": "0bf12093c91e3501",
+      "hash": "878155e5f34e149e",
       "text": "Идёт дождь."
     },
     "wet-017": {
-      "hash": "6092300e3de851ad",
+      "hash": "2c20d79b6b472003",
       "text": "Сегодня холодно."
     },
     "wet-018": {
-      "hash": "b4ad8f7c236b6a3c",
+      "hash": "e9f900397a8f5e1a",
       "text": "Завтра будет солнечно."
     },
     "wet-019": {
-      "hash": "d8d02a03fa1363e0",
+      "hash": "89fa83af2aad1d05",
       "text": "Мне жарко."
     },
     "wet-020": {
-      "hash": "407a037114583b5a",
+      "hash": "5c579a0f234b88c8",
       "text": "После дождичка в четверг."
     },
     "wet-021": {
-      "hash": "2c0f89683aa796b9",
+      "hash": "9a1c97fbad96e5b0",
       "text": "весна́"
     },
     "wet-022": {
-      "hash": "0990e76c8a64261c",
+      "hash": "77a38ddde40dcbf9",
       "text": "ле́то"
     },
     "wet-023": {
-      "hash": "530bb82ebbaa626c",
+      "hash": "ca2f85db8343e5a0",
       "text": "о́сень"
     },
     "wet-024": {
-      "hash": "db58136a18003a6a",
+      "hash": "a4d52d5b1ef0321f",
       "text": "зима́"
     },
     "wet-025": {
-      "hash": "1bb893c7b4c9b984",
+      "hash": "047c8ffdbde42e41",
       "text": "тума́н"
     },
     "wet-026": {
-      "hash": "9e12298692eb0839",
+      "hash": "cceb1efae81d775e",
       "text": "гроза́"
     },
     "wet-027": {
-      "hash": "7e7262083e6187b3",
+      "hash": "799abb898ff64708",
       "text": "мо́лния"
     },
     "wet-028": {
-      "hash": "5c3436a7f134274a",
+      "hash": "0b4d65582dd08e3f",
       "text": "гром"
     },
     "wet-029": {
-      "hash": "67b2a1d3b79a4491",
+      "hash": "f5a0fc40d077e9fa",
       "text": "моро́з"
     },
     "wet-030": {
-      "hash": "e333a734ef07a02b",
+      "hash": "7c12a41e73222a94",
       "text": "лёд"
     },
     "wet-031": {
-      "hash": "97e8588a08b4b8bf",
+      "hash": "0b9c59dc3627a624",
       "text": "о́зеро"
     },
     "wet-032": {
-      "hash": "66c19b93742202ad",
+      "hash": "1f3cfe2ef0fcea9a",
       "text": "по́ле"
     },
     "wet-033": {
-      "hash": "b6e68cc47bb754e7",
+      "hash": "ad04057c9ca693b2",
       "text": "де́рево"
     },
     "wet-034": {
-      "hash": "f6e45e601ca93baf",
+      "hash": "673f7da55ef9db5d",
       "text": "цвето́к"
     },
     "wet-035": {
-      "hash": "9829cb7e23a53505",
+      "hash": "107f73c0d26db834",
       "text": "трава́"
     },
     "wet-036": {
-      "hash": "df218448dcdcc749",
+      "hash": "fb9ebb94785787c6",
       "text": "о́стров"
     },
     "wet-037": {
-      "hash": "4dcebeccf11f5a63",
+      "hash": "4f5fe7343b55929b",
       "text": "пляж"
     },
     "wet-038": {
-      "hash": "51b54ad9b644181b",
+      "hash": "30817072eb508365",
       "text": "звезда́"
     },
     "wet-039": {
-      "hash": "1b986b5609ad1aab",
+      "hash": "667beca4ec5e3b65",
       "text": "луна́"
     },
     "wet-040": {
-      "hash": "57c299ee64e7bf6e",
+      "hash": "2df1a31f44f861c6",
       "text": "приро́да"
     },
     "wet-041": {
-      "hash": "c86e90a2933b512d",
+      "hash": "4303ef76d83e2cd4",
       "text": "ра́дуга"
     },
     "wet-042": {
-      "hash": "4c121d026bfbf7cd",
+      "hash": "a62d3bf98c0ad3a2",
       "text": "о́блачно"
     },
     "wet-043": {
-      "hash": "9ac8cb71625a533e",
+      "hash": "25bbfe77282873ff",
       "text": "со́лнечно"
     },
     "wet-044": {
-      "hash": "1bb64dc0c04a42c9",
+      "hash": "56b5d60f33d66fcf",
       "text": "Идёт снег."
     },
     "wet-045": {
-      "hash": "1119b2d056ecf280",
+      "hash": "71f772928822a9a0",
       "text": "На улице минус десять."
     },
     "wet-046": {
-      "hash": "4d37a67312096028",
+      "hash": "781dd3f99ffd3c0a",
       "text": "Какой сильный ветер!"
     },
     "wet-047": {
-      "hash": "9e4e02602ccd3822",
+      "hash": "2a3054a3072c55a2",
       "text": "Возьми зонтик, будет дождь."
     },
     "wet-048": {
-      "hash": "9fa6b7b7a0b0a373",
+      "hash": "3b9d032ed0873c3c",
       "text": "Летом здесь очень жарко."
     },
     "wet-049": {
-      "hash": "bf4157352f7afa49",
+      "hash": "04e5faf85ebfb92f",
       "text": "Я люблю гулять в лесу."
     },
     "wet-050": {
-      "hash": "d584ab476b28b914",
+      "hash": "7f75b9afc5bf01c5",
       "text": "Сегодня прекрасная погода."
     },
     "wet-051": {
-      "hash": "6be15dd922808460",
+      "hash": "fa5bf6b47f51d1ad",
       "text": "Ба́бье ле́то."
     },
     "woh-001": {
-      "hash": "767f1c87456771a2",
+      "hash": "d5bbad526a5518f1",
       "text": "гости́ница"
     },
     "woh-002": {
-      "hash": "439fa0919692d0bc",
+      "hash": "6858324016390ac4",
       "text": "но́мер"
     },
     "woh-003": {
-      "hash": "11e8e932b9b535b1",
+      "hash": "f6fd4c6c82994c3a",
       "text": "ключ"
     },
     "woh-004": {
-      "hash": "965f0b374f8848f8",
+      "hash": "0ac4834d009f4238",
       "text": "кварти́ра"
     },
     "woh-005": {
-      "hash": "19e2408c162f2872",
+      "hash": "d0962cdb2f5be139",
       "text": "дом"
     },
     "woh-006": {
-      "hash": "cad750925b25b5aa",
+      "hash": "e8955cddf6363b85",
       "text": "ку́хня"
     },
     "woh-007": {
-      "hash": "402ce592d3abc059",
+      "hash": "31bd3051786851cc",
       "text": "ва́нная"
     },
     "woh-008": {
-      "hash": "3dd8f290ab4bfcc2",
+      "hash": "74461744dd2fd100",
       "text": "крова́ть"
     },
     "woh-009": {
-      "hash": "ad8ab2edec43ad4a",
+      "hash": "344f4d1272798a0a",
       "text": "окно́"
     },
     "woh-010": {
-      "hash": "dc57164fd437a8e2",
+      "hash": "2c72175333d8e184",
       "text": "дверь"
     },
     "woh-011": {
-      "hash": "b9d86b50736b1eef",
+      "hash": "6c7c37803ba45d40",
       "text": "эта́ж"
     },
     "woh-012": {
-      "hash": "905f5ebac7adbe98",
+      "hash": "ff021275809e8420",
       "text": "лифт"
     },
     "woh-013": {
-      "hash": "688257646795fa86",
+      "hash": "bdf4da587b9fc0bd",
       "text": "У меня забронирован номер."
     },
     "woh-014": {
-      "hash": "440d25629a86a3a5",
+      "hash": "d53aa9cdeddc10df",
       "text": "Во сколько завтрак?"
     },
     "woh-015": {
-      "hash": "e39dce76d1fc2dd3",
+      "hash": "d9ccacb3908bf534",
       "text": "В номере не работает душ."
     },
     "woh-016": {
-      "hash": "8f4a4ce54d5fcd7f",
+      "hash": "5bdecf048a9d80ac",
       "text": "Можно поздний выезд?"
     },
     "woh-017": {
-      "hash": "b52142518250ce8b",
+      "hash": "39fcaf9d04248d7d",
       "text": "Где лифт?"
     },
     "woh-018": {
-      "hash": "24fc6acbf934a273",
+      "hash": "e421e962b35e8bdd",
       "text": "Я хочу снять квартиру."
     },
     "woh-019": {
-      "hash": "95bd000bc0701e08",
+      "hash": "e824c1bfe2c88d8d",
       "text": "Мой дом — моя крепость."
     },
     "woh-020": {
-      "hash": "dadd0bd93cdcd936",
+      "hash": "c8f7b57a20e0e6ef",
       "text": "В гостях хорошо, а дома лучше."
     },
     "woh-021": {
-      "hash": "70b42329e152b5d6",
+      "hash": "51f0a5f0913a2a6b",
       "text": "ко́мната"
     },
     "woh-022": {
-      "hash": "8105a8412bd81611",
+      "hash": "38dff73e660c5c9d",
       "text": "спа́льня"
     },
     "woh-023": {
-      "hash": "6a1dd056d83c2ac8",
+      "hash": "81740532ce2bc420",
       "text": "гости́ная"
     },
     "woh-024": {
-      "hash": "852b696039236e25",
+      "hash": "e094f2b8a3d183e1",
       "text": "туале́т"
     },
     "woh-025": {
-      "hash": "5538e1243b0782db",
+      "hash": "d786fb2ef65225fc",
       "text": "душ"
     },
     "woh-026": {
-      "hash": "43208ba3ad2feba8",
+      "hash": "fbba62f78c46c993",
       "text": "стол"
     },
     "woh-027": {
-      "hash": "aad6004dbb9b0e09",
+      "hash": "007b366eec26e831",
       "text": "стул"
     },
     "woh-028": {
-      "hash": "add580dd8af5f2ab",
+      "hash": "5c0d39da1f9c0093",
       "text": "шкаф"
     },
     "woh-029": {
-      "hash": "6d6102b65a615f0e",
+      "hash": "e6dc07c863a085cc",
       "text": "дива́н"
     },
     "woh-030": {
-      "hash": "a93853dc53641f29",
+      "hash": "42b29bc49df0083b",
       "text": "ла́мпа"
     },
     "woh-031": {
-      "hash": "0d60010f482cbba0",
+      "hash": "d51501a589ce5edf",
       "text": "зе́ркало"
     },
     "woh-032": {
-      "hash": "2afa31efcefc804d",
+      "hash": "7463e9d6bfa9cdaf",
       "text": "поду́шка"
     },
     "woh-033": {
-      "hash": "72c415a481b2a010",
+      "hash": "367f9ed30d3f3214",
       "text": "одея́ло"
     },
     "woh-034": {
-      "hash": "7de84ad618a7f2a1",
+      "hash": "6c4cea15de3433aa",
       "text": "полоте́нце"
     },
     "woh-035": {
-      "hash": "ce2db5676828a613",
+      "hash": "7a7f93be206279f8",
       "text": "балко́н"
     },
     "woh-036": {
-      "hash": "79079ecea9ce78c7",
+      "hash": "b4ac8e3300d1942f",
       "text": "сосе́д"
     },
     "woh-037": {
-      "hash": "68895367579e27a4",
+      "hash": "072d3205ee84d299",
       "text": "аре́нда"
     },
     "woh-038": {
-      "hash": "ff36d1b32e2dfd3a",
+      "hash": "83f18a5015353d0f",
       "text": "хозя́ин"
     },
     "woh-039": {
-      "hash": "29eda9b7188e60d7",
+      "hash": "0da3ff697e397fea",
       "text": "ле́стница"
     },
     "woh-040": {
-      "hash": "a51b5075dd44384f",
+      "hash": "ac061cea8b7ae165",
       "text": "отопле́ние"
     },
     "woh-041": {
-      "hash": "b95f3feec0021b33",
+      "hash": "2a9472698fcbf0d9",
       "text": "ремо́нт"
     },
     "woh-042": {
-      "hash": "0d708cd71b9a4cc0",
+      "hash": "55d3c32eae765403",
       "text": "Где туалет?"
     },
     "woh-043": {
-      "hash": "749dea12a7eda7a7",
+      "hash": "30a49bf32490d94d",
       "text": "Во сколько нужно освободить номер?"
     },
     "woh-044": {
-      "hash": "9618a93e6fad059f",
+      "hash": "2872df63fa0ae0ce",
       "text": "Можно ещё одно полотенце?"
     },
     "woh-045": {
-      "hash": "39ba609e53a458ed",
+      "hash": "24f36f95ad877110",
       "text": "В номере холодно."
     },
     "woh-046": {
-      "hash": "199782842dab849c",
+      "hash": "f710c60e9c9368a9",
       "text": "Я потерял ключ. Я потеряла ключ."
     },
     "woh-047": {
-      "hash": "1963cf962bbf4b85",
+      "hash": "b5fbc5ff1c050b9e",
       "text": "Завтрак включён?"
     },
     "woh-048": {
-      "hash": "f4a66e7971361737",
+      "hash": "f3394c4031f0f35b",
       "text": "Сколько стоит номер на одну ночь?"
     },
     "woh-049": {
-      "hash": "4d242aa93dd0225f",
+      "hash": "5d283cd70eb0403f",
       "text": "Есть ли свободные номера?"
     },
     "woh-050": {
-      "hash": "138ddb6462e1f8da",
+      "hash": "911f09872001d75f",
       "text": "Я живу на третьем этаже."
     },
     "woh-051": {
-      "hash": "4e7a44b695d10137",
+      "hash": "64703c6ac2d5a35a",
       "text": "Не работает отопление."
     },
     "zah-001": {
-      "hash": "400ad9b32e0b4c32",
+      "hash": "fd7fcf383a53f772",
       "text": "оди́н"
     },
     "zah-002": {
-      "hash": "082b7fd6e72ce171",
+      "hash": "ce0b5f9cd242a97c",
       "text": "два"
     },
     "zah-003": {
-      "hash": "889198c2185bbbaa",
+      "hash": "53af2d406a8fead2",
       "text": "три"
     },
     "zah-004": {
-      "hash": "1af45f620ba24399",
+      "hash": "49e81697998d403d",
       "text": "четы́ре"
     },
     "zah-005": {
-      "hash": "84489de502c78f27",
+      "hash": "817935b86eb591b2",
       "text": "пять"
     },
     "zah-006": {
-      "hash": "400389c3d530b15d",
+      "hash": "e935f7f92567e006",
       "text": "де́сять"
     },
     "zah-007": {
-      "hash": "da9e1f959375705b",
+      "hash": "844e53f1d98180fa",
       "text": "сто"
     },
     "zah-008": {
-      "hash": "c6a32e0832e59378",
+      "hash": "f0d8da80045ffa8f",
       "text": "ты́сяча"
     },
     "zah-009": {
-      "hash": "750fadc86dac2415",
+      "hash": "52b3ba185279bb16",
       "text": "сего́дня"
     },
     "zah-010": {
-      "hash": "5ed75f1d354ac3af",
+      "hash": "7fb9d91a1839ed6d",
       "text": "за́втра"
     },
     "zah-011": {
-      "hash": "a8d199161dda5f44",
+      "hash": "1183af1dcedefdd6",
       "text": "вчера́"
     },
     "zah-012": {
-      "hash": "89d6054cc5feb50b",
+      "hash": "fd45f762e454c62b",
       "text": "неде́ля"
     },
     "zah-013": {
-      "hash": "8dce7a0f0ea28263",
+      "hash": "f134d9c4c66548c4",
       "text": "час"
     },
     "zah-014": {
-      "hash": "3129de63bd06b51f",
+      "hash": "4baa5f8363763ef3",
       "text": "мину́та"
     },
     "zah-015": {
-      "hash": "885612f91e689171",
+      "hash": "41a4c0748ef10397",
       "text": "понеде́льник"
     },
     "zah-016": {
-      "hash": "7dda66ff47d71d7e",
+      "hash": "eec849fd9ae42d20",
       "text": "пя́тница"
     },
     "zah-017": {
-      "hash": "45e19841a14429fa",
+      "hash": "275ba0e9d33aa408",
       "text": "Который час?"
     },
     "zah-018": {
-      "hash": "87985c38a259d9a6",
+      "hash": "3a1a452daaaf977a",
       "text": "Сейчас три часа."
     },
     "zah-019": {
-      "hash": "77cf029dad211843",
+      "hash": "8c0d77c5fae38bc2",
       "text": "Во сколько?"
     },
     "zah-020": {
-      "hash": "2dc09e6bc68cc25c",
+      "hash": "c64e4e015f4fa70a",
       "text": "Мне двадцать пять лет."
     },
     "zah-021": {
-      "hash": "fb5bb0e3548bfb34",
+      "hash": "a6bf0b20cfff1129",
       "text": "шесть"
     },
     "zah-022": {
-      "hash": "79662aae24ddc752",
+      "hash": "94f4d78903b6fb9a",
       "text": "семь"
     },
     "zah-023": {
-      "hash": "67311329e9524497",
+      "hash": "3360941d51dab684",
       "text": "во́семь"
     },
     "zah-024": {
-      "hash": "60895247bf9594a1",
+      "hash": "e5b8eb8cc0e8da77",
       "text": "де́вять"
     },
     "zah-025": {
-      "hash": "ad1f35061eebd623",
+      "hash": "720091f30a7ff163",
       "text": "два́дцать"
     },
     "zah-026": {
-      "hash": "38336de796c90924",
+      "hash": "fddc44e3b4658872",
       "text": "пятьдеся́т"
     },
     "zah-027": {
-      "hash": "16a1744bda2c91ea",
+      "hash": "0f16b355e4b47763",
       "text": "ноль"
     },
     "zah-028": {
-      "hash": "5a4968ef6fae5da6",
+      "hash": "9908100cc33d8f3f",
       "text": "миллио́н"
     },
     "zah-029": {
-      "hash": "2a884b92bf297762",
+      "hash": "db2454e7b672a32f",
       "text": "вто́рник"
     },
     "zah-030": {
-      "hash": "131838bd33fd3236",
+      "hash": "c802356ea7783bef",
       "text": "среда́"
     },
     "zah-031": {
-      "hash": "ac95a2cc3c698a6c",
+      "hash": "41a3df87821e5b2e",
       "text": "четве́рг"
     },
     "zah-032": {
-      "hash": "73372023a8854102",
+      "hash": "9cafce2065e5a724",
       "text": "суббо́та"
     },
     "zah-033": {
-      "hash": "90bb24b17a8f0354",
+      "hash": "eab5008cc727367f",
       "text": "воскресе́нье"
     },
     "zah-034": {
-      "hash": "8017b6812d481110",
+      "hash": "00837b041e1106ec",
       "text": "ме́сяц"
     },
     "zah-035": {
-      "hash": "056a3f727e2eb9bd",
+      "hash": "15810dac4f16c67e",
       "text": "год"
     },
     "zah-036": {
-      "hash": "93f93ebc3e1b47dc",
+      "hash": "af7458b01f667834",
       "text": "секу́нда"
     },
     "zah-037": {
-      "hash": "248582cf460143ab",
+      "hash": "0d0abe75d7718e90",
       "text": "у́тро"
     },
     "zah-038": {
-      "hash": "400179e92a041f20",
+      "hash": "47f39ddc572b38a4",
       "text": "ве́чер"
     },
     "zah-039": {
-      "hash": "a48d4f003f1ae447",
+      "hash": "a78a8ca430dd99da",
       "text": "ночь"
     },
     "zah-040": {
-      "hash": "93dc9942714d9e22",
+      "hash": "8076f64a60f661a2",
       "text": "день"
     },
     "zah-041": {
-      "hash": "0c297580a3abb94d",
+      "hash": "79cff3380c773f57",
       "text": "послеза́втра"
     },
     "zah-042": {
-      "hash": "f5750a8db6567473",
+      "hash": "405ead45bace90ab",
       "text": "позавчера́"
     },
     "zah-043": {
-      "hash": "c1cf2a17bc75586b",
+      "hash": "9507256f64b6eeea",
       "text": "ра́но"
     },
     "zah-044": {
-      "hash": "6a11f6fc50ff2195",
+      "hash": "ac68bb1e515e42df",
       "text": "по́здно"
     },
     "zah-045": {
-      "hash": "acf07bead5381fd0",
+      "hash": "fceeff5c7414f9d2",
       "text": "Сегодня понедельник."
     },
     "zah-046": {
-      "hash": "f2bbe15ae7ab1d83",
+      "hash": "f2e7aa134376bcbe",
       "text": "Какое сегодня число?"
     },
     "zah-047": {
-      "hash": "98e3290fe558bd0c",
+      "hash": "7218b3528ddb5515",
       "text": "Встретимся в семь часов."
     },
     "zah-048": {
-      "hash": "d4d3637e7a33ca09",
+      "hash": "1d18d1662b0316c0",
       "text": "Магазин открыт до восьми."
     },
     "zah-049": {
-      "hash": "d0348c57f4800ff1",
+      "hash": "ecaad33cb613848c",
       "text": "Подождите минуту, пожалуйста."
     },
     "zah-050": {
-      "hash": "ef7e2cb37f3fd3b2",
+      "hash": "a1692545a6238b6a",
       "text": "У меня нет времени."
     },
     "zah-051": {
-      "hash": "ffdb35828ca618db",
+      "hash": "03ecf46e9a871c95",
       "text": "Сколько времени это займёт?"
     }
   }
