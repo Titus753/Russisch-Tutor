@@ -1,0 +1,10 @@
+# Netlify-Build = Qualitäts-Gate: Lint, Typecheck, Unit-Tests, npm audit und Build.
+# Schlägt ein Schritt fehl, wird nichts veröffentlicht. Sicherheits-Header: public/_headers.
+[build]
+  command = "npm run ci"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  # Keine Installationsskripte von Paketen ausführen
+  NPM_FLAGS = "--ignore-scripts"

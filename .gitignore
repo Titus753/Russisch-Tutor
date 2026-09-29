@@ -1,0 +1,31 @@
+# Abhängigkeiten und Build
+node_modules/
+dist/
+dev-dist/
+*.tsbuildinfo
+
+# Testergebnisse
+test-results/
+playwright-report/
+blob-report/
+coverage/
+
+# Umgebung und Geheimnisse (es sollte keine geben)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Audio-Werkzeuge (Piper-Modelle werden lokal geladen, nicht eingecheckt)
+tools/piper/
+*.onnx
+*.onnx.json
+
+# System und Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
