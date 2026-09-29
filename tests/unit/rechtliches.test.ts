@@ -12,16 +12,17 @@ describe('Verantwortlicher (Datenschutzerklärung)', () => {
       name: 'Erika Mustermann',
       kontakt: 'erika@example.org',
       anschrift: null,
-      platzhalter: false,
     });
   });
 
-  it('bricht jeden Netlify-Build ohne Angaben ab', () => {
-    expect(() => verantwortlicherFuerBuild({ NETLIFY: 'true' })).toThrow(/unvollständig/);
+  it('ohne Angaben entfällt der Kontaktabschnitt (privates Angebot, auch auf Netlify)', () => {
+    expect(verantwortlicherFuerBuild({ NETLIFY: 'true' })).toBeNull();
   });
 
-  it('zeigt lokal Platzhalter', () => {
-    expect(verantwortlicherFuerBuild({}).platzhalter).toBe(true);
+  it('bricht bei ungültigen Angaben ab, statt Tippfehler zu veröffentlichen', () => {
+    expect(() =>
+      verantwortlicherFuerBuild({ ...gueltig, VERANTWORTLICHER_KONTAKT: 'kaputt' }),
+    ).toThrow();
   });
 
   it.each([

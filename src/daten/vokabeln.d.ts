@@ -14,5 +14,4 @@ declare const __VERANTWORTLICHER__: {
   name: string;
   kontakt: string;
   anschrift: string | null;
-  platzhalter: boolean;
-};
+} | null;

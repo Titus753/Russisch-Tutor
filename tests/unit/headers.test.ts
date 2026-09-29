@@ -62,3 +62,11 @@ describe('cspFuerMeta', () => {
     );
   });
 });
+
+describe('Privates Angebot', () => {
+  it('schließt Suchmaschinen aus (Header, robots.txt, Meta-Tag)', () => {
+    expect(header['X-Robots-Tag']).toContain('noindex');
+    expect(readFileSync('public/robots.txt', 'utf8')).toMatch(/Disallow: \/\s*$/);
+    expect(readFileSync('index.html', 'utf8')).toContain('<meta name="robots" content="noindex');
+  });
+});

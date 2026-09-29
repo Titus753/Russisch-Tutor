@@ -1,7 +1,8 @@
 /**
- * Angaben zum Verantwortlichen (Art. 13 DSGVO) für die Datenschutzerklärung.
- * Sie stehen bewusst NICHT im öffentlichen Repository, sondern werden beim Build aus
- * Umgebungsvariablen gelesen (Netlify: Site configuration → Environment variables):
+ * Optionale Kontaktangaben für die Datenschutzseite. Die App ist ein privates Angebot für
+ * Freunde und Familie; ohne Angaben entfällt der Abschnitt. Die Angaben stehen nie im
+ * öffentlichen Repository, sondern kommen – falls gewünscht – aus Umgebungsvariablen
+ * (Netlify: Site configuration → Environment variables):
  *   VERANTWORTLICHER_NAME      Vor- und Nachname
  *   VERANTWORTLICHER_KONTAKT   E-Mail-Adresse
  *   VERANTWORTLICHER_ANSCHRIFT optional, z. B. „Musterstraße 1, 12345 Musterstadt"
@@ -10,19 +11,11 @@ export interface Verantwortlicher {
   name: string;
   kontakt: string;
   anschrift: string | null;
-  platzhalter: boolean;
 }
 
 const NAME = /^[\p{L}][\p{L} .'-]{1,79}$/u;
 const EMAIL = /^[A-Za-z0-9._%+-]{1,64}@[A-Za-z0-9.-]{1,190}\.[A-Za-z]{2,24}$/;
 const ANSCHRIFT = /^[\p{L}0-9 .,'/-]{5,200}$/u;
-
-export const PLATZHALTER: Verantwortlicher = {
-  name: '[Name – in Netlify als VERANTWORTLICHER_NAME eintragen]',
-  kontakt: '[E-Mail – in Netlify als VERANTWORTLICHER_KONTAKT eintragen]',
-  anschrift: null,
-  platzhalter: true,
-};
 
 export function verantwortlicherAus(
   env: Record<string, string | undefined>,
@@ -37,22 +30,18 @@ export function verantwortlicherAus(
   if (anschrift !== null && !ANSCHRIFT.test(anschrift)) {
     return { ok: false, fehler: 'VERANTWORTLICHER_ANSCHRIFT ist ungültig' };
   }
-  return { ok: true, wert: { name, kontakt, anschrift, platzhalter: false } };
+  return { ok: true, wert: { name, kontakt, anschrift } };
 }
 
 /**
- * Auf Netlify (Live und Vorschau – beide sind öffentlich erreichbar) sind gültige Angaben Pflicht,
- * sonst bricht der Build ab. Lokal werden Platzhalter angezeigt.
+ * Gültige Angaben werden übernommen, fehlende lassen den Abschnitt entfallen.
+ * Ungültige Angaben brechen den Build ab (Tippfehler sollen nicht unbemerkt online gehen).
  */
 export function verantwortlicherFuerBuild(
   env: Record<string, string | undefined>,
-): Verantwortlicher {
+): Verantwortlicher | null {
+  if (!env.VERANTWORTLICHER_NAME?.trim() && !env.VERANTWORTLICHER_KONTAKT?.trim()) return null;
   const ergebnis = verantwortlicherAus(env);
-  if (ergebnis.ok) return ergebnis.wert;
-  if (env.NETLIFY === 'true') {
-    throw new Error(
-      `Datenschutzerklärung unvollständig: ${ergebnis.fehler}. Siehe docs/EINRICHTUNG.md.`,
-    );
-  }
-  return PLATZHALTER;
+  if (!ergebnis.ok) throw new Error(`Kontaktangaben ungültig: ${ergebnis.fehler}`);
+  return ergebnis.wert;
 }

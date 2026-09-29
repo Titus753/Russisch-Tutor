@@ -227,15 +227,14 @@ test.describe('Alphabet', () => {
   });
 });
 
-test('Datenschutz nennt Speicherort, Hosting und Rechte; lokal mit Platzhalter-Warnung', async ({
-  page,
-}) => {
+test('Datenschutz nennt Speicherort, Hosting und Rechte, ohne Pflichtangaben', async ({ page }) => {
   await page.goto('/');
   await oeffne(page, 'Datenschutz');
   await expect(page.getByText('ausschließlich auf deinem Gerät')).toBeVisible();
   await expect(page.getByText(/Netlify, Inc\., 101 2nd Street/)).toBeVisible();
   await expect(page.getByText(/Art\. 77 DSGVO/)).toBeVisible();
-  await expect(page.getByRole('alert')).toContainText('Angaben fehlen');
+  await expect(page.getByText('privates, kostenloses Angebot')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Kontakt' })).toHaveCount(0);
   const link = page.getByRole('link', { name: 'Datenschutzerklärung von Netlify' });
   await expect(link).toHaveAttribute('rel', 'noopener noreferrer');
 });

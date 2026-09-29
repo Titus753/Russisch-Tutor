@@ -1,6 +1,6 @@
 import { Abschnitt, Unterseite } from '../../bausteine/Bedienelemente.tsx';
 
-/** Datenschutzerklärung (Art. 13 DSGVO). Angaben zum Verantwortlichen kommen aus dem Build. */
+/** Datenschutz-Hinweise für ein privates Angebot. Kontaktangaben nur, wenn im Build gesetzt. */
 const V = __VERANTWORTLICHER__;
 
 function ExternerLink({ href, children }: { href: string; children: string }) {
@@ -14,40 +14,34 @@ function ExternerLink({ href, children }: { href: string; children: string }) {
 export function Datenschutz({ onZurueck }: { onZurueck: () => void }) {
   return (
     <Unterseite titel="Datenschutz" onZurueck={onZurueck}>
+      {/* Suchmaschinen sind per robots.txt, Meta-Tag und X-Robots-Tag ausgeschlossen */}
       <Abschnitt titel="Kurz gesagt">
         <p>
-          Die App speichert deinen Lernstand ausschließlich auf deinem Gerät. Es gibt kein Konto,
-          keine Cookies, kein Tracking, keine Analyse, keine Werbung und keine Anfragen an andere
-          Anbieter. Beim Aufruf der App verarbeitet nur der Hosting-Anbieter technisch notwendige
-          Daten (siehe unten).
+          Diese App ist ein privates, kostenloses Angebot für Freunde und Familie. Sie speichert
+          deinen Lernstand ausschließlich auf deinem Gerät. Es gibt kein Konto, keine Cookies, kein
+          Tracking, keine Analyse, keine Werbung und keine Anfragen an andere Anbieter. Beim Aufruf
+          der App verarbeitet nur der Hosting-Anbieter technisch notwendige Daten (siehe unten).
         </p>
       </Abschnitt>
 
-      <Abschnitt titel="Verantwortlich">
-        {V.platzhalter && (
-          <p role="alert" class="meldung meldung--falsch">
-            Angaben fehlen – vor der Veröffentlichung in Netlify eintragen.
-          </p>
-        )}
-        <p>
-          {V.name}
-          {V.anschrift && (
-            <>
-              <br />
-              {V.anschrift}
-            </>
-          )}
-          <br />
-          E-Mail:{' '}
-          {V.platzhalter ? (
-            V.kontakt
-          ) : (
+      {V && (
+        <Abschnitt titel="Kontakt">
+          <p>
+            {V.name}
+            {V.anschrift && (
+              <>
+                <br />
+                {V.anschrift}
+              </>
+            )}
+            <br />
+            E-Mail:{' '}
             <a class="link-knopf" href={`mailto:${V.kontakt}`}>
               {V.kontakt}
             </a>
-          )}
-        </p>
-      </Abschnitt>
+          </p>
+        </Abschnitt>
+      )}
 
       <Abschnitt titel="Daten auf deinem Gerät">
         <p>

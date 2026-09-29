@@ -1,0 +1,3 @@
+# Privates Angebot für Freunde und Familie – bitte nicht indexieren.
+User-agent: *
+Disallow: /
