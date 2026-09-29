@@ -35,6 +35,18 @@ export function Mehr() {
         </div>
       </div>
       <div class="abschnitt">
+        <h3 class="abschnitt__titel">Aussprache</h3>
+        <p>
+          Die Aufnahmen sind in der App enthalten. Nur falls eine fehlt, nutzt die App eine
+          russische Stimme deines Geräts – ausschließlich lokal, nichts wird übertragen.
+        </p>
+        <p class="kleingedruckt">
+          Russische Stimme installieren – iPhone: Einstellungen → Bedienungshilfen → Gesprochene
+          Inhalte → Stimmen → Russisch. Android: Einstellungen → System → Sprache → Text-in-Sprache
+          → Sprachdaten installieren → Russisch.
+        </p>
+      </div>
+      <div class="abschnitt">
         <h3 class="abschnitt__titel">Bald hier</h3>
         <p>Alphabet, Einstellungen, Fortschritt, Sicherung und Datenschutz.</p>
       </div>

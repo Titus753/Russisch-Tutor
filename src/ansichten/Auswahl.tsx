@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import vokabeln from 'virtual:vokabeln';
-import { sprich } from '../audio/wiedergabe.ts';
+import { spiele } from '../audio/wiedergabe.ts';
 import { russischAnzeige } from '../app/anzeige.ts';
 import { useApp } from '../app/kontext.ts';
-import { Anhoeren } from '../bausteine/Anhoeren.tsx';
+import { Anhoeren, KEINE_STIMME } from '../bausteine/Anhoeren.tsx';
 import { IconLautsprecher } from '../bausteine/Icons.tsx';
 import { KartenText, Lernkarte } from '../bausteine/Lernkarte.tsx';
 import { antwortOptionen, frageText, type Antwortwahl } from '../logik/antworten.ts';
@@ -50,14 +50,14 @@ export function Auswahl({ modus }: { modus: 'quiz' | 'hoeren' }) {
   const abspielen = async (langsam = false) => {
     if (!frage) return;
     setGehoert(true);
-    if ((await sprich(frage.karte.eintrag.russisch, langsam)) === 'keine-stimme') {
-      zeigeHinweis('Keine russische Stimme auf diesem Gerät gefunden.');
+    if ((await spiele(frage.karte.eintrag, langsam)) === 'keine-stimme') {
+      zeigeHinweis(KEINE_STIMME);
     }
   };
 
   // Beim Hören ab der zweiten Frage automatisch abspielen (erst nach einer Nutzeraktion erlaubt)
   useEffect(() => {
-    if (hoeren && gehoert && frage) void sprich(frage.karte.eintrag.russisch);
+    if (hoeren && gehoert && frage) void spiele(frage.karte.eintrag);
     if (gewaehlt === null) ersteAntwortRef.current?.focus({ preventScroll: true });
   }, [frage?.karte.schluessel]);
 
@@ -137,7 +137,7 @@ export function Auswahl({ modus }: { modus: 'quiz' | 'hoeren' }) {
             {richtung === 'de-ru' && eintrag.hinweis && (
               <p class="karte__hinweis">{eintrag.hinweis}</p>
             )}
-            {richtung === 'ru-de' && <Anhoeren text={eintrag.russisch} />}
+            {richtung === 'ru-de' && <Anhoeren ziel={eintrag} />}
           </>
         )}
       </Lernkarte>
@@ -187,7 +187,7 @@ export function Auswahl({ modus }: { modus: 'quiz' | 'hoeren' }) {
             </p>
           )}
           <div class="aktionen aktionen--reihe">
-            {!hoeren && <Anhoeren text={eintrag.russisch} />}
+            {!hoeren && <Anhoeren ziel={eintrag} />}
             <button ref={weiterRef} type="button" class="knopf knopf--haupt" onClick={weiter}>
               Weiter
             </button>

@@ -189,15 +189,18 @@ test.describe('Tippen mit Systemtastatur', () => {
 });
 
 test.describe('Hören', () => {
-  test('spielt mit lokaler Stimme (normal/langsam), zeigt Russisch erst nach der Antwort', async ({
+  test('ohne Aufnahme: lokale Stimme (normal/langsam), Russisch erst nach der Antwort', async ({
     page,
   }) => {
     await falscheSprachausgabe(page, true);
+    await page.route('**/audio/*.mp3', (route) => route.fulfill({ status: 404, body: '' }));
     await page.goto('/');
     await tab(page, 'Hören').click();
     await expect(page.locator('.karte [lang="ru"]')).toHaveCount(0);
     await page.getByRole('button', { name: 'Anhören' }).click();
     await page.getByRole('button', { name: 'Langsam' }).click();
+    // Erst scheitert die (fehlende) Aufnahme, dann spricht die Gerätestimme: auf beide warten
+    await expect.poll(async () => (await gesprochen(page)).length).toBe(2);
     const [normal, langsam] = await gesprochen(page);
     const russisch = normal!.split('|')[0]!;
     expect(langsam).toBe(`${russisch}|0.6`);
@@ -213,10 +216,11 @@ test.describe('Hören', () => {
 
   test('nutzt keine Stimmen, die Text an einen Server senden', async ({ page }) => {
     await falscheSprachausgabe(page, false);
+    await page.route('**/audio/*.mp3', (route) => route.fulfill({ status: 404, body: '' }));
     await page.goto('/');
     await tab(page, 'Hören').click();
     await page.getByRole('button', { name: 'Anhören' }).click();
-    await expect(page.getByText('Keine russische Stimme auf diesem Gerät gefunden.')).toBeVisible();
+    await expect(page.getByText('Aussprache nicht verfügbar.', { exact: false })).toBeVisible();
     expect(await gesprochen(page)).toEqual([]);
   });
 });

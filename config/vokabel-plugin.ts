@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Plugin } from 'vite';
 import { pruefeVokabular } from '../src/daten/pruefen.ts';
@@ -38,7 +38,11 @@ export function vokabelPlugin(): Plugin {
       if (fehler.length > 0) {
         this.error(`Vokabeldaten ungültig (${fehler.length} Fehler):\n  ${fehler.join('\n  ')}`);
       }
-      return `export default ${JSON.stringify(eintraege)};`;
+      // Aufnahme nur verknüpfen, wenn die Datei wirklich existiert (sonst Gerätestimme)
+      const mitAudio = eintraege.map((e) =>
+        existsSync(join('public/audio', `${e.id}.mp3`)) ? { ...e, audio: `${e.id}.mp3` } : e,
+      );
+      return `export default ${JSON.stringify(mitAudio)};`;
     },
   };
 }

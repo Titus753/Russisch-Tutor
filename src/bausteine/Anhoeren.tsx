@@ -1,22 +1,23 @@
-import { sprich } from '../audio/wiedergabe.ts';
+import { spiele, type Sprechbar } from '../audio/wiedergabe.ts';
 import { useApp } from '../app/kontext.ts';
 import { IconLautsprecher } from './Icons.tsx';
 
+export const KEINE_STIMME =
+  'Aussprache nicht verfügbar. Unter „Mehr“ steht, wie du eine russische Stimme installierst.';
+
 /** Anhören-Knopf für eine russische Zeile; optional „Langsam". */
 export function Anhoeren({
-  text,
+  ziel,
   langsam = false,
   label,
 }: {
-  text: string;
+  ziel: Sprechbar;
   langsam?: boolean;
   label?: string;
 }) {
   const { zeigeHinweis } = useApp();
   const abspielen = async () => {
-    if ((await sprich(text, langsam)) === 'keine-stimme') {
-      zeigeHinweis('Keine russische Stimme auf diesem Gerät gefunden.');
-    }
+    if ((await spiele(ziel, langsam)) === 'keine-stimme') zeigeHinweis(KEINE_STIMME);
   };
   return (
     <button type="button" class="knopf knopf--klein" onClick={() => void abspielen()}>
@@ -27,6 +28,6 @@ export function Anhoeren({
 }
 
 /** Liest automatisch vor, wenn die Einstellung „Automatisch vorlesen" aktiv ist. */
-export function vorlesenWennAktiv(aktiv: boolean, text: string) {
-  if (aktiv) void sprich(text);
+export function vorlesenWennAktiv(aktiv: boolean, ziel: Sprechbar) {
+  if (aktiv) void spiele(ziel);
 }

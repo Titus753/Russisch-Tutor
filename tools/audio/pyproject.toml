@@ -1,0 +1,12 @@
+# Lokales Werkzeug zur Erzeugung der Aussprache-Dateien (nicht Teil der App).
+[project]
+name = "russisch-tutor-audio"
+version = "1.0.0"
+requires-python = "==3.12.*"
+dependencies = [
+  "piper-tts==1.8.0",  # GPL-3.0, nur lokal als Werkzeug genutzt, nicht ausgeliefert
+  "lameenc==1.8.4",    # LGPL-3.0, MP3-Encoder, nur lokal genutzt
+]
+
+[tool.uv]
+package = false

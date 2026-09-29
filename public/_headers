@@ -14,3 +14,7 @@
 # Gehashte Build-Dateien dürfen dauerhaft gecacht werden
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Aussprache-Dateien: Name bleibt bei Neuerzeugung gleich, daher nur begrenzt cachen
+/audio/*
+  Cache-Control: public, max-age=86400

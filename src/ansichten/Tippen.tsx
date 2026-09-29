@@ -162,7 +162,7 @@ export function Tippen() {
                   Deine Eingabe: <span lang="ru">{eingabe}</span>
                 </p>
               )}
-              <Anhoeren text={ergebnis.ziel} />
+              <Anhoeren ziel={eintrag} />
             </div>
           )}
         </Lernkarte>

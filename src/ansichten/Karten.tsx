@@ -51,7 +51,7 @@ export function Karten() {
     if (!erste || zustand.current.aufgedeckt) return;
     zustand.current.aufgedeckt = true;
     setAufgedeckt(true);
-    vorlesenWennAktiv(stand.einstellungen.vorlesen, erste.eintrag.russisch);
+    vorlesenWennAktiv(stand.einstellungen.vorlesen, erste.eintrag);
   };
 
   const bewerten = (bewertung: Bewertung) => {
@@ -136,7 +136,7 @@ export function Karten() {
           eintrag={eintrag}
         />
         {!russischOben && eintrag.hinweis && <p class="karte__hinweis">{eintrag.hinweis}</p>}
-        {russischOben && <Anhoeren text={eintrag.russisch} />}
+        {russischOben && <Anhoeren ziel={eintrag} />}
         {aufgedeckt && (
           <div class="karte__loesung">
             <hr class="karte__trenner" />
@@ -147,7 +147,7 @@ export function Karten() {
               gross={false}
             />
             {russischOben && eintrag.hinweis && <p class="karte__hinweis">{eintrag.hinweis}</p>}
-            {!russischOben && <Anhoeren text={eintrag.russisch} />}
+            {!russischOben && <Anhoeren ziel={eintrag} />}
           </div>
         )}
       </Lernkarte>

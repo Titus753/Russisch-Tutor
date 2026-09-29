@@ -17,8 +17,13 @@ coverage/
 *.pem
 *.key
 
-# Audio-Werkzeuge (Piper-Modelle werden lokal geladen, nicht eingecheckt)
-tools/piper/
+# Audio-Werkzeug: Binärdateien, Python, Umgebung und Stimmmodelle nur lokal
+tools/audio/bin/
+tools/audio/.python/
+tools/audio/.venv/
+tools/audio/.cache/
+tools/audio/modelle/
+tools/audio/proben/
 *.onnx
 *.onnx.json
 

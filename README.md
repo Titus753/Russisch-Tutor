@@ -40,6 +40,9 @@ Einträge zur manuellen Kontrolle: [data/pruefen.md](data/pruefen.md).
   Lint, Typecheck, Unit-Tests, `npm audit` und Build – bei Fehlern wird nichts veröffentlicht
 - E2E-Tests (`npm run test:e2e`) laufen vor jedem Commit lokal
 
+Aussprache-Dateien erzeugen: siehe [tools/audio/README.md](tools/audio/README.md).
+Lizenzen und Herkunft (auch der Stimme): siehe [docs/LIZENZEN.md](docs/LIZENZEN.md).
+
 Einrichtung von GitHub und Netlify: siehe [docs/EINRICHTUNG.md](docs/EINRICHTUNG.md).
 Sicherheitslücken melden: siehe [SECURITY.md](SECURITY.md).
 
