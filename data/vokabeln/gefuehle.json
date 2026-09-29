@@ -160,5 +160,253 @@
     "thema": "gefuehle",
     "russisch": "Нет худа без добра.",
     "deutsch": "Kein Unglück ohne Glück."
+  },
+  {
+    "id": "gef-021",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "нервный",
+    "deutsch": "nervös",
+    "betonung": "не́рвный"
+  },
+  {
+    "id": "gef-022",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "довольный",
+    "deutsch": "zufrieden",
+    "betonung": "дово́льный"
+  },
+  {
+    "id": "gef-023",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "удивлённый",
+    "deutsch": "überrascht"
+  },
+  {
+    "id": "gef-024",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "спокойный",
+    "deutsch": "ruhig",
+    "betonung": "споко́йный"
+  },
+  {
+    "id": "gef-025",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "сердитый",
+    "deutsch": "verärgert",
+    "betonung": "серди́тый"
+  },
+  {
+    "id": "gef-026",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "скучно",
+    "deutsch": "langweilig",
+    "betonung": "ску́чно"
+  },
+  {
+    "id": "gef-027",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "интересно",
+    "deutsch": "interessant",
+    "betonung": "интере́сно"
+  },
+  {
+    "id": "gef-028",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "одинокий",
+    "deutsch": "einsam",
+    "betonung": "одино́кий"
+  },
+  {
+    "id": "gef-029",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "ревнивый",
+    "deutsch": "eifersüchtig",
+    "betonung": "ревни́вый"
+  },
+  {
+    "id": "gef-030",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "гордый",
+    "deutsch": "stolz",
+    "betonung": "го́рдый"
+  },
+  {
+    "id": "gef-031",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "стыд",
+    "deutsch": "die Scham"
+  },
+  {
+    "id": "gef-032",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "надежда",
+    "deutsch": "die Hoffnung",
+    "betonung": "наде́жда"
+  },
+  {
+    "id": "gef-033",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "мечта",
+    "deutsch": "der Traum",
+    "betonung": "мечта́",
+    "hinweis": "Wunschtraum"
+  },
+  {
+    "id": "gef-034",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "счастье",
+    "deutsch": "das Glück",
+    "betonung": "сча́стье"
+  },
+  {
+    "id": "gef-035",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "сомнение",
+    "deutsch": "der Zweifel",
+    "betonung": "сомне́ние"
+  },
+  {
+    "id": "gef-036",
+    "typ": "wort",
+    "thema": "gefuehle",
+    "russisch": "мнение",
+    "deutsch": "die Meinung",
+    "betonung": "мне́ние"
+  },
+  {
+    "id": "gef-037",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Мне скучно.",
+    "deutsch": "Mir ist langweilig."
+  },
+  {
+    "id": "gef-038",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Мне страшно.",
+    "deutsch": "Ich habe Angst."
+  },
+  {
+    "id": "gef-039",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я очень рад тебя видеть.",
+    "deutsch": "Ich freue mich sehr, dich zu sehen.",
+    "genusvarianten": {
+      "m": "Я очень рад тебя видеть.",
+      "w": "Я очень рада тебя видеть."
+    },
+    "hinweis": "informell"
+  },
+  {
+    "id": "gef-040",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Не переживай!",
+    "deutsch": "Mach dir keine Sorgen!",
+    "hinweis": "informell"
+  },
+  {
+    "id": "gef-041",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я волнуюсь.",
+    "deutsch": "Ich bin aufgeregt."
+  },
+  {
+    "id": "gef-042",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Это здорово!",
+    "deutsch": "Das ist toll!"
+  },
+  {
+    "id": "gef-043",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Какой ужас!",
+    "deutsch": "Wie schrecklich!"
+  },
+  {
+    "id": "gef-044",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я в хорошем настроении.",
+    "deutsch": "Ich bin gut gelaunt."
+  },
+  {
+    "id": "gef-045",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Мне это не нравится.",
+    "deutsch": "Das gefällt mir nicht."
+  },
+  {
+    "id": "gef-046",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Ты прав.",
+    "deutsch": "Du hast recht.",
+    "genusvarianten": {
+      "m": "Ты прав.",
+      "w": "Ты права."
+    },
+    "hinweis": "an einen Mann / an eine Frau"
+  },
+  {
+    "id": "gef-047",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Честно говоря, я не уверен.",
+    "deutsch": "Ehrlich gesagt bin ich mir nicht sicher.",
+    "genusvarianten": {
+      "m": "Честно говоря, я не уверен.",
+      "w": "Честно говоря, я не уверена."
+    }
+  },
+  {
+    "id": "gef-048",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я тебя люблю.",
+    "deutsch": "Ich liebe dich."
+  },
+  {
+    "id": "gef-049",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Не сердись!",
+    "deutsch": "Sei nicht böse!",
+    "hinweis": "informell"
+  },
+  {
+    "id": "gef-050",
+    "typ": "satz",
+    "thema": "gefuehle",
+    "russisch": "Я тобой горжусь.",
+    "deutsch": "Ich bin stolz auf dich."
+  },
+  {
+    "id": "gef-051",
+    "typ": "redewendung",
+    "thema": "gefuehle",
+    "russisch": "Не было бы счастья, да несчастье помогло.",
+    "deutsch": "Glück im Unglück."
   }
 ]

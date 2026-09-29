@@ -147,5 +147,247 @@
     "thema": "bank",
     "russisch": "Время — деньги.",
     "deutsch": "Zeit ist Geld."
+  },
+  {
+    "id": "ban-021",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "банковский счёт",
+    "deutsch": "das Bankkonto",
+    "betonung": "ба́нковский счёт"
+  },
+  {
+    "id": "ban-022",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "копейка",
+    "deutsch": "die Kopeke",
+    "betonung": "копе́йка"
+  },
+  {
+    "id": "ban-023",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "доллар",
+    "deutsch": "der Dollar",
+    "betonung": "до́ллар"
+  },
+  {
+    "id": "ban-024",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "монета",
+    "deutsch": "die Münze",
+    "betonung": "моне́та"
+  },
+  {
+    "id": "ban-025",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "купюра",
+    "deutsch": "der Geldschein",
+    "betonung": "купю́ра"
+  },
+  {
+    "id": "ban-026",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "кредит",
+    "deutsch": "der Kredit",
+    "betonung": "креди́т"
+  },
+  {
+    "id": "ban-027",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "процент",
+    "deutsch": "der Zins",
+    "betonung": "проце́нт",
+    "hinweis": "auch: das Prozent"
+  },
+  {
+    "id": "ban-028",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "комиссия",
+    "deutsch": "die Gebühr",
+    "betonung": "коми́ссия"
+  },
+  {
+    "id": "ban-029",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "ПИН-код",
+    "deutsch": "die PIN"
+  },
+  {
+    "id": "ban-030",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "долг",
+    "deutsch": "die Schulden"
+  },
+  {
+    "id": "ban-031",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "оплата",
+    "deutsch": "die Bezahlung",
+    "betonung": "опла́та"
+  },
+  {
+    "id": "ban-032",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "квитанция",
+    "deutsch": "die Quittung",
+    "betonung": "квита́нция"
+  },
+  {
+    "id": "ban-033",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "расходы",
+    "deutsch": "die Ausgaben",
+    "betonung": "расхо́ды"
+  },
+  {
+    "id": "ban-034",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "сбережения",
+    "deutsch": "die Ersparnisse",
+    "betonung": "сбереже́ния"
+  },
+  {
+    "id": "ban-035",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "налоги",
+    "deutsch": "die Steuern",
+    "betonung": "нало́ги"
+  },
+  {
+    "id": "ban-036",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "бюджет",
+    "deutsch": "das Budget",
+    "betonung": "бюдже́т"
+  },
+  {
+    "id": "ban-037",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "обменник",
+    "deutsch": "die Wechselstube",
+    "betonung": "обме́нник",
+    "hinweis": "umgangssprachlich"
+  },
+  {
+    "id": "ban-038",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "бесплатно",
+    "deutsch": "kostenlos",
+    "betonung": "беспла́тно"
+  },
+  {
+    "id": "ban-039",
+    "typ": "wort",
+    "thema": "bank",
+    "russisch": "богатый",
+    "deutsch": "reich",
+    "betonung": "бога́тый"
+  },
+  {
+    "id": "ban-040",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Я хочу открыть счёт.",
+    "deutsch": "Ich möchte ein Konto eröffnen."
+  },
+  {
+    "id": "ban-041",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Я хочу снять деньги.",
+    "deutsch": "Ich möchte Geld abheben."
+  },
+  {
+    "id": "ban-042",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Можно разменять тысячу?",
+    "deutsch": "Können Sie einen Tausender wechseln?"
+  },
+  {
+    "id": "ban-043",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Сколько стоит перевод?",
+    "deutsch": "Was kostet eine Überweisung?"
+  },
+  {
+    "id": "ban-044",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Моя карта не работает.",
+    "deutsch": "Meine Karte funktioniert nicht."
+  },
+  {
+    "id": "ban-045",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Я забыл ПИН-код.",
+    "deutsch": "Ich habe meine PIN vergessen.",
+    "genusvarianten": {
+      "m": "Я забыл ПИН-код.",
+      "w": "Я забыла ПИН-код."
+    }
+  },
+  {
+    "id": "ban-046",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Где здесь обменный пункт?",
+    "deutsch": "Wo ist hier eine Wechselstube?"
+  },
+  {
+    "id": "ban-047",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Нужно платить наличными.",
+    "deutsch": "Man muss bar bezahlen."
+  },
+  {
+    "id": "ban-048",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Это бесплатно?",
+    "deutsch": "Ist das kostenlos?"
+  },
+  {
+    "id": "ban-049",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Я коплю на отпуск.",
+    "deutsch": "Ich spare für den Urlaub."
+  },
+  {
+    "id": "ban-050",
+    "typ": "satz",
+    "thema": "bank",
+    "russisch": "Одолжи мне немного денег.",
+    "deutsch": "Leih mir etwas Geld.",
+    "hinweis": "informell"
+  },
+  {
+    "id": "ban-051",
+    "typ": "redewendung",
+    "thema": "bank",
+    "russisch": "Не в деньгах счастье.",
+    "deutsch": "Geld allein macht nicht glücklich.",
+    "betonung": "Не в деньга́х сча́стье."
   }
 ]

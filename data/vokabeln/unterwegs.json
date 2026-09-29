@@ -154,5 +154,239 @@
       "m": "Я заблудился.",
       "w": "Я заблудилась."
     }
+  },
+  {
+    "id": "unt-021",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "машина",
+    "deutsch": "das Auto",
+    "betonung": "маши́на"
+  },
+  {
+    "id": "unt-022",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "трамвай",
+    "deutsch": "die Straßenbahn",
+    "betonung": "трамва́й"
+  },
+  {
+    "id": "unt-023",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "велосипед",
+    "deutsch": "das Fahrrad",
+    "betonung": "велосипе́д"
+  },
+  {
+    "id": "unt-024",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "дорога",
+    "deutsch": "der Weg",
+    "betonung": "доро́га"
+  },
+  {
+    "id": "unt-025",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "мост",
+    "deutsch": "die Brücke"
+  },
+  {
+    "id": "unt-026",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "площадь",
+    "deutsch": "der Platz",
+    "betonung": "пло́щадь"
+  },
+  {
+    "id": "unt-027",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "перекрёсток",
+    "deutsch": "die Kreuzung"
+  },
+  {
+    "id": "unt-028",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "светофор",
+    "deutsch": "die Ampel",
+    "betonung": "светофо́р"
+  },
+  {
+    "id": "unt-029",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "платформа",
+    "deutsch": "der Bahnsteig",
+    "betonung": "платфо́рма"
+  },
+  {
+    "id": "unt-030",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "вагон",
+    "deutsch": "der Waggon",
+    "betonung": "ваго́н"
+  },
+  {
+    "id": "unt-031",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "место",
+    "deutsch": "der Sitzplatz",
+    "betonung": "ме́сто"
+  },
+  {
+    "id": "unt-032",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "багаж",
+    "deutsch": "das Gepäck",
+    "betonung": "бага́ж"
+  },
+  {
+    "id": "unt-033",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "чемодан",
+    "deutsch": "der Koffer",
+    "betonung": "чемода́н"
+  },
+  {
+    "id": "unt-034",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "выход",
+    "deutsch": "der Ausgang",
+    "betonung": "вы́ход"
+  },
+  {
+    "id": "unt-035",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "вход",
+    "deutsch": "der Eingang"
+  },
+  {
+    "id": "unt-036",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "пересадка",
+    "deutsch": "das Umsteigen",
+    "betonung": "переса́дка"
+  },
+  {
+    "id": "unt-037",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "расписание",
+    "deutsch": "der Fahrplan",
+    "betonung": "расписа́ние"
+  },
+  {
+    "id": "unt-038",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "турист",
+    "deutsch": "der Tourist",
+    "betonung": "тури́ст"
+  },
+  {
+    "id": "unt-039",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "центр",
+    "deutsch": "das Zentrum"
+  },
+  {
+    "id": "unt-040",
+    "typ": "wort",
+    "thema": "unterwegs",
+    "russisch": "угол",
+    "deutsch": "die Ecke",
+    "betonung": "у́гол"
+  },
+  {
+    "id": "unt-041",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Где ближайшая станция метро?",
+    "deutsch": "Wo ist die nächste U-Bahn-Station?"
+  },
+  {
+    "id": "unt-042",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Сколько стоит билет?",
+    "deutsch": "Wie viel kostet eine Fahrkarte?"
+  },
+  {
+    "id": "unt-043",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Этот автобус идёт в центр?",
+    "deutsch": "Fährt dieser Bus ins Zentrum?"
+  },
+  {
+    "id": "unt-044",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "На какой остановке мне выходить?",
+    "deutsch": "An welcher Haltestelle muss ich aussteigen?"
+  },
+  {
+    "id": "unt-045",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Вы сейчас выходите?",
+    "deutsch": "Steigen Sie jetzt aus?",
+    "hinweis": "typische Frage im vollen Bus"
+  },
+  {
+    "id": "unt-046",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Отвезите меня в аэропорт, пожалуйста.",
+    "deutsch": "Bringen Sie mich bitte zum Flughafen."
+  },
+  {
+    "id": "unt-047",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Поезд опаздывает на двадцать минут.",
+    "deutsch": "Der Zug hat zwanzig Minuten Verspätung."
+  },
+  {
+    "id": "unt-048",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Как долго ехать?",
+    "deutsch": "Wie lange dauert die Fahrt?"
+  },
+  {
+    "id": "unt-049",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Покажите, пожалуйста, на карте.",
+    "deutsch": "Zeigen Sie es mir bitte auf der Karte."
+  },
+  {
+    "id": "unt-050",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Мне нужно пересесть?",
+    "deutsch": "Muss ich umsteigen?"
+  },
+  {
+    "id": "unt-051",
+    "typ": "satz",
+    "thema": "unterwegs",
+    "russisch": "Где можно взять такси?",
+    "deutsch": "Wo bekomme ich ein Taxi?"
   }
 ]

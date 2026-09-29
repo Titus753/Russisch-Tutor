@@ -152,5 +152,243 @@
     "thema": "kleidung-farben",
     "russisch": "Этот цвет мне нравится.",
     "deutsch": "Diese Farbe gefällt mir."
+  },
+  {
+    "id": "kle-021",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "юбка",
+    "deutsch": "der Rock",
+    "betonung": "ю́бка"
+  },
+  {
+    "id": "kle-022",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "свитер",
+    "deutsch": "der Pullover",
+    "betonung": "сви́тер"
+  },
+  {
+    "id": "kle-023",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "пальто",
+    "deutsch": "der Mantel",
+    "betonung": "пальто́"
+  },
+  {
+    "id": "kle-024",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "костюм",
+    "deutsch": "der Anzug",
+    "betonung": "костю́м"
+  },
+  {
+    "id": "kle-025",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "футболка",
+    "deutsch": "das T-Shirt",
+    "betonung": "футбо́лка"
+  },
+  {
+    "id": "kle-026",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "джинсы",
+    "deutsch": "die Jeans",
+    "betonung": "джи́нсы"
+  },
+  {
+    "id": "kle-027",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "носки",
+    "deutsch": "die Socken",
+    "betonung": "носки́"
+  },
+  {
+    "id": "kle-028",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "туфли",
+    "deutsch": "die Halbschuhe",
+    "betonung": "ту́фли"
+  },
+  {
+    "id": "kle-029",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "сапоги",
+    "deutsch": "die Stiefel",
+    "betonung": "сапоги́"
+  },
+  {
+    "id": "kle-030",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "кроссовки",
+    "deutsch": "die Turnschuhe",
+    "betonung": "кроссо́вки"
+  },
+  {
+    "id": "kle-031",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "шарф",
+    "deutsch": "der Schal"
+  },
+  {
+    "id": "kle-032",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "перчатки",
+    "deutsch": "die Handschuhe",
+    "betonung": "перча́тки"
+  },
+  {
+    "id": "kle-033",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "галстук",
+    "deutsch": "die Krawatte",
+    "betonung": "га́лстук"
+  },
+  {
+    "id": "kle-034",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "очки",
+    "deutsch": "die Brille",
+    "betonung": "очки́"
+  },
+  {
+    "id": "kle-035",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "зонтик",
+    "deutsch": "der Regenschirm",
+    "betonung": "зо́нтик"
+  },
+  {
+    "id": "kle-036",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "шорты",
+    "deutsch": "die Shorts",
+    "betonung": "шо́рты"
+  },
+  {
+    "id": "kle-037",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "серый",
+    "deutsch": "grau",
+    "betonung": "се́рый"
+  },
+  {
+    "id": "kle-038",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "коричневый",
+    "deutsch": "braun",
+    "betonung": "кори́чневый"
+  },
+  {
+    "id": "kle-039",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "оранжевый",
+    "deutsch": "orange",
+    "betonung": "ора́нжевый"
+  },
+  {
+    "id": "kle-040",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "розовый",
+    "deutsch": "rosa",
+    "betonung": "ро́зовый"
+  },
+  {
+    "id": "kle-041",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "фиолетовый",
+    "deutsch": "lila",
+    "betonung": "фиоле́товый"
+  },
+  {
+    "id": "kle-042",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "светлый",
+    "deutsch": "hell",
+    "betonung": "све́тлый"
+  },
+  {
+    "id": "kle-043",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "тёмный",
+    "deutsch": "dunkel"
+  },
+  {
+    "id": "kle-044",
+    "typ": "wort",
+    "thema": "kleidung-farben",
+    "russisch": "цвет",
+    "deutsch": "die Farbe"
+  },
+  {
+    "id": "kle-045",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Какой у вас размер?",
+    "deutsch": "Welche Größe haben Sie?"
+  },
+  {
+    "id": "kle-046",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Мне нужен размер поменьше.",
+    "deutsch": "Ich brauche eine Nummer kleiner."
+  },
+  {
+    "id": "kle-047",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Сколько стоит эта куртка?",
+    "deutsch": "Wie viel kostet diese Jacke?"
+  },
+  {
+    "id": "kle-048",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Эта рубашка мне велика.",
+    "deutsch": "Dieses Hemd ist mir zu groß."
+  },
+  {
+    "id": "kle-049",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Можно поменять?",
+    "deutsch": "Kann ich das umtauschen?"
+  },
+  {
+    "id": "kle-050",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Вам идёт этот цвет.",
+    "deutsch": "Diese Farbe steht Ihnen."
+  },
+  {
+    "id": "kle-051",
+    "typ": "satz",
+    "thema": "kleidung-farben",
+    "russisch": "Я ищу зимнюю куртку.",
+    "deutsch": "Ich suche eine Winterjacke."
   }
 ]

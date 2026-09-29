@@ -114,9 +114,9 @@
     "typ": "wort",
     "thema": "koerper",
     "russisch": "горло",
-    "deutsch": "der Hals",
+    "deutsch": "der Rachen",
     "betonung": "го́рло",
-    "hinweis": "innen: der Rachen"
+    "hinweis": "auch: der Hals (innen)"
   },
   {
     "id": "koe-016",
@@ -156,5 +156,245 @@
     "thema": "koerper",
     "russisch": "Язык до Киева доведёт.",
     "deutsch": "Fragen kostet nichts."
+  },
+  {
+    "id": "koe-021",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "шея",
+    "deutsch": "der Hals",
+    "betonung": "ше́я",
+    "hinweis": "außen"
+  },
+  {
+    "id": "koe-022",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "плечо",
+    "deutsch": "die Schulter",
+    "betonung": "плечо́"
+  },
+  {
+    "id": "koe-023",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "грудь",
+    "deutsch": "die Brust"
+  },
+  {
+    "id": "koe-024",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "локоть",
+    "deutsch": "der Ellbogen",
+    "betonung": "ло́коть"
+  },
+  {
+    "id": "koe-025",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "колено",
+    "deutsch": "das Knie",
+    "betonung": "коле́но"
+  },
+  {
+    "id": "koe-026",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "щека",
+    "deutsch": "die Wange",
+    "betonung": "щека́"
+  },
+  {
+    "id": "koe-027",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "лоб",
+    "deutsch": "die Stirn"
+  },
+  {
+    "id": "koe-028",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "губа",
+    "deutsch": "die Lippe",
+    "betonung": "губа́"
+  },
+  {
+    "id": "koe-029",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "язык",
+    "deutsch": "die Zunge",
+    "betonung": "язы́к",
+    "hinweis": "auch: die Sprache"
+  },
+  {
+    "id": "koe-030",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "бровь",
+    "deutsch": "die Augenbraue"
+  },
+  {
+    "id": "koe-031",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "кожа",
+    "deutsch": "die Haut",
+    "betonung": "ко́жа"
+  },
+  {
+    "id": "koe-032",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "кость",
+    "deutsch": "der Knochen"
+  },
+  {
+    "id": "koe-033",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "мышца",
+    "deutsch": "der Muskel",
+    "betonung": "мы́шца"
+  },
+  {
+    "id": "koe-034",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "желудок",
+    "deutsch": "der Magen",
+    "betonung": "желу́док"
+  },
+  {
+    "id": "koe-035",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "лёгкие",
+    "deutsch": "die Lunge"
+  },
+  {
+    "id": "koe-036",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "почка",
+    "deutsch": "die Niere",
+    "betonung": "по́чка"
+  },
+  {
+    "id": "koe-037",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "ладонь",
+    "deutsch": "die Handfläche",
+    "betonung": "ладо́нь"
+  },
+  {
+    "id": "koe-038",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "ноготь",
+    "deutsch": "der Fingernagel",
+    "betonung": "но́готь"
+  },
+  {
+    "id": "koe-039",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "бедро",
+    "deutsch": "der Oberschenkel",
+    "betonung": "бедро́"
+  },
+  {
+    "id": "koe-040",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "пятка",
+    "deutsch": "die Ferse",
+    "betonung": "пя́тка"
+  },
+  {
+    "id": "koe-041",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "подбородок",
+    "deutsch": "das Kinn",
+    "betonung": "подборо́док"
+  },
+  {
+    "id": "koe-042",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "тело",
+    "deutsch": "der Körper",
+    "betonung": "те́ло"
+  },
+  {
+    "id": "koe-043",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "рост",
+    "deutsch": "die Körpergröße"
+  },
+  {
+    "id": "koe-044",
+    "typ": "wort",
+    "thema": "koerper",
+    "russisch": "вес",
+    "deutsch": "das Gewicht"
+  },
+  {
+    "id": "koe-045",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "У меня болит горло.",
+    "deutsch": "Ich habe Halsschmerzen."
+  },
+  {
+    "id": "koe-046",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "Я порезал палец.",
+    "deutsch": "Ich habe mich in den Finger geschnitten.",
+    "genusvarianten": {
+      "m": "Я порезал палец.",
+      "w": "Я порезала палец."
+    }
+  },
+  {
+    "id": "koe-047",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "У неё длинные волосы.",
+    "deutsch": "Sie hat lange Haare."
+  },
+  {
+    "id": "koe-048",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "Он высокий и худой.",
+    "deutsch": "Er ist groß und schlank."
+  },
+  {
+    "id": "koe-049",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "Мне нужно помыть руки.",
+    "deutsch": "Ich muss mir die Hände waschen."
+  },
+  {
+    "id": "koe-050",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "У меня болит колено.",
+    "deutsch": "Mir tut das Knie weh."
+  },
+  {
+    "id": "koe-051",
+    "typ": "satz",
+    "thema": "koerper",
+    "russisch": "Какой у вас рост?",
+    "deutsch": "Wie groß sind Sie?"
   }
 ]

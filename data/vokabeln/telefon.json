@@ -76,9 +76,8 @@
     "typ": "redewendung",
     "thema": "telefon",
     "russisch": "Алло!",
-    "deutsch": "Hallo?",
-    "betonung": "Алло́!",
-    "hinweis": "am Telefon"
+    "deutsch": "Hallo? (am Telefon)",
+    "betonung": "Алло́!"
   },
   {
     "id": "tel-011",
@@ -151,5 +150,247 @@
     "thema": "telefon",
     "russisch": "Вы ошиблись номером.",
     "deutsch": "Sie haben sich verwählt."
+  },
+  {
+    "id": "tel-021",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "мобильный телефон",
+    "deutsch": "das Handy",
+    "betonung": "моби́льный телефо́н"
+  },
+  {
+    "id": "tel-022",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "смартфон",
+    "deutsch": "das Smartphone",
+    "betonung": "смартфо́н"
+  },
+  {
+    "id": "tel-023",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "звонок",
+    "deutsch": "der Anruf",
+    "betonung": "звоно́к"
+  },
+  {
+    "id": "tel-024",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "сеть",
+    "deutsch": "das Netz"
+  },
+  {
+    "id": "tel-025",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "ноутбук",
+    "deutsch": "der Laptop",
+    "betonung": "ноутбу́к"
+  },
+  {
+    "id": "tel-026",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "фото",
+    "deutsch": "das Foto",
+    "betonung": "фо́то",
+    "hinweis": "umgangssprachlich"
+  },
+  {
+    "id": "tel-027",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "ссылка",
+    "deutsch": "der Link",
+    "betonung": "ссы́лка"
+  },
+  {
+    "id": "tel-028",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "аккаунт",
+    "deutsch": "das Benutzerkonto",
+    "betonung": "аккау́нт"
+  },
+  {
+    "id": "tel-029",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "логин",
+    "deutsch": "der Benutzername",
+    "betonung": "ло́гин"
+  },
+  {
+    "id": "tel-030",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "принтер",
+    "deutsch": "der Drucker",
+    "betonung": "при́нтер"
+  },
+  {
+    "id": "tel-031",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "клавиатура",
+    "deutsch": "die Tastatur",
+    "betonung": "клавиату́ра"
+  },
+  {
+    "id": "tel-032",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "экран",
+    "deutsch": "der Bildschirm",
+    "betonung": "экра́н"
+  },
+  {
+    "id": "tel-033",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "камера",
+    "deutsch": "die Kamera",
+    "betonung": "ка́мера"
+  },
+  {
+    "id": "tel-034",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "батарея",
+    "deutsch": "der Akku",
+    "betonung": "батаре́я",
+    "hinweis": "auch: die Heizung"
+  },
+  {
+    "id": "tel-035",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "роутер",
+    "deutsch": "der Router",
+    "betonung": "ро́утер"
+  },
+  {
+    "id": "tel-036",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "соцсети",
+    "deutsch": "die sozialen Netzwerke",
+    "betonung": "соцсе́ти"
+  },
+  {
+    "id": "tel-037",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "видеозвонок",
+    "deutsch": "der Videoanruf",
+    "betonung": "видеозвоно́к"
+  },
+  {
+    "id": "tel-038",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "автоответчик",
+    "deutsch": "der Anrufbeantworter",
+    "betonung": "автоотве́тчик"
+  },
+  {
+    "id": "tel-039",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "сим-карта",
+    "deutsch": "die SIM-Karte",
+    "betonung": "сим-ка́рта"
+  },
+  {
+    "id": "tel-040",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "планшет",
+    "deutsch": "das Tablet",
+    "betonung": "пла́ншет"
+  },
+  {
+    "id": "tel-041",
+    "typ": "wort",
+    "thema": "telefon",
+    "russisch": "скачать",
+    "deutsch": "herunterladen",
+    "betonung": "скача́ть"
+  },
+  {
+    "id": "tel-042",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Можно ваш номер телефона?",
+    "deutsch": "Kann ich Ihre Telefonnummer haben?"
+  },
+  {
+    "id": "tel-043",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Я перезвоню позже.",
+    "deutsch": "Ich rufe später zurück."
+  },
+  {
+    "id": "tel-044",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Здесь нет связи.",
+    "deutsch": "Hier gibt es keinen Empfang."
+  },
+  {
+    "id": "tel-045",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Интернет не работает.",
+    "deutsch": "Das Internet funktioniert nicht."
+  },
+  {
+    "id": "tel-046",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Где можно зарядить телефон?",
+    "deutsch": "Wo kann ich mein Handy aufladen?"
+  },
+  {
+    "id": "tel-047",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Отправь мне фото.",
+    "deutsch": "Schick mir das Foto.",
+    "hinweis": "informell"
+  },
+  {
+    "id": "tel-048",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Напиши мне сообщение.",
+    "deutsch": "Schreib mir eine Nachricht.",
+    "hinweis": "informell"
+  },
+  {
+    "id": "tel-049",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Говорите громче, пожалуйста.",
+    "deutsch": "Sprechen Sie bitte lauter."
+  },
+  {
+    "id": "tel-050",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Я не могу дозвониться.",
+    "deutsch": "Ich komme nicht durch.",
+    "hinweis": "am Telefon"
+  },
+  {
+    "id": "tel-051",
+    "typ": "satz",
+    "thema": "telefon",
+    "russisch": "Здесь есть вай-фай?",
+    "deutsch": "Gibt es hier WLAN?"
   }
 ]

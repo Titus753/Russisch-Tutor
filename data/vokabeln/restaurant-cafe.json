@@ -148,5 +148,250 @@
     "russisch": "На здоровье!",
     "deutsch": "Wohl bekomm’s!",
     "hinweis": "Antwort auf Dank fürs Essen, kein Trinkspruch"
+  },
+  {
+    "id": "res-021",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "ресторан",
+    "deutsch": "das Restaurant",
+    "betonung": "рестора́н"
+  },
+  {
+    "id": "res-022",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "кафе",
+    "deutsch": "das Café",
+    "betonung": "кафе́"
+  },
+  {
+    "id": "res-023",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "столик",
+    "deutsch": "der kleine Tisch",
+    "betonung": "сто́лик",
+    "hinweis": "auch: der Tisch im Restaurant"
+  },
+  {
+    "id": "res-024",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "чашка",
+    "deutsch": "die Tasse",
+    "betonung": "ча́шка"
+  },
+  {
+    "id": "res-025",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "стакан",
+    "deutsch": "das Glas",
+    "betonung": "стака́н"
+  },
+  {
+    "id": "res-026",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "десерт",
+    "deutsch": "der Nachtisch",
+    "betonung": "десе́рт"
+  },
+  {
+    "id": "res-027",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "салат",
+    "deutsch": "der Salat",
+    "betonung": "сала́т"
+  },
+  {
+    "id": "res-028",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "пицца",
+    "deutsch": "die Pizza",
+    "betonung": "пи́цца"
+  },
+  {
+    "id": "res-029",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "блины",
+    "deutsch": "die Pfannkuchen",
+    "betonung": "блины́"
+  },
+  {
+    "id": "res-030",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "пельмени",
+    "deutsch": "die Pelmeni",
+    "betonung": "пельме́ни",
+    "hinweis": "gefüllte Teigtaschen"
+  },
+  {
+    "id": "res-031",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "борщ",
+    "deutsch": "der Borschtsch"
+  },
+  {
+    "id": "res-032",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "чаевые",
+    "deutsch": "das Trinkgeld",
+    "betonung": "чаевы́е"
+  },
+  {
+    "id": "res-033",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "заказ",
+    "deutsch": "die Bestellung",
+    "betonung": "зака́з"
+  },
+  {
+    "id": "res-034",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "пирог",
+    "deutsch": "der Kuchen",
+    "betonung": "пиро́г",
+    "hinweis": "auch: die Pirogge"
+  },
+  {
+    "id": "res-035",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "мороженое",
+    "deutsch": "die Eiscreme",
+    "betonung": "моро́женое",
+    "hinweis": "das Speiseeis"
+  },
+  {
+    "id": "res-036",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "компот",
+    "deutsch": "das Kompott",
+    "betonung": "компо́т",
+    "hinweis": "Getränk aus gekochtem Obst"
+  },
+  {
+    "id": "res-037",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "лимон",
+    "deutsch": "die Zitrone",
+    "betonung": "лимо́н"
+  },
+  {
+    "id": "res-038",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "соус",
+    "deutsch": "die Soße",
+    "betonung": "со́ус"
+  },
+  {
+    "id": "res-039",
+    "typ": "wort",
+    "thema": "restaurant-cafe",
+    "russisch": "гарнир",
+    "deutsch": "die Beilage",
+    "betonung": "гарни́р"
+  },
+  {
+    "id": "res-040",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Можно заказать?",
+    "deutsch": "Können wir bestellen?"
+  },
+  {
+    "id": "res-041",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Я буду суп и салат.",
+    "deutsch": "Ich nehme Suppe und Salat."
+  },
+  {
+    "id": "res-042",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Принесите, пожалуйста, воду без газа.",
+    "deutsch": "Bringen Sie bitte stilles Wasser."
+  },
+  {
+    "id": "res-043",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "У вас есть вегетарианские блюда?",
+    "deutsch": "Haben Sie vegetarische Gerichte?"
+  },
+  {
+    "id": "res-044",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Это очень острое?",
+    "deutsch": "Ist das sehr scharf?"
+  },
+  {
+    "id": "res-045",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Мы хотели бы заплатить.",
+    "deutsch": "Wir möchten bezahlen."
+  },
+  {
+    "id": "res-046",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Можно заплатить отдельно?",
+    "deutsch": "Können wir getrennt zahlen?"
+  },
+  {
+    "id": "res-047",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Здесь свободно?",
+    "deutsch": "Ist hier frei?"
+  },
+  {
+    "id": "res-048",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Я хотел бы забронировать столик.",
+    "deutsch": "Ich möchte einen Tisch reservieren.",
+    "genusvarianten": {
+      "m": "Я хотел бы забронировать столик.",
+      "w": "Я хотела бы забронировать столик."
+    }
+  },
+  {
+    "id": "res-049",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Официант, можно вас?",
+    "deutsch": "Entschuldigung, können Sie kurz kommen?",
+    "hinweis": "an die Bedienung"
+  },
+  {
+    "id": "res-050",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Чай с лимоном, пожалуйста.",
+    "deutsch": "Tee mit Zitrone, bitte."
+  },
+  {
+    "id": "res-051",
+    "typ": "satz",
+    "thema": "restaurant-cafe",
+    "russisch": "Что у вас есть на десерт?",
+    "deutsch": "Was haben Sie als Nachtisch?"
   }
 ]

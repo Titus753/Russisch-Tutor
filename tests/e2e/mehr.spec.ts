@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import type { Page } from '@playwright/test';
 import { expect, test } from './basis.ts';
-import { gespeicherteKarten, heuteImBrowser, setzeStand } from './hilfen.ts';
+import { gespeicherteKarten, heuteImBrowser, setzeStand, vokabeln } from './hilfen.ts';
 
 const oeffne = async (page: Page, seite: string) => {
   await page
@@ -71,9 +71,10 @@ test('Fortschritt zeigt Lernserie, fällige und gefestigte Einträge', async ({ 
   await expect(page.locator('.kennzahl').filter({ hasText: 'Tag in Folge' })).toContainText('1');
   await expect(page.locator('.kennzahl').filter({ hasText: 'heute fällig' })).toContainText('2');
   await expect(page.locator('.kennzahl').filter({ hasText: 'gefestigt' })).toContainText('1');
+  const tiere = vokabeln.filter((v) => v.id.startsWith('tie-')).length;
   await expect(page.getByRole('progressbar', { name: 'Tiere: gefestigt' })).toHaveAttribute(
     'aria-valuenow',
-    '5',
+    String(Math.round(100 / tiere)),
   );
 });
 

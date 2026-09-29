@@ -146,5 +146,246 @@
     "thema": "wohnen-hotel",
     "russisch": "В гостях хорошо, а дома лучше.",
     "deutsch": "Daheim ist es doch am schönsten."
+  },
+  {
+    "id": "woh-021",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "комната",
+    "deutsch": "das Zimmer",
+    "betonung": "ко́мната"
+  },
+  {
+    "id": "woh-022",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "спальня",
+    "deutsch": "das Schlafzimmer",
+    "betonung": "спа́льня"
+  },
+  {
+    "id": "woh-023",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "гостиная",
+    "deutsch": "das Wohnzimmer",
+    "betonung": "гости́ная"
+  },
+  {
+    "id": "woh-024",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "туалет",
+    "deutsch": "die Toilette",
+    "betonung": "туале́т"
+  },
+  {
+    "id": "woh-025",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "душ",
+    "deutsch": "die Dusche"
+  },
+  {
+    "id": "woh-026",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "стол",
+    "deutsch": "der Tisch"
+  },
+  {
+    "id": "woh-027",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "стул",
+    "deutsch": "der Stuhl"
+  },
+  {
+    "id": "woh-028",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "шкаф",
+    "deutsch": "der Schrank"
+  },
+  {
+    "id": "woh-029",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "диван",
+    "deutsch": "das Sofa",
+    "betonung": "дива́н"
+  },
+  {
+    "id": "woh-030",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "лампа",
+    "deutsch": "die Lampe",
+    "betonung": "ла́мпа"
+  },
+  {
+    "id": "woh-031",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "зеркало",
+    "deutsch": "der Spiegel",
+    "betonung": "зе́ркало"
+  },
+  {
+    "id": "woh-032",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "подушка",
+    "deutsch": "das Kissen",
+    "betonung": "поду́шка"
+  },
+  {
+    "id": "woh-033",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "одеяло",
+    "deutsch": "die Bettdecke",
+    "betonung": "одея́ло"
+  },
+  {
+    "id": "woh-034",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "полотенце",
+    "deutsch": "das Handtuch",
+    "betonung": "полоте́нце"
+  },
+  {
+    "id": "woh-035",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "балкон",
+    "deutsch": "der Balkon",
+    "betonung": "балко́н"
+  },
+  {
+    "id": "woh-036",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "сосед",
+    "deutsch": "der Nachbar",
+    "betonung": "сосе́д"
+  },
+  {
+    "id": "woh-037",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "аренда",
+    "deutsch": "die Miete",
+    "betonung": "аре́нда"
+  },
+  {
+    "id": "woh-038",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "хозяин",
+    "deutsch": "der Vermieter",
+    "betonung": "хозя́ин",
+    "hinweis": "auch: der Hausherr"
+  },
+  {
+    "id": "woh-039",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "лестница",
+    "deutsch": "die Treppe",
+    "betonung": "ле́стница"
+  },
+  {
+    "id": "woh-040",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "отопление",
+    "deutsch": "die Heizung",
+    "betonung": "отопле́ние"
+  },
+  {
+    "id": "woh-041",
+    "typ": "wort",
+    "thema": "wohnen-hotel",
+    "russisch": "ремонт",
+    "deutsch": "die Reparatur",
+    "betonung": "ремо́нт",
+    "hinweis": "auch: die Renovierung"
+  },
+  {
+    "id": "woh-042",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Где туалет?",
+    "deutsch": "Wo ist die Toilette?"
+  },
+  {
+    "id": "woh-043",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Во сколько нужно освободить номер?",
+    "deutsch": "Bis wann muss ich das Zimmer räumen?"
+  },
+  {
+    "id": "woh-044",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Можно ещё одно полотенце?",
+    "deutsch": "Kann ich noch ein Handtuch bekommen?"
+  },
+  {
+    "id": "woh-045",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "В номере холодно.",
+    "deutsch": "Im Zimmer ist es kalt."
+  },
+  {
+    "id": "woh-046",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Я потерял ключ.",
+    "deutsch": "Ich habe den Schlüssel verloren.",
+    "genusvarianten": {
+      "m": "Я потерял ключ.",
+      "w": "Я потеряла ключ."
+    }
+  },
+  {
+    "id": "woh-047",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Завтрак включён?",
+    "deutsch": "Ist das Frühstück inklusive?"
+  },
+  {
+    "id": "woh-048",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Сколько стоит номер на одну ночь?",
+    "deutsch": "Was kostet ein Zimmer für eine Nacht?"
+  },
+  {
+    "id": "woh-049",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Есть ли свободные номера?",
+    "deutsch": "Gibt es freie Zimmer?"
+  },
+  {
+    "id": "woh-050",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Я живу на третьем этаже.",
+    "deutsch": "Ich wohne im zweiten Stock.",
+    "hinweis": "in Russland zählt das Erdgeschoss als 1. Etage"
+  },
+  {
+    "id": "woh-051",
+    "typ": "satz",
+    "thema": "wohnen-hotel",
+    "russisch": "Не работает отопление.",
+    "deutsch": "Die Heizung funktioniert nicht."
   }
 ]

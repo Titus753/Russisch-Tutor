@@ -155,5 +155,237 @@
     "russisch": "Будьте здоровы!",
     "deutsch": "Gesundheit!",
     "hinweis": "beim Niesen, formell"
+  },
+  {
+    "id": "ges-021",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "боль",
+    "deutsch": "der Schmerz"
+  },
+  {
+    "id": "ges-022",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "простуда",
+    "deutsch": "die Erkältung",
+    "betonung": "просту́да"
+  },
+  {
+    "id": "ges-023",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "кашель",
+    "deutsch": "der Husten",
+    "betonung": "ка́шель"
+  },
+  {
+    "id": "ges-024",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "насморк",
+    "deutsch": "der Schnupfen",
+    "betonung": "на́сморк"
+  },
+  {
+    "id": "ges-025",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "грипп",
+    "deutsch": "die Grippe"
+  },
+  {
+    "id": "ges-026",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "таблетка",
+    "deutsch": "die Tablette",
+    "betonung": "табле́тка"
+  },
+  {
+    "id": "ges-027",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "пластырь",
+    "deutsch": "das Pflaster",
+    "betonung": "пла́стырь"
+  },
+  {
+    "id": "ges-028",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "скорая помощь",
+    "deutsch": "der Krankenwagen",
+    "betonung": "ско́рая по́мощь"
+  },
+  {
+    "id": "ges-029",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "рана",
+    "deutsch": "die Wunde",
+    "betonung": "ра́на"
+  },
+  {
+    "id": "ges-030",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "кровь",
+    "deutsch": "das Blut"
+  },
+  {
+    "id": "ges-031",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "давление",
+    "deutsch": "der Blutdruck",
+    "betonung": "давле́ние"
+  },
+  {
+    "id": "ges-032",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "зубной врач",
+    "deutsch": "der Zahnarzt",
+    "betonung": "зубно́й врач"
+  },
+  {
+    "id": "ges-033",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "страховка",
+    "deutsch": "die Versicherung",
+    "betonung": "страхо́вка"
+  },
+  {
+    "id": "ges-034",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "здоровье",
+    "deutsch": "die Gesundheit",
+    "betonung": "здоро́вье"
+  },
+  {
+    "id": "ges-035",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "авария",
+    "deutsch": "der Unfall",
+    "betonung": "ава́рия"
+  },
+  {
+    "id": "ges-036",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "пациент",
+    "deutsch": "der Patient",
+    "betonung": "пацие́нт"
+  },
+  {
+    "id": "ges-037",
+    "typ": "wort",
+    "thema": "gesundheit",
+    "russisch": "медсестра",
+    "deutsch": "die Krankenschwester",
+    "betonung": "медсестра́"
+  },
+  {
+    "id": "ges-038",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Мне нужна скорая помощь.",
+    "deutsch": "Ich brauche einen Krankenwagen."
+  },
+  {
+    "id": "ges-039",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Где болит?",
+    "deutsch": "Wo tut es weh?"
+  },
+  {
+    "id": "ges-040",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У меня высокая температура.",
+    "deutsch": "Ich habe hohes Fieber."
+  },
+  {
+    "id": "ges-041",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У меня болит живот.",
+    "deutsch": "Ich habe Bauchschmerzen."
+  },
+  {
+    "id": "ges-042",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Меня тошнит.",
+    "deutsch": "Mir ist übel."
+  },
+  {
+    "id": "ges-043",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У меня кружится голова.",
+    "deutsch": "Mir ist schwindelig."
+  },
+  {
+    "id": "ges-044",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Принимайте по одной таблетке три раза в день.",
+    "deutsch": "Nehmen Sie dreimal täglich eine Tablette."
+  },
+  {
+    "id": "ges-045",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У вас есть что-нибудь от кашля?",
+    "deutsch": "Haben Sie etwas gegen Husten?"
+  },
+  {
+    "id": "ges-046",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Я плохо себя чувствую.",
+    "deutsch": "Ich fühle mich schlecht."
+  },
+  {
+    "id": "ges-047",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Позвоните в полицию!",
+    "deutsch": "Rufen Sie die Polizei!"
+  },
+  {
+    "id": "ges-048",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Произошла авария.",
+    "deutsch": "Es ist ein Unfall passiert."
+  },
+  {
+    "id": "ges-049",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "У меня есть медицинская страховка.",
+    "deutsch": "Ich habe eine Krankenversicherung."
+  },
+  {
+    "id": "ges-050",
+    "typ": "satz",
+    "thema": "gesundheit",
+    "russisch": "Мне нужно к зубному врачу.",
+    "deutsch": "Ich muss zum Zahnarzt."
+  },
+  {
+    "id": "ges-051",
+    "typ": "redewendung",
+    "thema": "gesundheit",
+    "russisch": "Здоровье дороже денег.",
+    "deutsch": "Gesundheit ist mehr wert als Geld.",
+    "betonung": "Здоро́вье доро́же де́нег."
   }
 ]

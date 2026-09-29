@@ -19,6 +19,15 @@ describe('Vokabeldaten im Repo', () => {
     expect(fehler).toEqual([]);
   });
 
+  it('umfassen mindestens 1.000 Einträge, jedes Thema mit mindestens 40', () => {
+    expect(eintraege.length).toBeGreaterThanOrEqual(1000);
+    for (const thema of THEMEN) {
+      expect(eintraege.filter((e) => e.thema === thema.id).length, thema.id).toBeGreaterThanOrEqual(
+        40,
+      );
+    }
+  });
+
   it('decken alle Themen und alle Inhaltsarten ab', () => {
     for (const thema of THEMEN) {
       expect(
@@ -99,6 +108,16 @@ describe('pruefeVokabular', () => {
     });
     expect(fehler.some((f) => f.includes('Doppelte ID: ein-001'))).toBe(true);
     expect(fehler.filter((f) => f.startsWith('Doppelter Eintrag'))).toHaveLength(2);
+  });
+
+  it('meldet mehrdeutige deutsche Übersetzungen', () => {
+    const { fehler } = pruefeVokabular({
+      'data/vokabeln/einkaufen.json': [
+        gueltig,
+        { ...gueltig, id: 'ein-002', russisch: 'хлебушек' },
+      ],
+    });
+    expect(fehler.some((f) => f.startsWith('Mehrdeutige Übersetzung'))).toBe(true);
   });
 
   it('prüft, dass Datei, Thema und ID-Kürzel zusammenpassen', () => {

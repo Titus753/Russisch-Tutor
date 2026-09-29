@@ -149,5 +149,248 @@
     "thema": "freizeit",
     "russisch": "Как это по-русски?",
     "deutsch": "Wie heißt das auf Russisch?"
+  },
+  {
+    "id": "fre-021",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "спорт",
+    "deutsch": "der Sport"
+  },
+  {
+    "id": "fre-022",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "футбол",
+    "deutsch": "der Fußball",
+    "betonung": "футбо́л"
+  },
+  {
+    "id": "fre-023",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "хобби",
+    "deutsch": "das Hobby",
+    "betonung": "хо́бби"
+  },
+  {
+    "id": "fre-024",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "концерт",
+    "deutsch": "das Konzert",
+    "betonung": "конце́рт"
+  },
+  {
+    "id": "fre-025",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "фильм",
+    "deutsch": "der Film"
+  },
+  {
+    "id": "fre-026",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "игра",
+    "deutsch": "das Spiel",
+    "betonung": "игра́"
+  },
+  {
+    "id": "fre-027",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "прогулка",
+    "deutsch": "der Spaziergang",
+    "betonung": "прогу́лка"
+  },
+  {
+    "id": "fre-028",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "путешествие",
+    "deutsch": "die Reise",
+    "betonung": "путеше́ствие"
+  },
+  {
+    "id": "fre-029",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "фотография",
+    "deutsch": "die Fotografie",
+    "betonung": "фотогра́фия",
+    "hinweis": "das Foto, auch die Kunst des Fotografierens"
+  },
+  {
+    "id": "fre-030",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "бассейн",
+    "deutsch": "das Schwimmbad",
+    "betonung": "бассе́йн"
+  },
+  {
+    "id": "fre-031",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "парк",
+    "deutsch": "der Park"
+  },
+  {
+    "id": "fre-032",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "песня",
+    "deutsch": "das Lied",
+    "betonung": "пе́сня"
+  },
+  {
+    "id": "fre-033",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "танец",
+    "deutsch": "der Tanz",
+    "betonung": "та́нец"
+  },
+  {
+    "id": "fre-034",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "вечеринка",
+    "deutsch": "die Party",
+    "betonung": "вечери́нка"
+  },
+  {
+    "id": "fre-035",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "гости",
+    "deutsch": "die Gäste",
+    "betonung": "го́сти"
+  },
+  {
+    "id": "fre-036",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "шахматы",
+    "deutsch": "das Schach",
+    "betonung": "ша́хматы"
+  },
+  {
+    "id": "fre-037",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "рыбалка",
+    "deutsch": "das Angeln",
+    "betonung": "ры́балка"
+  },
+  {
+    "id": "fre-038",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "карты",
+    "deutsch": "die Spielkarten",
+    "betonung": "ка́рты"
+  },
+  {
+    "id": "fre-039",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "рисовать",
+    "deutsch": "malen",
+    "betonung": "рисова́ть"
+  },
+  {
+    "id": "fre-040",
+    "typ": "wort",
+    "thema": "freizeit",
+    "russisch": "читать",
+    "deutsch": "lesen",
+    "betonung": "чита́ть"
+  },
+  {
+    "id": "fre-041",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Чем ты занимаешься в свободное время?",
+    "deutsch": "Was machst du in deiner Freizeit?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "fre-042",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Я люблю путешествовать.",
+    "deutsch": "Ich reise gern."
+  },
+  {
+    "id": "fre-043",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Я играю в футбол.",
+    "deutsch": "Ich spiele Fußball."
+  },
+  {
+    "id": "fre-044",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Пойдём погуляем?",
+    "deutsch": "Wollen wir spazieren gehen?"
+  },
+  {
+    "id": "fre-045",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Приходи к нам в гости!",
+    "deutsch": "Komm uns besuchen!",
+    "hinweis": "informell"
+  },
+  {
+    "id": "fre-046",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Где ты был в отпуске?",
+    "deutsch": "Wo warst du im Urlaub?",
+    "genusvarianten": {
+      "m": "Где ты был в отпуске?",
+      "w": "Где ты была в отпуске?"
+    },
+    "hinweis": "an einen Mann / an eine Frau"
+  },
+  {
+    "id": "fre-047",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Какую музыку ты слушаешь?",
+    "deutsch": "Welche Musik hörst du?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "fre-048",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Мне очень понравился фильм.",
+    "deutsch": "Der Film hat mir sehr gefallen."
+  },
+  {
+    "id": "fre-049",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Вы давно здесь живёте?",
+    "deutsch": "Wohnen Sie schon lange hier?"
+  },
+  {
+    "id": "fre-050",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Как вам Москва?",
+    "deutsch": "Wie gefällt Ihnen Moskau?"
+  },
+  {
+    "id": "fre-051",
+    "typ": "satz",
+    "thema": "freizeit",
+    "russisch": "Хорошая погода сегодня, правда?",
+    "deutsch": "Schönes Wetter heute, oder?"
   }
 ]

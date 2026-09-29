@@ -35,3 +35,36 @@ Hier ist die deutsche Entsprechung sinngemäß, nicht wörtlich. Bitte prüfen, 
 Piper betont russische Wörter nicht immer richtig. Nach der Erzeugung besonders anhören:
 Wörter mit wechselnder Betonung (z. B. `koe-007` рука, `koe-008` нога, `koe-009` спина,
 `wet-007` тепло) und alle Sätze mit Genusvarianten.
+
+## Ausbau Phase 7: sinngemäße Übersetzungen
+
+- [ ] `koc-051` Кашу маслом не испортишь. → „Doppelt hält besser.“
+- [ ] `gef-051` Не было бы счастья, да несчастье помогло. → „Glück im Unglück.“
+- [ ] `red-034` Чем богаты, тем и рады. → „Was wir haben, teilen wir gern.“
+- [ ] `red-035` Голод не тётка. → „Hunger ist der beste Koch.“
+- [ ] `red-031` По одёжке встречают, по уму провожают. → „Kleider machen Leute, doch am Ende zählt der Verstand.“
+- [ ] `red-033` Не в свои сани не садись. → „Schuster, bleib bei deinem Leisten.“
+- [ ] `red-045` Не всё коту масленица. → „Es ist nicht alle Tage Sonntag.“
+- [ ] `red-044` Два сапога пара. → „Zwei vom gleichen Schlag.“
+- [ ] `red-039` Водой не разольёшь. → „Unzertrennlich sein.“
+- [ ] `red-038` Бить баклуши. → „Däumchen drehen.“
+- [ ] `red-050` Кот наплакал. → „Nur ein paar Tropfen.“
+- [ ] `red-042` Золотые руки. → „Geschickte Hände.“
+- [ ] `red-032` У страха глаза велики. → „Die Angst übertreibt gern.“
+- [ ] `red-024` Одна голова хорошо, а две лучше. → „Vier Augen sehen mehr als zwei.“
+
+## Ausbau Phase 7: Umgangssprache, Betonung, Nuancen
+
+- [ ] `koc-033` творог → „Quark“ – Betonung творо́г und тво́рог sind beide üblich; eingetragen: творо́г.
+- [ ] `ban-037` обменник → „die Wechselstube“ – umgangssprachlich, passend?
+- [ ] `res-049` Официант, можно вас? → „Entschuldigung, können Sie kurz kommen?“ – höflich genug?
+- [ ] `ein-048` Можно без пакета. → „Ohne Tüte, bitte.“ – natürlich?
+- [ ] `beh-051` Приём по записи. → „Termine nur nach Vereinbarung.“
+- [ ] `woh-050` Я живу на третьем этаже. → „Ich wohne im zweiten Stock.“ – Hinweis zur Etagenzählung korrekt?
+- [ ] `beg-034` Нормально → „Ganz gut“
+- [ ] `beg-045` Будь здоров! → „Gesundheit! / Mach’s gut!“
+- [ ] `tel-034` батарея → „der Akku“ – im Alltag eher „аккумуля́тор“ oder „заря́дка“?
+- [ ] `tel-026` фото → „das Foto“
+
+Nach der Kontrolle: bei geänderten Texten `tools/audio/audio.sh erzeugen` ausführen
+(erzeugt nur die geänderten Aufnahmen neu).

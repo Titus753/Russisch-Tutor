@@ -162,5 +162,258 @@
     "thema": "begruessung",
     "russisch": "Добро пожаловать!",
     "deutsch": "Willkommen!"
+  },
+  {
+    "id": "beg-021",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Простите",
+    "deutsch": "Verzeihen Sie",
+    "betonung": "Прости́те",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-022",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Извини",
+    "deutsch": "Entschuldige",
+    "betonung": "Извини́",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-023",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Большое спасибо!",
+    "deutsch": "Vielen Dank!",
+    "betonung": "Большо́е спаси́бо!"
+  },
+  {
+    "id": "beg-024",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "До скорой встречи!",
+    "deutsch": "Bis bald!",
+    "betonung": "До ско́рой встре́чи!"
+  },
+  {
+    "id": "beg-025",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "До завтра!",
+    "deutsch": "Bis morgen!",
+    "betonung": "До за́втра!"
+  },
+  {
+    "id": "beg-026",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Удачи!",
+    "deutsch": "Viel Glück!",
+    "betonung": "Уда́чи!"
+  },
+  {
+    "id": "beg-027",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "С днём рождения!",
+    "deutsch": "Alles Gute zum Geburtstag!",
+    "betonung": "С днём рожде́ния!"
+  },
+  {
+    "id": "beg-028",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "С Новым годом!",
+    "deutsch": "Frohes neues Jahr!",
+    "betonung": "С Но́вым го́дом!"
+  },
+  {
+    "id": "beg-029",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "С праздником!",
+    "deutsch": "Alles Gute zum Fest!",
+    "betonung": "С пра́здником!"
+  },
+  {
+    "id": "beg-030",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Как поживаете?",
+    "deutsch": "Wie ergeht es Ihnen?",
+    "betonung": "Как пожива́ете?",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-031",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Всё хорошо, спасибо.",
+    "deutsch": "Alles gut, danke."
+  },
+  {
+    "id": "beg-032",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "А у тебя?",
+    "deutsch": "Und bei dir?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-033",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Отлично",
+    "deutsch": "Ausgezeichnet",
+    "betonung": "Отли́чно"
+  },
+  {
+    "id": "beg-034",
+    "typ": "wort",
+    "thema": "begruessung",
+    "russisch": "Нормально",
+    "deutsch": "Ganz gut",
+    "betonung": "Норма́льно",
+    "hinweis": "umgangssprachlich"
+  },
+  {
+    "id": "beg-035",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Как тебя зовут?",
+    "deutsch": "Wie heißt du?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-036",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Откуда ты?",
+    "deutsch": "Woher kommst du?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-037",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Я из Австрии.",
+    "deutsch": "Ich komme aus Österreich."
+  },
+  {
+    "id": "beg-038",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Я из Швейцарии.",
+    "deutsch": "Ich komme aus der Schweiz."
+  },
+  {
+    "id": "beg-039",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Можно на ты?",
+    "deutsch": "Können wir uns duzen?"
+  },
+  {
+    "id": "beg-040",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Давай на ты.",
+    "deutsch": "Lass uns Du sagen."
+  },
+  {
+    "id": "beg-041",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Приятно познакомиться.",
+    "deutsch": "Schön, Sie kennenzulernen.",
+    "betonung": "Прия́тно познако́миться."
+  },
+  {
+    "id": "beg-042",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Позвольте представиться.",
+    "deutsch": "Darf ich mich vorstellen?",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-043",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Это мой друг Иван.",
+    "deutsch": "Das ist mein Freund Iwan."
+  },
+  {
+    "id": "beg-044",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Передавайте привет семье!",
+    "deutsch": "Grüßen Sie Ihre Familie!",
+    "hinweis": "formell"
+  },
+  {
+    "id": "beg-045",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Будь здоров!",
+    "deutsch": "Gesundheit! / Mach’s gut!",
+    "betonung": "Будь здоро́в!",
+    "hinweis": "informell"
+  },
+  {
+    "id": "beg-046",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Счастливого пути!",
+    "deutsch": "Gute Reise!",
+    "betonung": "Счастли́вого пути́!"
+  },
+  {
+    "id": "beg-047",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Всего хорошего!",
+    "deutsch": "Machen Sie es gut!",
+    "betonung": "Всего́ хоро́шего!"
+  },
+  {
+    "id": "beg-048",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Извините за опоздание.",
+    "deutsch": "Entschuldigen Sie die Verspätung."
+  },
+  {
+    "id": "beg-049",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Ничего страшного.",
+    "deutsch": "Nicht so schlimm.",
+    "betonung": "Ничего́ стра́шного."
+  },
+  {
+    "id": "beg-050",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Спасибо за помощь.",
+    "deutsch": "Danke für die Hilfe."
+  },
+  {
+    "id": "beg-051",
+    "typ": "satz",
+    "thema": "begruessung",
+    "russisch": "Спасибо, вы очень любезны.",
+    "deutsch": "Danke, sehr freundlich von Ihnen."
+  },
+  {
+    "id": "beg-052",
+    "typ": "redewendung",
+    "thema": "begruessung",
+    "russisch": "Милости просим!",
+    "deutsch": "Herzlich willkommen!",
+    "betonung": "Ми́лости про́сим!",
+    "hinweis": "gehoben"
   }
 ]

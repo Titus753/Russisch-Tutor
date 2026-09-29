@@ -131,8 +131,7 @@
     "typ": "satz",
     "thema": "familie",
     "russisch": "Вы женаты?",
-    "deutsch": "Sind Sie verheiratet?",
-    "hinweis": "an einen Mann"
+    "deutsch": "Sind Sie verheiratet? (an einen Mann)"
   },
   {
     "id": "fam-019",
@@ -147,5 +146,249 @@
     "thema": "familie",
     "russisch": "Яблоко от яблони недалеко падает.",
     "deutsch": "Der Apfel fällt nicht weit vom Stamm."
+  },
+  {
+    "id": "fam-021",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "родители",
+    "deutsch": "die Eltern",
+    "betonung": "роди́тели"
+  },
+  {
+    "id": "fam-022",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "дети",
+    "deutsch": "die Kinder",
+    "betonung": "де́ти"
+  },
+  {
+    "id": "fam-023",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "семья",
+    "deutsch": "die Familie",
+    "betonung": "семья́"
+  },
+  {
+    "id": "fam-024",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "внук",
+    "deutsch": "der Enkel"
+  },
+  {
+    "id": "fam-025",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "внучка",
+    "deutsch": "die Enkelin",
+    "betonung": "вну́чка"
+  },
+  {
+    "id": "fam-026",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "дядя",
+    "deutsch": "der Onkel",
+    "betonung": "дя́дя"
+  },
+  {
+    "id": "fam-027",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "тётя",
+    "deutsch": "die Tante"
+  },
+  {
+    "id": "fam-028",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "племянник",
+    "deutsch": "der Neffe",
+    "betonung": "племя́нник"
+  },
+  {
+    "id": "fam-029",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "двоюродный брат",
+    "deutsch": "der Cousin",
+    "betonung": "двою́родный брат"
+  },
+  {
+    "id": "fam-030",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "женщина",
+    "deutsch": "die Frau",
+    "betonung": "же́нщина"
+  },
+  {
+    "id": "fam-031",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "мужчина",
+    "deutsch": "der Mann",
+    "betonung": "мужчи́на"
+  },
+  {
+    "id": "fam-032",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "мальчик",
+    "deutsch": "der Junge",
+    "betonung": "ма́льчик"
+  },
+  {
+    "id": "fam-033",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "девочка",
+    "deutsch": "das Mädchen",
+    "betonung": "де́вочка"
+  },
+  {
+    "id": "fam-034",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "соседка",
+    "deutsch": "die Nachbarin",
+    "betonung": "сосе́дка"
+  },
+  {
+    "id": "fam-035",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "свадьба",
+    "deutsch": "die Hochzeit",
+    "betonung": "сва́дьба"
+  },
+  {
+    "id": "fam-036",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "близнецы",
+    "deutsch": "die Zwillinge",
+    "betonung": "близнецы́"
+  },
+  {
+    "id": "fam-037",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "старший",
+    "deutsch": "älter",
+    "betonung": "ста́рший",
+    "hinweis": "z. B. der ältere Bruder"
+  },
+  {
+    "id": "fam-038",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "младший",
+    "deutsch": "jünger",
+    "betonung": "мла́дший"
+  },
+  {
+    "id": "fam-039",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "человек",
+    "deutsch": "der Mensch",
+    "betonung": "челове́к"
+  },
+  {
+    "id": "fam-040",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "люди",
+    "deutsch": "die Leute",
+    "betonung": "лю́ди"
+  },
+  {
+    "id": "fam-041",
+    "typ": "wort",
+    "thema": "familie",
+    "russisch": "подросток",
+    "deutsch": "der Jugendliche",
+    "betonung": "подро́сток"
+  },
+  {
+    "id": "fam-042",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "У меня большая семья.",
+    "deutsch": "Ich habe eine große Familie."
+  },
+  {
+    "id": "fam-043",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "У тебя есть братья или сёстры?",
+    "deutsch": "Hast du Geschwister?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "fam-044",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Мой брат старше меня.",
+    "deutsch": "Mein Bruder ist älter als ich."
+  },
+  {
+    "id": "fam-045",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Моя сестра живёт в Москве.",
+    "deutsch": "Meine Schwester wohnt in Moskau."
+  },
+  {
+    "id": "fam-046",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Я женат.",
+    "deutsch": "Ich bin verheiratet.",
+    "genusvarianten": {
+      "m": "Я женат.",
+      "w": "Я замужем."
+    }
+  },
+  {
+    "id": "fam-047",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Как зовут твою маму?",
+    "deutsch": "Wie heißt deine Mama?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "fam-048",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Это мои родители.",
+    "deutsch": "Das sind meine Eltern."
+  },
+  {
+    "id": "fam-049",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Моему сыну пять лет.",
+    "deutsch": "Mein Sohn ist fünf Jahre alt."
+  },
+  {
+    "id": "fam-050",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Вы замужем?",
+    "deutsch": "Sind Sie verheiratet? (an eine Frau)"
+  },
+  {
+    "id": "fam-051",
+    "typ": "satz",
+    "thema": "familie",
+    "russisch": "Передай привет родителям!",
+    "deutsch": "Grüß deine Eltern!",
+    "hinweis": "informell"
   }
 ]

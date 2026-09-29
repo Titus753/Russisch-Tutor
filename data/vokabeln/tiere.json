@@ -149,5 +149,242 @@
     "thema": "tiere",
     "russisch": "Когда рак на горе свистнет.",
     "deutsch": "Wenn Schweine fliegen können."
+  },
+  {
+    "id": "tie-021",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "кот",
+    "deutsch": "der Kater"
+  },
+  {
+    "id": "tie-022",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "щенок",
+    "deutsch": "der Welpe",
+    "betonung": "щено́к"
+  },
+  {
+    "id": "tie-023",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "котёнок",
+    "deutsch": "das Kätzchen"
+  },
+  {
+    "id": "tie-024",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "овца",
+    "deutsch": "das Schaf",
+    "betonung": "овца́"
+  },
+  {
+    "id": "tie-025",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "коза",
+    "deutsch": "die Ziege",
+    "betonung": "коза́"
+  },
+  {
+    "id": "tie-026",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "утка",
+    "deutsch": "die Ente",
+    "betonung": "у́тка"
+  },
+  {
+    "id": "tie-027",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "гусь",
+    "deutsch": "die Gans"
+  },
+  {
+    "id": "tie-028",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "петух",
+    "deutsch": "der Hahn",
+    "betonung": "пету́х"
+  },
+  {
+    "id": "tie-029",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "кролик",
+    "deutsch": "das Kaninchen",
+    "betonung": "кро́лик"
+  },
+  {
+    "id": "tie-030",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "белка",
+    "deutsch": "das Eichhörnchen",
+    "betonung": "бе́лка"
+  },
+  {
+    "id": "tie-031",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "ёж",
+    "deutsch": "der Igel"
+  },
+  {
+    "id": "tie-032",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "змея",
+    "deutsch": "die Schlange",
+    "betonung": "змея́"
+  },
+  {
+    "id": "tie-033",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "лягушка",
+    "deutsch": "der Frosch",
+    "betonung": "лягу́шка"
+  },
+  {
+    "id": "tie-034",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "пчела",
+    "deutsch": "die Biene",
+    "betonung": "пчела́"
+  },
+  {
+    "id": "tie-035",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "бабочка",
+    "deutsch": "der Schmetterling",
+    "betonung": "ба́бочка"
+  },
+  {
+    "id": "tie-036",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "комар",
+    "deutsch": "die Mücke",
+    "betonung": "кома́р"
+  },
+  {
+    "id": "tie-037",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "муха",
+    "deutsch": "die Fliege",
+    "betonung": "му́ха"
+  },
+  {
+    "id": "tie-038",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "паук",
+    "deutsch": "die Spinne",
+    "betonung": "пау́к"
+  },
+  {
+    "id": "tie-039",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "слон",
+    "deutsch": "der Elefant"
+  },
+  {
+    "id": "tie-040",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "тигр",
+    "deutsch": "der Tiger"
+  },
+  {
+    "id": "tie-041",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "лев",
+    "deutsch": "der Löwe"
+  },
+  {
+    "id": "tie-042",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "обезьяна",
+    "deutsch": "der Affe",
+    "betonung": "обезья́на"
+  },
+  {
+    "id": "tie-043",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "жираф",
+    "deutsch": "die Giraffe",
+    "betonung": "жира́ф"
+  },
+  {
+    "id": "tie-044",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "дельфин",
+    "deutsch": "der Delfin",
+    "betonung": "дельфи́н"
+  },
+  {
+    "id": "tie-045",
+    "typ": "wort",
+    "thema": "tiere",
+    "russisch": "олень",
+    "deutsch": "der Hirsch",
+    "betonung": "оле́нь"
+  },
+  {
+    "id": "tie-046",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "У нас дома живёт кошка.",
+    "deutsch": "Bei uns zu Hause wohnt eine Katze."
+  },
+  {
+    "id": "tie-047",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Собака лает.",
+    "deutsch": "Der Hund bellt."
+  },
+  {
+    "id": "tie-048",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Не трогай собаку!",
+    "deutsch": "Fass den Hund nicht an!",
+    "hinweis": "informell"
+  },
+  {
+    "id": "tie-049",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Сколько лет вашей собаке?",
+    "deutsch": "Wie alt ist Ihr Hund?"
+  },
+  {
+    "id": "tie-050",
+    "typ": "satz",
+    "thema": "tiere",
+    "russisch": "Кошки любят рыбу.",
+    "deutsch": "Katzen mögen Fisch."
+  },
+  {
+    "id": "tie-051",
+    "typ": "redewendung",
+    "thema": "tiere",
+    "russisch": "Как кошка с собакой.",
+    "deutsch": "Wie Hund und Katze.",
+    "betonung": "Как ко́шка с соба́кой."
   }
 ]

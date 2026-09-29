@@ -33,7 +33,13 @@ export const EintragSchema = z
     // Zeichen werden unten geprüft: ohne Akzente muss betonung exakt russisch entsprechen
     betonung: z.string().max(300).optional(),
     genusvarianten: z.object({ m: russischerText, w: russischerText }).strict().optional(),
-    hinweis: z.string().min(1).max(80).regex(DEUTSCH).optional(),
+    // Hinweise dürfen russische Wörter mit Betonungszeichen enthalten (z. B. „му́ка“)
+    hinweis: z
+      .string()
+      .min(1)
+      .max(80)
+      .regex(/^(?:[\p{L}0-9 .,!?:;„“"'’()\-–—…/&%€+]|\u0301)+$/u)
+      .optional(),
     audio: z
       .string()
       .regex(/^[a-z]{3}-\d{3,4}\.mp3$/, 'Format „abc-001.mp3"')

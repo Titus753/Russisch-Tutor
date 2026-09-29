@@ -56,5 +56,14 @@ export function pruefeVokabular(dateien: Record<string, unknown>): {
   }
   for (const [id, anzahl] of ids) if (anzahl > 1) fehler.push(`Doppelte ID: ${id} (${anzahl}×)`);
 
+  // Gleiche deutsche Frage für verschiedene russische Einträge wäre beim Abfragen mehrdeutig
+  const deutsch = new Map<string, string>();
+  for (const e of eintraege) {
+    const schluessel = vergleichsform(e.deutsch);
+    const vorher = deutsch.get(schluessel);
+    if (vorher) fehler.push(`Mehrdeutige Übersetzung: ${e.id} „${e.deutsch}" = ${vorher}`);
+    else deutsch.set(schluessel, e.id);
+  }
+
   return { fehler, eintraege };
 }

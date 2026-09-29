@@ -139,5 +139,223 @@
     "thema": "redewendungen",
     "russisch": "Вешать лапшу на уши.",
     "deutsch": "Jemandem einen Bären aufbinden."
+  },
+  {
+    "id": "red-021",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Кто рано встаёт, тому Бог подаёт.",
+    "deutsch": "Morgenstund hat Gold im Mund."
+  },
+  {
+    "id": "red-022",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Друзья познаются в беде.",
+    "deutsch": "Freunde erkennt man in der Not."
+  },
+  {
+    "id": "red-023",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Не откладывай на завтра то, что можно сделать сегодня.",
+    "deutsch": "Was du heute kannst besorgen, das verschiebe nicht auf morgen."
+  },
+  {
+    "id": "red-024",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Одна голова хорошо, а две лучше.",
+    "deutsch": "Vier Augen sehen mehr als zwei."
+  },
+  {
+    "id": "red-025",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Лучше синица в руках, чем журавль в небе.",
+    "deutsch": "Lieber den Spatz in der Hand als die Taube auf dem Dach."
+  },
+  {
+    "id": "red-026",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Нет дыма без огня.",
+    "deutsch": "Kein Rauch ohne Feuer."
+  },
+  {
+    "id": "red-027",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Между нами говоря.",
+    "deutsch": "Unter uns gesagt."
+  },
+  {
+    "id": "red-028",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Куй железо, пока горячо.",
+    "deutsch": "Man muss das Eisen schmieden, solange es heiß ist."
+  },
+  {
+    "id": "red-029",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Всему своё время.",
+    "deutsch": "Alles zu seiner Zeit."
+  },
+  {
+    "id": "red-030",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Сказано — сделано.",
+    "deutsch": "Gesagt, getan."
+  },
+  {
+    "id": "red-031",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "По одёжке встречают, по уму провожают.",
+    "deutsch": "Kleider machen Leute, doch am Ende zählt der Verstand."
+  },
+  {
+    "id": "red-032",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "У страха глаза велики.",
+    "deutsch": "Die Angst übertreibt gern."
+  },
+  {
+    "id": "red-033",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Не в свои сани не садись.",
+    "deutsch": "Schuster, bleib bei deinem Leisten."
+  },
+  {
+    "id": "red-034",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Чем богаты, тем и рады.",
+    "deutsch": "Was wir haben, teilen wir gern."
+  },
+  {
+    "id": "red-035",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Голод не тётка.",
+    "deutsch": "Hunger ist der beste Koch."
+  },
+  {
+    "id": "red-036",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Час от часу не легче.",
+    "deutsch": "Es wird immer schlimmer."
+  },
+  {
+    "id": "red-037",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Взять себя в руки.",
+    "deutsch": "Sich zusammenreißen."
+  },
+  {
+    "id": "red-038",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Бить баклуши.",
+    "deutsch": "Däumchen drehen."
+  },
+  {
+    "id": "red-039",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Водой не разольёшь.",
+    "deutsch": "Unzertrennlich sein."
+  },
+  {
+    "id": "red-040",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Как снег на голову.",
+    "deutsch": "Wie aus heiterem Himmel."
+  },
+  {
+    "id": "red-041",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Держать язык за зубами.",
+    "deutsch": "Den Mund halten."
+  },
+  {
+    "id": "red-042",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Золотые руки.",
+    "deutsch": "Geschickte Hände."
+  },
+  {
+    "id": "red-043",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Ни рыба ни мясо.",
+    "deutsch": "Weder Fisch noch Fleisch."
+  },
+  {
+    "id": "red-044",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Два сапога пара.",
+    "deutsch": "Zwei vom gleichen Schlag."
+  },
+  {
+    "id": "red-045",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Не всё коту масленица.",
+    "deutsch": "Es ist nicht alle Tage Sonntag."
+  },
+  {
+    "id": "red-046",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Легче сказать, чем сделать.",
+    "deutsch": "Leichter gesagt als getan."
+  },
+  {
+    "id": "red-047",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "С глаз долой — из сердца вон.",
+    "deutsch": "Aus den Augen, aus dem Sinn."
+  },
+  {
+    "id": "red-048",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Руки не доходят.",
+    "deutsch": "Ich komme einfach nicht dazu."
+  },
+  {
+    "id": "red-049",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Ясно как день.",
+    "deutsch": "Sonnenklar."
+  },
+  {
+    "id": "red-050",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Кот наплакал.",
+    "deutsch": "Nur ein paar Tropfen.",
+    "hinweis": "sehr wenig"
+  },
+  {
+    "id": "red-051",
+    "typ": "redewendung",
+    "thema": "redewendungen",
+    "russisch": "Медленно, но верно.",
+    "deutsch": "Langsam, aber sicher."
   }
 ]

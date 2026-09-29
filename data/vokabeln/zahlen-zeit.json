@@ -149,5 +149,240 @@
     "thema": "zahlen-zeit",
     "russisch": "Мне двадцать пять лет.",
     "deutsch": "Ich bin 25 Jahre alt."
+  },
+  {
+    "id": "zah-021",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "шесть",
+    "deutsch": "sechs"
+  },
+  {
+    "id": "zah-022",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "семь",
+    "deutsch": "sieben"
+  },
+  {
+    "id": "zah-023",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "восемь",
+    "deutsch": "acht",
+    "betonung": "во́семь"
+  },
+  {
+    "id": "zah-024",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "девять",
+    "deutsch": "neun",
+    "betonung": "де́вять"
+  },
+  {
+    "id": "zah-025",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "двадцать",
+    "deutsch": "zwanzig",
+    "betonung": "два́дцать"
+  },
+  {
+    "id": "zah-026",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "пятьдесят",
+    "deutsch": "fünfzig",
+    "betonung": "пятьдеся́т"
+  },
+  {
+    "id": "zah-027",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "ноль",
+    "deutsch": "null"
+  },
+  {
+    "id": "zah-028",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "миллион",
+    "deutsch": "die Million",
+    "betonung": "миллио́н"
+  },
+  {
+    "id": "zah-029",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "вторник",
+    "deutsch": "der Dienstag",
+    "betonung": "вто́рник"
+  },
+  {
+    "id": "zah-030",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "среда",
+    "deutsch": "der Mittwoch",
+    "betonung": "среда́"
+  },
+  {
+    "id": "zah-031",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "четверг",
+    "deutsch": "der Donnerstag",
+    "betonung": "четве́рг"
+  },
+  {
+    "id": "zah-032",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "суббота",
+    "deutsch": "der Samstag",
+    "betonung": "суббо́та"
+  },
+  {
+    "id": "zah-033",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "воскресенье",
+    "deutsch": "der Sonntag",
+    "betonung": "воскресе́нье"
+  },
+  {
+    "id": "zah-034",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "месяц",
+    "deutsch": "der Monat",
+    "betonung": "ме́сяц"
+  },
+  {
+    "id": "zah-035",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "год",
+    "deutsch": "das Jahr"
+  },
+  {
+    "id": "zah-036",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "секунда",
+    "deutsch": "die Sekunde",
+    "betonung": "секу́нда"
+  },
+  {
+    "id": "zah-037",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "утро",
+    "deutsch": "der Morgen",
+    "betonung": "у́тро"
+  },
+  {
+    "id": "zah-038",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "вечер",
+    "deutsch": "der Abend",
+    "betonung": "ве́чер"
+  },
+  {
+    "id": "zah-039",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "ночь",
+    "deutsch": "die Nacht"
+  },
+  {
+    "id": "zah-040",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "день",
+    "deutsch": "der Tag"
+  },
+  {
+    "id": "zah-041",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "послезавтра",
+    "deutsch": "übermorgen",
+    "betonung": "послеза́втра"
+  },
+  {
+    "id": "zah-042",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "позавчера",
+    "deutsch": "vorgestern",
+    "betonung": "позавчера́"
+  },
+  {
+    "id": "zah-043",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "рано",
+    "deutsch": "früh",
+    "betonung": "ра́но"
+  },
+  {
+    "id": "zah-044",
+    "typ": "wort",
+    "thema": "zahlen-zeit",
+    "russisch": "поздно",
+    "deutsch": "spät",
+    "betonung": "по́здно"
+  },
+  {
+    "id": "zah-045",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "Сегодня понедельник.",
+    "deutsch": "Heute ist Montag."
+  },
+  {
+    "id": "zah-046",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "Какое сегодня число?",
+    "deutsch": "Welches Datum ist heute?"
+  },
+  {
+    "id": "zah-047",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "Встретимся в семь часов.",
+    "deutsch": "Wir treffen uns um sieben Uhr."
+  },
+  {
+    "id": "zah-048",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "Магазин открыт до восьми.",
+    "deutsch": "Das Geschäft hat bis acht geöffnet."
+  },
+  {
+    "id": "zah-049",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "Подождите минуту, пожалуйста.",
+    "deutsch": "Warten Sie bitte eine Minute."
+  },
+  {
+    "id": "zah-050",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "У меня нет времени.",
+    "deutsch": "Ich habe keine Zeit."
+  },
+  {
+    "id": "zah-051",
+    "typ": "satz",
+    "thema": "zahlen-zeit",
+    "russisch": "Сколько времени это займёт?",
+    "deutsch": "Wie lange dauert das?"
   }
 ]

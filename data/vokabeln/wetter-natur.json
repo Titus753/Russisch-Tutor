@@ -152,5 +152,245 @@
     "thema": "wetter-natur",
     "russisch": "После дождичка в четверг.",
     "deutsch": "Am Sankt-Nimmerleinstag."
+  },
+  {
+    "id": "wet-021",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "весна",
+    "deutsch": "der Frühling",
+    "betonung": "весна́"
+  },
+  {
+    "id": "wet-022",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "лето",
+    "deutsch": "der Sommer",
+    "betonung": "ле́то"
+  },
+  {
+    "id": "wet-023",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "осень",
+    "deutsch": "der Herbst",
+    "betonung": "о́сень"
+  },
+  {
+    "id": "wet-024",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "зима",
+    "deutsch": "der Winter",
+    "betonung": "зима́"
+  },
+  {
+    "id": "wet-025",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "туман",
+    "deutsch": "der Nebel",
+    "betonung": "тума́н"
+  },
+  {
+    "id": "wet-026",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "гроза",
+    "deutsch": "das Gewitter",
+    "betonung": "гроза́"
+  },
+  {
+    "id": "wet-027",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "молния",
+    "deutsch": "der Blitz",
+    "betonung": "мо́лния"
+  },
+  {
+    "id": "wet-028",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "гром",
+    "deutsch": "der Donner"
+  },
+  {
+    "id": "wet-029",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "мороз",
+    "deutsch": "der Frost",
+    "betonung": "моро́з"
+  },
+  {
+    "id": "wet-030",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "лёд",
+    "deutsch": "das Eis",
+    "hinweis": "gefrorenes Wasser"
+  },
+  {
+    "id": "wet-031",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "озеро",
+    "deutsch": "der See",
+    "betonung": "о́зеро"
+  },
+  {
+    "id": "wet-032",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "поле",
+    "deutsch": "das Feld",
+    "betonung": "по́ле"
+  },
+  {
+    "id": "wet-033",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "дерево",
+    "deutsch": "der Baum",
+    "betonung": "де́рево"
+  },
+  {
+    "id": "wet-034",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "цветок",
+    "deutsch": "die Blume",
+    "betonung": "цвето́к"
+  },
+  {
+    "id": "wet-035",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "трава",
+    "deutsch": "das Gras",
+    "betonung": "трава́"
+  },
+  {
+    "id": "wet-036",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "остров",
+    "deutsch": "die Insel",
+    "betonung": "о́стров"
+  },
+  {
+    "id": "wet-037",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "пляж",
+    "deutsch": "der Strand"
+  },
+  {
+    "id": "wet-038",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "звезда",
+    "deutsch": "der Stern",
+    "betonung": "звезда́"
+  },
+  {
+    "id": "wet-039",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "луна",
+    "deutsch": "der Mond",
+    "betonung": "луна́"
+  },
+  {
+    "id": "wet-040",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "природа",
+    "deutsch": "die Natur",
+    "betonung": "приро́да"
+  },
+  {
+    "id": "wet-041",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "радуга",
+    "deutsch": "der Regenbogen",
+    "betonung": "ра́дуга"
+  },
+  {
+    "id": "wet-042",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "облачно",
+    "deutsch": "bewölkt",
+    "betonung": "о́блачно"
+  },
+  {
+    "id": "wet-043",
+    "typ": "wort",
+    "thema": "wetter-natur",
+    "russisch": "солнечно",
+    "deutsch": "sonnig",
+    "betonung": "со́лнечно"
+  },
+  {
+    "id": "wet-044",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Идёт снег.",
+    "deutsch": "Es schneit."
+  },
+  {
+    "id": "wet-045",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "На улице минус десять.",
+    "deutsch": "Draußen sind es minus zehn Grad."
+  },
+  {
+    "id": "wet-046",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Какой сильный ветер!",
+    "deutsch": "Was für ein starker Wind!"
+  },
+  {
+    "id": "wet-047",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Возьми зонтик, будет дождь.",
+    "deutsch": "Nimm einen Schirm mit, es wird regnen.",
+    "hinweis": "informell"
+  },
+  {
+    "id": "wet-048",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Летом здесь очень жарко.",
+    "deutsch": "Im Sommer ist es hier sehr heiß."
+  },
+  {
+    "id": "wet-049",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Я люблю гулять в лесу.",
+    "deutsch": "Ich gehe gern im Wald spazieren."
+  },
+  {
+    "id": "wet-050",
+    "typ": "satz",
+    "thema": "wetter-natur",
+    "russisch": "Сегодня прекрасная погода.",
+    "deutsch": "Heute ist herrliches Wetter."
+  },
+  {
+    "id": "wet-051",
+    "typ": "redewendung",
+    "thema": "wetter-natur",
+    "russisch": "Бабье лето.",
+    "deutsch": "Der Altweibersommer.",
+    "betonung": "Ба́бье ле́то."
   }
 ]

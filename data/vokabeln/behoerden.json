@@ -155,5 +155,241 @@
     "thema": "behoerden",
     "russisch": "Сколько стоит марка в Германию?",
     "deutsch": "Was kostet eine Briefmarke nach Deutschland?"
+  },
+  {
+    "id": "beh-021",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "консульство",
+    "deutsch": "das Konsulat",
+    "betonung": "ко́нсульство"
+  },
+  {
+    "id": "beh-022",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "удостоверение личности",
+    "deutsch": "der Personalausweis",
+    "betonung": "удостовере́ние ли́чности"
+  },
+  {
+    "id": "beh-023",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "фамилия",
+    "deutsch": "der Nachname",
+    "betonung": "фами́лия"
+  },
+  {
+    "id": "beh-024",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "имя",
+    "deutsch": "der Vorname",
+    "betonung": "и́мя"
+  },
+  {
+    "id": "beh-025",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "дата рождения",
+    "deutsch": "das Geburtsdatum",
+    "betonung": "да́та рожде́ния"
+  },
+  {
+    "id": "beh-026",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "гражданство",
+    "deutsch": "die Staatsangehörigkeit",
+    "betonung": "гражда́нство"
+  },
+  {
+    "id": "beh-027",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "регистрация",
+    "deutsch": "die Anmeldung",
+    "betonung": "регистра́ция"
+  },
+  {
+    "id": "beh-028",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "разрешение",
+    "deutsch": "die Genehmigung",
+    "betonung": "разреше́ние"
+  },
+  {
+    "id": "beh-029",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "заявление",
+    "deutsch": "der Antrag",
+    "betonung": "заявле́ние"
+  },
+  {
+    "id": "beh-030",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "печать",
+    "deutsch": "der Stempel",
+    "betonung": "печа́ть"
+  },
+  {
+    "id": "beh-031",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "почтовый ящик",
+    "deutsch": "der Briefkasten",
+    "betonung": "почто́вый я́щик"
+  },
+  {
+    "id": "beh-032",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "конверт",
+    "deutsch": "der Briefumschlag",
+    "betonung": "конве́рт"
+  },
+  {
+    "id": "beh-033",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "открытка",
+    "deutsch": "die Postkarte",
+    "betonung": "откры́тка"
+  },
+  {
+    "id": "beh-034",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "индекс",
+    "deutsch": "die Postleitzahl",
+    "betonung": "и́ндекс"
+  },
+  {
+    "id": "beh-035",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "отправитель",
+    "deutsch": "der Absender",
+    "betonung": "отправи́тель"
+  },
+  {
+    "id": "beh-036",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "получатель",
+    "deutsch": "der Empfänger",
+    "betonung": "получа́тель"
+  },
+  {
+    "id": "beh-037",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "таможня",
+    "deutsch": "der Zoll",
+    "betonung": "тамо́жня"
+  },
+  {
+    "id": "beh-038",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "штраф",
+    "deutsch": "die Geldstrafe"
+  },
+  {
+    "id": "beh-039",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "справка",
+    "deutsch": "die Bescheinigung",
+    "betonung": "спра́вка"
+  },
+  {
+    "id": "beh-040",
+    "typ": "wort",
+    "thema": "behoerden",
+    "russisch": "переводчик",
+    "deutsch": "der Dolmetscher",
+    "betonung": "перево́дчик"
+  },
+  {
+    "id": "beh-041",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Где нужно подать заявление?",
+    "deutsch": "Wo muss ich den Antrag stellen?"
+  },
+  {
+    "id": "beh-042",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Какие документы нужны?",
+    "deutsch": "Welche Unterlagen werden benötigt?"
+  },
+  {
+    "id": "beh-043",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Заполните, пожалуйста, этот бланк.",
+    "deutsch": "Füllen Sie bitte diesen Vordruck aus."
+  },
+  {
+    "id": "beh-044",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Когда будет готов мой паспорт?",
+    "deutsch": "Wann ist mein Pass fertig?"
+  },
+  {
+    "id": "beh-045",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Я хочу отправить письмо заказным.",
+    "deutsch": "Ich möchte den Brief per Einschreiben schicken."
+  },
+  {
+    "id": "beh-046",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Распишитесь здесь, пожалуйста.",
+    "deutsch": "Unterschreiben Sie bitte hier."
+  },
+  {
+    "id": "beh-047",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Сколько идёт письмо в Германию?",
+    "deutsch": "Wie lange braucht ein Brief nach Deutschland?"
+  },
+  {
+    "id": "beh-048",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Где получить посылку?",
+    "deutsch": "Wo kann ich das Paket abholen?"
+  },
+  {
+    "id": "beh-049",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Мне нужен переводчик.",
+    "deutsch": "Ich brauche einen Dolmetscher."
+  },
+  {
+    "id": "beh-050",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Какой у вас адрес?",
+    "deutsch": "Wie ist Ihre Adresse?"
+  },
+  {
+    "id": "beh-051",
+    "typ": "satz",
+    "thema": "behoerden",
+    "russisch": "Приём по записи.",
+    "deutsch": "Termine nur nach Vereinbarung."
   }
 ]

@@ -148,5 +148,243 @@
     "thema": "einkaufen",
     "russisch": "Я возьму это.",
     "deutsch": "Ich nehme das."
+  },
+  {
+    "id": "ein-021",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "супермаркет",
+    "deutsch": "der Supermarkt",
+    "betonung": "супермарке́т"
+  },
+  {
+    "id": "ein-022",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "продукты",
+    "deutsch": "die Lebensmittel",
+    "betonung": "проду́кты"
+  },
+  {
+    "id": "ein-023",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "сумка",
+    "deutsch": "die Tasche",
+    "betonung": "су́мка"
+  },
+  {
+    "id": "ein-024",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "корзина",
+    "deutsch": "der Einkaufskorb",
+    "betonung": "корзи́на"
+  },
+  {
+    "id": "ein-025",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "тележка",
+    "deutsch": "der Einkaufswagen",
+    "betonung": "теле́жка"
+  },
+  {
+    "id": "ein-026",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "продавец",
+    "deutsch": "der Verkäufer",
+    "betonung": "продаве́ц"
+  },
+  {
+    "id": "ein-027",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "покупатель",
+    "deutsch": "der Kunde",
+    "betonung": "покупа́тель"
+  },
+  {
+    "id": "ein-028",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "покупка",
+    "deutsch": "der Einkauf",
+    "betonung": "поку́пка"
+  },
+  {
+    "id": "ein-029",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "подарок",
+    "deutsch": "das Geschenk",
+    "betonung": "пода́рок"
+  },
+  {
+    "id": "ein-030",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "распродажа",
+    "deutsch": "der Ausverkauf",
+    "betonung": "распрода́жа"
+  },
+  {
+    "id": "ein-031",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "сыр",
+    "deutsch": "der Käse"
+  },
+  {
+    "id": "ein-032",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "колбаса",
+    "deutsch": "die Wurst",
+    "betonung": "колбаса́"
+  },
+  {
+    "id": "ein-033",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "фрукты",
+    "deutsch": "das Obst",
+    "betonung": "фру́кты"
+  },
+  {
+    "id": "ein-034",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "банан",
+    "deutsch": "die Banane",
+    "betonung": "бана́н"
+  },
+  {
+    "id": "ein-035",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "помидор",
+    "deutsch": "die Tomate",
+    "betonung": "помидо́р"
+  },
+  {
+    "id": "ein-036",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "огурец",
+    "deutsch": "die Gurke",
+    "betonung": "огуре́ц"
+  },
+  {
+    "id": "ein-037",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "шоколад",
+    "deutsch": "die Schokolade",
+    "betonung": "шокола́д"
+  },
+  {
+    "id": "ein-038",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "сок",
+    "deutsch": "der Saft"
+  },
+  {
+    "id": "ein-039",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "печенье",
+    "deutsch": "die Kekse",
+    "betonung": "пече́нье"
+  },
+  {
+    "id": "ein-040",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "бутылка",
+    "deutsch": "die Flasche",
+    "betonung": "буты́лка"
+  },
+  {
+    "id": "ein-041",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "яблоко",
+    "deutsch": "der Apfel",
+    "betonung": "я́блоко"
+  },
+  {
+    "id": "ein-042",
+    "typ": "wort",
+    "thema": "einkaufen",
+    "russisch": "апельсин",
+    "deutsch": "die Orange",
+    "betonung": "апельси́н"
+  },
+  {
+    "id": "ein-043",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Где можно купить хлеб?",
+    "deutsch": "Wo kann man Brot kaufen?"
+  },
+  {
+    "id": "ein-044",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "У вас есть свежий хлеб?",
+    "deutsch": "Haben Sie frisches Brot?"
+  },
+  {
+    "id": "ein-045",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Мне нужно купить продукты.",
+    "deutsch": "Ich muss Lebensmittel einkaufen."
+  },
+  {
+    "id": "ein-046",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Дайте, пожалуйста, бутылку воды.",
+    "deutsch": "Geben Sie mir bitte eine Flasche Wasser."
+  },
+  {
+    "id": "ein-047",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Это всё, спасибо.",
+    "deutsch": "Das ist alles, danke."
+  },
+  {
+    "id": "ein-048",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Можно без пакета.",
+    "deutsch": "Ohne Tüte, bitte."
+  },
+  {
+    "id": "ein-049",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Во сколько закрывается магазин?",
+    "deutsch": "Wann schließt das Geschäft?"
+  },
+  {
+    "id": "ein-050",
+    "typ": "satz",
+    "thema": "einkaufen",
+    "russisch": "Когда открывается рынок?",
+    "deutsch": "Wann öffnet der Markt?"
+  },
+  {
+    "id": "ein-051",
+    "typ": "redewendung",
+    "thema": "einkaufen",
+    "russisch": "Сдачи не надо.",
+    "deutsch": "Stimmt so.",
+    "betonung": "Сда́чи не на́до."
   }
 ]

@@ -151,5 +151,246 @@
     "thema": "kochen",
     "russisch": "Аппетит приходит во время еды.",
     "deutsch": "Der Appetit kommt beim Essen."
+  },
+  {
+    "id": "koc-021",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "мука",
+    "deutsch": "das Mehl",
+    "betonung": "мука́",
+    "hinweis": "Betonung beachten: му́ка heißt „Qual“"
+  },
+  {
+    "id": "koc-022",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "рис",
+    "deutsch": "der Reis"
+  },
+  {
+    "id": "koc-023",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "макароны",
+    "deutsch": "die Nudeln",
+    "betonung": "макаро́ны"
+  },
+  {
+    "id": "koc-024",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "лук",
+    "deutsch": "die Zwiebel"
+  },
+  {
+    "id": "koc-025",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "чеснок",
+    "deutsch": "der Knoblauch",
+    "betonung": "чесно́к"
+  },
+  {
+    "id": "koc-026",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "морковь",
+    "deutsch": "die Karotte",
+    "betonung": "морко́вь"
+  },
+  {
+    "id": "koc-027",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "капуста",
+    "deutsch": "der Kohl",
+    "betonung": "капу́ста"
+  },
+  {
+    "id": "koc-028",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "перец",
+    "deutsch": "der Pfeffer",
+    "betonung": "пе́рец",
+    "hinweis": "auch: die Paprika"
+  },
+  {
+    "id": "koc-029",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "грибы",
+    "deutsch": "die Pilze",
+    "betonung": "грибы́"
+  },
+  {
+    "id": "koc-030",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "говядина",
+    "deutsch": "das Rindfleisch",
+    "betonung": "говя́дина"
+  },
+  {
+    "id": "koc-031",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "свинина",
+    "deutsch": "das Schweinefleisch",
+    "betonung": "свини́на"
+  },
+  {
+    "id": "koc-032",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "сметана",
+    "deutsch": "die saure Sahne",
+    "betonung": "смета́на"
+  },
+  {
+    "id": "koc-033",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "творог",
+    "deutsch": "der Quark",
+    "betonung": "творо́г",
+    "hinweis": "auch: тво́рог"
+  },
+  {
+    "id": "koc-034",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "каша",
+    "deutsch": "der Brei",
+    "betonung": "ка́ша"
+  },
+  {
+    "id": "koc-035",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "плита",
+    "deutsch": "der Herd",
+    "betonung": "плита́"
+  },
+  {
+    "id": "koc-036",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "духовка",
+    "deutsch": "der Backofen",
+    "betonung": "духо́вка"
+  },
+  {
+    "id": "koc-037",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "холодильник",
+    "deutsch": "der Kühlschrank",
+    "betonung": "холоди́льник"
+  },
+  {
+    "id": "koc-038",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "миска",
+    "deutsch": "die Schüssel",
+    "betonung": "ми́ска"
+  },
+  {
+    "id": "koc-039",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "варить",
+    "deutsch": "kochen",
+    "betonung": "вари́ть",
+    "hinweis": "in Wasser garen"
+  },
+  {
+    "id": "koc-040",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "жарить",
+    "deutsch": "braten",
+    "betonung": "жа́рить"
+  },
+  {
+    "id": "koc-041",
+    "typ": "wort",
+    "thema": "kochen",
+    "russisch": "резать",
+    "deutsch": "schneiden",
+    "betonung": "ре́зать"
+  },
+  {
+    "id": "koc-042",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Нарежьте морковь кубиками.",
+    "deutsch": "Schneiden Sie die Karotte in Würfel."
+  },
+  {
+    "id": "koc-043",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Жарьте мясо десять минут.",
+    "deutsch": "Braten Sie das Fleisch zehn Minuten."
+  },
+  {
+    "id": "koc-044",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Сварите рис.",
+    "deutsch": "Kochen Sie den Reis."
+  },
+  {
+    "id": "koc-045",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Посолите и поперчите.",
+    "deutsch": "Salzen und pfeffern Sie."
+  },
+  {
+    "id": "koc-046",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Разогрейте духовку.",
+    "deutsch": "Heizen Sie den Backofen vor."
+  },
+  {
+    "id": "koc-047",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Мне нужен рецепт этого салата.",
+    "deutsch": "Ich brauche das Rezept für diesen Salat."
+  },
+  {
+    "id": "koc-048",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Что на ужин?",
+    "deutsch": "Was gibt es zum Abendessen?"
+  },
+  {
+    "id": "koc-049",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Суп уже готов.",
+    "deutsch": "Die Suppe ist schon fertig."
+  },
+  {
+    "id": "koc-050",
+    "typ": "satz",
+    "thema": "kochen",
+    "russisch": "Помой овощи.",
+    "deutsch": "Wasch das Gemüse.",
+    "hinweis": "informell"
+  },
+  {
+    "id": "koc-051",
+    "typ": "redewendung",
+    "thema": "kochen",
+    "russisch": "Кашу маслом не испортишь.",
+    "deutsch": "Doppelt hält besser."
   }
 ]

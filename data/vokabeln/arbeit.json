@@ -150,5 +150,245 @@
     "thema": "arbeit",
     "russisch": "Делу время, потехе час.",
     "deutsch": "Erst die Arbeit, dann das Vergnügen."
+  },
+  {
+    "id": "arb-021",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "фирма",
+    "deutsch": "die Firma",
+    "betonung": "фи́рма"
+  },
+  {
+    "id": "arb-022",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "профессия",
+    "deutsch": "der Beruf",
+    "betonung": "профе́ссия"
+  },
+  {
+    "id": "arb-023",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "инженер",
+    "deutsch": "der Ingenieur",
+    "betonung": "инжене́р"
+  },
+  {
+    "id": "arb-024",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "программист",
+    "deutsch": "der Programmierer",
+    "betonung": "програ́ммист"
+  },
+  {
+    "id": "arb-025",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "бухгалтер",
+    "deutsch": "der Buchhalter",
+    "betonung": "бухга́лтер"
+  },
+  {
+    "id": "arb-026",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "компьютер",
+    "deutsch": "der Computer",
+    "betonung": "компью́тер"
+  },
+  {
+    "id": "arb-027",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "договор",
+    "deutsch": "der Vertrag",
+    "betonung": "догово́р"
+  },
+  {
+    "id": "arb-028",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "проект",
+    "deutsch": "das Projekt",
+    "betonung": "прое́кт"
+  },
+  {
+    "id": "arb-029",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "собеседование",
+    "deutsch": "das Vorstellungsgespräch",
+    "betonung": "собесе́дование"
+  },
+  {
+    "id": "arb-030",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "урок",
+    "deutsch": "die Unterrichtsstunde",
+    "betonung": "уро́к"
+  },
+  {
+    "id": "arb-031",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "лекция",
+    "deutsch": "die Vorlesung",
+    "betonung": "ле́кция"
+  },
+  {
+    "id": "arb-032",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "школа",
+    "deutsch": "die Schule",
+    "betonung": "шко́ла"
+  },
+  {
+    "id": "arb-033",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "ученик",
+    "deutsch": "der Schüler",
+    "betonung": "учени́к"
+  },
+  {
+    "id": "arb-034",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "тетрадь",
+    "deutsch": "das Heft",
+    "betonung": "тетра́дь"
+  },
+  {
+    "id": "arb-035",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "ручка",
+    "deutsch": "der Kugelschreiber",
+    "betonung": "ру́чка"
+  },
+  {
+    "id": "arb-036",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "карандаш",
+    "deutsch": "der Bleistift",
+    "betonung": "каранда́ш"
+  },
+  {
+    "id": "arb-037",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "ошибка",
+    "deutsch": "der Fehler",
+    "betonung": "оши́бка"
+  },
+  {
+    "id": "arb-038",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "вопрос",
+    "deutsch": "die Frage",
+    "betonung": "вопро́с"
+  },
+  {
+    "id": "arb-039",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "ответ",
+    "deutsch": "die Antwort",
+    "betonung": "отве́т"
+  },
+  {
+    "id": "arb-040",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "домашнее задание",
+    "deutsch": "die Hausaufgabe",
+    "betonung": "дома́шнее зада́ние"
+  },
+  {
+    "id": "arb-041",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "менеджер",
+    "deutsch": "der Manager",
+    "betonung": "ме́неджер"
+  },
+  {
+    "id": "arb-042",
+    "typ": "wort",
+    "thema": "arbeit",
+    "russisch": "совещание",
+    "deutsch": "die Besprechung",
+    "betonung": "совеща́ние"
+  },
+  {
+    "id": "arb-043",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я работаю в офисе.",
+    "deutsch": "Ich arbeite im Büro."
+  },
+  {
+    "id": "arb-044",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "У меня много работы.",
+    "deutsch": "Ich habe viel Arbeit."
+  },
+  {
+    "id": "arb-045",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Когда у тебя отпуск?",
+    "deutsch": "Wann hast du Urlaub?",
+    "hinweis": "informell"
+  },
+  {
+    "id": "arb-046",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я учу русский язык.",
+    "deutsch": "Ich lerne Russisch."
+  },
+  {
+    "id": "arb-047",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Можно задать вопрос?",
+    "deutsch": "Darf ich eine Frage stellen?"
+  },
+  {
+    "id": "arb-048",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я не знаю ответа.",
+    "deutsch": "Ich weiß die Antwort nicht."
+  },
+  {
+    "id": "arb-049",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Пришлите мне это по электронной почте.",
+    "deutsch": "Schicken Sie mir das per E-Mail."
+  },
+  {
+    "id": "arb-050",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Совещание перенесли на завтра.",
+    "deutsch": "Die Besprechung wurde auf morgen verschoben."
+  },
+  {
+    "id": "arb-051",
+    "typ": "satz",
+    "thema": "arbeit",
+    "russisch": "Я ищу работу.",
+    "deutsch": "Ich suche Arbeit."
   }
 ]
