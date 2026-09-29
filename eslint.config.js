@@ -38,5 +38,10 @@ export default tseslint.config(
       ],
     },
   },
+  {
+    // In Tests sind Nicht-null-Zusicherungen erlaubt; im App-Code bleiben sie verboten
+    files: ['tests/**'],
+    rules: { '@typescript-eslint/no-non-null-assertion': 'off' },
+  },
   prettier,
 );
