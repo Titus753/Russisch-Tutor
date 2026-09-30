@@ -1189,3 +1189,106 @@ a {
   border-radius: var(--radius-knopf);
   background: var(--kobalt-hell);
 }
+
+/* ---------- Mischa, der Bär ---------- */
+
+.baer {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  animation: baer-wippen 2.4s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+
+@keyframes baer-wippen {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg) translateY(-0.125rem);
+  }
+}
+
+.willkommen {
+  width: min(100% - 2rem, 26rem);
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: 1.25rem;
+  border: 0.125rem solid var(--kobalt);
+  border-radius: var(--radius-karte);
+  background: var(--hintergrund);
+  color: var(--text);
+  overflow-y: auto;
+  text-align: center;
+}
+
+.willkommen[open] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  animation: einblenden 0.3s ease-out;
+}
+
+.willkommen::backdrop {
+  background: rgb(11 18 36 / 0.55);
+}
+
+.willkommen .aktionen--reihe {
+  width: 100%;
+}
+
+.willkommen__baer {
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
+.sprechblase {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 0.125rem solid var(--kobalt);
+  border-radius: 1.25rem;
+  background: var(--flaeche);
+}
+
+/* Spitze der Sprechblase zeigt zum Bären */
+.sprechblase::before {
+  content: '';
+  position: absolute;
+  top: -0.625rem;
+  left: 50%;
+  width: 1rem;
+  height: 1rem;
+  border-top: 0.125rem solid var(--kobalt);
+  border-left: 0.125rem solid var(--kobalt);
+  background: var(--flaeche);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.sprechblase__ru {
+  font-family: var(--schrift-serif);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--kobalt);
+}
+
+.sprechblase__de {
+  color: var(--gedaempft);
+}
+
+.seitentitel--ru {
+  font-size: 1.375rem;
+  line-height: 1.25;
+}
+
+.tutorial__anhoeren {
+  align-self: flex-start;
+}

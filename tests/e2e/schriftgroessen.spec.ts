@@ -71,9 +71,12 @@ for (const stufe of STUFEN) {
   }, info) => {
     test.setTimeout(90_000);
     await page.setViewportSize({ width: 360, height: 740 });
-    await setzeStand(page, { einstellungen: { schrift: stufe } });
+    await setzeStand(page, { einstellungen: { schrift: stufe, begruessung: true } });
     await page.goto('/');
     await expect(page.locator('html')).toHaveAttribute('data-schrift', stufe);
+    await expect(page.getByRole('dialog')).toBeVisible();
+    await pruefeAnsicht(page, info, `${stufe}-willkommen`);
+    await page.getByRole('button', { name: 'Los geht’s' }).click();
 
     await page.getByRole('button', { name: 'Aufdecken' }).click();
     await pruefeAnsicht(page, info, `${stufe}-karten`);

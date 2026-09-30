@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Plugin } from 'vite';
 import { AlphabetSchema } from '../src/daten/alphabet-schema.ts';
+import { BaerSchema, type BaerSatz } from '../src/daten/baer-schema.ts';
 import { LobListeSchema } from '../src/daten/lob-schema.ts';
 import { pruefeVokabular } from '../src/daten/pruefen.ts';
 
@@ -9,6 +10,7 @@ const ORDNER = 'data/vokabeln';
 const MODUL = 'virtual:vokabeln';
 const ALPHABET = 'virtual:alphabet';
 const LOB = 'virtual:lob';
+const BAER = 'virtual:baer';
 const hatAudio = (id: string) => existsSync(join('public/audio', `${id}.mp3`));
 
 /** Liest alle Vokabeldateien als Rohdaten (Dateiname → JSON). */
@@ -34,8 +36,29 @@ export function leseVokabelDateien(ordner = ORDNER): Record<string, unknown> {
 export function vokabelPlugin(): Plugin {
   return {
     name: 'vokabeln',
-    resolveId: (id) => ([MODUL, ALPHABET, LOB].includes(id) ? `\0${id}` : null),
+    resolveId: (id) => ([MODUL, ALPHABET, LOB, BAER].includes(id) ? `\0${id}` : null),
     load(id) {
+      if (id === `\0${BAER}`) {
+        this.addWatchFile('data/baer.json');
+        const ergebnis = BaerSchema.safeParse(JSON.parse(readFileSync('data/baer.json', 'utf8')));
+        if (!ergebnis.success) {
+          this.error(
+            `data/baer.json ungültig: ${ergebnis.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`).join('; ')}`,
+          );
+        }
+        const mit = (s: BaerSatz) => (hatAudio(s.id) ? { ...s, audio: `${s.id}.mp3` } : s);
+        const { vorstellung, zeiten, saetze } = ergebnis.data;
+        return `export default ${JSON.stringify({
+          vorstellung: mit(vorstellung),
+          zeiten: {
+            morgen: mit(zeiten.morgen),
+            tag: mit(zeiten.tag),
+            abend: mit(zeiten.abend),
+            nacht: mit(zeiten.nacht),
+          },
+          saetze: saetze.map(mit),
+        })};`;
+      }
       if (id === `\0${LOB}`) {
         this.addWatchFile('data/lob.json');
         const ergebnis = LobListeSchema.safeParse(

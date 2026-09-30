@@ -58,6 +58,7 @@ export const STANDARD_EINSTELLUNGEN = {
   schrift: 'normal' as const,
   farbmodus: 'system' as const,
   kontrast: false,
+  begruessung: true,
 };
 
 /** Jedes Feld fällt einzeln auf den Standard zurück, damit ein kaputter Wert nicht alles verwirft. */
@@ -76,6 +77,8 @@ export const EinstellungenSchema = z
       .catch(STANDARD_EINSTELLUNGEN.schrift),
     farbmodus: z.enum(['system', 'hell', 'dunkel']).catch(STANDARD_EINSTELLUNGEN.farbmodus),
     kontrast: z.boolean().catch(STANDARD_EINSTELLUNGEN.kontrast),
+    // Neu hinzugekommen: fehlt in älteren Ständen → Standard (keine Migration nötig)
+    begruessung: z.boolean().catch(STANDARD_EINSTELLUNGEN.begruessung),
   })
   .strip();
 

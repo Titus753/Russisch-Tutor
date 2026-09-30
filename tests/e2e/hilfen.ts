@@ -38,11 +38,12 @@ export async function setzeStand(page: Page, teil: Record<string, unknown>) {
   const stand = {
     version: 1,
     karten: {},
-    einstellungen: {},
     lerntage: [],
     neuHeute: null,
     tutorialGesehen: true,
     ...teil,
+    // Begrüßung durch Mischa standardmäßig aus, damit Tests nicht jedes Mal den Dialog schließen
+    einstellungen: { begruessung: false, ...(teil.einstellungen as object | undefined) },
   };
   await page.evaluate(
     (w) =>

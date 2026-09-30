@@ -10,6 +10,7 @@ import { starteOffline } from './app/offline.ts';
 import { beobachteSichtbereich } from './app/sichtbereich.ts';
 import { IconHoeren, IconKarten, IconMehr, IconQuiz, IconTippen } from './bausteine/Icons.tsx';
 import { Tutorial } from './bausteine/Tutorial.tsx';
+import { Willkommen } from './bausteine/Willkommen.tsx';
 import type { Stand } from './speicher/schema.ts';
 import {
   dauerhaftAnfragen,
@@ -43,6 +44,7 @@ export function App() {
   const [tippt, setTippt] = useState(false);
   const [hinweis, setHinweis] = useState<{ text: string; nr: number } | null>(null);
   const [tutorialOffen, setTutorialOffen] = useState(false);
+  const [willkommenOffen, setWillkommenOffen] = useState(false);
   const [update, setUpdate] = useState<(() => void) | null>(null);
   const speicherer = useRef<ReturnType<typeof erstelleSpeicherer> | null>(null);
   const ablageRef = useRef<Ablage | null>(null);
@@ -60,7 +62,11 @@ export function App() {
       standRef.current = ergebnis.stand;
       setStand(ergebnis.stand);
       setLadeHinweis(ergebnis.hinweis);
+      // Erster Start: Einführung (Mischa stellt sich vor). Sonst: kurze Begrüßung, falls gewünscht.
       setTutorialOffen(!ergebnis.stand.tutorialGesehen);
+      setWillkommenOffen(
+        ergebnis.stand.tutorialGesehen && ergebnis.stand.einstellungen.begruessung,
+      );
     });
     void dauerhaftAnfragen();
     starteOffline({
@@ -143,6 +149,9 @@ export function App() {
           {hinweis && <p key={hinweis.nr}>{hinweis.text}</p>}
         </div>
         {tutorialOffen && <Tutorial onEnde={tutorialBeenden} />}
+        {willkommenOffen && !tutorialOffen && (
+          <Willkommen onEnde={() => setWillkommenOffen(false)} />
+        )}
         {!tippt && (
           <nav class="tabs" aria-label="Bereiche">
             {TABS.map(({ id, label, icon: Icon }) => (

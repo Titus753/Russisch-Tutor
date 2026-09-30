@@ -7,10 +7,14 @@ test('erscheint beim ersten Start, lässt sich durchblättern und beenden', asyn
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
   await expect(dialog.getByText('Schritt 1 von 7')).toBeVisible();
-  await expect(dialog.getByRole('heading', { name: 'Karteikarten' })).toBeFocused();
+  // Seite 1: Mischa stellt sich auf Russisch vor, mit Übersetzung und Stimme
+  await expect(dialog.getByRole('heading', { name: /Ми́ша/ })).toBeFocused();
+  await expect(dialog.getByText(/Ich bin Mischa, der Bär/)).toBeVisible();
+  await expect(dialog.getByRole('button', { name: 'Mischa anhören' })).toBeVisible();
   await expect(dialog.getByRole('button', { name: 'Zurück' })).toHaveCount(0);
   await dialog.getByRole('button', { name: 'Weiter' }).click();
   await expect(dialog.getByText('Schritt 2 von 7')).toBeVisible();
+  await expect(dialog.getByRole('heading', { name: 'Karteikarten' })).toBeVisible();
   await dialog.getByRole('button', { name: 'Zurück' }).click();
   await expect(dialog.getByText('Schritt 1 von 7')).toBeVisible();
   for (let i = 0; i < 6; i++) await dialog.getByRole('button', { name: 'Weiter' }).click();
@@ -20,7 +24,9 @@ test('erscheint beim ersten Start, lässt sich durchblättern und beenden', asyn
   await expect.poll(() => gespeichertesFeld(page, 'tutorialGesehen')).toBe(true);
   await page.reload();
   await expect(page.getByTestId('marke-offen')).toBeVisible();
-  await expect(page.getByRole('dialog')).toHaveCount(0);
+  // Ab jetzt begrüßt Mischa beim Öffnen – die Einführung kommt nicht erneut
+  await expect(page.getByRole('dialog').getByRole('button', { name: 'Los geht’s' })).toBeVisible();
+  await expect(page.getByText(/Schritt \d von 7/)).toHaveCount(0);
 });
 
 test('Überspringen und Escape beenden die Einführung; über „Mehr" erneut aufrufbar', async ({

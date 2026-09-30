@@ -33,8 +33,11 @@ for (const modus of [
     test.setTimeout(90_000);
     // axe einmal pro Modus und Engine genügt
     test.skip(test.info().project.name === 'iPhone 15', 'gleiche Engine wie iPhone SE');
-    await setzeStand(page, { einstellungen: modus });
+    await setzeStand(page, { einstellungen: { ...modus, begruessung: true } });
     await page.goto('/');
+    await expect(page.getByRole('dialog')).toBeVisible();
+    await pruefe(page, 'willkommen');
+    await page.getByRole('button', { name: 'Los geht’s' }).click();
     await pruefe(page, 'karten');
     await page.getByRole('button', { name: 'Aufdecken' }).click();
     await pruefe(page, 'karten-aufgedeckt');

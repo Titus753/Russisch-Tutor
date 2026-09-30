@@ -78,3 +78,19 @@ async function sprich(text: string, langsam = false): Promise<Abspielergebnis> {
   speechSynthesis.speak(aeusserung);
   return 'ok';
 }
+
+/** Spielt mehrere Aufnahmen nacheinander (z. B. Begrüßung + zweiter Satz des Bären). */
+export async function spieleFolge(ziele: readonly Sprechbar[]): Promise<Abspielergebnis> {
+  for (const ziel of ziele) {
+    const ergebnis = await spiele(ziel);
+    if (ergebnis !== 'ok') return ergebnis;
+    // Auf das Ende warten, bevor der nächste Satz startet (bei Gerätestimme: Sprachausgabe)
+    await new Promise<void>((fertig) => {
+      if (element && !element.paused && !element.ended) {
+        element.addEventListener('ended', () => fertig(), { once: true });
+        element.addEventListener('pause', () => fertig(), { once: true });
+      } else fertig();
+    });
+  }
+  return 'ok';
+}

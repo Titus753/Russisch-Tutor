@@ -21,3 +21,9 @@ declare module 'virtual:lob' {
   const lob: readonly Lob[];
   export default lob;
 }
+
+declare module 'virtual:baer' {
+  import type { Baer } from './baer-schema.ts';
+  const baer: Baer;
+  export default baer;
+}

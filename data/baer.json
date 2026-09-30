@@ -1,0 +1,78 @@
+{
+  "vorstellung": {
+    "id": "bae-001",
+    "russisch": "Привет! Я медведь Миша. Я очень рад, что мы будем вместе учить русский язык!",
+    "betonung": "Приве́т! Я медве́дь Ми́ша. Я о́чень рад, что мы бу́дем вме́сте учи́ть ру́сский язы́к!",
+    "deutsch": "Hallo! Ich bin Mischa, der Bär. Ich freue mich sehr, dass wir zusammen Russisch lernen!"
+  },
+  "zeiten": {
+    "morgen": {
+      "id": "bae-002",
+      "russisch": "Доброе утро!",
+      "betonung": "До́брое у́тро!",
+      "deutsch": "Guten Morgen!"
+    },
+    "tag": {
+      "id": "bae-003",
+      "russisch": "Добрый день!",
+      "betonung": "До́брый день!",
+      "deutsch": "Guten Tag!"
+    },
+    "abend": {
+      "id": "bae-004",
+      "russisch": "Добрый вечер!",
+      "betonung": "До́брый ве́чер!",
+      "deutsch": "Guten Abend!"
+    },
+    "nacht": {
+      "id": "bae-005",
+      "russisch": "Доброй ночи!",
+      "betonung": "До́брой но́чи!",
+      "deutsch": "Guten Abend – so spät noch hier?"
+    }
+  },
+  "saetze": [
+    {
+      "id": "bae-006",
+      "russisch": "Рад тебя видеть!",
+      "betonung": "Рад тебя́ ви́деть!",
+      "deutsch": "Schön, dich zu sehen!"
+    },
+    {
+      "id": "bae-007",
+      "russisch": "Начнём урок?",
+      "betonung": "Начнём уро́к?",
+      "deutsch": "Wollen wir mit dem Unterricht anfangen?"
+    },
+    {
+      "id": "bae-008",
+      "russisch": "Сегодня выучим что-нибудь новое!",
+      "betonung": "Сего́дня вы́учим что́-нибудь но́вое!",
+      "deutsch": "Heute lernen wir etwas Neues!"
+    },
+    {
+      "id": "bae-009",
+      "russisch": "Давай немного позанимаемся!",
+      "betonung": "Дава́й немно́го позанима́емся!",
+      "deutsch": "Lass uns ein bisschen üben!"
+    },
+    {
+      "id": "bae-010",
+      "russisch": "Я тебя уже ждал!",
+      "betonung": "Я тебя́ уже́ ждал!",
+      "deutsch": "Ich habe schon auf dich gewartet!"
+    },
+    {
+      "id": "bae-011",
+      "russisch": "Вперёд, к новым словам!",
+      "betonung": "Вперёд, к но́вым слова́м!",
+      "deutsch": "Auf zu neuen Wörtern!"
+    },
+    {
+      "id": "bae-012",
+      "russisch": "Русский язык ждёт!",
+      "betonung": "Ру́сский язы́к ждёт!",
+      "deutsch": "Die russische Sprache wartet!"
+    }
+  ]
+}

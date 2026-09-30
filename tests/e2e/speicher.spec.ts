@@ -58,7 +58,7 @@ test('liest den Lernstand aus der echten IndexedDB', async ({ page }) => {
   await schreibe(page, 'stand', {
     version: 1,
     karten: { 'beg-001:de-ru': karte, 'beg-002:ru-de': karte, 'tie-003:de-ru': karte },
-    einstellungen: { neueProTag: 10 },
+    einstellungen: { neueProTag: 10, begruessung: false },
     lerntage: [],
     neuHeute: null,
     tutorialGesehen: true,
@@ -77,7 +77,7 @@ test('kaputter Speicher: App startet trotzdem und stellt den vorherigen Stand he
   await schreibe(page, 'stand-vorher', {
     version: 1,
     karten: { 'beg-001:de-ru': karte },
-    einstellungen: { neueProTag: 10 },
+    einstellungen: { neueProTag: 10, begruessung: false },
     tutorialGesehen: true,
   });
   await page.reload();

@@ -1,5 +1,8 @@
 import type { JSX } from 'preact';
 import { useEffect, useRef, useState } from 'preact/hooks';
+import baer from 'virtual:baer';
+import { spiele } from '../audio/wiedergabe.ts';
+import { Baer } from './Baer.tsx';
 import {
   IconHoeren,
   IconKarten,
@@ -13,10 +16,18 @@ interface Schritt {
   titel: string;
   text: string;
   bild: () => JSX.Element;
+  /** Russischer Titel (Mischas Begrüßung) – wird mit lang="ru" ausgezeichnet. */
+  russisch?: boolean;
 }
 
 // Mini-Illustrationen aus echten App-Bausteinen (dekorativ, für Screenreader ausgeblendet)
 const SCHRITTE: Schritt[] = [
+  {
+    titel: baer.vorstellung.betonung ?? baer.vorstellung.russisch,
+    russisch: true,
+    text: `${baer.vorstellung.deutsch} Ich zeige dir kurz, wie die App funktioniert.`,
+    bild: () => <Baer />,
+  },
   {
     titel: 'Karteikarten',
     text: 'Decke eine Karte auf und sag ehrlich, wie gut du sie wusstest. „Nochmal“ bringt sie gleich wieder, „Leicht“ schiebt sie weit nach hinten. So wiederholst du genau das, was du noch nicht kannst.',
@@ -36,12 +47,15 @@ const SCHRITTE: Schritt[] = [
     ),
   },
   {
-    titel: 'Quiz',
-    text: 'Wähle aus vier Antworten die richtige. Grün heißt richtig, Rot zeigt deine falsche Wahl. Falsche Antworten kommen bald wieder dran.',
+    titel: 'Quiz und Hören',
+    text: 'Im Quiz wählst du aus vier Antworten, beim Hören erkennst du Wörter nach Gehör – bei Bedarf langsam. Überall, wo Russisch steht, gibt es „Anhören“.',
     bild: () => (
       <div class="demo">
         <span class="knopf antwort antwort--richtig">Wie viel kostet das?</span>
-        <span class="knopf antwort">Wo ist die Kasse?</span>
+        <span class="knopf knopf--haupt knopf--rund">
+          <IconLautsprecher />
+          Anhören
+        </span>
       </div>
     ),
   },
@@ -57,18 +71,6 @@ const SCHRITTE: Schritt[] = [
             </span>
           ))}
         </div>
-      </div>
-    ),
-  },
-  {
-    titel: 'Hören',
-    text: 'Hör dir ein Wort oder einen Satz an – bei Bedarf langsam – und wähle die Bedeutung. Überall, wo Russisch steht, gibt es „Anhören“.',
-    bild: () => (
-      <div class="demo">
-        <span class="knopf knopf--haupt knopf--rund">
-          <IconLautsprecher />
-          Anhören
-        </span>
       </div>
     ),
   },
@@ -154,10 +156,26 @@ export function Tutorial({ onEnde }: { onEnde: () => void }) {
       <div class="tutorial__bild" aria-hidden="true">
         {schritt.bild()}
       </div>
-      <h2 id="tutorial-titel" class="seitentitel" tabIndex={-1} ref={titel}>
+      <h2
+        id="tutorial-titel"
+        class={schritt.russisch ? 'seitentitel seitentitel--ru' : 'seitentitel'}
+        lang={schritt.russisch ? 'ru' : undefined}
+        tabIndex={-1}
+        ref={titel}
+      >
         {schritt.titel}
       </h2>
       <p id="tutorial-text">{schritt.text}</p>
+      {schritt.russisch && (
+        <button
+          type="button"
+          class="knopf knopf--klein tutorial__anhoeren"
+          onClick={() => void spiele(baer.vorstellung)}
+        >
+          <IconLautsprecher />
+          Mischa anhören
+        </button>
+      )}
       <div class="aktionen aktionen--reihe tutorial__knoepfe">
         {nr > 0 && (
           <button type="button" class="knopf" onClick={() => setNr(nr - 1)}>

@@ -37,6 +37,10 @@ BITRATE_KBPS = 40
 TEMPO = 1.8  # wirkt schwächer als nominell: 1,8 ≈ 56 % langsamer als Piper-Standard (gemessen)
 KLANG_RAUSCHEN = 0.45
 DAUER_RAUSCHEN = 0.5
+# Mischa, der Bär: eigenes Tempo und tiefere Stimme („Tonband langsamer abspielen“:
+# Abtastrate beim Kodieren absenken → Tonhöhe und Tempo sinken gemeinsam)
+BAER_TEMPO = 1.4
+BAER_TONHOEHE = 0.8
 STILLE_VORNE_S = 0.12
 STILLE_HINTEN_S = 0.3
 STILLE_ZWISCHEN_S = 0.6
@@ -51,6 +55,7 @@ STIMMEN = ("dmitri", "denis")
 class Aufgabe:
     id: str
     text: str
+    baer: bool = False
 
 
 def sprechtext(eintrag: dict) -> str:
@@ -72,6 +77,11 @@ def lade_aufgaben() -> list[Aufgabe]:
         for e in json.loads(alphabet.read_text("utf-8")):
             aufgaben.append(Aufgabe(e["id"], e["sprechtext"]))
             aufgaben.append(Aufgabe(e["beispiel"]["id"], sprechtext(e["beispiel"])))
+    baer = WURZEL / "data" / "baer.json"
+    if baer.exists():
+        b = json.loads(baer.read_text("utf-8"))
+        for satz in [b["vorstellung"], *b["zeiten"].values(), *b["saetze"]]:
+            aufgaben.append(Aufgabe(satz["id"], sprechtext(satz), baer=True))
     lob = WURZEL / "data" / "lob.json"
     if lob.exists():
         for e in json.loads(lob.read_text("utf-8")):
@@ -98,10 +108,10 @@ def lade_stimme(stimme: str) -> tuple[PiperVoice, str]:
     return PiperVoice.load(modell), sha256_datei(modell)
 
 
-def synthese(voice: PiperVoice, text: str) -> bytes:
+def synthese(voice: PiperVoice, text: str, baer: bool = False) -> bytes:
     """Text → MP3 (mono). Sätze werden mit kurzer Pause aneinandergehängt."""
     konfig = SynthesisConfig(
-        length_scale=TEMPO,
+        length_scale=BAER_TEMPO if baer else TEMPO,
         noise_scale=KLANG_RAUSCHEN,
         noise_w_scale=DAUER_RAUSCHEN,
         normalize_audio=True,
@@ -121,7 +131,8 @@ def synthese(voice: PiperVoice, text: str) -> bytes:
 
     enc = lameenc.Encoder()
     enc.set_bit_rate(BITRATE_KBPS)
-    enc.set_in_sample_rate(rate)
+    # Beim Bären eine niedrigere Rate angeben: klingt tiefer und langsamer
+    enc.set_in_sample_rate(int(rate * BAER_TONHOEHE) if baer else rate)
     enc.set_channels(1)
     enc.set_quality(2)
     return bytes(enc.encode(pcm) + enc.flush())
@@ -135,9 +146,11 @@ def schreibe_atomar(ziel: Path, daten: bytes) -> None:
     Path(tmp.name).replace(ziel)
 
 
-def aufgaben_hash(stimme: str, modell_sha: str, text: str) -> str:
+def aufgaben_hash(stimme: str, modell_sha: str, text: str, baer: bool = False) -> str:
+    # Bären-Parameter nur bei Bären-Sätzen aufnehmen: bestehende Hashes bleiben dadurch gleich
+    extra = {"baer": [BAER_TEMPO, BAER_TONHOEHE]} if baer else {}
     schluessel = json.dumps(
-        {"verfahren": VERFAHREN, "stimme": stimme, "modell": modell_sha, "text": text,
+        {"verfahren": VERFAHREN, "stimme": stimme, "modell": modell_sha, "text": text, **extra,
          "kbps": BITRATE_KBPS, "tempo": TEMPO, "rauschen": [KLANG_RAUSCHEN, DAUER_RAUSCHEN]},
         ensure_ascii=False, sort_keys=True,
     )
@@ -156,12 +169,12 @@ def erzeugen(stimme_wahl: str | None) -> int:
     neu: dict[str, dict[str, str]] = {}
     erzeugt = 0
     for a in aufgaben:
-        h = aufgaben_hash(stimme, modell_sha, a.text)
+        h = aufgaben_hash(stimme, modell_sha, a.text, a.baer)
         ziel = AUSGABE / f"{a.id}.mp3"
         if alt.get(a.id, {}).get("hash") == h and ziel.exists():
             neu[a.id] = alt[a.id]
             continue
-        schreibe_atomar(ziel, synthese(voice, a.text))
+        schreibe_atomar(ziel, synthese(voice, a.text, a.baer))
         neu[a.id] = {"hash": h, "text": a.text}
         erzeugt += 1
         if erzeugt % 25 == 0:

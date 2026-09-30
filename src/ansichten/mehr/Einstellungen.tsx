@@ -113,6 +113,15 @@ export function Einstellungen({ onZurueck }: { onZurueck: () => void }) {
         </p>
       </Abschnitt>
 
+      <Abschnitt titel="Begrüßung">
+        <Schalter
+          label="Mischa begrüßt mich beim Start"
+          beschreibung="Kurzer Gruß zur Tageszeit, wenn du die App öffnest"
+          an={e.begruessung}
+          onWechsel={(an) => setze('begruessung', an)}
+        />
+      </Abschnitt>
+
       <Abschnitt titel="Eingabe beim Tippen">
         <ChipAuswahl
           label="Eingabeart"
