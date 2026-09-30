@@ -10,7 +10,8 @@ test('erscheint beim ersten Start, lässt sich durchblättern und beenden', asyn
   // Seite 1: Mischa stellt sich auf Russisch vor, mit Übersetzung und Stimme
   await expect(dialog.getByRole('heading', { name: /Ми́ша/ })).toBeFocused();
   await expect(dialog.getByText(/Ich bin Mischa, der Bär/)).toBeVisible();
-  await expect(dialog.getByRole('button', { name: 'Mischa anhören' })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /Mischa antippen/ })).toBeVisible();
+  await expect(dialog.getByText('Tippe auf Mischa – er sagt dir Hallo!')).toBeVisible();
   await expect(dialog.getByRole('button', { name: 'Zurück' })).toHaveCount(0);
   await dialog.getByRole('button', { name: 'Weiter' }).click();
   await expect(dialog.getByText('Schritt 2 von 7')).toBeVisible();

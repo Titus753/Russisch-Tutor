@@ -1,8 +1,7 @@
 import type { JSX } from 'preact';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import baer from 'virtual:baer';
-import { spiele } from '../audio/wiedergabe.ts';
-import { Baer } from './Baer.tsx';
+import { BaerKnopf } from './BaerKnopf.tsx';
 import {
   IconHoeren,
   IconKarten,
@@ -26,7 +25,7 @@ const SCHRITTE: Schritt[] = [
     titel: baer.vorstellung.betonung ?? baer.vorstellung.russisch,
     russisch: true,
     text: `${baer.vorstellung.deutsch} Ich zeige dir kurz, wie die App funktioniert.`,
-    bild: () => <Baer />,
+    bild: () => <></>,
   },
   {
     titel: 'Karteikarten',
@@ -153,9 +152,13 @@ export function Tutorial({ onEnde }: { onEnde: () => void }) {
           <span key={i} class={i === nr ? 'punkt punkt--aktiv' : 'punkt'} />
         ))}
       </div>
-      <div class="tutorial__bild" aria-hidden="true">
-        {schritt.bild()}
-      </div>
+      {schritt.russisch ? (
+        <BaerKnopf saetze={[baer.vorstellung]} />
+      ) : (
+        <div class="tutorial__bild" aria-hidden="true">
+          {schritt.bild()}
+        </div>
+      )}
       <h2
         id="tutorial-titel"
         class={schritt.russisch ? 'seitentitel seitentitel--ru' : 'seitentitel'}
@@ -166,16 +169,6 @@ export function Tutorial({ onEnde }: { onEnde: () => void }) {
         {schritt.titel}
       </h2>
       <p id="tutorial-text">{schritt.text}</p>
-      {schritt.russisch && (
-        <button
-          type="button"
-          class="knopf knopf--klein tutorial__anhoeren"
-          onClick={() => void spiele(baer.vorstellung)}
-        >
-          <IconLautsprecher />
-          Mischa anhören
-        </button>
-      )}
       <div class="aktionen aktionen--reihe tutorial__knoepfe">
         {nr > 0 && (
           <button type="button" class="knopf" onClick={() => setNr(nr - 1)}>

@@ -1,30 +1,25 @@
 import baer from 'virtual:baer';
 import { useEffect, useMemo, useRef } from 'preact/hooks';
-import { spieleFolge } from '../audio/wiedergabe.ts';
 import { begruessung } from '../logik/begruessung.ts';
-import { Baer } from './Baer.tsx';
-import { IconLautsprecher } from './Icons.tsx';
+import { BaerKnopf } from './BaerKnopf.tsx';
 
 /** Zuletzt gezeigter zweiter Satz (pro Sitzung), damit er wechselt. */
 let letzterSatz: string | undefined;
 
-/** Kurze Begrüßung durch Mischa beim Öffnen der App. */
+/** Kurze Begrüßung durch Mischa beim Öffnen der App. Er spricht, wenn man ihn antippt. */
 export function Willkommen({ onEnde }: { onEnde: () => void }) {
   const dialog = useRef<HTMLDialogElement>(null);
-  const los = useRef<HTMLButtonElement>(null);
   const saetze = useMemo(() => {
     const auswahl = begruessung(baer, new Date(), letzterSatz);
     letzterSatz = auswahl[1].id;
     return auswahl;
   }, []);
-  const sprechen = () => void spieleFolge(saetze);
 
   useEffect(() => {
     const d = dialog.current;
     if (d && !d.open) d.showModal();
-    los.current?.focus();
-    // Automatisch sprechen, sofern der Browser es erlaubt (sonst beim Antippen)
-    sprechen();
+    // Fokus auf Mischa: Enter/Leertaste lässt ihn sprechen
+    d?.querySelector<HTMLButtonElement>('.baerknopf__knopf')?.focus();
     const beiAbbruch = (e: Event) => {
       e.preventDefault();
       onEnde();
@@ -35,14 +30,7 @@ export function Willkommen({ onEnde }: { onEnde: () => void }) {
 
   return (
     <dialog ref={dialog} class="willkommen" aria-labelledby="willkommen-titel">
-      <button
-        type="button"
-        class="willkommen__baer"
-        onClick={sprechen}
-        aria-label="Mischa sprechen lassen"
-      >
-        <Baer />
-      </button>
+      <BaerKnopf saetze={saetze} />
       <div class="sprechblase">
         {saetze.map((s, i) => (
           <div key={s.id}>
@@ -53,15 +41,9 @@ export function Willkommen({ onEnde }: { onEnde: () => void }) {
           </div>
         ))}
       </div>
-      <div class="aktionen aktionen--reihe">
-        <button type="button" class="knopf" onClick={sprechen}>
-          <IconLautsprecher />
-          Anhören
-        </button>
-        <button ref={los} type="button" class="knopf knopf--haupt" onClick={onEnde}>
-          Los geht’s
-        </button>
-      </div>
+      <button type="button" class="knopf knopf--haupt knopf--breit" onClick={onEnde}>
+        Los geht’s
+      </button>
     </dialog>
   );
 }
