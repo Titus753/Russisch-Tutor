@@ -42,7 +42,7 @@ test('Anhören spielt die passende MP3-Datei über das Audio-Element', async ({ 
   expect(await gesprochen(page)).toEqual([]); // keine Gerätestimme nötig
 });
 
-test('Hören: normal und langsam (0,75-fach, gleiche Tonhöhe) mit derselben Datei', async ({
+test('Hören: normal und langsam (0,8-fach, gleiche Tonhöhe) mit derselben Datei', async ({
   page,
 }) => {
   await protokolliereAudio(page);
@@ -53,7 +53,7 @@ test('Hören: normal und langsam (0,75-fach, gleiche Tonhöhe) mit derselben Dat
   const [normal, langsam] = await audioLog(page);
   expect(langsam!.src).toBe(normal!.src);
   expect(normal!.rate).toBe(1);
-  expect(langsam!.rate).toBeCloseTo(0.75);
+  expect(langsam!.rate).toBeCloseTo(0.8);
   expect(langsam!.pitch).toBe(true);
   // Auflösung: richtige Bedeutung anhand der gespielten Datei wählen
   const id = new URL(normal!.src).pathname.replace(/^\/audio\/|\.mp3$/g, '');

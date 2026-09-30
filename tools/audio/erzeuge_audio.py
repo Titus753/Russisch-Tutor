@@ -30,16 +30,16 @@ AUSGABE = WURZEL / "public" / "audio"
 MANIFEST = WURZEL / "data" / "audio-manifest.json"
 
 # Bei Änderungen an Klang oder Verfahren erhöhen – dann wird alles neu erzeugt.
-VERFAHREN = 2
+VERFAHREN = 3
 BITRATE_KBPS = 40
 # Lerntempo: etwas langsamer (length_scale > 1) und gleichmäßiger/deutlicher artikuliert
 # (weniger Rauschen in Klang und Lautdauer als Pipers Standard 0,667 / 0,8)
-TEMPO = 1.4  # wirkt schwächer als nominell: 1,4 ≈ 25 % langsamer (gemessen)
-KLANG_RAUSCHEN = 0.55
-DAUER_RAUSCHEN = 0.6
+TEMPO = 1.8  # wirkt schwächer als nominell: 1,8 ≈ 56 % langsamer als Piper-Standard (gemessen)
+KLANG_RAUSCHEN = 0.45
+DAUER_RAUSCHEN = 0.5
 STILLE_VORNE_S = 0.12
-STILLE_HINTEN_S = 0.2
-STILLE_ZWISCHEN_S = 0.45
+STILLE_HINTEN_S = 0.3
+STILLE_ZWISCHEN_S = 0.6
 
 # Strenge Allowlists: IDs werden zu Dateinamen, also nie Pfadzeichen zulassen.
 ID_MUSTER = re.compile(r"^[a-z]{3}-\d{3,4}$")
