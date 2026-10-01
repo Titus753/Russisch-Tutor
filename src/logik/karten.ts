@@ -9,7 +9,15 @@ import {
   type KartenStand,
   type Richtung,
 } from './leitner.ts';
-import { mischen, type Zufall } from './zufall.ts';
+import {
+  aktuellerVerlauf,
+  gewichtetZiehen,
+  merkeGezeigt,
+  mischeAbwechselnd,
+  waehleNeue,
+  type VerlaufEintrag,
+} from './abwechslung.ts';
+import type { Zufall } from './zufall.ts';
 
 export type RichtungsWahl = Richtung | 'gemischt';
 
@@ -54,9 +62,11 @@ export interface RundenEingabe {
 }
 
 /**
- * Stellt die Karteikarten-Runde zusammen: erst alle fälligen Karten (älteste zuerst),
- * dann neue bis zum Tageslimit. Das Limit zählt Einträge, nicht Richtungen; pro Eintrag
- * kommt höchstens eine neue Richtung am Tag dazu.
+ * Stellt die Karteikarten-Runde zusammen: alle fälligen Karten plus neue bis zum Tageslimit.
+ * Das Limit zählt Einträge, nicht Richtungen; pro Eintrag kommt höchstens eine neue Richtung
+ * am Tag dazu. Neue Karten stammen reihum aus allen Themen (ganz neue Wörter zuerst) und
+ * sind gleichmäßig zwischen die fälligen gemischt; gleiche Themen folgen möglichst nicht
+ * direkt aufeinander (siehe abwechslung.ts).
  */
 export function baueRunde(e: RundenEingabe): Karte[] {
   const faellige = e.karten
@@ -68,16 +78,9 @@ export function baueRunde(e: RundenEingabe): Karte[] {
     });
 
   const frei = Math.max(0, e.neueLimit - e.neueHeute.length);
-  const vergeben = new Set(e.neueHeute);
-  const neue: Karte[] = [];
   const unbekannt = e.karten.filter((k) => e.fortschritt[k.schluessel] === undefined);
-  for (const karte of e.zufall ? mischen(unbekannt, e.zufall) : unbekannt) {
-    if (neue.length >= frei) break;
-    if (vergeben.has(karte.eintrag.id)) continue;
-    vergeben.add(karte.eintrag.id);
-    neue.push(karte);
-  }
-  return [...faellige, ...neue];
+  const neue = waehleNeue(unbekannt, e.fortschritt, frei, new Set(e.neueHeute), e.zufall);
+  return mischeAbwechselnd(faellige, neue);
 }
 
 /** Abstand, mit dem „Nochmal" eine Karte in derselben Runde wiederbringt. */
@@ -95,21 +98,44 @@ export function nachBewertung(runde: readonly Karte[], bewertung: Bewertung): Ka
 export const ANTEIL_SCHWACH = 0.7;
 
 /**
- * Wählt die nächste Übungskarte: zu ca. 70 % eine schwache (neu oder Stufe < 3),
- * nie derselbe Eintrag wie direkt davor (außer es gibt nur einen).
+ * Wählt die nächste Übungskarte: zu ca. 70 % eine schwache (neu oder Stufe < 3), dabei
+ * - nicht die zuletzt gezeigten Einträge (`verlauf`, solange genug Auswahl bleibt),
+ * - nach Möglichkeit ein anderes Thema als zuvor,
+ * - Karten mit vielen bisherigen Fehlern etwas häufiger.
  */
 export function waehleUebungskarte(
   karten: readonly Karte[],
   fortschritt: Fortschritt,
-  letzteId: string | undefined,
+  verlauf: readonly VerlaufEintrag[],
   zufall: Zufall = Math.random,
 ): Karte | undefined {
   if (karten.length === 0) return undefined;
-  const ohneLetzte = karten.filter((k) => k.eintrag.id !== letzteId);
-  const moeglich = ohneLetzte.length > 0 ? ohneLetzte : [...karten];
+  const letzte = verlauf.at(-1);
+  const gemerkt = new Set(verlauf.map((v) => v.id));
+
+  let moeglich = karten.filter((k) => !gemerkt.has(k.eintrag.id));
+  if (moeglich.length === 0) moeglich = karten.filter((k) => k.eintrag.id !== letzte?.id);
+  if (moeglich.length === 0) moeglich = [...karten];
+  const anderesThema = moeglich.filter((k) => k.eintrag.thema !== letzte?.thema);
+  if (anderesThema.length > 0) moeglich = anderesThema;
+
   const schwach = moeglich.filter((k) => (fortschritt[k.schluessel]?.stufe ?? 0) < SCHWACH_UNTER);
   const stark = moeglich.filter((k) => (fortschritt[k.schluessel]?.stufe ?? 0) >= SCHWACH_UNTER);
   const topf =
     schwach.length > 0 && (stark.length === 0 || zufall() < ANTEIL_SCHWACH) ? schwach : stark;
-  return topf[Math.floor(zufall() * topf.length)];
+  return gewichtetZiehen(topf, fortschritt, zufall);
+}
+
+/**
+ * Zieht die nächste Übungskarte unter Berücksichtigung der zuletzt gezeigten Wörter
+ * (Sitzungsgedächtnis über alle Übungsmodi) und merkt sie sich.
+ */
+export function zieheUebungskarte(
+  karten: readonly Karte[],
+  fortschritt: Fortschritt,
+  zufall: Zufall = Math.random,
+): Karte | undefined {
+  const karte = waehleUebungskarte(karten, fortschritt, aktuellerVerlauf(), zufall);
+  if (karte) merkeGezeigt(karte.eintrag);
+  return karte;
 }

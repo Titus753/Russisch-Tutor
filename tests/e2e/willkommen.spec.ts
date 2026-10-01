@@ -98,5 +98,5 @@ test('beim allerersten Start übernimmt die Einführung (keine doppelte Begrüß
   await setzeStand(page, { tutorialGesehen: false, einstellungen: { begruessung: true } });
   await page.goto('/');
   await expect(page.getByRole('dialog')).toHaveCount(1);
-  await expect(page.getByText('Schritt 1 von 7')).toBeVisible();
+  await expect(page.getByText('Schritt 1 von 8')).toBeVisible();
 });

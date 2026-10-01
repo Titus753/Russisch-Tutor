@@ -109,6 +109,10 @@ for (const stufe of STUFEN) {
 
     await page.getByRole('button', { name: /Einführung ansehen/ }).click();
     await pruefeAnsicht(page, info, `${stufe}-einfuehrung`);
+    // Längster Text der Einführung: Erklärung der Wiederholung (Seite 3)
+    await page.getByRole('button', { name: 'Weiter' }).click();
+    await page.getByRole('button', { name: 'Weiter' }).click();
+    await pruefeAnsicht(page, info, `${stufe}-einfuehrung-wiederholung`);
   });
 }
 

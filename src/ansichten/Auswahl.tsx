@@ -8,7 +8,7 @@ import { IconLautsprecher } from '../bausteine/Icons.tsx';
 import { KartenText, Lernkarte } from '../bausteine/Lernkarte.tsx';
 import { antwortOptionen, frageText, type Antwortwahl } from '../logik/antworten.ts';
 import { heute } from '../logik/datum.ts';
-import { kartenFuer, waehleUebungskarte, type Karte } from '../logik/karten.ts';
+import { kartenFuer, zieheUebungskarte, type Karte } from '../logik/karten.ts';
 import { nachUebung } from '../logik/stand.ts';
 
 interface Frage {
@@ -35,8 +35,8 @@ export function Auswahl({ modus }: { modus: 'quiz' | 'hoeren' }) {
     [stand.einstellungen, hoeren],
   );
 
-  const neueFrage = (letzteId?: string): Frage | null => {
-    const karte = waehleUebungskarte(karten, stand.karten, letzteId);
+  const neueFrage = (): Frage | null => {
+    const karte = zieheUebungskarte(karten, stand.karten);
     return karte ? { karte, wahl: antwortOptionen(karte, vokabeln) } : null;
   };
 
@@ -89,7 +89,7 @@ export function Auswahl({ modus }: { modus: 'quiz' | 'hoeren' }) {
 
   const weiter = () => {
     setGewaehlt(null);
-    setFrage(neueFrage(eintrag.id));
+    setFrage(neueFrage());
   };
 
   return (

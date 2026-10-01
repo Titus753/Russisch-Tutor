@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import type { ThemaId } from '../../src/daten/themen.ts';
 import { antwortOptionen } from '../../src/logik/antworten.ts';
 import {
   baueRunde,
@@ -48,20 +49,32 @@ describe('baueRunde', () => {
   const e = Array.from({ length: 6 }, () => eintrag());
   const karten = e.flatMap((x) => [karte(x, 'de-ru'), karte(x, 'ru-de')]);
 
-  it('bringt erst fällige Karten (älteste zuerst), dann neue bis zum Limit', () => {
+  it('enthält alle fälligen Karten plus neue bis zum Limit – ganz neue Wörter zuerst', () => {
     const fortschritt: Fortschritt = {
       [karten[2]!.schluessel]: st(2, '2026-03-09'),
       [karten[4]!.schluessel]: st(1, '2026-03-05'),
       [karten[6]!.schluessel]: st(3, '2026-03-30'), // nicht fällig
     };
     const runde = baueRunde({ karten, fortschritt, tag: T, neueLimit: 2, neueHeute: [] });
-    expect(runde.map((k) => k.schluessel)).toEqual([
-      karten[4]!.schluessel,
-      karten[2]!.schluessel,
-      karten[0]!.schluessel,
-      // Eintrag 0 ist schon als neue Karte vergeben, seine zweite Richtung nicht am selben Tag
-      karten[3]!.schluessel,
-    ]);
+    // Fällig: Karte 2 und 4. Neu: Einträge 0 und 4 (ganz neu), nicht die zweite Richtung
+    // bereits geübter Einträge (Karte 3 gehört zu Eintrag 1, der schon begonnen wurde).
+    expect(new Set(runde.map((k) => k.schluessel))).toEqual(
+      new Set([karten[2], karten[4], karten[0], karten[8]].map((k) => k!.schluessel)),
+    );
+    expect(runde).toHaveLength(4);
+  });
+
+  it('nimmt zweite Richtungen erst, wenn keine ganz neuen Wörter mehr übrig sind', () => {
+    const [a, b] = [eintrag(), eintrag()];
+    const k = [karte(a, 'de-ru'), karte(a, 'ru-de'), karte(b, 'de-ru'), karte(b, 'ru-de')];
+    // Eintrag a ist begonnen (Karte 0, nicht fällig); Karte 1 ist seine zweite Richtung
+    const fortschritt: Fortschritt = { [k[0]!.schluessel]: st(1, '2026-03-30') };
+    const eine = baueRunde({ karten: k, fortschritt, tag: T, neueLimit: 1, neueHeute: [] });
+    expect(eine.map((x) => x.schluessel)).toEqual([k[2]!.schluessel]); // ganz neues Wort b zuerst
+    const zwei = baueRunde({ karten: k, fortschritt, tag: T, neueLimit: 2, neueHeute: [] });
+    expect(new Set(zwei.map((x) => x.schluessel))).toEqual(
+      new Set([k[2]!.schluessel, k[1]!.schluessel]),
+    );
   });
 
   it('zählt das Limit pro Eintrag und berücksichtigt heute schon eingeführte', () => {
@@ -102,12 +115,13 @@ describe('waehleUebungskarte', () => {
   const fortschritt: Fortschritt = Object.fromEntries(
     stark.map((k) => [k.schluessel, st(4, '2030-01-01')]),
   );
+  const alle = [...schwach, ...stark];
 
   it('wählt zu ca. 70 % schwache Karten', () => {
     const zufall = festerZufall(42);
     let anzahlSchwach = 0;
     for (let i = 0; i < 2000; i++) {
-      const k = waehleUebungskarte([...schwach, ...stark], fortschritt, undefined, zufall);
+      const k = waehleUebungskarte(alle, fortschritt, [], zufall);
       if (schwach.includes(k!)) anzahlSchwach++;
     }
     expect(anzahlSchwach / 2000).toBeGreaterThan(0.65);
@@ -116,17 +130,57 @@ describe('waehleUebungskarte', () => {
 
   it('wiederholt nie direkt denselben Eintrag', () => {
     const zufall = festerZufall(7);
-    let letzte: string | undefined;
+    const verlauf: { id: string; thema: ThemaId }[] = [];
     for (let i = 0; i < 500; i++) {
-      const k = waehleUebungskarte([...schwach, ...stark], fortschritt, letzte, zufall)!;
-      expect(k.eintrag.id).not.toBe(letzte);
-      letzte = k.eintrag.id;
+      const k = waehleUebungskarte(alle, fortschritt, verlauf, zufall)!;
+      expect(k.eintrag.id).not.toBe(verlauf.at(-1)?.id);
+      verlauf.push({ id: k.eintrag.id, thema: k.eintrag.thema });
     }
   });
 
+  it('meidet die zuletzt gezeigten Einträge, solange genug Auswahl bleibt', () => {
+    const viele = Array.from({ length: 40 }, () => karte(eintrag()));
+    const verlauf = viele.slice(0, 12).map((k) => ({ id: k.eintrag.id, thema: k.eintrag.thema }));
+    const gesehen = new Set(verlauf.map((v) => v.id));
+    const zufall = festerZufall(3);
+    for (let i = 0; i < 300; i++) {
+      expect(gesehen.has(waehleUebungskarte(viele, {}, verlauf, zufall)!.eintrag.id)).toBe(false);
+    }
+  });
+
+  it('wechselt das Thema, wenn es andere Themen gibt', () => {
+    const a = Array.from({ length: 10 }, () => karte(eintrag({ thema: 'tiere' })));
+    const b = Array.from({ length: 10 }, () => karte(eintrag({ thema: 'bank' })));
+    const zufall = festerZufall(11);
+    for (let i = 0; i < 200; i++) {
+      const k = waehleUebungskarte([...a, ...b], {}, [{ id: 'x', thema: 'tiere' }], zufall)!;
+      expect(k.eintrag.thema).toBe('bank');
+    }
+    // Nur ein Thema vorhanden: trotzdem eine Karte statt „nichts"
+    expect(waehleUebungskarte(a, {}, [{ id: 'x', thema: 'tiere' }], zufall)).toBeDefined();
+  });
+
+  it('zieht Karten mit vielen bisherigen Fehlern etwas häufiger', () => {
+    const [oft, selten] = [karte(eintrag()), karte(eintrag())] as const;
+    const fehler: Fortschritt = {
+      [oft.schluessel]: { ...st(0, T), fehler: 6 },
+      [selten.schluessel]: { ...st(0, T), fehler: 0 },
+    };
+    const zufall = festerZufall(5);
+    let n = 0;
+    for (let i = 0; i < 4000; i++) {
+      if (waehleUebungskarte([oft, selten], fehler, [], zufall) === oft) n++;
+    }
+    // Gewicht 3,5 gegen 1 → etwa 78 %
+    expect(n / 4000).toBeGreaterThan(0.72);
+    expect(n / 4000).toBeLessThan(0.84);
+  });
+
   it('kommt mit einer einzigen Karte und leerer Liste zurecht', () => {
-    expect(waehleUebungskarte([schwach[0]!], {}, schwach[0]!.eintrag.id)).toBe(schwach[0]);
-    expect(waehleUebungskarte([], {}, undefined)).toBeUndefined();
+    const einzige = schwach[0]!;
+    const verlauf = [{ id: einzige.eintrag.id, thema: einzige.eintrag.thema }];
+    expect(waehleUebungskarte([einzige], {}, verlauf)).toBe(einzige);
+    expect(waehleUebungskarte([], {}, [])).toBeUndefined();
   });
 });
 

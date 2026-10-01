@@ -6,7 +6,7 @@ import { Anhoeren } from '../bausteine/Anhoeren.tsx';
 import { KartenText, Lernkarte } from '../bausteine/Lernkarte.tsx';
 import { Tastatur } from '../bausteine/Tastatur.tsx';
 import { heute } from '../logik/datum.ts';
-import { kartenFuer, waehleUebungskarte, type Karte } from '../logik/karten.ts';
+import { kartenFuer, zieheUebungskarte, type Karte } from '../logik/karten.ts';
 import { nachUebung } from '../logik/stand.ts';
 import {
   abweichungen,
@@ -39,7 +39,7 @@ export function Tippen() {
   );
 
   const [karte, setKarte] = useState<Karte | undefined>(() =>
-    waehleUebungskarte(karten, stand.karten, undefined),
+    zieheUebungskarte(karten, stand.karten),
   );
   const [eingabe, setEingabe] = useState('');
   const [tippStufe, setTippStufe] = useState(0);
@@ -88,7 +88,7 @@ export function Tippen() {
   };
 
   const weiter = () => {
-    setKarte(waehleUebungskarte(karten, stand.karten, eintrag.id));
+    setKarte(zieheUebungskarte(karten, stand.karten));
     setEingabe('');
     setTippStufe(0);
     setErgebnis(null);

@@ -46,6 +46,33 @@ const SCHRITTE: Schritt[] = [
     ),
   },
   {
+    titel: 'Wann kommt ein Wort wieder?',
+    text: '„Gut“ schiebt eine Karte eine Stufe weiter: Sie kommt nach 1, 3, 7, 16 und schließlich 35 Tagen wieder. „Leicht“ springt zwei Stufen, „Schwer“ bleibt auf der Stufe, „Nochmal“ beginnt von vorn. So siehst du, was du vergisst, öfter. Neue Wörter kommen bunt gemischt aus allen Themen.',
+    bild: () => (
+      <div class="demo">
+        <div class="demo__stufen">
+          {[
+            ['1', '1 Tag'],
+            ['2', '3 Tage'],
+            ['3', '7 Tage'],
+            ['4', '16 Tage'],
+            ['5', '35 Tage'],
+          ].map(([stufe, tage]) => (
+            <span key={stufe} class={`demo__stufe demo__stufe--${stufe}`}>
+              {tage}
+            </span>
+          ))}
+        </div>
+        <div class="demo__reihe">
+          <span class="knopf knopf--klein">Nochmal</span>
+          <span class="knopf knopf--klein">Schwer</span>
+          <span class="knopf knopf--klein knopf--haupt">Gut</span>
+          <span class="knopf knopf--klein">Leicht</span>
+        </div>
+      </div>
+    ),
+  },
+  {
     titel: 'Quiz und Hören',
     text: 'Im Quiz wählst du aus vier Antworten, beim Hören erkennst du Wörter nach Gehör – bei Bedarf langsam. Überall, wo Russisch steht, gibt es „Anhören“.',
     bild: () => (
@@ -152,23 +179,26 @@ export function Tutorial({ onEnde }: { onEnde: () => void }) {
           <span key={i} class={i === nr ? 'punkt punkt--aktiv' : 'punkt'} />
         ))}
       </div>
-      {schritt.russisch ? (
-        <BaerKnopf saetze={[baer.vorstellung]} />
-      ) : (
-        <div class="tutorial__bild" aria-hidden="true">
-          {schritt.bild()}
-        </div>
-      )}
-      <h2
-        id="tutorial-titel"
-        class={schritt.russisch ? 'seitentitel seitentitel--ru' : 'seitentitel'}
-        lang={schritt.russisch ? 'ru' : undefined}
-        tabIndex={-1}
-        ref={titel}
-      >
-        {schritt.titel}
-      </h2>
-      <p id="tutorial-text">{schritt.text}</p>
+      {/* Nur der Inhalt scrollt; Kopfzeile und Knöpfe bleiben immer sichtbar */}
+      <div class="tutorial__inhalt" tabIndex={0}>
+        {schritt.russisch ? (
+          <BaerKnopf saetze={[baer.vorstellung]} />
+        ) : (
+          <div class="tutorial__bild" aria-hidden="true">
+            {schritt.bild()}
+          </div>
+        )}
+        <h2
+          id="tutorial-titel"
+          class={schritt.russisch ? 'seitentitel seitentitel--ru' : 'seitentitel'}
+          lang={schritt.russisch ? 'ru' : undefined}
+          tabIndex={-1}
+          ref={titel}
+        >
+          {schritt.titel}
+        </h2>
+        <p id="tutorial-text">{schritt.text}</p>
+      </div>
       <div class="aktionen aktionen--reihe tutorial__knoepfe">
         {nr > 0 && (
           <button type="button" class="knopf" onClick={() => setNr(nr - 1)}>
