@@ -68,3 +68,7 @@ Wörter mit wechselnder Betonung (z. B. `koe-007` рука, `koe-008` нога, 
 
 Nach der Kontrolle: bei geänderten Texten `tools/audio/audio.sh erzeugen` ausführen
 (erzeugt nur die geänderten Aufnahmen neu).
+
+## Mischa (Begrüßung): bitte von einer Muttersprachlerin gegenlesen lassen
+
+- [ ] `bae-005` Привет, полуночник! → „Hallo, Nachteule!“ (nachts als lockerer Gruß; „Доброй ночи“ wäre ein Abschiedsgruß). Betonung полу́ночник bitte bestätigen.
