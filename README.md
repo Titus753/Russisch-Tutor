@@ -53,6 +53,11 @@ Lizenzen und Herkunft (auch der Stimme): siehe [docs/LIZENZEN.md](docs/LIZENZEN.
 Einrichtung von GitHub und Netlify: siehe [docs/EINRICHTUNG.md](docs/EINRICHTUNG.md).
 Sicherheitslücken melden: siehe [SECURITY.md](SECURITY.md).
 
+## Baukasten für weitere Sprachen
+
+Wer dieselbe App für Englisch, Französisch, Portugiesisch oder eine andere Sprache bauen möchte,
+findet die vollständige Vorlage für Claude Code unter [baukasten/](baukasten/README.md).
+
 ## Lizenz
 
 [MIT](LICENSE)
